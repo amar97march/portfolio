@@ -285,6 +285,7 @@ a.active {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
     height: 100vh;
+    background-position: right 10px top;
 }
 
 .table-cell {
