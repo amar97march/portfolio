@@ -284,8 +284,8 @@ a.active {
 #home {
     background: url(../img/home-bg-2.jpg);
     background-size: cover;
-    height: 100vh;
     background-position: right 10px top;
+    position: relative;
 }
 
 .table-cell {
@@ -466,7 +466,7 @@ a.active {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+    color: #f5c02f;
     padding: 0 10px;
     margin: 0 14px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -479,7 +479,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #3393FF;
+    background-color: #f5c02f;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -502,7 +502,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #3393FF;
+    background-color: #f5c02f;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -537,7 +537,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #3393FF;
+    background-color: #f5c02f;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -580,10 +580,10 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
+/* .portfolio_item img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
+} */
 
 .portfolio-padding {
     padding: 50px 0;
