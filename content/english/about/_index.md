@@ -1,7 +1,7 @@
 ---
 title: "Amar Singh"
 meta_title: "About — Amar Singh"
-description: "Full Stack Developer — ReactJS, Vue.js, Python (Django, FastAPI). I build scalable web applications, reliable APIs and practical ML-powered features."
+description: "Full Stack Developer: ReactJS, Vue.js, Python (Django, FastAPI). I build scalable web applications, reliable APIs and practical ML-powered features."
 image: "/images/amarimage.jpg"
 draft: false
 ---
