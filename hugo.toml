@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://amar97march.github.io/"
+baseURL = "https://amar97march.github.io/portfolio/"
 # Title of your website (required).
 title = "Amar Singh"
 # Your theme name
