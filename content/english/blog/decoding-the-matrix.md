@@ -45,10 +45,10 @@ Inside the ML circle is a tiny, dense dot labeled **Deep Learning**. This exclud
 If you are "doing Deep Learning," you are by definition also doing Machine Learning and AI. But if you are "doing AI," you are not necessarily doing Deep Learning.
  
 <p style="text-align:center; margin: 1.2rem 0;">
-    <img src="/images/blogs/blog2/The%20Nested%20Hierarchy%20of%20Intelligent%20Systems.png" alt="Nested hierarchy: AI, ML, DL" style="max-width:100%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.12);">
+    <img src="/portfolio/images/blogs/blog2/The%20Nested%20Hierarchy%20of%20Intelligent%20Systems.png" alt="Nested hierarchy: AI, ML, DL" style="max-width:100%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.12);">
     <br><small style="color:var(--muted,#8892a6);">Figure: The nested hierarchy — AI contains ML which contains Deep Learning.</small>
 </p>
----
+
 
 ## Artificial Intelligence (AI) — The Grand Vision
 
@@ -96,7 +96,7 @@ This distinction—**without being explicitly programmed**—is the most importa
 ### The Paradigm Shift
 
 <p style="text-align:center; margin: 1rem 0;">
-    <img src="/images/blogs/blog2/Machine%20Learning.png" alt="Machine Learning overview" style="max-width:80%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
+    <img src="/portfolio/images/blogs/blog2/Machine%20Learning.png" alt="Machine Learning overview" style="max-width:80%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
     <br><small style="color:var(--muted,#8892a6);">Figure: Machine Learning paradigms — supervised, unsupervised, reinforcement.</small>
 </p>
 
@@ -148,7 +148,7 @@ While Deep Learning is mathematically just "Machine Learning on steroids," funct
 Deep Learning is inspired by the biology of the human brain.
 
 <p style="text-align:center; margin: 1rem 0;">
-    <img src="/images/blogs/blog2/Deep%20Learning%20Artificial%20Neural%20Network.png" alt="Deep learning neural network diagram" style="max-width:85%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
+    <img src="/portfolio/images/blogs/blog2/Deep%20Learning%20Artificial%20Neural%20Network.png" alt="Deep learning neural network diagram" style="max-width:85%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
     <br><small style="color:var(--muted,#8892a6);">Figure: A simplified artificial neural network — inputs, hidden layers, output.</small>
 </p>
 
@@ -218,7 +218,7 @@ If you are building a product or hiring a team, use this heuristic to decide whi
 ### Conclusion: Respect the Hierarchy
 
 <p style="text-align:center; margin-top:1rem;">
-    <img src="/images/blogs/blog2/CLASSIC%20ML%20vs%20DEEP%20LEARNING-%20CHOOSING%20THE%20RIGHT%20TOOL.png" alt="Classic ML vs Deep Learning comparison" style="max-width:90%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
+    <img src="/portfolio/images/blogs/blog2/CLASSIC%20ML%20vs%20DEEP%20LEARNING-%20CHOOSING%20THE%20RIGHT%20TOOL.png" alt="Classic ML vs Deep Learning comparison" style="max-width:90%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.08);">
     <br><small style="color:var(--muted,#8892a6);">Figure: Comparison — when to choose Classic ML vs Deep Learning.</small>
 </p>
 
