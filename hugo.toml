@@ -71,7 +71,7 @@ home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
 quality = 80
 resampleFilter = "Lanczos"
 
-############################ Caches ##############################
+############################# Caches ##############################
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
