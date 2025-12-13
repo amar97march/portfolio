@@ -2,6 +2,7 @@
 title: "The Perfect Storm: Decoding the Sudden Explosion of Artificial Intelligence"
 date: 2025-12-13T12:00:00+05:30
 draft: false
+image: "/images/blogs/blog4/cover.png"
 description: "It feels like AI appeared overnight. It didn’t. The current boom is the result of a decades-long convergence of three massive technological forces. Here is why the tipping point is happening right now."
 tags: ["AI", "history", "compute", "data", "architecture"]
 ---
