@@ -216,7 +216,6 @@ plt.legend()
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 ```
-#### Step 5: Interpretation (What did the AI find?)
 
 ![The Coding Tutorial: Final Visualization](/images/blogs/blog6/The%20Coding%20Tutorial%3A%20Final%20Visualization.png)
 
