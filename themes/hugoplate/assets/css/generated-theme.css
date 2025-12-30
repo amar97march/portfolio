@@ -6,17 +6,17 @@
 
 @theme {
   /* === Colors === */
-  --color-primary: #1F6FEB;
+  --color-primary: #0B2545;
   --color-body: #ffffff;
-  --color-border: #e6eefb;
-  --color-light: #f5f8ff;
-  --color-dark: #062B52;
+  --color-border: #e6eef5;
+  --color-light: #f6f8fb;
+  --color-dark: #071028;
   --color-text: #1f2937;
   --color-text-dark: #0f172a;
   --color-text-light: #64748b;
 
   /* === Darkmode Colors === */
-  --color-darkmode-primary: #93C5FD;
+  --color-darkmode-primary: #BFA06A;
   --color-darkmode-body: #071128;
   --color-darkmode-border: #1f2a44;
   --color-darkmode-light: #0b1220;

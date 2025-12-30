@@ -24,17 +24,8 @@ features:
       link: "/blog/"
 
   - title: "Skills & Technologies"
-    video:
-      src: "/videos/technologies.mp4"
-      poster: "/images/technologies-poster.png"
-      preload: "metadata"
-      width: "100%"
-      height: "auto"
-      autoplay: false
-      loop: false
-      muted: false
-      controls: true
-      class: "rounded-lg"
+    image: "/images/banner.png"
+    image_class: "rounded-lg"
     content: "Core technologies and areas of expertise grouped for clarity."
     bulletpoints:
       - "Frontend: ReactJS, Vue.js, HTML/CSS, Tailwind"

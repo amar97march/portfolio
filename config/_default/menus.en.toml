@@ -17,16 +17,21 @@ weight = 2
 #### weight = 3
 
 [[main]]
+name = "Portfolio"
+url = "/portfolio"
+weight = 3
+
+[[main]]
 weight = 4
 name = "Pages"
 
 [[main]]
-parent = "Pages"
+weight = 4
 name = "Blog"
 url = "/blog"
 
 [[main]]
-parent = "Pages"
+weight = 5
 name = "Contact"
 url = "/contact"
 

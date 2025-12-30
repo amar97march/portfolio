@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#BFA06A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#071028"/>
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="url(#g)" opacity="0.06"/>
+  <g fill="#ffffff" font-family="Heebo, sans-serif">
+    <text x="90" y="140" font-size="44" font-weight="700">Skills & Technologies</text>
+    <text x="90" y="200" font-size="20" fill="#9aa6b6">Core technologies and areas of expertise grouped for clarity.</text>
+
+    <g transform="translate(90,260)" fill="#cbd5e1" font-size="20">
+      <text y="0">• Frontend: ReactJS, Vue.js, HTML/CSS, Tailwind</text>
+      <text y="40">• Backend: Python, Django, FastAPI, REST API</text>
+      <text y="80">• Cloud & DevOps: Docker, AWS, GCP</text>
+      <text y="120">• AI / ML: Machine Learning, NLP, RAG</text>
+    </g>
+  </g>
+</svg>
