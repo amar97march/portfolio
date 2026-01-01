@@ -4,7 +4,7 @@ date: 2026-01-01T12:00:00+05:30
 draft: false
 description: "Why does training cost millions but using AI costs pennies? We break down the two distinct phases of the Machine Learning lifecycle: creating the intelligence (Training) and applying it (Inference)."
 tags: ["Machine Learning", "AI Concepts", "Training", "Inference", "DevOps", "MLOps"]
-image: "/assets/images/blogs/blog8/cover.png"
+image: "/images/blogs/blog8/cover.png"
 ---
 
 If you read headlines about Artificial Intelligence, you will see two very different types of numbers thrown around.
