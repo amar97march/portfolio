@@ -2,7 +2,6 @@
 title: "The Illusion of Perfection: Mastering Model Performance"
 date: 2026-01-04T09:00:00+05:30
 draft: false
-weight: 1
 series: ["Mastering Model Performance"]
 summary: "Why 100% accuracy is often a sign of failure, and the core conflict between Memory and Intelligence in AI."
 image: "/images/blogs/blog9/The Analogy: The Three Students.png"
