@@ -1,0 +1,90 @@
+{{ define "main" }}
+
+<section class="min-h-screen flex flex-col lg:flex-row">
+  <!-- ===== LEFT PANEL (Dark) ===== -->
+  <div class="section-dark lg:w-2/5 py-20 lg:py-28 px-8 lg:px-12 flex flex-col justify-center relative overflow-hidden">
+    <!-- Decorative shapes -->
+    <div class="absolute top-10 right-10 w-32 h-32 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
+    <div class="absolute bottom-20 left-5 w-24 h-24 rounded-lg bg-white/5 rotate-45 parallax-bg" data-speed="0.15"></div>
+
+    <div class="relative z-10 max-w-md mx-auto lg:mx-0">
+      <div class="accent-line reveal-up"></div>
+      <h1 class="text-4xl lg:text-5xl font-bold mb-6 split-text">Let's Connect</h1>
+      <p class="text-white/60 text-lg mb-10 reveal-up">
+        Have a project in mind, a question, or just want to say hello? I'd love to hear from you. Fill out the form and I'll get back to you as soon as possible.
+      </p>
+
+      <!-- Email -->
+      <div class="flex items-center gap-4 mb-8 reveal-up">
+        <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-envelope" style="color: var(--accent-violet-light);"></i>
+        </div>
+        <div>
+          <span class="text-white/40 text-sm block">Email</span>
+          <a href="mailto:{{ site.Params.email | default `hello@amarsingh.dev` }}" class="text-white hover:text-[var(--accent-violet-light)] transition-colors">
+            {{ site.Params.email | default "hello@amarsingh.dev" }}
+          </a>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="flex gap-4 reveal-up">
+        {{ range site.Data.social.main }}
+          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow" class="social-icon-circle" aria-label="{{ .name }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== RIGHT PANEL (Form) ===== -->
+  <div class="lg:w-3/5 py-20 lg:py-28 px-8 lg:px-16 flex items-center">
+    <div class="w-full max-w-2xl mx-auto">
+      <h2 class="text-2xl font-bold mb-2 reveal-up">Send a Message</h2>
+      <p class="opacity-60 mb-10 reveal-up">All fields are required unless marked optional.</p>
+
+      <form action="{{ site.Params.contact_form_action }}" method="POST" class="stagger-children">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <!-- Name -->
+          <div class="form-group">
+            <input type="text" name="name" id="contact-name" class="form-input" placeholder=" " required>
+            <label for="contact-name" class="form-label">Name</label>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <input type="email" name="email" id="contact-email" class="form-input" placeholder=" " required>
+            <label for="contact-email" class="form-label">Email</label>
+          </div>
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group mb-6">
+          <input type="text" name="subject" id="contact-subject" class="form-input" placeholder=" " required>
+          <label for="contact-subject" class="form-label">Subject</label>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group mb-8">
+          <textarea name="message" id="contact-message" class="form-input" rows="6" placeholder=" " required></textarea>
+          <label for="contact-message" class="form-label">Message</label>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn-primary-custom magnetic-btn w-full md:w-auto">
+          Send Message <i class="fa-solid fa-paper-plane ml-2"></i>
+        </button>
+      </form>
+
+      <!-- Page Content -->
+      {{ with .Content }}
+        <div class="mt-12 blog-content">
+          {{ . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -6,7 +6,7 @@ description: "Accuracy is the most famous metric in AI. It is also the most dang
 image: "/images/blogs/blog10/cover.png"
 tags: ["Machine Learning", "AI Evaluation", "Data Science", "Metrics", "NLP", "Deep Learning"]
 keywords: ["AI evaluation metrics", "how to evaluate AI", "accuracy vs precision vs recall", "F1 score explained", "AUC-ROC curve", "BLEU score", "perplexity", "confusion matrix", "AI benchmarks", "LLM evaluation"]
-categories: ["AI Fundamentals"]
+categories: ["Machine Learning"]
 ---
 
 ## 1: The Question Nobody Asks Early Enough
@@ -122,6 +122,9 @@ This asymmetry is the entire reason why "accuracy" is insufficient.
 ## 4: The Classic Metrics — Dissected
 
 Now that we have the Confusion Matrix, let's derive every major metric from it. We will use the numbers from the cancer example above.
+
+
+![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
 
 ### 4.1: Accuracy — The Popular Lie
 
@@ -306,6 +309,9 @@ $$MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
 **Example:** If a house price predictor has an MAE of $\$25,000$, it means on average, the model's prediction is $\$25,000$ away from the true price—sometimes above, sometimes below.
 
 **Strength:** Easy to interpret. Treats all errors equally. A $\$10,000$ error is twice as bad as a $\$5,000$ error—no more, no less.
+
+
+![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
 
 ### 6.2: Mean Squared Error (MSE) and Root Mean Squared Error (RMSE)
 
@@ -519,6 +525,9 @@ Key fairness metrics include:
 - **Demographic Parity:** Does the model approve roughly equal proportions of candidates across protected groups?
 - **Equalized Odds:** Does the model have equal True Positive and False Positive rates across groups?
 - **Calibration:** If the model says a candidate has an 80% chance of being qualified, is that true for *all* demographic groups, or only some?
+
+
+![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
 
 ### 9.2: Robustness
 

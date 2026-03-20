@@ -1,0 +1,209 @@
+{{ define "main" }}
+
+<!-- ===== HERO SECTION ===== -->
+<section class="section-dark py-24 lg:py-36 relative overflow-hidden">
+  <!-- Decorative shapes -->
+  <div class="absolute top-20 right-10 w-40 h-40 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
+  <div class="absolute bottom-10 left-20 w-56 h-56 rounded-full bg-white/5 parallax-bg" data-speed="0.3"></div>
+  <div class="absolute top-1/3 left-1/4 w-24 h-24 rounded-lg bg-white/5 rotate-45 parallax-bg" data-speed="0.15"></div>
+
+  <div class="container text-center relative z-10">
+    <div class="accent-line mx-auto reveal-up"></div>
+    <h1 class="text-5xl lg:text-7xl font-bold mb-6 split-text">About Me</h1>
+    <p class="text-white/60 text-xl max-w-2xl mx-auto reveal-up">
+      Full Stack Developer &amp; ML Engineer crafting scalable solutions with purpose.
+    </p>
+  </div>
+</section>
+
+<!-- ===== BIO + PHOTO (Split Layout) ===== -->
+<section class="py-20 lg:py-28">
+  <div class="container">
+    <div class="row items-center">
+      <!-- Left: Photo -->
+      <div class="lg:col-5 mb-12 lg:mb-0 reveal-left">
+        <div class="photo-creative max-w-md mx-auto lg:mx-0">
+          <img src="{{ `images/amarimage.jpg` | relURL }}" alt="Amar Singh" loading="lazy" class="w-full">
+        </div>
+      </div>
+
+      <!-- Right: Bio text with drop-cap -->
+      <div class="lg:col-7 lg:pl-16 reveal-right">
+        <div class="accent-line"></div>
+        <h2 class="section-heading mb-6">Who I Am</h2>
+        <p class="text-lg leading-relaxed mb-5 opacity-80 drop-cap">
+          I'm a Full Stack Developer with deep expertise in ReactJS, Vue.js, Django, and FastAPI. I specialize in building scalable web applications, reliable APIs, and ML-powered features that solve real problems.
+        </p>
+        <p class="text-lg leading-relaxed mb-8 opacity-80">
+          With an M.Tech in Machine Learning and Data Science from BITS Pilani, I bring a unique blend of engineering depth and ML knowledge to every project. My experience spans enterprise workforce systems, RAG-powered knowledge assistants, analytics dashboards, and microservice architectures.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-primary-custom magnetic-btn">
+            LinkedIn <i class="fab fa-linkedin ml-1"></i>
+          </a>
+          <a href="https://github.com/amar97march" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn">
+            GitHub <i class="fab fa-github ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORK EXPERIENCE TIMELINE ===== -->
+<section class="py-20 lg:py-28 bg-gradient-subtle">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Work Experience</h2>
+      <p class="section-subtitle mx-auto">Where I've built, shipped, and grown</p>
+    </div>
+
+    <div class="max-w-3xl mx-auto">
+      <div class="timeline">
+        <!-- PTW -->
+        <div class="timeline-item reveal-left">
+          <span class="timeline-company">PTW</span>
+          <h3 class="timeline-role">Senior Full Stack Developer</h3>
+          <span class="timeline-date">2023 &ndash; Present</span>
+          <p class="timeline-desc">
+            Building and maintaining scalable web applications with React, Django, and REST APIs. Leading frontend architecture decisions and optimizing system performance across distributed microservice architectures.
+          </p>
+        </div>
+
+        <!-- Antro-PAI -->
+        <div class="timeline-item reveal-right">
+          <span class="timeline-company">Antro-PAI</span>
+          <h3 class="timeline-role">ML Engineer</h3>
+          <span class="timeline-date">2022 &ndash; 2023</span>
+          <p class="timeline-desc">
+            Designed and deployed ML pipelines for NLP and RAG-based systems using Python, FastAPI, and large language models. Built knowledge assistants that improved document retrieval accuracy and user experience.
+          </p>
+        </div>
+
+        <!-- Fractal Analytics -->
+        <div class="timeline-item reveal-left">
+          <span class="timeline-company">Fractal Analytics</span>
+          <h3 class="timeline-role">Data Engineer</h3>
+          <span class="timeline-date">2021 &ndash; 2022</span>
+          <p class="timeline-desc">
+            Developed analytics dashboards and data visualization tools using Vue.js. Worked on data-intensive features, API design, and frontend performance optimization for enterprise clients.
+          </p>
+        </div>
+
+        <!-- Mindfire Solutions -->
+        <div class="timeline-item reveal-right">
+          <span class="timeline-company">Mindfire Solutions</span>
+          <h3 class="timeline-role">Software Developer</h3>
+          <span class="timeline-date">2019 &ndash; 2021</span>
+          <p class="timeline-desc">
+            Built robust backend services with Django, Celery, and Docker. Implemented microservice architectures, task queues, background processing, and RESTful APIs for enterprise clients.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="py-20 lg:py-28">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Education</h2>
+      <p class="section-subtitle mx-auto">Academic foundation in engineering and machine learning</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto stagger-children">
+      <!-- MSc ML & Data Science -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-graduation-cap text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">MSc ML &amp; Data Science</h3>
+        <p class="credential-card-institution">BITS Pilani</p>
+        <p class="credential-card-field">Machine Learning, Deep Learning, NLP, Statistical Modeling</p>
+      </div>
+
+      <!-- BTech Computer Science -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-university text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">BTech Computer Science</h3>
+        <p class="credential-card-institution">College of Engineering &amp; Technology</p>
+        <p class="credential-card-field">Data Structures, Algorithms, Software Engineering</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS PROGRESS BARS ===== -->
+<section class="py-20 lg:py-28 bg-gradient-subtle">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Skills &amp; Expertise</h2>
+      <p class="section-subtitle mx-auto">Core competencies across the full development stack</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl mx-auto stagger-children">
+      <div class="skill-bar">
+        <div class="skill-bar-header">
+          <span>Frontend</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill animate-progress" data-progress="90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-bar-header">
+          <span>Backend</span>
+          <span>95%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill animate-progress" data-progress="95%"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-bar-header">
+          <span>Cloud / DevOps</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill animate-progress" data-progress="80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-bar-header">
+          <span>AI / ML</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill animate-progress" data-progress="85%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAGE CONTENT ===== -->
+{{ with .Content }}
+<section class="py-16">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-8">
+        <div class="blog-content">
+          {{ . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

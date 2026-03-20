@@ -1,0 +1,120 @@
+{{ define "main" }}
+
+<!-- ===== EDITORIAL HEADING ===== -->
+<section class="pt-14 pb-0">
+  <div class="container text-center mb-16">
+    <h1 class="section-heading split-text reveal-up">The Blog</h1>
+    <p class="section-subtitle mx-auto reveal-up">Thoughts on AI, Machine Learning, and Software Engineering</p>
+  </div>
+</section>
+
+<!-- ===== FEATURED POST ===== -->
+{{ $allPosts := (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ $featured := index $allPosts 0 }}
+{{ $rest := after 1 $allPosts }}
+
+<section class="pt-0 pb-8">
+  <div class="container">
+    {{ with $featured }}
+      <a href="{{ .RelPermalink }}" class="blog-card blog-card-featured block reveal-up">
+        <div class="blog-card-image">
+          {{ with .Params.image }}
+            <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $featured.Title }}" loading="lazy">
+          {{ end }}
+        </div>
+        <div class="blog-card-body">
+          {{ with .Params.categories }}
+            <span class="blog-card-category">{{ index . 0 }}</span>
+          {{ else }}
+            {{ with .Params.tags }}
+              <span class="blog-card-category">{{ index . 0 }}</span>
+            {{ end }}
+          {{ end }}
+          <h2 class="blog-card-title">{{ .Title }}</h2>
+          <p class="blog-card-excerpt">{{ .Summary | plainify | truncate 200 }}</p>
+          <div class="blog-card-meta">
+            <span><i class="fa-regular fa-calendar mr-1"></i> {{ .Date.Format "Jan 2, 2006" }}</span>
+            <span><i class="fa-regular fa-clock mr-1"></i> {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- ===== POST GRID (Full-width, no sidebar) ===== -->
+<section class="py-8">
+  <div class="container">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-children">
+      {{ range $rest }}
+        <div class="blog-card reveal-up">
+          {{ with .Params.image }}
+            <div class="blog-card-image">
+              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+            </div>
+          {{ end }}
+          <div class="blog-card-body">
+            {{ with .Params.categories }}
+              <span class="blog-card-category">{{ index . 0 }}</span>
+            {{ else }}
+              {{ with .Params.tags }}
+                <span class="blog-card-category">{{ index . 0 }}</span>
+              {{ end }}
+            {{ end }}
+            <h3 class="blog-card-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="blog-card-excerpt">{{ .Summary | plainify | truncate 200 }}</p>
+            <div class="blog-card-meta">
+              <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+              <span>{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORIES STRIP ===== -->
+{{ if site.Taxonomies.categories }}
+<section class="py-12 border-t border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="flex flex-wrap gap-3 justify-center">
+      {{ range site.Taxonomies.categories }}
+        <a href="{{ .Page.RelPermalink }}" class="tag-pill">
+          {{ .Page.Title }} <span class="ml-1 opacity-50">({{ .Count }})</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ===== PAGINATION ===== -->
+{{ $paginator := .Paginate $allPosts }}
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination-modern" aria-label="Blog pagination">
+  {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL | relURL }}" aria-label="Previous page">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+    </a>
+  {{ end }}
+
+  {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+      <span class="active">{{ .PageNumber }}</span>
+    {{ else }}
+      <a href="{{ .URL | relURL }}">{{ .PageNumber }}</a>
+    {{ end }}
+  {{ end }}
+
+  {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL | relURL }}" aria-label="Next page">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+    </a>
+  {{ end }}
+</nav>
+{{ end }}
+
+{{ end }}

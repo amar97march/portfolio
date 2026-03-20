@@ -1,0 +1,478 @@
+{{ define "main" }}
+
+<!-- ===== SECTION 1: HERO ===== -->
+<section class="hero-section">
+  <!-- Three.js canvas -->
+  <div class="hero-canvas" id="hero-canvas"></div>
+
+  <!-- Hero content -->
+  <div class="hero-content">
+    <p class="text-sm font-semibold uppercase tracking-widest mb-4 opacity-60 reveal-up">Full Stack Developer &amp; ML/AI Specialist</p>
+    <h1 class="hero-title split-text">Amar Singh</h1>
+    <p class="hero-subtitle">
+      I build <span class="typewriter-text" id="typewriter"></span>
+    </p>
+    <div class="flex flex-wrap gap-4 justify-center mt-8">
+      <a href="{{ `portfolio` | relURL }}" class="btn-primary-custom magnetic-btn">
+        View Projects <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <a href="{{ `blog` | relURL }}" class="btn-outline-custom magnetic-btn">
+        Read Blog <i class="fa-solid fa-book-open ml-1"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <span></span>
+  </div>
+</section>
+
+<!-- Typewriter script -->
+<script>
+(function() {
+  var words = ['Scalable Web Apps', 'Intelligent APIs', 'ML-Powered Features', 'Beautiful Interfaces'];
+  var el = document.getElementById('typewriter');
+  if (!el) return;
+  var wordIndex = 0, charIndex = 0, isDeleting = false;
+
+  function type() {
+    var current = words[wordIndex];
+    if (isDeleting) {
+      el.textContent = current.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      el.textContent = current.substring(0, charIndex + 1);
+      charIndex++;
+    }
+
+    var delay = isDeleting ? 40 : 80;
+
+    if (!isDeleting && charIndex === current.length) {
+      delay = 2000;
+      isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+      delay = 400;
+    }
+
+    setTimeout(type, delay);
+  }
+
+  type();
+})();
+</script>
+
+<!-- ===== SECTION 2: FEATURED PROJECTS ===== -->
+<section class="py-24">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Selected Work</h2>
+      <p class="section-subtitle mx-auto">Selected projects from my professional experience</p>
+    </div>
+
+    {{ $projects := (where site.RegularPages "Section" "portfolio").ByDate.Reverse }}
+    <div class="space-y-20">
+      {{ range $i, $project := $projects }}
+        <div class="row items-center reveal-up">
+          {{/* Determine if odd or even for alternating layout */}}
+          {{ $isOdd := eq (mod $i 2) 0 }}
+
+          {{/* Image column */}}
+          <div class="lg:col-6 mb-8 lg:mb-0 {{ if not $isOdd }}lg:order-2{{ end }}">
+            {{ with .Params.image }}
+              <div class="rounded-2xl overflow-hidden shadow-lg">
+                <img
+                  src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}"
+                  alt="{{ $project.Title }}"
+                  loading="lazy"
+                  class="w-full h-auto parallax-bg"
+                  data-speed="0.08"
+                >
+              </div>
+            {{ end }}
+          </div>
+
+          {{/* Text column */}}
+          <div class="lg:col-6 {{ if $isOdd }}lg:pl-12{{ else }}lg:pr-12 lg:order-1{{ end }}">
+            <div class="project-card-tags mb-4">
+              {{ range first 4 .Params.tags }}
+                <span class="project-card-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+            <h3 class="text-2xl lg:text-3xl font-bold mb-3">
+              <a href="{{ .RelPermalink }}" class="hover:text-primary dark:hover:text-darkmode-primary transition-colors">{{ .Title }}</a>
+            </h3>
+            <p class="text-lg opacity-70 leading-relaxed mb-6">{{ .Description }}</p>
+            <a href="{{ .RelPermalink }}" class="btn-outline-custom text-sm">
+              View Project <i class="fa-solid fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: TECH STACK ===== -->
+<section class="py-24 bg-gradient-subtle">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Technologies I Work With</h2>
+      <p class="section-subtitle mx-auto">Core stack across full-stack development and machine learning</p>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 stagger-children">
+      {{ $skills := slice
+        (dict "name" "React" "emoji" "&#9883;" "cat" "Frontend")
+        (dict "name" "Vue.js" "emoji" "&#9881;" "cat" "Frontend")
+        (dict "name" "Python" "emoji" "&#128013;" "cat" "Backend")
+        (dict "name" "Django" "emoji" "&#127760;" "cat" "Backend")
+        (dict "name" "FastAPI" "emoji" "&#9889;" "cat" "Backend")
+        (dict "name" "Docker" "emoji" "&#128230;" "cat" "DevOps")
+        (dict "name" "AWS" "emoji" "&#9729;" "cat" "Cloud")
+        (dict "name" "TensorFlow" "emoji" "&#129504;" "cat" "AI/ML")
+        (dict "name" "Tailwind CSS" "emoji" "&#127912;" "cat" "Frontend")
+        (dict "name" "PostgreSQL" "emoji" "&#128451;" "cat" "Database")
+        (dict "name" "Redis" "emoji" "&#9889;" "cat" "Database")
+        (dict "name" "Celery" "emoji" "&#128736;" "cat" "Backend")
+        (dict "name" "Node.js" "emoji" "&#128154;" "cat" "Backend")
+        (dict "name" "Git" "emoji" "&#128736;" "cat" "Tools")
+      }}
+
+      {{ range $skills }}
+        <div class="skill-card tilt-card">
+          <span class="skill-card-icon">{{ .emoji | safeHTML }}</span>
+          <span class="skill-card-name">{{ .name }}</span>
+          <span class="skill-card-category">{{ .cat }}</span>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 4: ABOUT PREVIEW ===== -->
+<section class="py-24">
+  <div class="container">
+    <div class="row items-center">
+      <div class="lg:col-5 mb-10 lg:mb-0 reveal-left">
+        <div class="photo-creative max-w-sm mx-auto lg:mx-0">
+          <img src="{{ `images/amarimage.jpg` | relURL }}" alt="Amar Singh" loading="lazy" class="w-full">
+        </div>
+      </div>
+      <div class="lg:col-7 lg:pl-12 reveal-right">
+        <div class="accent-line"></div>
+        <h2 class="section-heading mb-4">About Me</h2>
+        <p class="text-lg leading-relaxed mb-4 opacity-80">
+          Full Stack Developer with expertise in ReactJS, Vue.js, Django, and FastAPI. I specialize in building scalable web applications, reliable APIs, and ML-powered features.
+        </p>
+        <p class="text-lg leading-relaxed mb-6 opacity-80">
+          With an M.Tech in Machine Learning from BITS Pilani and experience across companies like PTW, Antro-PAI, Fractal, and Mindfire Solutions, I bring a unique blend of engineering depth and ML knowledge.
+        </p>
+        <a href="{{ `about` | relURL }}" class="btn-outline-custom magnetic-btn">
+          Learn More <i class="fa-solid fa-arrow-right ml-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: LATEST BLOG POSTS ===== -->
+<section class="py-24 bg-gradient-subtle">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Latest Thoughts</h2>
+      <p class="section-subtitle mx-auto">Writing about AI, machine learning, and software engineering</p>
+    </div>
+
+    {{ $posts := (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+    {{ $featured := index $posts 0 }}
+    {{ $rest := after 1 $posts | first 2 }}
+
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 stagger-children">
+      <!-- Featured post (large hero card) -->
+      {{ with $featured }}
+        <div class="lg:col-span-3">
+          <a href="{{ .RelPermalink }}" class="blog-card blog-card-featured block">
+            <div class="blog-card-image">
+              {{ with .Params.image }}
+                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $featured.Title }}" loading="lazy">
+              {{ end }}
+            </div>
+            <div class="blog-card-body">
+              {{ with .Params.categories }}
+                <span class="blog-card-category">{{ index . 0 }}</span>
+              {{ else }}
+                {{ with .Params.tags }}
+                  <span class="blog-card-category">{{ index . 0 }}</span>
+                {{ end }}
+              {{ end }}
+              <h3 class="blog-card-title">{{ .Title }}</h3>
+              <p class="blog-card-excerpt">{{ .Summary | plainify | truncate 150 }}</p>
+              <div class="blog-card-meta">
+                <span><i class="fa-regular fa-calendar mr-1"></i> {{ .Date.Format "Jan 2, 2006" }}</span>
+                <span><i class="fa-regular fa-clock mr-1"></i> {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      {{ end }}
+
+      <!-- Side posts (standard cards) -->
+      <div class="lg:col-span-2 flex flex-col gap-8">
+        {{ range $rest }}
+          <a href="{{ .RelPermalink }}" class="blog-card block flex-1">
+            {{ with .Params.image }}
+              <div class="blog-card-image">
+                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+              </div>
+            {{ end }}
+            <div class="blog-card-body">
+              {{ with .Params.categories }}
+                <span class="blog-card-category">{{ index . 0 }}</span>
+              {{ else }}
+                {{ with .Params.tags }}
+                  <span class="blog-card-category">{{ index . 0 }}</span>
+                {{ end }}
+              {{ end }}
+              <h3 class="blog-card-title">{{ .Title }}</h3>
+              <div class="blog-card-meta">
+                <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+                <span>{{ math.Round (div (countwords .Content) 200.0) }} min</span>
+              </div>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="text-center mt-12 reveal-up">
+      <a href="{{ `blog` | relURL }}" class="btn-outline-custom magnetic-btn">
+        View All Posts <i class="fa-solid fa-arrow-right ml-1"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: CTA STRIP ===== -->
+<section class="py-24 section-dark relative overflow-hidden">
+  <!-- Decorative shapes -->
+  <div class="absolute top-10 left-10 w-32 h-32 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
+  <div class="absolute bottom-10 right-20 w-48 h-48 rounded-full bg-white/5 parallax-bg" data-speed="0.3"></div>
+  <div class="absolute top-1/2 left-1/3 w-20 h-20 rounded-lg bg-white/5 rotate-45 parallax-bg" data-speed="0.15"></div>
+
+  <div class="container text-center relative z-10">
+    <h2 class="text-3xl lg:text-5xl font-bold mb-6 reveal-up">
+      Let's build something<br><span class="text-gradient">great together</span>
+    </h2>
+    <p class="text-white/60 text-lg mb-10 max-w-lg mx-auto reveal-up">
+      Open to freelance projects, collaborations, and full-time opportunities.
+    </p>
+    <div class="flex flex-wrap gap-4 justify-center reveal-up">
+      <a href="{{ `contact` | relURL }}" class="btn-primary-custom magnetic-btn">
+        Get in Touch <i class="fa-solid fa-envelope ml-1"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn" style="border-color: rgba(255,255,255,0.3); color: #fff;">
+        LinkedIn <i class="fab fa-linkedin ml-1"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Three.js hero init -->
+<script>
+(function() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  function initThreeHero() {
+    if (typeof THREE === 'undefined') {
+      var canvas = document.getElementById('hero-canvas');
+      if (canvas) {
+        // Fallback: add CSS gradient background
+        canvas.style.background = 'radial-gradient(ellipse at 60% 40%, rgba(108,43,217,0.12) 0%, transparent 60%)';
+      }
+      // Retry a few times then give up
+      if (initThreeHero._retries === undefined) initThreeHero._retries = 0;
+      initThreeHero._retries++;
+      if (initThreeHero._retries < 20) {
+        setTimeout(initThreeHero, 200);
+      }
+      return;
+    }
+
+    var container = document.getElementById('hero-canvas');
+    if (!container) return;
+
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+    var renderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+    } catch(e) {
+      container.style.background = 'radial-gradient(ellipse at 60% 40%, rgba(108,43,217,0.12) 0%, transparent 60%)';
+      return;
+    }
+    renderer.setSize(container.clientWidth, container.clientHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    container.appendChild(renderer.domElement);
+
+    // Particles
+    var isMobile = window.innerWidth < 768;
+    var particleCount = isMobile ? 80 : 150;
+    var positions = new Float32Array(particleCount * 3);
+    var velocities = [];
+    var spread = 15;
+    var colors = [0x6C2BD9, 0x00D4AA];
+
+    for (var i = 0; i < particleCount; i++) {
+      positions[i * 3] = (Math.random() - 0.5) * spread * 2;
+      positions[i * 3 + 1] = (Math.random() - 0.5) * spread * 2;
+      positions[i * 3 + 2] = (Math.random() - 0.5) * spread;
+      velocities.push({
+        x: (Math.random() - 0.5) * 0.005,
+        y: (Math.random() - 0.5) * 0.005,
+        z: (Math.random() - 0.5) * 0.003
+      });
+    }
+
+    var geometry = new THREE.BufferGeometry();
+    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+    // Assign colors per particle (violet or teal)
+    var colorAttr = new Float32Array(particleCount * 3);
+    var violet = new THREE.Color(0x6C2BD9);
+    var teal = new THREE.Color(0x00D4AA);
+    for (var i = 0; i < particleCount; i++) {
+      var c = Math.random() > 0.5 ? violet : teal;
+      colorAttr[i * 3] = c.r;
+      colorAttr[i * 3 + 1] = c.g;
+      colorAttr[i * 3 + 2] = c.b;
+    }
+    geometry.setAttribute('color', new THREE.BufferAttribute(colorAttr, 3));
+
+    var material = new THREE.PointsMaterial({
+      size: isMobile ? 0.06 : 0.04,
+      transparent: true,
+      opacity: 0.7,
+      sizeAttenuation: true,
+      vertexColors: true
+    });
+
+    var points = new THREE.Points(geometry, material);
+    scene.add(points);
+
+    // Lines connecting nearby particles
+    var lineGeometry = new THREE.BufferGeometry();
+    var maxLines = particleCount * 3;
+    var linePositions = new Float32Array(maxLines * 6);
+    lineGeometry.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+    lineGeometry.setDrawRange(0, 0);
+
+    var lineMaterial = new THREE.LineBasicMaterial({
+      color: 0xA78BFA,
+      transparent: true,
+      opacity: 0.12
+    });
+
+    var lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+    scene.add(lines);
+
+    camera.position.z = 12;
+
+    var mouseX = 0, mouseY = 0;
+    document.addEventListener('mousemove', function(e) {
+      mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+      mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+    });
+
+    var connectionDistance = isMobile ? 3 : 2.5;
+
+    function animate() {
+      requestAnimationFrame(animate);
+
+      var pos = geometry.attributes.position.array;
+      var lineIdx = 0;
+      var linePos = lineGeometry.attributes.position.array;
+
+      for (var i = 0; i < particleCount; i++) {
+        // Mouse repulsion
+        var px = pos[i * 3];
+        var py = pos[i * 3 + 1];
+        var mx = mouseX * spread;
+        var my = mouseY * spread;
+        var dx = px - mx;
+        var dy = py - my;
+        var distMouse = Math.sqrt(dx * dx + dy * dy);
+        if (distMouse < 3) {
+          var force = (3 - distMouse) * 0.001;
+          velocities[i].x += dx * force;
+          velocities[i].y += dy * force;
+        }
+
+        // Dampen velocity
+        velocities[i].x *= 0.999;
+        velocities[i].y *= 0.999;
+
+        pos[i * 3] += velocities[i].x;
+        pos[i * 3 + 1] += velocities[i].y;
+        pos[i * 3 + 2] += velocities[i].z;
+
+        // Bounds
+        if (Math.abs(pos[i * 3]) > spread) velocities[i].x *= -1;
+        if (Math.abs(pos[i * 3 + 1]) > spread) velocities[i].y *= -1;
+        if (Math.abs(pos[i * 3 + 2]) > spread * 0.5) velocities[i].z *= -1;
+
+        // Draw connections
+        for (var j = i + 1; j < particleCount && lineIdx < maxLines; j++) {
+          var cdx = pos[i * 3] - pos[j * 3];
+          var cdy = pos[i * 3 + 1] - pos[j * 3 + 1];
+          var cdz = pos[i * 3 + 2] - pos[j * 3 + 2];
+          var dist = Math.sqrt(cdx * cdx + cdy * cdy + cdz * cdz);
+
+          if (dist < connectionDistance) {
+            linePos[lineIdx * 6] = pos[i * 3];
+            linePos[lineIdx * 6 + 1] = pos[i * 3 + 1];
+            linePos[lineIdx * 6 + 2] = pos[i * 3 + 2];
+            linePos[lineIdx * 6 + 3] = pos[j * 3];
+            linePos[lineIdx * 6 + 4] = pos[j * 3 + 1];
+            linePos[lineIdx * 6 + 5] = pos[j * 3 + 2];
+            lineIdx++;
+          }
+        }
+      }
+
+      geometry.attributes.position.needsUpdate = true;
+      lineGeometry.attributes.position.needsUpdate = true;
+      lineGeometry.setDrawRange(0, lineIdx * 2);
+
+      // Subtle camera follow
+      camera.position.x += (mouseX * 1.5 - camera.position.x) * 0.02;
+      camera.position.y += (mouseY * 1.5 - camera.position.y) * 0.02;
+      camera.lookAt(scene.position);
+
+      renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // Resize handler
+    window.addEventListener('resize', function() {
+      camera.aspect = container.clientWidth / container.clientHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(container.clientWidth, container.clientHeight);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThreeHero);
+  } else {
+    initThreeHero();
+  }
+})();
+</script>
+
+{{ end }}

@@ -4,6 +4,7 @@ date: 2025-12-30T09:00:00+05:30
 draft: false
 description: "Reinforcement Learning is how machines learn to conquer video games, ride bicycles, and manage stock portfolios. It's not about labeled data; it's about surviving in an environment through trial, error, and reward."
 tags: ["Machine Learning", "Reinforcement Learning", "AI", "Q-Learning", "Gymnasium", "Python"]
+categories: ["Machine Learning"]
 image: "/images/blogs/blog7/cover.png"
 ---
 
@@ -49,6 +50,9 @@ The puppy is the **Agent**. The living room is the **Environment**. The treat is
 
 ---
 
+![Reinforcement learning agent interacting with environment](/images/blogs/pool-ml/6.jpg)
+
+
 ### Part 2: The Technical Deep Dive (The RL Loop)
 
 In technical terms, Reinforcement Learning is a computational approach to learning whereby an **agent** learns to make decisions by performing actions in an **environment** and receiving feedback in the form of **rewards** or penalties.
@@ -77,6 +81,9 @@ The solution to an RL problem is finding the optimal **Policy ($\pi$)**.
 A policy is the agent's brain. It is a mapping function from States to Actions. It tells the agent: "If you are in State X, you should take Action Y to have the best chance of maximizing future rewards."
 
 ---
+
+![Q-table values guiding optimal policy decisions](/images/blogs/pool-ml/7.jpg)
+
 
 ### Part 3: The Coding Tutorial — Q-Learning on a Frozen Lake
 
@@ -111,6 +118,9 @@ Now, let's initialize the environment and see what it looks like.
 Beginning with the code for setting up the environment.
 
 ---
+
+![Exploration versus exploitation tradeoff visualization](/images/blogs/pool-ml/8.jpg)
+
 
 ```python
 import numpy as np

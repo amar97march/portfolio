@@ -1,14 +1,32 @@
 ---
-title: "Project 1 — Minimal Reinforcement Learning Demo"
+title: "Q-Learning Reinforcement Learning Demo"
 date: 2025-12-30T09:00:00+05:30
 draft: false
-description: "A simple Q-Learning demo using Gymnasium's FrozenLake environment — demo code and writeup."
-tags: ["Python", "Reinforcement Learning", "Demo"]
-image: "/assets/images/blogs/blog7/The%20Coding%20Tutorial%3A%20The%20FrozenLake%20Environment.png"
+description: "A compact Q-Learning implementation on Gymnasium's FrozenLake — annotated code, hyperparameter experiments, and visual results."
+tags: ["Python", "Reinforcement Learning", "Gymnasium"]
+categories: ["ML/AI"]
+image: "/images/blogs/blog7/The Coding Tutorial: The FrozenLake Environment.png"
+company: "Personal"
+role: "ML Engineer"
+year: "2025"
+tech_stack: ["Python", "Gymnasium", "NumPy", "Matplotlib"]
+category: "ml-ai"
+featured: false
 ---
 
-Summary: A compact, annotated implementation of Q-Learning applied to the FrozenLake environment. Includes code, results, and notes on hyperparameters.
+A compact, annotated implementation of Q-Learning applied to the FrozenLake environment. Built as part of reinforcement learning studies during M.Tech at BITS Pilani.
 
-Links:
-- Source: (link your repo here)
-- Demo: (link to live demo if available)
+## Overview
+
+This project demonstrates tabular Q-Learning on a discrete grid-world environment. The agent learns optimal navigation policies through trial and error, avoiding holes and reaching the goal.
+
+## Key Features
+
+- Clean, annotated Q-Learning implementation
+- Hyperparameter sensitivity analysis (learning rate, discount factor, epsilon)
+- Training curve visualizations
+- Comparison of deterministic vs stochastic environment modes
+
+## Tech Stack
+
+Python, OpenAI Gymnasium, NumPy, Matplotlib

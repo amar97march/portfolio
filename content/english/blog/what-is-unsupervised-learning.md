@@ -4,6 +4,7 @@ date: 2025-12-22T10:00:00+05:30
 draft: false
 description: "Discover the world of Unsupervised Learning. Learn how machines find patterns in unlabeled data, explore the technical mechanics of clustering and dimensionality reduction, and build your own model in Python."
 tags: ["Machine Learning", "Unsupervised Learning", "AI", "Data Science", "Clustering", "Python"]
+categories: ["Machine Learning"]
 image: "/images/blogs/blog6/cover.png"
 ---
 
@@ -40,6 +41,9 @@ In the real world, this is how Netflix realizes that people who watch 80s synth-
 
 ---
 
+![K-Means clustering revealing hidden customer segments](/images/blogs/pool-ml/3.jpg)
+
+
 ### The Technical Deep Dive
 
 In technical terms, Unsupervised Learning is a type of machine learning that analyzes and clusters **unlabeled datasets**. These algorithms discover hidden patterns or data groupings without the need for human intervention.
@@ -73,6 +77,9 @@ Unsupervised learning is often called "knowledge discovery." It's objectively ha
 If a supervised model predicts a house price, we can check the actual sale price. If an unsupervised model groups your customers into four segments, how do you know if "four" is the right number? Evaluation requires domain expertise and different mathematical metrics like the "Silhouette Score" or the "Elbow Method."
 
 ---
+
+![Elbow method chart for selecting optimal cluster count](/images/blogs/pool-ml/4.jpg)
+
 
 ### The Coding Tutorial — Building a Clustering Model
 
@@ -242,3 +249,5 @@ While Supervised Learning is great for **predicting** the future based on the pa
 It is the tool we use when we don't even know what questions to ask yet. It's how we find anomalies in network traffic to stop hackers, how we discover new sub-species in biology, and how we map the stars in distant galaxies.
 
 ---
+
+![Dimensionality reduction visualizing high-dimensional data](/images/blogs/pool-ml/5.jpg)

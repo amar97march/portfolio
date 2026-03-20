@@ -1,0 +1,113 @@
+{{ define "main" }}
+
+<!-- Reading progress -->
+<div class="reading-progress" id="reading-progress"></div>
+
+<!-- ===== FULL-WIDTH HERO ===== -->
+<section class="blog-hero">
+  {{ with .Params.image }}
+    <div class="blog-hero-image parallax-bg" data-speed="0.15">
+      <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}">
+    </div>
+  {{ end }}
+  <div class="blog-hero-content">
+    <div class="container">
+      {{ with .Params.category }}
+        <span class="blog-hero-category">{{ . | humanize }}</span>
+      {{ end }}
+      <h1 class="blog-hero-title">{{ .Title }}</h1>
+    </div>
+  </div>
+</section>
+
+<!-- ===== METADATA BAR ===== -->
+<section class="py-6 border-b border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="flex flex-wrap items-center gap-6 text-sm">
+      {{ with .Params.company }}
+        <span class="flex items-center gap-2 opacity-70">
+          <i class="fa-solid fa-building"></i> {{ . }}
+        </span>
+      {{ end }}
+      {{ with .Params.role }}
+        <span class="flex items-center gap-2 opacity-70">
+          <i class="fa-solid fa-user"></i> {{ . }}
+        </span>
+      {{ end }}
+      {{ with .Params.year }}
+        <span class="flex items-center gap-2 opacity-70">
+          <i class="fa-regular fa-calendar"></i> {{ . }}
+        </span>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ===== TECH STACK PILLS ===== -->
+{{ with .Params.tags }}
+<section class="py-6 border-b border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="flex flex-wrap items-center gap-3">
+      <span class="text-sm font-semibold opacity-50 mr-2">Tech Stack:</span>
+      {{ range . }}
+        <span class="tag-pill">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ===== CONTENT BODY ===== -->
+<section class="py-12 lg:py-16">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-8">
+        <div class="blog-content drop-cap">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PREV/NEXT NAVIGATION ===== -->
+<section class="py-12 border-t border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-8">
+        <div class="flex justify-between items-center gap-4">
+          {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}" class="btn-outline-custom text-sm">
+              <i class="fa-solid fa-arrow-left mr-2"></i> {{ .Title | truncate 30 }}
+            </a>
+          {{ else }}
+            <div></div>
+          {{ end }}
+          {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}" class="btn-outline-custom text-sm">
+              {{ .Title | truncate 30 }} <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+          {{ else }}
+            <div></div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  var progressBar = document.getElementById('reading-progress');
+  if (!progressBar) return;
+  window.addEventListener('scroll', function() {
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if (docHeight > 0) {
+      var scrolled = (window.scrollY / docHeight) * 100;
+      progressBar.style.width = scrolled + '%';
+    }
+  }, { passive: true });
+})();
+</script>
+
+{{ end }}

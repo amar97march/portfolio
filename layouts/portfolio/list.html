@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<!-- ===== DARK HERO ===== -->
+<section class="section-dark py-20 lg:py-28 relative overflow-hidden">
+  <div class="absolute top-20 right-10 w-40 h-40 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
+  <div class="absolute bottom-10 left-20 w-56 h-56 rounded-full bg-white/5 parallax-bg" data-speed="0.3"></div>
+
+  <div class="container text-center relative z-10">
+    <div class="accent-line mx-auto reveal-up"></div>
+    <h1 class="section-heading text-white split-text">Selected Work</h1>
+    {{ $projects := where (where site.RegularPages "Section" "portfolio") ".Params.draft" "!=" true }}
+    <p class="section-subtitle text-white/60 mx-auto reveal-up">
+      {{ len $projects }} projects spanning full-stack development and ML engineering
+    </p>
+  </div>
+</section>
+
+<!-- ===== FILTER BAR ===== -->
+<section class="pt-16 pb-0">
+  <div class="container">
+    <div class="filter-bar justify-center reveal-up" id="portfolio-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web-apps">Web Apps</button>
+      <button class="filter-btn" data-filter="ml-ai">ML/AI</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+      <button class="filter-btn" data-filter="devops">DevOps</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECT GRID ===== -->
+<section class="py-12 lg:py-16">
+  <div class="container">
+    {{ $projects := where (where site.RegularPages "Section" "portfolio") ".Params.draft" "!=" true }}
+    {{ $projects = $projects.ByDate.Reverse }}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 stagger-children" id="portfolio-grid">
+      {{ range $i, $project := $projects }}
+        <a href="{{ .RelPermalink }}"
+           class="project-card tilt-card reveal-up portfolio-item {{ if eq $i 0 }}project-card-featured{{ end }}"
+           data-category="{{ .Params.category | default `web-apps` }}">
+          {{ with .Params.image }}
+            <div class="project-card-image">
+              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $project.Title }}" loading="lazy">
+              <div class="project-card-overlay">
+                <span class="text-white font-semibold">View Details <i class="fa-solid fa-arrow-right ml-2"></i></span>
+              </div>
+            </div>
+          {{ end }}
+          <div class="project-card-body">
+            <div class="project-card-tags">
+              {{ range first 4 .Params.tags }}
+                <span class="project-card-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+            <h3 class="project-card-title">{{ .Title }}</h3>
+            <p class="project-card-desc">{{ .Description }}</p>
+            {{ with .Params.company }}
+              <p class="mt-2 text-sm opacity-50"><i class="fa-solid fa-building mr-1"></i> {{ . }} {{ with $project.Params.year }}&middot; {{ . }}{{ end }}</p>
+            {{ end }}
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

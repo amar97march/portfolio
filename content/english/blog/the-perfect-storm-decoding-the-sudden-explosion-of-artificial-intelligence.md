@@ -5,6 +5,7 @@ draft: false
 image: "/images/blogs/blog4/cover.png"
 description: "It feels like AI appeared overnight. It didn’t. The current boom is the result of a decades-long convergence of three massive technological forces. Here is why the tipping point is happening right now."
 tags: ["AI", "history", "compute", "data", "architecture"]
+categories: ["AI Fundamentals"]
 ---
 
 
@@ -63,6 +64,8 @@ Over the last decade, this hardware has been hyper-optimized specifically for AI
 {{< image src="images/blogs/blog4/aialgorithmsAIbooming.png" caption="AI algorithms and booming" alt="AI algorithms and booming" position="center" >}}
 
 
+![The convergence of compute, data, and algorithms driving AI](/images/blogs/pool-learning/3.jpg)
+
 ### Driver 2: The Fuel (Big Data & The Internet)
 
 You have the engine, but now you need the fuel.
@@ -80,6 +83,8 @@ This explosion of un structured data provided the necessary "textbooks" for thes
 **The takeaway:** We finally accumulated enough digital information to teach machines about the real world.
 
 ---
+
+![Massive data from the internet fueling modern AI systems](/images/blogs/pool-learning/4.jpg)
 
 ### Driver 3: The Spark (Algorithmic Breakthroughs)
 
@@ -104,6 +109,8 @@ The "T" in ChatGPT stands for Transformer. Almost every major generative AI brea
 
 {{< image src="images/blogs/blog4/AlgorithmicBreakthroughs.png" caption="Algorithmic breakthroughs" alt="Algorithmic breakthroughs" position="center" >}}
 
+
+![The Transformer architecture as the key algorithmic breakthrough](/images/blogs/pool-learning/5.jpg)
 
 ### The Catalyst: Accessibility (The ChatGPT Effect)
 

@@ -4,6 +4,7 @@ date: 2025-12-08T10:00:00+05:30
 draft: false
 description: "A comprehensive deep-dive into the hierarchy of AI, ML, and Deep Learning. We unpack the visual framework, the history, and the architectural differences for professionals."
 tags: ["AI", "Machine Learning", "Deep Learning", "Tech Basics", "Data Science"]
+categories: ["AI Fundamentals"]
 image: "/images/blogs/blog2/cover.png"
 keywords: ["AI vs ML vs DL", "Difference between AI and Machine Learning", "Deep Learning explained", "Neural Networks", "Generative AI hierarchy"]
 ---
@@ -82,6 +83,8 @@ Before we leave the broad "AI" layer, we must address the "Intelligence" part. C
 
 ---
 
+![Understanding the hierarchy of AI technologies](/images/blogs/pool-learning/6.jpg)
+
 ## Machine Learning (ML) — The Statistical Revolution
 
 **"Programming with Data, Not Rules"**
@@ -136,6 +139,8 @@ If you messed up the feature definitions, the model failed. This "Feature Extrac
 
 ---
 
+![Machine learning paradigms and training approaches](/images/blogs/pool-learning/7.jpg)
+
 ## Deep Learning (DL) — The Neural Revolution
 
 **"Mimicking the Biological Brain"**
@@ -183,6 +188,8 @@ Deep Learning is powerful, but it is not free. It comes with three massive costs
 3.  **The "Black Box" Problem:** In Classic ML (like a Decision Tree), you can trace exactly why the AI made a decision. In Deep Learning, the decision is buried inside billions of floating-point numbers. We often don't know *why* the model did what it did.
 
 ---
+
+![Neural networks learning representations from data](/images/blogs/pool-learning/8.jpg)
 
 ## Generative AI & The Future (The New Frontier)
 

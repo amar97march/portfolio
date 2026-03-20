@@ -1,0 +1,140 @@
+{{ define "main" }}
+
+<!-- Reading progress bar -->
+<div class="reading-progress" id="reading-progress"></div>
+
+<!-- ===== BLOG HERO ===== -->
+<section class="blog-hero">
+  {{ with .Params.image }}
+    <div class="blog-hero-image parallax-bg" data-speed="0.15">
+      <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}">
+    </div>
+  {{ end }}
+  <div class="blog-hero-content">
+    <div class="container">
+      {{ with .Params.categories }}
+        <span class="blog-hero-category">{{ index . 0 }}</span>
+      {{ else }}
+        {{ with .Params.tags }}
+          <span class="blog-hero-category">{{ index . 0 }}</span>
+        {{ end }}
+      {{ end }}
+      <h1 class="blog-hero-title">{{ .Title }}</h1>
+      <div class="blog-hero-meta">
+        <span><i class="fa-regular fa-user mr-1"></i> {{ site.Params.metadata.author | default "Amar Singh" }}</span>
+        <span><i class="fa-regular fa-calendar mr-1"></i> {{ .Date.Format "January 2, 2006" }}</span>
+        <span><i class="fa-regular fa-clock mr-1"></i> {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT WITH TOC SIDEBAR (2-column desktop) ===== -->
+<section class="py-12 lg:py-16">
+  <div class="container">
+    <div class="row">
+      <!-- TOC Sidebar (lg:col-3) -->
+      <div class="hidden lg:block lg:col-3">
+        <div class="toc-sidebar" id="toc-sidebar">
+          <h4 class="text-sm font-semibold uppercase tracking-wider opacity-50 mb-4">Contents</h4>
+          <nav id="toc-nav"></nav>
+        </div>
+      </div>
+
+      <!-- Main Content (lg:col-9) -->
+      <div class="lg:col-9">
+        <!-- Mobile TOC (collapsible) -->
+        <details class="lg:hidden mb-8 p-4 rounded-xl border border-border dark:border-darkmode-border">
+          <summary class="font-semibold cursor-pointer">Table of Contents</summary>
+          <nav id="toc-nav-mobile" class="mt-4"></nav>
+        </details>
+
+        <!-- Article body with drop-cap -->
+        <article class="blog-content drop-cap" id="blog-content">
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TAGS & SHARE ===== -->
+<section class="py-8 border-t border-border dark:border-darkmode-border">
+  <div class="container">
+    <div class="row">
+      <div class="lg:col-3"></div>
+      <div class="lg:col-9">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <!-- Tags -->
+          <div class="flex flex-wrap gap-2">
+            {{ range .Params.tags }}
+              <a href="{{ `tags/` | relURL }}{{ . | urlize }}/" class="tag-pill">{{ . }}</a>
+            {{ end }}
+          </div>
+          <!-- Share Buttons -->
+          <div class="flex gap-2">
+            <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title | urlquery }}" target="_blank" rel="noopener" aria-label="Share on Twitter">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <button class="share-btn" id="copy-link-btn" aria-label="Copy link" onclick="navigator.clipboard.writeText('{{ .Permalink }}').then(function(){document.getElementById('copy-link-btn').innerHTML='<i class=\'fa-solid fa-check\'></i>';setTimeout(function(){document.getElementById('copy-link-btn').innerHTML='<i class=\'fa-solid fa-link\'></i>';},2000);});">
+              <i class="fa-solid fa-link"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RELATED POSTS ===== -->
+{{ $related := site.RegularPages.Related . | first 3 }}
+{{ if $related }}
+<section class="py-16 bg-gradient-subtle">
+  <div class="container">
+    <h3 class="section-heading text-xl mb-8 reveal-up">Related Posts</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
+      {{ range $related }}
+        <a href="{{ .RelPermalink }}" class="blog-card block">
+          {{ with .Params.image }}
+            <div class="blog-card-image">
+              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+            </div>
+          {{ end }}
+          <div class="blog-card-body">
+            {{ with .Params.categories }}
+              <span class="blog-card-category">{{ index . 0 }}</span>
+            {{ end }}
+            <h4 class="blog-card-title">{{ .Title }}</h4>
+            <div class="blog-card-meta">
+              <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+              <span>{{ math.Round (div (countwords .Content) 200.0) }} min</span>
+            </div>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+(function() {
+  // Reading progress bar
+  var progressBar = document.getElementById('reading-progress');
+  if (progressBar) {
+    window.addEventListener('scroll', function() {
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight > 0) {
+        var scrolled = (window.scrollY / docHeight) * 100;
+        progressBar.style.width = scrolled + '%';
+      }
+    }, { passive: true });
+  }
+})();
+</script>
+
+{{ end }}

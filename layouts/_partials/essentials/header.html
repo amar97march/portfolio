@@ -1,0 +1,129 @@
+{{- $current_page := . -}}
+<header class="header-glass sticky top-0 z-50 w-full" id="site-header">
+  <nav class="container mx-auto flex items-center justify-between px-4 py-3 lg:py-4">
+
+    <!-- Logo -->
+    <div class="order-0 shrink-0">
+      <a class="flex items-center" href="{{ site.Home.RelPermalink }}">
+        {{ $logo := site.Params.logo }}
+        {{ $logo_darkmode := site.Params.logo_darkmode | default $logo }}
+        {{ $logo_width := site.Params.logo_width | default "160px" }}
+        {{ $logo_height := site.Params.logo_height | default "32px" }}
+        {{ if $logo }}
+          <img
+            src="{{ $logo | relURL }}"
+            alt="{{ site.Title }}"
+            style="max-width: {{ $logo_width }}; height: {{ $logo_height }};"
+            class="dark:hidden"
+            width="160"
+            height="32"
+          />
+          <img
+            src="{{ $logo_darkmode | relURL }}"
+            alt="{{ site.Title }}"
+            style="max-width: {{ $logo_width }}; height: {{ $logo_height }};"
+            class="hidden dark:block"
+            width="160"
+            height="32"
+          />
+        {{ else }}
+          <span class="text-xl font-bold">{{ site.Params.logo_text | default site.Title }}</span>
+        {{ end }}
+      </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <ul class="hidden lg:flex items-center gap-8 order-1">
+      {{ range site.Menus.main }}
+        {{ $menuURL := .URL | absLangURL }}
+        {{ $pageURL := $current_page.Permalink | absLangURL }}
+        {{ $active := eq $menuURL $pageURL }}
+        {{ if not .HasChildren }}
+          <li>
+            <a
+              href="{{ if findRE `^http` .URL }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+              class="nav-link-animated text-sm font-medium tracking-wide uppercase{{ if $active }} active{{ end }}"
+              {{ if findRE `^http` .URL }}target="_blank" rel="noopener"{{ end }}
+            >
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
+    <!-- Right Actions -->
+    <div class="flex items-center gap-3 order-2">
+      <!-- Search Button -->
+      {{ with site.Params.search }}
+        {{ if .enable }}
+          <button
+            aria-label="Search"
+            class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors cursor-pointer"
+            data-target="search-modal"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.3-4.3"/>
+            </svg>
+          </button>
+        {{ end }}
+      {{ end }}
+
+      <!-- Theme Switcher -->
+      {{ if site.Params.theme_switcher }}
+        {{ partial "components/theme-switcher" (dict "Class" "mr-0") }}
+      {{ end }}
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger lg:hidden" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu-overlay" id="mobile-menu">
+  {{ range site.Menus.main }}
+    {{ if not .HasChildren }}
+      <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+</div>
+
+<script>
+(function() {
+  var btn = document.getElementById('hamburger-btn');
+  var menu = document.getElementById('mobile-menu');
+  var header = document.getElementById('site-header');
+  if (!btn || !menu) return;
+
+  btn.addEventListener('click', function() {
+    btn.classList.toggle('open');
+    menu.classList.toggle('open');
+    document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+  });
+
+  menu.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      btn.classList.remove('open');
+      menu.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // Header scroll shadow
+  if (header) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    }, { passive: true });
+  }
+})();
+</script>

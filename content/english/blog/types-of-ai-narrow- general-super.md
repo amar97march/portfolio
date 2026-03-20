@@ -4,6 +4,7 @@ date: 2025-12-10T20:38:08+05:30
 draft: false
 description: "A comprehensive guide to the three stages of AI evolution: Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Super Intelligence (ASI)."
 tags: ["AI", "ANI", "AGI", "ASI", "Future of AI"]
+categories: ["AI Fundamentals"]
 image: "/images/blogs/blog3/cover.png"
 keywords: ["Artificial Narrow Intelligence", "Artificial General Intelligence", "Artificial Super Intelligence", "ANI", "AGI", "ASI", "AI evolution", "AI stages"]
 ---
@@ -64,6 +65,8 @@ They do not "know" history; they recall statistical patterns of text relating to
 
 ---
 
+![The three stages of AI evolution from narrow to super intelligence](/images/blogs/pool-learning/3.jpg)
+
 ### Stage 2: Artificial General Intelligence (AGI)
 **AKA: "Strong AI," "Human-Level AI"**
 
@@ -97,6 +100,8 @@ This sounds trivial to a human, but it requires immense general intelligence: vi
 - **Current Status:** Does not exist. Estimates for its arrival range from 5 years to 50 years.
 
 ---
+
+![Artificial General Intelligence as the near-term research goal](/images/blogs/pool-learning/4.jpg)
 
 ### Stage 3: Artificial Super Intelligence (ASI)
 **AKA: "God-like AI"**
@@ -145,6 +150,8 @@ To keep these concepts straight in your next strategic meeting, use this compari
 
   <img src="/portfolio/images/blogs/blog3/The%20Journey%20Ahead.png" alt="The Journey Ahead" style="max-width:100%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.12);">
 
+
+![Understanding where we stand in the AI evolution spectrum](/images/blogs/pool-learning/5.jpg)
 
 ### Conclusion: Navigating the Present
 

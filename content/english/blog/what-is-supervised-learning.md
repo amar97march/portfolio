@@ -4,6 +4,7 @@ date: 2025-12-15T10:00:00+05:30
 draft: false
 description: "Supervised Learning is the bedrock of modern artificial intelligence. This comprehensive guide moves from simple analogies to technical deep dives, explaining how machines learn from labeled data, ending with a step-by-step coding tutorial."
 tags: ["Machine Learning", "AI", "Supervised Learning", "Data Science", "Tutorial", "Python"]
+categories: ["Machine Learning"]
 image: "/images/blogs/blog5/cover.png"
 keywords: ["AI definition", "Marvin Minsky", "Suitcase word", "Machine Learning vs AI", "Tesler's Theorem", "Moravec's Paradox", "AGI vs ANI", "Transformer Architecture", "AI Energy Consumption"]
 ---
@@ -54,7 +55,13 @@ Supervised learning is simply the process of showing a computer massive amounts 
 
 ---
 
+![Labeled dataset with features and target variables](/images/blogs/pool-ml/6.jpg)
+
+
 ### Part 2: The Technical Deep Dive
+
+![Classification versus regression task comparison](/images/blogs/pool-ml/7.jpg)
+
 
 Now, let's tighten up our language. In data science, we don't talk about "flashcards" and "answers on the back." We use precise terminology.
 
@@ -108,6 +115,9 @@ The output variable is a continuous numerical value. The answers are on a slidin
 * *How many units of this product will we sell next month?*
 
 ---
+
+![Model training loop showing prediction and error correction](/images/blogs/pool-ml/8.jpg)
+
 
 ### Part 3: The Coding Tutorial — Building a Supervised Model
 

@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Amar Singh — Coder & Programmer"
+logo_text = "Amar Singh"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Keep Learning , Keep Sharing"
+copyright = "Amar Singh. All rights reserved."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -45,7 +45,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
-primary_color = "#0B2545"
+primary_color = "#6C2BD9"
 include_sections = ["portfolio", "blog"]
 show_image = true
 show_description = true
@@ -56,10 +56,10 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
-twitter = "zeon_studio"
+keywords = ["Amar Singh", "Full Stack Developer", "ML Engineer", "Portfolio", "ReactJS", "Django", "FastAPI"]
+description = "Amar Singh — Full Stack Developer & ML/AI Specialist. Building scalable web apps, reliable APIs, and ML-powered features."
+author = "Amar Singh"
+twitter = ""
 image = "images/og-image.png"
 
 

@@ -21,7 +21,7 @@ features:
     button:
       enable: true
       label: "See Projects"
-      link: "/blog/"
+      link: "/portfolio/"
 
   - title: "Skills & Technologies"
     image: "/images/banner.png"
@@ -41,7 +41,7 @@ features:
     image: "/images/service-3.png"
     content: "Academic credentials and selected certifications."
     bulletpoints:
-      - "M.Sc — Machine Learning / Data Science — BITS Pilani"
+      - "M.Tech — Machine Learning / Data Science — BITS Pilani"
       - "B.Tech — College of Engineering & Technology, Bikaner"
       - "Certifications: Machine Learning A-Z (Udemy)"
     button:

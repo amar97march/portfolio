@@ -163,3 +163,12 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+[[params.plugins.js]]
+link = "js/animations.js"
+lazy = false
+[[params.plugins.js]]
+link = "js/portfolio-filter.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/blog-toc.js"
+lazy = true

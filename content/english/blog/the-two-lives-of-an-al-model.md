@@ -4,6 +4,7 @@ date: 2026-01-01T12:00:00+05:30
 draft: false
 description: "Why does training cost millions but using AI costs pennies? We break down the two distinct phases of the Machine Learning lifecycle: creating the intelligence (Training) and applying it (Inference)."
 tags: ["Machine Learning", "AI Concepts", "Training", "Inference", "DevOps", "MLOps"]
+categories: ["Machine Learning"]
 image: "/images/blogs/blog8/cover.png"
 ---
 
@@ -52,6 +53,8 @@ Now, Sarah is a practicing lawyer. A client walks in and asks, "Is this contract
 
 ---
 
+![Training versus inference in machine learning](/images/blogs/pool-ml/3.jpg)
+
 ### Part 2: The Technical Deep Dive
 
 Now, let's look at what is actually happening under the hood mathematically. This distinction defines how we architect our cloud infrastructure.
@@ -84,6 +87,8 @@ The bridge between these two worlds is the **Model Artifact** (often a file like
 
 ---
 
+![Forward and backward passes in neural network training](/images/blogs/pool-ml/4.jpg)
+
 ### Part 3: The Economics and Hardware of AI
 
 As a developer or business leader, the distinction between Training and Inference drastically changes what hardware you buy and how you spend your money.
@@ -103,6 +108,8 @@ As a developer or business leader, the distinction between Training and Inferenc
 Right now, the industry is shifting focus. Training Llama 3 was expensive, but running it for 100 million users every day is *astronomically* expensive. This is why techniques like **Quantization** (making the model smaller) and **Distillation** (teaching a small student model to mimic a large teacher model) are the hottest topics in AI right now. They are all about making *Inference* cheaper.
 
 ---
+
+![Hardware and cost differences between training and inference](/images/blogs/pool-ml/5.jpg)
 
 ### Part 4: The Code — Seeing the Difference
 
