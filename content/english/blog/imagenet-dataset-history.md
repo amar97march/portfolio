@@ -5,7 +5,7 @@ draft: false
 description: "ImageNet is arguably the most important dataset in the history of artificial intelligence. This post tells the story of how a massive image database sparked the deep learning revolution and transformed Computer Vision forever."
 tags: ["Computer Vision", "ImageNet", "Deep Learning", "AI History", "Datasets"]
 categories: ["Computer Vision"]
-image: "/images/blogs/pool-cv/1.jpg"
+image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["ImageNet", "ILSVRC", "AlexNet", "deep learning revolution", "image dataset", "Fei-Fei Li", "computer vision dataset", "benchmark"]
 ---
 
@@ -40,7 +40,7 @@ By 2009, ImageNet contained over 3.2 million labeled images spanning 5,247 categ
 ---
 
 
-![Computer vision system analyzing and interpreting visual data](/images/blogs/pool-cv/3.jpg)
+![Computer vision system analyzing and interpreting visual data](https://picsum.photos/seed/imagenet-dataset-history-1/800/450)
 
 ### The ImageNet Large Scale Visual Recognition Challenge
 
@@ -74,7 +74,7 @@ Without ImageNet, AlexNet would not have been possible. The dataset was the fuel
 ---
 
 
-![Illustration of image processing through convolutional neural networks](/images/blogs/pool-cv/5.jpg)
+![Illustration of image processing through convolutional neural networks](https://picsum.photos/seed/imagenet-dataset-history-2/800/450)
 
 ### The Cascade of Breakthroughs
 
@@ -113,7 +113,7 @@ ImageNet's influence extends far beyond the ILSVRC competition:
 ---
 
 
-![Visual representation of object recognition and pixel classification](/images/blogs/pool-cv/7.jpg)
+![Visual representation of object recognition and pixel classification](https://picsum.photos/seed/imagenet-dataset-history-3/800/450)
 
 ### Controversies and Limitations
 

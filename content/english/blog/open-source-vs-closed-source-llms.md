@@ -5,7 +5,7 @@ draft: false
 description: "A detailed breakdown of the open-source vs. closed-source debate in the LLM world — covering access, control, cost, safety, and when to choose each approach."
 tags: ["LLM", "Open Source", "Generative AI", "Llama", "GPT", "AI Strategy"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://picsum.photos/seed/open-source-vs-closed-source-llms-cover/1200/630"
 keywords: ["open source LLM", "closed source LLM", "Llama open source", "GPT closed source", "self-hosted LLM", "AI open source vs proprietary"]
 ---
 
@@ -39,7 +39,7 @@ A truly "open source" LLM would release all five. In practice, most "open source
 Meta's Llama is often called "open source," but technically it is "open weights" — the weights are available, but the full training recipe and data are not. This distinction matters.
 
 
-![Generative AI creating digital content](/images/blogs/pool-genai/3.jpg)
+![Generative AI creating digital content](https://picsum.photos/seed/open-source-vs-closed-source-llms-1/800/450)
 
 ### The Case for Closed-Source LLMs
 
@@ -100,7 +100,7 @@ Open-source (or open-weight) models like Llama 3, Mistral, Falcon, and Phi can b
 5. **Talent requirement**: You need ML engineers who understand model deployment, optimization, and fine-tuning.
 
 
-![Creative applications of artificial intelligence](/images/blogs/pool-genai/4.jpg)
+![Creative applications of artificial intelligence](https://picsum.photos/seed/open-source-vs-closed-source-llms-2/800/450)
 
 ### The Cost Comparison
 
@@ -150,7 +150,7 @@ Here is how I think about the decision:
 This hybrid approach is increasingly common in production systems. You get the development speed of closed-source APIs with the cost efficiency and control of open-source models.
 
 
-![AI-powered content generation tools](/images/blogs/pool-genai/5.jpg)
+![AI-powered content generation tools](https://picsum.photos/seed/open-source-vs-closed-source-llms-3/800/450)
 
 ### The Trend: Open Source Is Catching Up
 

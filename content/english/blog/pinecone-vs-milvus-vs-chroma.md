@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on comparison of Pinecone, Milvus, and ChromaDB — covering setup, performance, pricing, and when to choose each for your RAG applications."
 tags: ["Vector Database", "Pinecone", "Milvus", "ChromaDB", "RAG"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/pinecone-vs-milvus-vs-chroma-cover/1200/630"
 keywords: ["Pinecone vs Milvus", "Chroma vs Pinecone", "vector database comparison", "best vector database", "RAG vector store", "vector DB benchmark"]
 ---
 
@@ -53,7 +53,7 @@ results = index.query(vector=query_embedding, top_k=5, include_metadata=True)
 #### Milvus
 
 
-![Illustration of knowledge base integration with language models](/images/blogs/pool-rag/8.jpg)
+![Illustration of knowledge base integration with language models](https://picsum.photos/seed/pinecone-vs-milvus-vs-chroma-1/800/450)
 
 ```python
 from pymilvus import connections, Collection, FieldSchema, CollectionSchema, DataType
@@ -139,7 +139,7 @@ Based on my testing with a dataset of 500,000 document chunks (1536-dimension em
 | Concurrent queries | Excellent | Excellent | Limited |
 
 
-![Visual representation of vector search and document retrieval](/images/blogs/pool-rag/7.jpg)
+![Visual representation of vector search and document retrieval](https://picsum.photos/seed/pinecone-vs-milvus-vs-chroma-2/800/450)
 
 **Key observations:**
 
@@ -207,7 +207,7 @@ Estimated monthly cost for 1M vectors: $0 (local) or $20-50 (cloud VM)
 #### Choose Pinecone When:
 
 
-![Diagram of retrieval-augmented generation architecture](/images/blogs/pool-rag/6.jpg)
+![Diagram of retrieval-augmented generation architecture](https://picsum.photos/seed/pinecone-vs-milvus-vs-chroma-3/800/450)
 
 - You want zero infrastructure management
 - You need predictable, consistent performance

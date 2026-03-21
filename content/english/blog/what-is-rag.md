@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to Retrieval-Augmented Generation — the technique that grounds LLM responses in real data to reduce hallucination and enable knowledge-based AI applications."
 tags: ["RAG", "LLM", "Vector Database", "NLP", "Generative AI"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/what-is-rag-cover/1200/630"
 keywords: ["RAG explained", "retrieval augmented generation", "RAG LLM", "grounded AI", "knowledge retrieval AI", "RAG architecture"]
 ---
 
@@ -47,7 +47,7 @@ With RAG, responses can cite specific source documents. Users can verify claims 
 
 ### The RAG Architecture
 
-![RAG architecture showing indexing and querying phases](/images/blogs/pool-rag/3.jpg)
+![RAG architecture showing indexing and querying phases](https://picsum.photos/seed/what-is-rag-1/800/450)
 
 
 A complete RAG system has two main phases: **indexing** (done once or periodically) and **querying** (done at runtime).
@@ -160,7 +160,7 @@ This is a complete, working RAG system in about 50 lines. Production systems add
 
 ### Key Components Deep Dive
 
-![Vector similarity search retrieving relevant documents](/images/blogs/pool-rag/4.jpg)
+![Vector similarity search retrieving relevant documents](https://picsum.photos/seed/what-is-rag-2/800/450)
 
 
 #### Embeddings
@@ -235,7 +235,7 @@ A common question: should I use RAG or fine-tune the model?
 
 ### Common RAG Pitfalls
 
-![Comparison of RAG versus fine-tuning approaches](/images/blogs/pool-rag/5.jpg)
+![Comparison of RAG versus fine-tuning approaches](https://picsum.photos/seed/what-is-rag-3/800/450)
 
 
 **1. Poor chunking:**

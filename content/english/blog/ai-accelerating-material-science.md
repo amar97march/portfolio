@@ -5,7 +5,7 @@ draft: false
 description: "From batteries to superconductors, AI is transforming how we discover new materials — compressing decades of experimentation into months. A deep dive into the methods, breakthroughs, and implications."
 tags: ["AI", "Material Science", "Deep Learning", "GNoME", "Drug Discovery", "Scientific Computing"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI material science", "GNoME DeepMind", "materials discovery AI", "generative models materials", "battery materials AI", "inverse design materials"]
 ---
 
@@ -34,7 +34,7 @@ This is why materials science is often described as looking for a needle in a ha
 
 ---
 
-![AI algorithms analyzing molecular structures for new material discovery](/images/blogs/pool-good/3.jpg)
+![AI algorithms analyzing molecular structures for new material discovery](https://picsum.photos/seed/ai-accelerating-material-science-1/800/450)
 
 ### Enter AI: Three Key Approaches
 
@@ -115,7 +115,7 @@ Among the discoveries: 528 potential lithium-ion conductors (critical for next-g
 
 ---
 
-![DeepMind GNoME discovering millions of new stable crystal structures](/images/blogs/pool-good/5.jpg)
+![DeepMind GNoME discovering millions of new stable crystal structures](https://picsum.photos/seed/ai-accelerating-material-science-2/800/450)
 
 ### AI for Battery Materials
 
@@ -148,7 +148,7 @@ This creates a closed-loop optimization system that operates 24/7 without human 
 
 ---
 
-![Robotic laboratories autonomously synthesizing AI-predicted materials](/images/blogs/pool-good/7.jpg)
+![Robotic laboratories autonomously synthesizing AI-predicted materials](https://picsum.photos/seed/ai-accelerating-material-science-3/800/450)
 
 ### Challenges and Limitations
 

@@ -5,7 +5,7 @@ draft: false
 description: "Large Language Models are transforming how scientists navigate the overwhelming volume of academic literature. From semantic search to automated synthesis, LLMs are becoming essential research tools."
 tags: ["AI", "LLMs", "Research", "NLP", "Scientific Discovery", "Semantic Search"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["LLM research papers", "AI scientific literature", "semantic search papers", "Semantic Scholar", "research automation", "AI knowledge extraction", "scientific NLP"]
 ---
 
@@ -75,7 +75,7 @@ Tools like **Semantic Scholar** (from the Allen Institute for AI) have built thi
 **SPECTER** and its successors are specialized embedding models trained on scientific papers, using citation relationships as training signal — the intuition being that papers that cite each other are likely to be about related topics.
 
 
-![AI research and scientific discovery visualization](/images/blogs/pool-good/3.jpg)
+![AI research and scientific discovery visualization](https://picsum.photos/seed/llms-research-paper-analysis-1/800/450)
 
 ---
 
@@ -155,7 +155,7 @@ Domain-specific language models trained on biomedical literature. These models o
 Meta's Galactica was trained on 48 million scientific papers, textbooks, and knowledge bases. While its public release was controversial (it could generate plausible-sounding but incorrect scientific text), it demonstrated the potential of LLMs as scientific knowledge interfaces.
 
 
-![Technology transforming academic literature analysis](/images/blogs/pool-good/4.jpg)
+![Technology transforming academic literature analysis](https://picsum.photos/seed/llms-research-paper-analysis-2/800/450)
 
 ---
 
@@ -204,7 +204,7 @@ Based on the current state of the technology, here is my recommended approach:
 5. **Be transparent about AI use.** If you used LLMs in your literature review, disclose this in your methodology. The research community is still developing norms around this.
 
 
-![Data-driven insights from scientific publications](/images/blogs/pool-good/5.jpg)
+![Data-driven insights from scientific publications](https://picsum.photos/seed/llms-research-paper-analysis-3/800/450)
 
 ---
 

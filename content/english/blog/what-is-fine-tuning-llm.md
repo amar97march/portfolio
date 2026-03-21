@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to fine-tuning Large Language Models — what it is, how it works, and a hands-on walkthrough of the complete process."
 tags: ["Fine-Tuning", "LLM", "Transfer Learning", "Deep Learning", "Generative AI"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://picsum.photos/seed/what-is-fine-tuning-llm-cover/1200/630"
 keywords: ["fine-tuning LLM", "how to fine-tune", "LLM customization", "transfer learning", "fine-tuning guide", "custom LLM"]
 ---
 
@@ -30,7 +30,7 @@ It is like the difference between a university education (pre-training) and on-t
 
 ### When to Fine-Tune (and When Not To)
 
-![Fine-tuning workflow from base model to specialized model](/images/blogs/pool-llm/3.jpg)
+![Fine-tuning workflow from base model to specialized model](https://picsum.photos/seed/what-is-fine-tuning-llm-1/800/450)
 
 
 **Fine-tune when:**
@@ -186,7 +186,7 @@ Deploy to staging for human evaluation
 
 ### Hyperparameter Tuning
 
-![Training data preparation for LLM customization](/images/blogs/pool-llm/4.jpg)
+![Training data preparation for LLM customization](https://picsum.photos/seed/what-is-fine-tuning-llm-2/800/450)
 
 
 The key hyperparameters for fine-tuning:
@@ -232,7 +232,7 @@ I cannot stress this enough: **the quality of your training data matters more th
 
 ### The Cost of Fine-Tuning
 
-![Evaluation metrics comparing base and fine-tuned model performance](/images/blogs/pool-llm/5.jpg)
+![Evaluation metrics comparing base and fine-tuned model performance](https://picsum.photos/seed/what-is-fine-tuning-llm-3/800/450)
 
 
 **OpenAI fine-tuning costs (as of 2025):**

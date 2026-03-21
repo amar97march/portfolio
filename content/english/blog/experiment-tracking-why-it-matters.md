@@ -5,7 +5,7 @@ draft: false
 description: "Experiment tracking is the foundation of reproducible machine learning. Learn why tracking experiments matters, what to track, and how to set up a tracking system that scales from solo projects to enterprise teams."
 tags: ["MLOps", "Experiment Tracking", "Machine Learning", "Reproducibility", "MLflow", "Data Science"]
 categories: ["MLOps"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop&auto=format"
 keywords: ["experiment tracking ml", "why experiment tracking matters", "ml experiment management", "reproducible machine learning", "mlops experiment tracking"]
 ---
 
@@ -136,7 +136,7 @@ Need to validate on last month's data before promoting to staging.
 
 ---
 
-![Tracking ML experiments with parameters and metrics](/images/blogs/pool-mlops/3.jpg)
+![Tracking ML experiments with parameters and metrics](https://picsum.photos/seed/experiment-tracking-why-it-matters-1/800/450)
 
 ## The Experiment Tracking Workflow
 
@@ -246,7 +246,7 @@ mlflow.register_model(
 
 ---
 
-![Comparing experiment runs and selecting the best model](/images/blogs/pool-mlops/4.jpg)
+![Comparing experiment runs and selecting the best model](https://picsum.photos/seed/experiment-tracking-why-it-matters-2/800/450)
 
 ## Experiment Tracking Anti-Patterns
 
@@ -282,7 +282,7 @@ Logging should happen automatically during the experiment, not manually from mem
 
 ---
 
-![Reproducible ML workflows with proper experiment logging](/images/blogs/pool-mlops/5.jpg)
+![Reproducible ML workflows with proper experiment logging](https://picsum.photos/seed/experiment-tracking-why-it-matters-3/800/450)
 
 ## Choosing an Experiment Tracking Tool
 

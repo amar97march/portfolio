@@ -5,7 +5,7 @@ draft: false
 description: "Reinforcement Learning is how machines learn to conquer video games, ride bicycles, and manage stock portfolios. It's not about labeled data; it's about surviving in an environment through trial, error, and reward."
 tags: ["Machine Learning", "Reinforcement Learning", "AI", "Q-Learning", "Gymnasium", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/blog7/cover.png"
+image: "https://picsum.photos/seed/what-is-reinforcement-learning-cover/1200/630"
 ---
 
 
@@ -50,7 +50,7 @@ The puppy is the **Agent**. The living room is the **Environment**. The treat is
 
 ---
 
-![Reinforcement learning agent interacting with environment](/images/blogs/pool-ml/6.jpg)
+![Reinforcement learning agent interacting with environment](https://picsum.photos/seed/what-is-reinforcement-learning-1/800/450)
 
 
 ### Part 2: The Technical Deep Dive (The RL Loop)
@@ -82,7 +82,7 @@ A policy is the agent's brain. It is a mapping function from States to Actions. 
 
 ---
 
-![Q-table values guiding optimal policy decisions](/images/blogs/pool-ml/7.jpg)
+![Q-table values guiding optimal policy decisions](https://picsum.photos/seed/what-is-reinforcement-learning-2/800/450)
 
 
 ### Part 3: The Coding Tutorial — Q-Learning on a Frozen Lake
@@ -119,7 +119,7 @@ Beginning with the code for setting up the environment.
 
 ---
 
-![Exploration versus exploitation tradeoff visualization](/images/blogs/pool-ml/8.jpg)
+![Exploration versus exploitation tradeoff visualization](https://picsum.photos/seed/what-is-reinforcement-learning-3/800/450)
 
 
 ```python

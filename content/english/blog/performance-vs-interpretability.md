@@ -3,7 +3,7 @@ title: "The Performance vs Interpretability Trade-Off in Machine Learning"
 meta_title: ""
 description: "Examining one of the most persistent tensions in machine learning: the trade-off between model performance and interpretability. Learn when to choose simpler models, when complex models are justified, and how modern XAI techniques are reshaping this debate."
 date: 2028-04-18
-image: "/images/blogs/performance-interpretability/cover.jpg"
+image: "https://picsum.photos/seed/performance-vs-interpretability-cover/1200/630"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["interpretability", "performance", "trade-offs", "model-selection"]
@@ -55,7 +55,7 @@ There are genuine domains where more complex models significantly outperform sim
 ### Computer Vision
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/5.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/performance-vs-interpretability-1/800/450)
 
 Image classification is perhaps the clearest example. Convolutional neural networks and vision transformers achieve superhuman accuracy on tasks like object recognition, medical image analysis, and autonomous driving perception. No interpretable model, whether a decision tree, a linear model, or a GAM, can come close to matching their performance on raw pixel inputs. The trade-off here is stark: if you want state-of-the-art performance, you must use a black-box model and rely on post-hoc explanation techniques.
 
@@ -106,7 +106,7 @@ Complex models are more prone to overfitting, especially with limited training d
 Complex models are harder to maintain and debug. When a gradient-boosted ensemble with 1000 trees starts producing unexpected predictions, diagnosing the issue is orders of magnitude harder than debugging a logistic regression. The engineering cost of maintaining complex models over their lifetime can dwarf the cost of initial development.
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/4.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/performance-vs-interpretability-2/800/450)
 
 ### Computational Cost
 
@@ -155,7 +155,7 @@ For any new problem, begin with an interpretable model: logistic regression for 
 ### Quantify the Performance Gap
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/performance-vs-interpretability-3/800/450)
 
 Next, train a complex model (gradient-boosted ensemble, neural network) and measure the performance improvement. If the improvement is less than one to two percentage points on a meaningful metric, seriously consider whether the additional complexity is justified.
 

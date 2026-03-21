@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive introduction to prompt engineering — the art and science of communicating effectively with LLMs to get consistently excellent results."
 tags: ["Prompt Engineering", "LLM", "ChatGPT", "Claude", "AI Skills"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://picsum.photos/seed/what-is-prompt-engineering-cover/1200/630"
 keywords: ["prompt engineering", "how to prompt LLM", "ChatGPT prompts", "prompt design", "AI prompting techniques", "effective prompts"]
 ---
 
@@ -126,7 +126,7 @@ Avoid jargon unless you define it first.
 
 ### The Prompt Engineering Workflow
 
-![Anatomy of an effective prompt with labeled components](/images/blogs/pool-prompt/6.jpg)
+![Anatomy of an effective prompt with labeled components](https://picsum.photos/seed/what-is-prompt-engineering-1/800/450)
 
 
 Prompt engineering is iterative. You rarely get the perfect result on the first try. Here is the workflow I use:
@@ -191,7 +191,7 @@ Improvement 1: Make the introduction more engaging.
 
 ### Prompt Engineering for Code
 
-![Comparison of vague versus specific prompt outputs](/images/blogs/pool-prompt/7.jpg)
+![Comparison of vague versus specific prompt outputs](https://picsum.photos/seed/what-is-prompt-engineering-2/800/450)
 
 
 As a developer, most of my prompt engineering is code-related. Here are patterns that work well:
@@ -268,7 +268,7 @@ The system prompt sets the stage; the user prompt makes the specific request.
 
 ### Temperature and Other Parameters
 
-![Prompt engineering workflow showing iterative refinement](/images/blogs/pool-prompt/8.jpg)
+![Prompt engineering workflow showing iterative refinement](https://picsum.photos/seed/what-is-prompt-engineering-3/800/450)
 
 
 Prompt engineering also includes tuning generation parameters:

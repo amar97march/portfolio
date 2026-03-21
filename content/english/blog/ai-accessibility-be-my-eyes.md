@@ -5,7 +5,7 @@ draft: false
 description: "How AI-powered accessibility tools like Be My Eyes are transforming independence for people with visual impairments, and why accessibility is one of AI's most meaningful applications."
 tags: ["AI", "Accessibility", "Be My Eyes", "Computer Vision", "Assistive Technology", "GPT-4"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI accessibility", "Be My Eyes AI", "assistive technology AI", "computer vision blind", "AI visual impairment", "multimodal AI accessibility"]
 ---
 
@@ -52,7 +52,7 @@ The AI responds in seconds, with detailed descriptions and answers. No waiting f
 
 ---
 
-![AI-powered smartphone app helping visually impaired users navigate daily tasks](/images/blogs/pool-good/3.jpg)
+![AI-powered smartphone app helping visually impaired users navigate daily tasks](https://picsum.photos/seed/ai-accessibility-be-my-eyes-1/800/450)
 
 ### How It Works Technically
 
@@ -102,7 +102,7 @@ Visual impairment is just one dimension of accessibility. AI is making breakthro
 
 ---
 
-![Assistive technology enabling independence across different types of disabilities](/images/blogs/pool-good/5.jpg)
+![Assistive technology enabling independence across different types of disabilities](https://picsum.photos/seed/ai-accessibility-be-my-eyes-2/800/450)
 
 ### The Design Principles That Matter
 
@@ -133,7 +133,7 @@ Companies that build accessibility into their AI products from the start are not
 
 ---
 
-![The growing market and economic case for accessible AI products](/images/blogs/pool-good/7.jpg)
+![The growing market and economic case for accessible AI products](https://picsum.photos/seed/ai-accessibility-be-my-eyes-3/800/450)
 
 ### Current Limitations
 

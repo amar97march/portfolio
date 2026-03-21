@@ -5,7 +5,7 @@ draft: false
 description: "Learn how Chain of Thought prompting dramatically improves LLM reasoning on complex tasks — with practical examples and implementation patterns."
 tags: ["Prompt Engineering", "Chain of Thought", "LLM", "Reasoning", "AI Techniques"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://images.unsplash.com/photo-1631624215749-b10b3dd7bdd6?w=1200&h=630&fit=crop&auto=format"
 keywords: ["chain of thought prompting", "CoT prompting", "LLM reasoning", "step by step AI", "reasoning prompts", "think step by step"]
 ---
 
@@ -61,7 +61,7 @@ Without CoT, the model must compress all of its reasoning into the immediate jum
 Think of it this way: if I asked you to multiply 47 by 83 in your head, you might struggle. But give you a piece of paper to write down intermediate steps, and it becomes straightforward. CoT gives the model that piece of paper.
 
 
-![Illustration of effective prompt engineering techniques and patterns](/images/blogs/pool-prompt/3.jpg)
+![Illustration of effective prompt engineering techniques and patterns](https://picsum.photos/seed/chain-of-thought-prompting-1/800/450)
 
 ### Types of Chain of Thought Prompting
 
@@ -179,7 +179,7 @@ Analyze step by step:
 ```
 
 
-![Visual showing how structured prompts guide AI reasoning](/images/blogs/pool-prompt/4.jpg)
+![Visual showing how structured prompts guide AI reasoning](https://picsum.photos/seed/chain-of-thought-prompting-2/800/450)
 
 ### Tree of Thought: CoT Evolved
 
@@ -243,7 +243,7 @@ def solve_with_cot(problem: str, model: str = "gpt-4o") -> dict:
 ```
 
 
-![Conceptual image depicting the interaction between human intent and AI output](/images/blogs/pool-prompt/5.jpg)
+![Conceptual image depicting the interaction between human intent and AI output](https://picsum.photos/seed/chain-of-thought-prompting-3/800/450)
 
 ### When CoT Helps (and When It Doesn't)
 

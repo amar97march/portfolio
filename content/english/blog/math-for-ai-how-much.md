@@ -5,7 +5,7 @@ draft: false
 description: "An honest breakdown of how much mathematics you actually need for different AI roles. Learn which specific topics in linear algebra, calculus, probability, and statistics matter most and which you can safely skip."
 tags: ["Mathematics", "AI Education", "Linear Algebra", "Calculus", "Statistics"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1200&h=630&fit=crop&auto=format"
 keywords: ["math for AI", "linear algebra for machine learning", "calculus for AI", "math requirements AI", "how much math for ML", "statistics for machine learning"]
 ---
 
@@ -78,7 +78,7 @@ print(f"First PC direction: {eigenvectors[:, -1]}")
 ```
 
 
-![Student learning AI and machine learning concepts](/images/blogs/pool-learning/3.jpg)
+![Student learning AI and machine learning concepts](https://picsum.photos/seed/math-for-ai-how-much-1/800/450)
 
 ### Calculus
 
@@ -130,7 +130,7 @@ Probability is arguably the most important mathematical area for AI practitioner
 - Statistical learning theory: VC dimension, Rademacher complexity
 
 
-![Educational resources for artificial intelligence](/images/blogs/pool-learning/4.jpg)
+![Educational resources for artificial intelligence](https://picsum.photos/seed/math-for-ai-how-much-2/800/450)
 
 ### Optimization
 
@@ -165,7 +165,7 @@ Here is what I wish someone had told me when I started:
 **The math you need is learnable.** You do not need to have studied advanced mathematics in school. Every topic listed above can be learned through free online resources. The key is to learn it in context — learn the chain rule when you study backpropagation, not as an abstract concept.
 
 
-![Building foundational knowledge in AI](/images/blogs/pool-learning/5.jpg)
+![Building foundational knowledge in AI](https://picsum.photos/seed/math-for-ai-how-much-3/800/450)
 
 ### How to Learn the Math
 

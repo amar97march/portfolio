@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to NumPy — the library that makes Python viable for numerical computing and serves as the foundation of the entire ML ecosystem."
 tags: ["NumPy", "Python", "Data Science", "Scientific Computing"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://picsum.photos/seed/numpy-explained-cover/1200/630"
 keywords: ["numpy tutorial", "numpy explained", "numpy arrays", "python scientific computing", "numpy for machine learning"]
 ---
 
@@ -49,7 +49,7 @@ NumPy achieves this speed through three mechanisms:
 3. **BLAS/LAPACK integration**: Linear algebra operations use highly optimized Fortran libraries.
 
 
-![Python programming tools for data science](/images/blogs/pool-tools/6.jpg)
+![Python programming tools for data science](https://picsum.photos/seed/numpy-explained-1/800/450)
 
 ## The ndarray: NumPy's Core Object
 
@@ -223,7 +223,7 @@ print(arr + col)
 Broadcasting follows specific rules, but the intuition is: NumPy stretches the smaller array to match the shape of the larger one wherever possible.
 
 
-![Scientific computing libraries and frameworks](/images/blogs/pool-tools/7.jpg)
+![Scientific computing libraries and frameworks](https://picsum.photos/seed/numpy-explained-2/800/450)
 
 ## NumPy in Machine Learning
 
@@ -298,7 +298,7 @@ print(f"Sum: {np.sum(probs):.4f}")
 ```
 
 
-![Developer tools powering the AI ecosystem](/images/blogs/pool-tools/8.jpg)
+![Developer tools powering the AI ecosystem](https://picsum.photos/seed/numpy-explained-3/800/450)
 
 ## Performance Tips
 

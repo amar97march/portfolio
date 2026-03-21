@@ -5,7 +5,7 @@ draft: false
 description: "An honest look at why building AI projects is far more valuable for your career than collecting certificates. Learn what hiring managers actually look for and how to build a portfolio that demonstrates real competence."
 tags: ["AI Careers", "Portfolio", "Projects", "Certificates", "Career Advice"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/projects-over-certificates-cover/1200/630"
 keywords: ["AI projects vs certificates", "AI portfolio", "machine learning projects", "AI career advice", "building AI portfolio", "certificate value"]
 ---
 
@@ -50,7 +50,7 @@ A well-executed project demonstrates skills that no certificate can:
 **Implementation**: You wrote real code that works. Not code from a tutorial — your code, for your problem, with your design choices.
 
 
-![Diagram showing progressive learning milestones in machine learning](/images/blogs/pool-learning/8.jpg)
+![Diagram showing progressive learning milestones in machine learning](https://picsum.photos/seed/projects-over-certificates-1/800/450)
 
 **Debugging and iteration**: You encountered problems and solved them. The model did not work on the first try. You investigated, hypothesized, and iterated.
 
@@ -94,7 +94,7 @@ Avoid pre-cleaned datasets from textbooks. Scrape your own data, use publicly av
 **3. Document your decisions.**
 
 
-![Illustration of effective skill-building strategies for AI](/images/blogs/pool-learning/7.jpg)
+![Illustration of effective skill-building strategies for AI](https://picsum.photos/seed/projects-over-certificates-2/800/450)
 
 A project without documentation is a black box. Write a README that explains:
 - What problem you solved and why
@@ -140,7 +140,7 @@ demo.launch()
 **6. Make it reproducible.**
 
 
-![Visual guide to structured AI learning pathways](/images/blogs/pool-learning/6.jpg)
+![Visual guide to structured AI learning pathways](https://picsum.photos/seed/projects-over-certificates-3/800/450)
 
 Include a requirements.txt or environment.yml. Add clear setup instructions. If someone clones your repo and cannot run your code in under 5 minutes, you have lost them.
 

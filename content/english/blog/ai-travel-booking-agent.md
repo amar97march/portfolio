@@ -3,7 +3,7 @@ title: "Building an AI Agent That Books Your Travel End-to-End"
 meta_title: ""
 description: "A detailed technical walkthrough of designing and building an AI travel booking agent that handles flights, hotels, and itineraries, covering architecture, API integration, state management, error recovery, and the challenges of real-world autonomous booking systems."
 date: 2027-04-16
-image: "/images/blogs/ai-travel-agent/cover.jpg"
+image: "https://images.unsplash.com/photo-1558618666-fcd25c85f7aa?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Agents"]
 author: "Amar Singh"
 tags: ["agents", "automation", "travel", "api-integration"]
@@ -105,7 +105,7 @@ class ProgressiveIntentGatherer:
         return partial_intent, clarification
 ```
 
-![AI agent parsing natural language travel requests into structured intents](/images/blogs/pool-agents/3.jpg)
+![AI agent parsing natural language travel requests into structured intents](https://picsum.photos/seed/ai-travel-booking-agent-1/800/450)
 
 ## Step 2: The Planning Engine
 
@@ -289,7 +289,7 @@ async def present_flight_options(self, ranked_flights, preferences):
     return presentation
 ```
 
-![Travel agent comparing and ranking flight and hotel options across providers](/images/blogs/pool-agents/5.jpg)
+![Travel agent comparing and ranking flight and hotel options across providers](https://picsum.photos/seed/ai-travel-booking-agent-2/800/450)
 
 ## Step 4: The Booking Engine
 
@@ -572,7 +572,7 @@ Many travelers have airline and hotel loyalty programs. The agent should factor 
 
 The agent should suggest travel insurance for international trips, trips with non-refundable bookings, or trips to areas with travel advisories.
 
-![State management handling booking failures and recovery strategies](/images/blogs/pool-agents/7.jpg)
+![State management handling booking failures and recovery strategies](https://picsum.photos/seed/ai-travel-booking-agent-3/800/450)
 
 ## Building the Conversational Experience
 

@@ -5,7 +5,7 @@ draft: false
 description: "Self-driving cars represent the most demanding application of Computer Vision — requiring real-time detection, segmentation, tracking, and prediction with zero tolerance for error. This post explores how autonomous vehicles see the world."
 tags: ["Computer Vision", "Self-Driving Cars", "Autonomous Vehicles", "Deep Learning", "AI"]
 categories: ["Computer Vision"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/self-driving-cars-computer-vision-cover/1200/630"
 keywords: ["self-driving cars", "autonomous vehicles", "LiDAR", "sensor fusion", "Tesla Autopilot", "Waymo", "perception stack", "real-time detection"]
 ---
 
@@ -42,7 +42,7 @@ Self-driving cars do not rely on cameras alone. Most autonomous vehicle platform
 **Cameras.** Provide rich color and texture information at high resolution. Essential for reading traffic signs, detecting traffic lights, and recognizing lane markings. Cameras are cheap and information-dense, but they struggle in poor lighting and lack native depth information.
 
 
-![Diagram showing visual perception system architecture](/images/blogs/pool-cv/8.jpg)
+![Diagram showing visual perception system architecture](https://picsum.photos/seed/self-driving-cars-computer-vision-1/800/450)
 
 **LiDAR (Light Detection and Ranging).** Emits laser pulses and measures the time for them to bounce back, creating a precise 3D point cloud of the environment. LiDAR provides accurate depth information regardless of lighting conditions, but it is expensive, produces sparse data (compared to cameras), and struggles with rain and fog.
 
@@ -79,7 +79,7 @@ The perception neural networks in self-driving cars are among the most sophistic
 **Neck.** A feature pyramid network (FPN) that creates multi-scale representations, enabling detection of both large objects (trucks) and small ones (traffic cones).
 
 
-![Illustration of image recognition and object detection techniques](/images/blogs/pool-cv/7.jpg)
+![Illustration of image recognition and object detection techniques](https://picsum.photos/seed/self-driving-cars-computer-vision-2/800/450)
 
 **Heads.** Multiple output heads for different tasks:
 - A detection head for bounding boxes and object classes.
@@ -115,7 +115,7 @@ These situations are rare individually, but collectively they happen constantly.
 The Society of Automotive Engineers (SAE) defines six levels of driving automation:
 
 
-![Visual representation of computer vision processing pipeline](/images/blogs/pool-cv/6.jpg)
+![Visual representation of computer vision processing pipeline](https://picsum.photos/seed/self-driving-cars-computer-vision-3/800/450)
 
 - **Level 0:** No automation. The human does everything.
 - **Level 1:** Driver assistance. The system can control steering OR acceleration, but not both. (e.g., lane keeping or adaptive cruise control.)

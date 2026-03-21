@@ -5,7 +5,7 @@ draft: false
 description: "Decision Trees make predictions by asking a series of yes-or-no questions. Learn how they work, how they split data, and why they are one of the most interpretable algorithms in machine learning."
 tags: ["Machine Learning", "Decision Trees", "Classification", "Algorithms", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1555421689-d68471e189f2?w=1200&h=630&fit=crop&auto=format"
 keywords: ["decision trees", "decision tree explained", "gini impurity", "information gain", "entropy", "machine learning classification"]
 ---
 
@@ -75,7 +75,7 @@ Both methods generally produce similar trees. Scikit-Learn uses Gini by default 
 
 ---
 
-![Decision tree splitting data into pure groups](/images/blogs/pool-ml/3.jpg)
+![Decision tree splitting data into pure groups](https://picsum.photos/seed/decision-trees-explained-1/800/450)
 
 ### Part 3: Building a Decision Tree Step by Step
 
@@ -139,7 +139,7 @@ The `export_text` function prints a human-readable version of the tree, showing 
 
 ---
 
-![Machine learning algorithm flowchart and logic](/images/blogs/pool-ml/5.jpg)
+![Machine learning algorithm flowchart and logic](https://picsum.photos/seed/decision-trees-explained-2/800/450)
 
 ### Part 6: The Overfitting Problem
 
@@ -179,7 +179,7 @@ An unconstrained tree will keep splitting until every leaf contains exactly one 
 
 ---
 
-![Ensemble methods building on individual decision trees](/images/blogs/pool-ml/7.jpg)
+![Ensemble methods building on individual decision trees](https://picsum.photos/seed/decision-trees-explained-3/800/450)
 
 ### Part 8: The Foundation for Something Greater
 

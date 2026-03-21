@@ -5,7 +5,7 @@ draft: false
 description: "AWS SageMaker provides a fully managed ML platform covering data preparation, training, deployment, and monitoring. Explore its components, strengths, limitations, and when it is the right choice for your ML workloads."
 tags: ["MLOps", "AWS", "SageMaker", "Machine Learning", "Cloud ML", "Model Deployment"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1522937335044-00c9f15f6ce5?w=1200&h=630&fit=crop&auto=format"
 keywords: ["aws sagemaker", "sagemaker tutorial", "aws ml platform", "sagemaker features", "cloud machine learning aws"]
 ---
 
@@ -37,7 +37,7 @@ SageMaker is not a single service. It is a collection of interconnected services
 | **SageMaker Ground Truth** | Data labeling |
 | **SageMaker Canvas** | No-code ML for business analysts |
 
-![AWS SageMaker platform architecture with interconnected ML services](/images/blogs/pool-mlops/3.jpg)
+![AWS SageMaker platform architecture with interconnected ML services](https://picsum.photos/seed/aws-sagemaker-spotlight-1/800/450)
 
 ---
 
@@ -200,7 +200,7 @@ pipeline.upsert(role_arn=role)
 pipeline.start()
 ```
 
-![SageMaker pipeline orchestrating model training and conditional deployment](/images/blogs/pool-mlops/5.jpg)
+![SageMaker pipeline orchestrating model training and conditional deployment](https://picsum.photos/seed/aws-sagemaker-spotlight-2/800/450)
 
 ---
 
@@ -287,7 +287,7 @@ monitor.create_monitoring_schedule(
 
 Model Monitor detects data drift, model quality degradation, and bias drift, and can trigger CloudWatch alarms.
 
-![SageMaker Model Monitor detecting data drift in deployed models](/images/blogs/pool-mlops/7.jpg)
+![SageMaker Model Monitor detecting data drift in deployed models](https://picsum.photos/seed/aws-sagemaker-spotlight-3/800/450)
 
 ---
 

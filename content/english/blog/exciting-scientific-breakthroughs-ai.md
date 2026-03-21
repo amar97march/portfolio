@@ -5,7 +5,7 @@ draft: false
 description: "From curing diseases to achieving nuclear fusion, here are the most exciting scientific frontiers where AI could deliver transformative breakthroughs in the coming decades."
 tags: ["AI", "Science", "Future", "Drug Discovery", "Fusion Energy", "Deep Learning"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI scientific breakthroughs", "AI drug discovery", "AI fusion energy", "AI antibiotic discovery", "AI mathematics", "future of AI science"]
 ---
 
@@ -47,7 +47,7 @@ The ITER project and private companies like Commonwealth Fusion Systems are acti
 
 ---
 
-![AI-driven breakthroughs in drug discovery and fusion energy](/images/blogs/pool-good/3.jpg)
+![AI-driven breakthroughs in drug discovery and fusion energy](https://picsum.photos/seed/exciting-scientific-breakthroughs-ai-1/800/450)
 
 ### 3. Solving Open Problems in Mathematics
 
@@ -94,7 +94,7 @@ The next frontier is **prediction and prevention** rather than reaction:
 
 ---
 
-![Scientific discoveries accelerated by artificial intelligence](/images/blogs/pool-good/4.jpg)
+![Scientific discoveries accelerated by artificial intelligence](https://picsum.photos/seed/exciting-scientific-breakthroughs-ai-2/800/450)
 
 ### 6. Understanding and Reversing Aging
 
@@ -134,7 +134,7 @@ The vision of medicine tailored to your individual genetics, microbiome, lifesty
 
 ---
 
-![The future of AI-powered scientific research](/images/blogs/pool-good/5.jpg)
+![The future of AI-powered scientific research](https://picsum.photos/seed/exciting-scientific-breakthroughs-ai-3/800/450)
 
 ### The Common Thread
 

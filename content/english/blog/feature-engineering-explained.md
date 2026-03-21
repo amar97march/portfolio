@@ -5,7 +5,7 @@ draft: false
 description: "Feature engineering is the art and science of creating informative variables from raw data. Learn the techniques that often matter more than model selection."
 tags: ["Feature Engineering", "Data Science", "Preprocessing", "Machine Learning"]
 categories: ["Data Science"]
-image: "/images/blogs/pool-data/1.jpg"
+image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=630&fit=crop&auto=format"
 keywords: ["feature engineering", "feature extraction", "data preprocessing", "creating features", "ML feature engineering"]
 ---
 
@@ -122,7 +122,7 @@ freq = df['city'].value_counts(normalize=True)
 df['city_frequency'] = df['city'].map(freq)
 ```
 
-![Transforming raw data into informative features](/images/blogs/pool-data/3.jpg)
+![Transforming raw data into informative features](https://picsum.photos/seed/feature-engineering-explained-1/800/450)
 
 ### 4. Text Features
 
@@ -212,7 +212,7 @@ df['price_tier'] = pd.cut(df['price'],
 df['salary_quartile'] = pd.qcut(df['salary'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
 ```
 
-![Aggregation and interaction features from grouped data](/images/blogs/pool-data/4.jpg)
+![Aggregation and interaction features from grouped data](https://picsum.photos/seed/feature-engineering-explained-2/800/450)
 
 ## Feature Selection: Removing the Noise
 
@@ -238,7 +238,7 @@ X_selected = selector.fit_transform(X_train, y_train)
 selected_features = X_train.columns[selector.get_support()]
 ```
 
-![Selecting the most predictive features for model training](/images/blogs/pool-data/5.jpg)
+![Selecting the most predictive features for model training](https://picsum.photos/seed/feature-engineering-explained-3/800/450)
 
 ## The Feature Engineering Mindset
 

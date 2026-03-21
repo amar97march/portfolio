@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on comparison of the major LLMs for everyday developer tasks — coding, writing, research, and analysis — based on real-world usage experience."
 tags: ["LLM", "GPT", "Claude", "Gemini", "Developer Tools", "Generative AI"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://picsum.photos/seed/which-llm-do-you-use-most-cover/1200/630"
 keywords: ["best LLM for coding", "ChatGPT vs Claude", "daily driver LLM", "LLM for developers", "practical LLM comparison", "which AI to use"]
 ---
 
@@ -45,7 +45,7 @@ GPT-4o is the model I reach for when I need a quick, reliable answer. Its streng
 
 ### Claude 3.5 Sonnet: The Thoughtful Analyst
 
-![Side-by-side comparison of major LLM capabilities](/images/blogs/pool-genai/3.jpg)
+![Side-by-side comparison of major LLM capabilities](https://picsum.photos/seed/which-llm-do-you-use-most-1/800/450)
 
 
 **Best for**: Complex reasoning, code analysis, long-form writing
@@ -86,7 +86,7 @@ Gemini's killer feature is its context window. With up to 1 million tokens, you 
 
 ### Open Source (Llama 3, Mistral, Phi): The Customizable Option
 
-![Task-specific LLM recommendation matrix](/images/blogs/pool-genai/4.jpg)
+![Task-specific LLM recommendation matrix](https://picsum.photos/seed/which-llm-do-you-use-most-2/800/450)
 
 
 **Best for**: Privacy-sensitive tasks, high-volume production, fine-tuned domain-specific applications
@@ -127,7 +127,7 @@ Based on my experience, here is my recommendation for specific tasks:
 
 ### My Actual Setup
 
-![Developer workflow integrating multiple AI models](/images/blogs/pool-genai/5.jpg)
+![Developer workflow integrating multiple AI models](https://picsum.photos/seed/which-llm-do-you-use-most-3/800/450)
 
 
 Here is how I have set up my daily workflow:

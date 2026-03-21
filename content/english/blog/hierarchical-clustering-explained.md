@@ -5,7 +5,7 @@ draft: false
 description: "Hierarchical clustering builds a tree-like structure that reveals how data points relate to each other at every level of granularity. Learn how dendrograms work and when to choose hierarchical over K-Means."
 tags: ["Machine Learning", "Clustering", "Hierarchical Clustering", "Unsupervised Learning", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=630&fit=crop&auto=format"
 keywords: ["hierarchical clustering", "dendrogram", "agglomerative clustering", "linkage methods", "clustering comparison", "unsupervised learning"]
 ---
 
@@ -48,7 +48,7 @@ The key question is: how do you define the "distance" between two clusters (not 
 ---
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/hierarchical-clustering-explained-1/800/450)
 
 ### Part 3: Linkage Methods — Defining "Closeness"
 
@@ -159,7 +159,7 @@ plt.show()
 ---
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/hierarchical-clustering-explained-2/800/450)
 
 ### Part 6: Choosing the Number of Clusters
 
@@ -211,7 +211,7 @@ plt.show()
 ---
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/hierarchical-clustering-explained-3/800/450)
 
 ### Part 8: Practical Tips
 

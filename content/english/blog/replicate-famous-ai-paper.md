@@ -5,7 +5,7 @@ draft: false
 description: "Why replicating a famous AI paper from scratch is one of the most impressive portfolio projects you can build. Includes a step-by-step guide, suggested papers to replicate, and tips for documenting your implementation."
 tags: ["AI Research", "Portfolio Project", "Deep Learning", "Paper Implementation", "Python"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://picsum.photos/seed/replicate-famous-ai-paper-cover/1200/630"
 keywords: ["replicate AI paper", "implement research paper", "AI portfolio project", "paper reproduction", "deep learning implementation"]
 ---
 
@@ -55,7 +55,7 @@ Not all papers are equally suitable for replication. Here are criteria for a goo
 ### The Replication Process
 
 
-![Diagram showing portfolio presentation strategies](/images/blogs/pool-portfolio/8.jpg)
+![Diagram showing portfolio presentation strategies](https://picsum.photos/seed/replicate-famous-ai-paper-1/800/450)
 
 #### Phase 1: Read the Paper (1-2 days)
 
@@ -102,7 +102,7 @@ paper_replication/
 Build the smallest components first and test each one:
 
 
-![Illustration of project documentation best practices](/images/blogs/pool-portfolio/7.jpg)
+![Illustration of project documentation best practices](https://picsum.photos/seed/replicate-famous-ai-paper-2/800/450)
 
 ```python
 # Example: Implementing scaled dot-product attention from scratch
@@ -164,7 +164,7 @@ test_scaled_attention()
 #### Phase 4: Train and Evaluate (3-5 days)
 
 
-![Visual guide to showcasing AI projects effectively](/images/blogs/pool-portfolio/6.jpg)
+![Visual guide to showcasing AI projects effectively](https://picsum.photos/seed/replicate-famous-ai-paper-3/800/450)
 
 Train your implementation and compare results against the paper. You do not need to match the paper's exact numbers (they often use massive compute). Instead:
 

@@ -3,7 +3,7 @@ title: "What Is Industry 4.0? The Fourth Industrial Revolution Explained"
 meta_title: ""
 description: "A comprehensive guide to Industry 4.0, the Fourth Industrial Revolution, covering its core technologies, real-world applications, and how AI, IoT, and smart manufacturing are transforming modern industry."
 date: 2027-10-18
-image: "/images/blogs/industry-4/cover.jpg"
+image: "https://images.unsplash.com/photo-1633412802994-5c058f151b66?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["industry-4", "manufacturing", "iot", "smart-factory"]
@@ -55,7 +55,7 @@ Manufacturing analytics operates at several levels. Descriptive analytics answer
 For example, a semiconductor manufacturer might analyze data from hundreds of process parameters across multiple production steps to identify subtle combinations of conditions that lead to defective chips. These correlations might be invisible to human engineers but detectable by machine learning algorithms trained on millions of data points.
 
 
-![Smart factory floor with AI-driven automation and monitoring](/images/blogs/pool-industry/3.jpg)
+![Smart factory floor with AI-driven automation and monitoring](https://picsum.photos/seed/industry-4-explained-1/800/450)
 
 ### 3. Cloud Computing
 
@@ -120,7 +120,7 @@ What does an Industry 4.0 factory actually look like in practice? While no facto
 In a modern smart factory, production equipment is networked and continuously streaming data to monitoring systems. Operators can view real-time dashboards showing machine status, production rates, quality metrics, and energy consumption. When a machine begins showing signs of degradation -- subtle changes in vibration patterns, temperature trends, or power consumption -- predictive maintenance algorithms flag the issue before it causes a breakdown.
 
 
-![Illustration of industrial IoT sensors and connected manufacturing](/images/blogs/pool-industry/5.jpg)
+![Illustration of industrial IoT sensors and connected manufacturing](https://picsum.photos/seed/industry-4-explained-2/800/450)
 
 ### Flexible Manufacturing
 
@@ -153,7 +153,7 @@ Food manufacturers use IoT sensors to monitor hygiene conditions, track product 
 Electronics manufacturers face extreme precision requirements and rapid product cycles. Industry 4.0 technologies enable the flexibility needed to quickly switch between product models while maintaining the precision required for components measured in micrometers. AI-powered process optimization continuously adjusts manufacturing parameters to maximize yield in processes where small variations can cause defects.
 
 
-![Visual representation of AI-powered quality control and optimization](/images/blogs/pool-industry/7.jpg)
+![Visual representation of AI-powered quality control and optimization](https://picsum.photos/seed/industry-4-explained-3/800/450)
 
 ## Challenges and Barriers to Adoption
 

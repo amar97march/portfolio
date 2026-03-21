@@ -5,7 +5,7 @@ draft: false
 description: "Understand the difference between normalization and standardization — when to use each, why they matter, and how they affect model performance."
 tags: ["Normalization", "Standardization", "Preprocessing", "Feature Scaling", "Data Science"]
 categories: ["Data Science"]
-image: "/images/blogs/pool-data/1.jpg"
+image: "https://picsum.photos/seed/normalization-vs-standardization-cover/1200/630"
 keywords: ["normalization vs standardization", "feature scaling", "min max scaling", "standard scaler", "data preprocessing"]
 ---
 
@@ -104,7 +104,7 @@ print(normalized)
 - When the data distribution is NOT Gaussian
 
 
-![Data preprocessing and transformation workflow](/images/blogs/pool-data/3.jpg)
+![Data preprocessing and transformation workflow](https://picsum.photos/seed/normalization-vs-standardization-1/800/450)
 
 ## Standardization (Z-Score Scaling)
 
@@ -188,7 +188,7 @@ plt.savefig('scaling_comparison.png')
 ```
 
 
-![Feature engineering and data normalization](/images/blogs/pool-data/4.jpg)
+![Feature engineering and data normalization](https://picsum.photos/seed/normalization-vs-standardization-2/800/450)
 
 ## Other Scaling Methods
 
@@ -247,7 +247,7 @@ X_test_scaled = scaler.transform(X_test)
 ```
 
 
-![Clean structured data ready for machine learning](/images/blogs/pool-data/5.jpg)
+![Clean structured data ready for machine learning](https://picsum.photos/seed/normalization-vs-standardization-3/800/450)
 
 ## Quick Reference Guide
 

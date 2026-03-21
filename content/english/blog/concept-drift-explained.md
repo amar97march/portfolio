@@ -3,7 +3,7 @@ title: "Concept Drift: When the Meaning of Your Data Changes Under Your Feet"
 meta_title: ""
 description: "Explore concept drift in machine learning, where the relationship between input features and target variables changes over time, causing models to silently fail in production even when input distributions remain stable."
 date: 2027-06-20
-image: "/images/blogs/concept-drift/cover.jpg"
+image: "https://images.unsplash.com/photo-1629904853893-c2c09db951c0?w=1200&h=630&fit=crop&auto=format"
 categories: ["MLOps"]
 author: "Amar Singh"
 tags: ["concept-drift", "monitoring", "model-degradation", "retraining"]
@@ -72,7 +72,7 @@ P(Y|X) at time t+10:  10% Pattern A, 90% Pattern B
 Incremental drift is a continuous, slow evolution of the concept. It is like the gradual shift in what constitutes a "professional" resume over the decades. The change is so slow that any two adjacent time periods look virtually identical, but the cumulative shift over years is dramatic.
 
 
-![Diagram illustrating MLOps pipeline components and workflow](/images/blogs/pool-mlops/3.jpg)
+![Diagram illustrating MLOps pipeline components and workflow](https://picsum.photos/seed/concept-drift-explained-1/800/450)
 
 ### Recurring Concept Drift
 
@@ -172,7 +172,7 @@ Medical knowledge evolves over time. Diagnostic criteria change, new research re
 User preferences are inherently non-stationary. What users consider a "good" recommendation changes with cultural trends, personal life changes, and exposure to the platform itself. A recommendation system for a music streaming service must cope with the fact that listening preferences shift continuously. A user who listened primarily to pop music during summer might shift to acoustic and indie genres in autumn, and neither pattern is "wrong."
 
 
-![Visual showing the infrastructure behind production machine learning](/images/blogs/pool-mlops/4.jpg)
+![Visual showing the infrastructure behind production machine learning](https://picsum.photos/seed/concept-drift-explained-2/800/450)
 
 ## Detecting Concept Drift
 
@@ -413,7 +413,7 @@ class ProxyDriftDetector:
 Once you have detected concept drift, you need a strategy for adapting. Here are the main approaches.
 
 
-![Illustration of automated model deployment and monitoring systems](/images/blogs/pool-mlops/5.jpg)
+![Illustration of automated model deployment and monitoring systems](https://picsum.photos/seed/concept-drift-explained-3/800/450)
 
 ### Sliding Window Retraining
 

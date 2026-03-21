@@ -5,7 +5,7 @@ draft: false
 description: "Computer Vision is the field of AI that gives machines the ability to interpret visual information. This post explores how computers learn to see, the core tasks in CV, and why it matters for the future of technology."
 tags: ["Computer Vision", "AI", "Deep Learning", "Image Processing", "Neural Networks"]
 categories: ["Computer Vision"]
-image: "/images/blogs/pool-cv/1.jpg"
+image: "https://picsum.photos/seed/what-is-computer-vision-cover/1200/630"
 keywords: ["computer vision", "image recognition", "convolutional neural networks", "CNN", "visual AI", "image processing", "deep learning vision"]
 ---
 
@@ -41,7 +41,7 @@ Despite these challenges, the field has made extraordinary progress, especially 
 
 ---
 
-![Neural network processing image through convolutional layers](/images/blogs/pool-cv/6.jpg)
+![Neural network processing image through convolutional layers](https://picsum.photos/seed/what-is-computer-vision-1/800/450)
 
 
 ### A Brief History of Computer Vision
@@ -105,7 +105,7 @@ This code uses a pretrained ResNet-18 model to classify an image. The model was 
 
 ---
 
-![Object detection bounding boxes on a street scene](/images/blogs/pool-cv/7.jpg)
+![Object detection bounding boxes on a street scene](https://picsum.photos/seed/what-is-computer-vision-2/800/450)
 
 
 ### The Core Tasks of Computer Vision
@@ -128,7 +128,7 @@ We will explore classification, detection, and segmentation in dedicated posts o
 
 ---
 
-![Computer vision applications in healthcare and manufacturing](/images/blogs/pool-cv/8.jpg)
+![Computer vision applications in healthcare and manufacturing](https://picsum.photos/seed/what-is-computer-vision-3/800/450)
 
 
 ### Where Computer Vision Is Used Today

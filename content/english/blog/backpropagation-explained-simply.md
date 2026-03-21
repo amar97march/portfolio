@@ -5,7 +5,7 @@ draft: false
 description: "A clear, intuitive explanation of backpropagation — the algorithm that allows neural networks to learn from their mistakes by flowing error signals backward."
 tags: ["Backpropagation", "Deep Learning", "Gradient Descent", "Neural Networks"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=630&fit=crop&auto=format"
 keywords: ["backpropagation explained", "how neural networks learn", "gradient descent", "chain rule", "deep learning training"]
 ---
 
@@ -29,7 +29,7 @@ Backpropagation works on the same principle:
 
 The clever part is **how** the error is propagated backward through the network to determine which weights should be adjusted, and by how much.
 
-![Neural network learning from errors through backward propagation of gradients](/images/blogs/pool-dl/3.jpg)
+![Neural network learning from errors through backward propagation of gradients](https://picsum.photos/seed/backpropagation-explained-simply-1/800/450)
 
 ## Step-by-Step Walkthrough
 
@@ -226,7 +226,7 @@ for epoch in range(100):
         network.update_weights(gradients, learning_rate)
 ```
 
-![Chain rule decomposing gradients through layers of a deep neural network](/images/blogs/pool-dl/5.jpg)
+![Chain rule decomposing gradients through layers of a deep neural network](https://picsum.photos/seed/backpropagation-explained-simply-2/800/450)
 
 ## Modern Optimizers: Beyond Basic Gradient Descent
 
@@ -281,7 +281,7 @@ model = nn.Sequential(
 )
 ```
 
-![Common training problems including vanishing gradients and overfitting](/images/blogs/pool-dl/7.jpg)
+![Common training problems including vanishing gradients and overfitting](https://picsum.photos/seed/backpropagation-explained-simply-3/800/450)
 
 ## Backpropagation in Modern Frameworks
 

@@ -5,7 +5,7 @@ draft: false
 description: "AI can now watch a live camera feed and describe what it sees in real-time — narrating actions, identifying objects, and answering questions. This post explores how real-time visual AI works and its transformative applications."
 tags: ["Generative AI", "Computer Vision", "Multimodal AI", "Real-Time AI", "Video Understanding"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1481487196290-c152afe65b7d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["live video AI", "real-time video analysis", "video description AI", "visual narration", "Be My Eyes", "real-time vision", "video understanding"]
 ---
 
@@ -88,7 +88,7 @@ For continuous real-time analysis, you would wrap this in a loop, add frame sele
 
 ---
 
-![Real-time video analysis pipeline processing frames](/images/blogs/pool-genai/6.jpg)
+![Real-time video analysis pipeline processing frames](https://picsum.photos/seed/describing-live-video-with-ai-1/800/450)
 
 ### The Be My Eyes Partnership
 
@@ -124,7 +124,7 @@ This is AI at its most humanistically impactful — restoring a degree of visual
 
 ---
 
-![Multimodal AI enabling accessibility and visual understanding](/images/blogs/pool-genai/7.jpg)
+![Multimodal AI enabling accessibility and visual understanding](https://picsum.photos/seed/describing-live-video-with-ai-2/800/450)
 
 ### Building a Real-Time Video Description System
 
@@ -186,7 +186,7 @@ This simple system captures a frame every 3 seconds, sends it to GPT-4o with the
 
 ---
 
-![Applications of computer vision across industries](/images/blogs/pool-genai/8.jpg)
+![Applications of computer vision across industries](https://picsum.photos/seed/describing-live-video-with-ai-3/800/450)
 
 ### The Privacy Question
 

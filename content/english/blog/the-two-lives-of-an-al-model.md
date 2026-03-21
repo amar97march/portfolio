@@ -5,7 +5,7 @@ draft: false
 description: "Why does training cost millions but using AI costs pennies? We break down the two distinct phases of the Machine Learning lifecycle: creating the intelligence (Training) and applying it (Inference)."
 tags: ["Machine Learning", "AI Concepts", "Training", "Inference", "DevOps", "MLOps"]
 categories: ["Machine Learning"]
-image: "/images/blogs/blog8/cover.png"
+image: "https://picsum.photos/seed/the-two-lives-of-an-al-model-cover/1200/630"
 ---
 
 If you read headlines about Artificial Intelligence, you will see two very different types of numbers thrown around.
@@ -53,7 +53,7 @@ Now, Sarah is a practicing lawyer. A client walks in and asks, "Is this contract
 
 ---
 
-![Training versus inference in machine learning](/images/blogs/pool-ml/3.jpg)
+![Training versus inference in machine learning](https://picsum.photos/seed/the-two-lives-of-an-al-model-1/800/450)
 
 ### Part 2: The Technical Deep Dive
 
@@ -87,7 +87,7 @@ The bridge between these two worlds is the **Model Artifact** (often a file like
 
 ---
 
-![Forward and backward passes in neural network training](/images/blogs/pool-ml/4.jpg)
+![Forward and backward passes in neural network training](https://picsum.photos/seed/the-two-lives-of-an-al-model-2/800/450)
 
 ### Part 3: The Economics and Hardware of AI
 
@@ -109,7 +109,7 @@ Right now, the industry is shifting focus. Training Llama 3 was expensive, but r
 
 ---
 
-![Hardware and cost differences between training and inference](/images/blogs/pool-ml/5.jpg)
+![Hardware and cost differences between training and inference](https://picsum.photos/seed/the-two-lives-of-an-al-model-3/800/450)
 
 ### Part 4: The Code — Seeing the Difference
 

@@ -5,7 +5,7 @@ draft: false
 description: "AI credit scoring promises greater accuracy and financial inclusion. But it also raises serious questions about fairness, transparency, and bias. This post examines both sides of the coin."
 tags: ["AI", "Credit Scoring", "Finance", "Fairness", "Bias", "Machine Learning"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI credit scoring", "machine learning credit risk", "algorithmic bias lending", "fair lending AI", "alternative data credit"]
 ---
 
@@ -31,7 +31,7 @@ FICO scores work. They have been validated over decades and are reasonably predi
 
 ---
 
-![Traditional credit scoring limitations and the credit invisible problem](/images/blogs/pool-industry/3.jpg)
+![Traditional credit scoring limitations and the credit invisible problem](https://picsum.photos/seed/ai-credit-scoring-1/800/450)
 
 ### Part 2: How AI Changes the Game
 
@@ -91,7 +91,7 @@ ML models can be retrained more frequently, allowing them to adapt to changing e
 
 ---
 
-![Machine learning models incorporating alternative data for credit decisions](/images/blogs/pool-industry/5.jpg)
+![Machine learning models incorporating alternative data for credit decisions](https://picsum.photos/seed/ai-credit-scoring-2/800/450)
 
 ### Part 3: The Risks — And They Are Serious
 
@@ -143,7 +143,7 @@ And the fundamental question: should a lender have access to your bank transacti
 
 ---
 
-![Bias and fairness challenges in AI-driven lending decisions](/images/blogs/pool-industry/7.jpg)
+![Bias and fairness challenges in AI-driven lending decisions](https://picsum.photos/seed/ai-credit-scoring-3/800/450)
 
 ### Part 4: The Regulatory Landscape
 

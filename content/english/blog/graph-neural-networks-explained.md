@@ -5,7 +5,7 @@ draft: false
 description: "An introduction to Graph Neural Networks (GNNs) — how they work, why they matter, and why traditional neural networks struggle with relational data. Learn the fundamentals of message passing and graph convolutions."
 tags: ["Graph Neural Networks", "GNN", "Deep Learning", "Advanced AI", "Machine Learning"]
 categories: ["Advanced AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1585776245991-cf89ed7d5a4c?w=1200&h=630&fit=crop&auto=format"
 keywords: ["graph neural networks", "GNN explained", "graph deep learning", "message passing", "graph convolution", "relational data AI"]
 ---
 
@@ -37,7 +37,7 @@ This relational information — the structure of connections — is exactly what
 GNNs solve this by operating directly on the graph structure, updating each node's representation based on its neighbors.
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/graph-neural-networks-explained-1/800/450)
 
 ### The Core Idea: Message Passing
 
@@ -97,7 +97,7 @@ Several variants of message passing have been proposed, each with different aggr
 **Message Passing Neural Network (MPNN)**: A general framework that encompasses most GNN variants. Explicitly defines message, aggregation, and update functions.
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/graph-neural-networks-explained-2/800/450)
 
 ### Graph-Level Tasks
 
@@ -145,7 +145,7 @@ Think of a GNN layer as a "round of communication" in a network:
 After K layers, each node has an understanding of the local structure within K hops. This is how GNNs capture the relational context that traditional networks miss.
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/graph-neural-networks-explained-3/800/450)
 
 ### Challenges and Limitations
 

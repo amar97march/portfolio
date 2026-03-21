@@ -5,7 +5,7 @@ draft: false
 description: "An honest examination of the debate around existential risk from artificial general intelligence (AGI) and artificial superintelligence (ASI), covering arguments from both camps."
 tags: ["AI Safety", "Existential Risk", "AGI", "ASI", "Superintelligence", "AI Risk", "AI Ethics"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://images.unsplash.com/photo-1450101499163-c8848e312ad7?w=1200&h=630&fit=crop&auto=format"
 keywords: ["existential risk AI", "AGI risk", "ASI superintelligence", "AI existential threat", "AI doom", "x-risk AI", "AI catastrophe"]
 ---
 
@@ -55,7 +55,7 @@ The existential risk concern is not limited to fringe figures. Researchers who h
 
 ---
 
-![Debating the risks of artificial general intelligence](/images/blogs/pool-safety/6.jpg)
+![Debating the risks of artificial general intelligence](https://picsum.photos/seed/existential-risk-agi-asi-debate-1/800/450)
 
 ### The Case That Existential Risk Is Overstated
 
@@ -95,7 +95,7 @@ Many thoughtful people occupy a middle ground:
 
 ---
 
-![Weighing AI safety against continued capabilities research](/images/blogs/pool-safety/7.jpg)
+![Weighing AI safety against continued capabilities research](https://picsum.photos/seed/existential-risk-agi-asi-debate-2/800/450)
 
 ### What the Experts Actually Think
 
@@ -117,7 +117,7 @@ This uncertainty itself is concerning. When the stakes are this high and our und
 
 ---
 
-![Navigating uncertainty in advanced AI development](/images/blogs/pool-safety/8.jpg)
+![Navigating uncertainty in advanced AI development](https://picsum.photos/seed/existential-risk-agi-asi-debate-3/800/450)
 
 ### Where I Stand
 

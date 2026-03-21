@@ -5,7 +5,7 @@ draft: false
 description: "Prepare for the coding portion of AI and ML interviews. This guide covers common Python and SQL challenges, patterns you must know, and strategies for solving problems under pressure."
 tags: ["AI Interview", "Python", "SQL", "Career", "Coding Interview"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI interview coding", "Python coding interview", "SQL interview questions", "ML interview preparation", "data science coding test"]
 ---
 
@@ -126,7 +126,7 @@ def knn_predict(X_train, y_train, X_test, k=5):
     return np.array(predictions)
 ```
 
-![Python data manipulation and NumPy operations for AI coding interviews](/images/blogs/pool-career/3.jpg)
+![Python data manipulation and NumPy operations for AI coding interviews](https://picsum.photos/seed/ai-interview-coding-python-sql-1/800/450)
 
 ### SQL in AI Interviews
 
@@ -198,7 +198,7 @@ FROM user_events
 WHERE event_date >= CURRENT_DATE - INTERVAL '30 days';
 ```
 
-![SQL window functions and CTEs commonly tested in data science interviews](/images/blogs/pool-career/5.jpg)
+![SQL window functions and CTEs commonly tested in data science interviews](https://picsum.photos/seed/ai-interview-coding-python-sql-2/800/450)
 
 ### Interview Strategy
 
@@ -222,7 +222,7 @@ Walk through your code with a small example. Check edge cases: empty inputs, sin
 
 Be ready to state the time and space complexity of your solution without being asked.
 
-![Strategies for solving coding problems under interview pressure](/images/blogs/pool-career/7.jpg)
+![Strategies for solving coding problems under interview pressure](https://picsum.photos/seed/ai-interview-coding-python-sql-3/800/450)
 
 ### Practice Resources
 

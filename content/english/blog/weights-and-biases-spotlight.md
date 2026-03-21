@@ -5,7 +5,7 @@ draft: false
 description: "Weights & Biases (W&B) has become the industry favorite for ML experiment tracking, offering rich visualizations, seamless collaboration, and powerful hyperparameter optimization. Learn how W&B works and when to choose it over alternatives."
 tags: ["MLOps", "Weights and Biases", "Experiment Tracking", "Machine Learning", "W&B", "Hyperparameter Tuning"]
 categories: ["MLOps"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/weights-and-biases-spotlight-cover/1200/630"
 keywords: ["weights and biases tutorial", "wandb ml tracking", "w&b experiment tracking", "wandb vs mlflow", "ml experiment visualization"]
 ---
 
@@ -83,7 +83,7 @@ That is it. Navigate to your W&B project dashboard and you will see your run wit
 
 ---
 
-![Getting started with Weights and Biases experiment tracking](/images/blogs/pool-mlops/3.jpg)
+![Getting started with Weights and Biases experiment tracking](https://picsum.photos/seed/weights-and-biases-spotlight-1/800/450)
 
 ## Logging Rich Data
 
@@ -215,7 +215,7 @@ W&B runs 50 trials with Bayesian optimization, automatically selecting promising
 
 ---
 
-![Hyperparameter optimization with W&B Sweeps](/images/blogs/pool-mlops/4.jpg)
+![Hyperparameter optimization with W&B Sweeps](https://picsum.photos/seed/weights-and-biases-spotlight-2/800/450)
 
 ## W&B Artifacts: Dataset and Model Versioning
 
@@ -323,7 +323,7 @@ The Hugging Face integration automatically logs all training metrics, model conf
 
 ---
 
-![Comparing W&B and MLflow for ML experiment management](/images/blogs/pool-mlops/5.jpg)
+![Comparing W&B and MLflow for ML experiment management](https://picsum.photos/seed/weights-and-biases-spotlight-3/800/450)
 
 ## W&B vs MLflow: When to Choose Which
 

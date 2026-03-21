@@ -3,7 +3,7 @@ title: "Data Poisoning Explained: How Artists Are Fighting Back Against AI Train
 meta_title: ""
 description: "An in-depth look at how artists are using data poisoning techniques like Glaze and Nightshade to protect their work from being used to train AI models, and what this means for the future of generative AI."
 date: 2028-07-26
-image: "/images/blogs/data-poisoning/cover.jpg"
+image: "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["data-poisoning", "adversarial", "artists", "training-data"]
@@ -39,7 +39,7 @@ This learning process creates what researchers call the model's "concept space,"
 Data poisoning exploits this learning process by introducing samples that create false associations. If a poisoned image looks like a dog to a human but has been subtly altered so that the model's feature extractors interpret it as a cat, the model will learn an incorrect mapping between the visual features it detects and the concept it is supposed to represent.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/data-poisoning-artists-fight-back-1/800/450)
 
 ## Glaze: The First Line of Defense
 
@@ -78,7 +78,7 @@ The emergence of data poisoning tools has triggered a technical arms race betwee
 **Adversarial training.** Borrowing from the broader adversarial machine learning literature, some researchers have proposed training models on a mix of clean and poisoned data, with explicit labels indicating which samples are poisoned. This approach, known as adversarial training, can improve the model's robustness to poisoning attacks but requires access to a large corpus of known poisoned samples.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/data-poisoning-artists-fight-back-2/800/450)
 
 ## The Artist's Perspective
 
@@ -111,7 +111,7 @@ Third, the effectiveness varies depending on the specific model architecture and
 Despite these challenges, the symbolic and psychological impact of data poisoning tools should not be underestimated. Even if their practical effectiveness is limited, they have shifted the conversation about AI training data rights and given artists a tangible way to express their dissent. They have also forced AI companies to confront the ethical implications of their data collection practices more directly.
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/data-poisoning-artists-fight-back-3/800/450)
 
 ## Beyond Poisoning: Alternative Approaches
 

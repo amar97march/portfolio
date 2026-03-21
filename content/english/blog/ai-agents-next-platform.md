@@ -3,7 +3,7 @@ title: "Are AI Agents the Next Platform After Mobile and Web?"
 meta_title: ""
 description: "A critical examination of whether AI agents represent a genuine platform shift on par with the transitions from desktop to web and from web to mobile, analyzing the technical foundations, economic dynamics, and historical parallels that will determine if agents become the next computing paradigm."
 date: 2027-04-19
-image: "/images/blogs/agents-next-platform/cover.jpg"
+image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Agents"]
 author: "Amar Singh"
 tags: ["agents", "platform-shift", "future", "technology-trends"]
@@ -42,7 +42,7 @@ Consider booking travel (a topic we explored in depth in a previous post). On th
 
 **Verdict: Partially meets the criterion.** The interaction model is meaningfully different, but it is an evolution of existing patterns (chat interfaces, voice assistants) rather than a discontinuous break like touch was from mouse-and-keyboard.
 
-![AI agents enabling a new interaction model based on delegation rather than operation](/images/blogs/pool-agents/3.jpg)
+![AI agents enabling a new interaction model based on delegation rather than operation](https://picsum.photos/seed/ai-agents-next-platform-1/800/450)
 
 ## Criterion 2: A New Distribution Mechanism
 
@@ -148,7 +148,7 @@ Mobile was initially dismissed as a small-screen version of the web. It took yea
 
 The parallel for agents is that the platform shift will not come from agents doing what web and mobile apps already do (just hands-free). It will come from agents enabling entirely new categories of tasks that were previously impossible or impractical --- tasks that require combining multiple services, sustained attention over hours or days, or real-time adaptation to changing conditions.
 
-![Historical pattern of platform transitions from mainframe to mobile to agents](/images/blogs/pool-agents/5.jpg)
+![Historical pattern of platform transitions from mainframe to mobile to agents](https://picsum.photos/seed/ai-agents-next-platform-2/800/450)
 
 ## The Case Against: Agents as a Feature, Not a Platform
 
@@ -196,7 +196,7 @@ Traditional interfaces will persist for tasks where direct manipulation is super
 
 The "platform" may not be a single agent but an ecosystem of specialized agents that can be composed, similar to how the web is not a single application but an ecosystem of sites that can link to and embed each other.
 
-![The realistic middle ground for AI agents as computing platforms](/images/blogs/pool-agents/7.jpg)
+![The realistic middle ground for AI agents as computing platforms](https://picsum.photos/seed/ai-agents-next-platform-3/800/450)
 
 ## Implications for Builders
 

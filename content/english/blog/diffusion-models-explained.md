@@ -5,7 +5,7 @@ draft: false
 description: "Diffusion models are the breakthrough behind modern AI image generation. This post explains what diffusion models are, how they differ from GANs, and why they power the most impressive AI art tools available today."
 tags: ["Generative AI", "Diffusion Models", "DALL-E", "Midjourney", "Deep Learning", "AI Art"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["diffusion model", "DALL-E", "Midjourney", "Stable Diffusion", "denoising", "text-to-image", "AI image generation", "score matching"]
 ---
 
@@ -49,7 +49,7 @@ The main disadvantage of diffusion models is **speed** — they require many ite
 
 ---
 
-![The diffusion process from noise to generated image](/images/blogs/pool-genai/3.jpg)
+![The diffusion process from noise to generated image](https://picsum.photos/seed/diffusion-models-explained-1/800/450)
 
 ### The Key Components
 
@@ -91,7 +91,7 @@ A higher guidance scale produces images that more closely match the prompt but m
 
 ---
 
-![Text-to-image generation pipeline with conditioning](/images/blogs/pool-genai/5.jpg)
+![Text-to-image generation pipeline with conditioning](https://picsum.photos/seed/diffusion-models-explained-2/800/450)
 
 ### The Landmark Models
 
@@ -121,7 +121,7 @@ Diffusion models are not limited to generating images from text:
 
 ---
 
-![Creative AI tools transforming visual content creation](/images/blogs/pool-genai/7.jpg)
+![Creative AI tools transforming visual content creation](https://picsum.photos/seed/diffusion-models-explained-3/800/450)
 
 ### The Implications
 

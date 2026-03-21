@@ -5,7 +5,7 @@ draft: false
 description: "Every AI startup faces the same chicken-and-egg problem: you need data to build your model, but you need a product to generate data. Here is how to break the cycle and build your first dataset."
 tags: ["AI", "Startups", "Data Strategy", "Datasets", "Machine Learning", "Business"]
 categories: ["AI Business"]
-image: "/images/blogs/pool-business/1.jpg"
+image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI data strategy", "first dataset startup", "data collection AI", "cold start data", "AI startup data", "building training data", "data flywheel"]
 ---
 
@@ -100,7 +100,7 @@ Synthetic data has limitations — it may not capture the full complexity of rea
 
 ---
 
-![Startup team planning their data collection strategy](/images/blogs/pool-business/6.jpg)
+![Startup team planning their data collection strategy](https://picsum.photos/seed/data-strategy-for-startups-1/800/450)
 
 ### Strategy 3: The Human-in-the-Loop Bootstrap
 
@@ -160,7 +160,7 @@ Design decisions that maximize data generation:
 
 ---
 
-![Building data partnerships and flywheel effects](/images/blogs/pool-business/7.jpg)
+![Building data partnerships and flywheel effects](https://picsum.photos/seed/data-strategy-for-startups-2/800/450)
 
 ### How Much Data Do You Need?
 
@@ -191,7 +191,7 @@ Invest in data quality infrastructure from day one: annotation guidelines, quali
 
 ---
 
-![Scaling from initial dataset to production-grade data](/images/blogs/pool-business/8.jpg)
+![Scaling from initial dataset to production-grade data](https://picsum.photos/seed/data-strategy-for-startups-3/800/450)
 
 ### Final Thoughts
 

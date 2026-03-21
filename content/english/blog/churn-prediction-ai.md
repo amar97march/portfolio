@@ -5,7 +5,7 @@ draft: false
 description: "Acquiring a new customer costs 5-7x more than retaining an existing one. AI-powered churn prediction identifies at-risk customers before they leave, enabling proactive retention strategies."
 tags: ["AI", "Churn Prediction", "Machine Learning", "Customer Retention", "Classification", "Business Intelligence"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=1200&h=630&fit=crop&auto=format"
 keywords: ["churn prediction AI", "customer retention machine learning", "churn model", "predictive analytics churn", "customer attrition prediction"]
 ---
 
@@ -38,7 +38,7 @@ Understanding these reasons is important because it informs both the features we
 ---
 
 
-![Illustration of AI-powered business analytics and prediction systems](/images/blogs/pool-industry/3.jpg)
+![Illustration of AI-powered business analytics and prediction systems](https://picsum.photos/seed/churn-prediction-ai-1/800/450)
 
 ### Part 2: Building a Churn Prediction Model
 
@@ -192,7 +192,7 @@ This is where SHAP explanations become actionable — if the model says a custom
 ---
 
 
-![Visual showing machine learning applied to real-world business problems](/images/blogs/pool-industry/4.jpg)
+![Visual showing machine learning applied to real-world business problems](https://picsum.photos/seed/churn-prediction-ai-2/800/450)
 
 ### Part 4: Evaluating Churn Models
 
@@ -233,7 +233,7 @@ This framework explicitly accounts for the fact that:
 ---
 
 
-![Conceptual image of data-driven customer insights and decision-making](/images/blogs/pool-industry/5.jpg)
+![Conceptual image of data-driven customer insights and decision-making](https://picsum.photos/seed/churn-prediction-ai-3/800/450)
 
 ### Part 5: Common Pitfalls
 

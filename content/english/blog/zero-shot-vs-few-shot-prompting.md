@@ -5,7 +5,7 @@ draft: false
 description: "Master zero-shot and few-shot prompting techniques to dramatically improve LLM outputs — with practical examples for developers."
 tags: ["Prompt Engineering", "Zero-Shot", "Few-Shot", "LLM", "AI Techniques"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://picsum.photos/seed/zero-shot-vs-few-shot-prompting-cover/1200/630"
 keywords: ["zero-shot prompting", "few-shot prompting", "few-shot learning", "LLM prompting", "in-context learning", "prompt examples"]
 ---
 
@@ -75,7 +75,7 @@ The examples serve multiple purposes:
 
 ### How Many Shots? The Practical Guide
 
-![Zero-shot versus few-shot prompting comparison with examples](/images/blogs/pool-prompt/6.jpg)
+![Zero-shot versus few-shot prompting comparison with examples](https://picsum.photos/seed/zero-shot-vs-few-shot-prompting-1/800/450)
 
 
 Research and experience suggest the following guidelines:
@@ -132,7 +132,7 @@ Place the most representative examples first and the most challenging ones last.
 
 ### Zero-Shot vs. Few-Shot: A Comparison
 
-![Designing effective few-shot examples for consistent output](/images/blogs/pool-prompt/7.jpg)
+![Designing effective few-shot examples for consistent output](https://picsum.photos/seed/zero-shot-vs-few-shot-prompting-2/800/450)
 
 
 Here is a practical comparison using a real task — extracting structured data from unstructured text:
@@ -203,7 +203,7 @@ Question: "A factory produces 450 units in 5 days working
 
 ### Practical Code Example: Building a Few-Shot Classifier
 
-![Decision guide for choosing between prompting and fine-tuning](/images/blogs/pool-prompt/8.jpg)
+![Decision guide for choosing between prompting and fine-tuning](https://picsum.photos/seed/zero-shot-vs-few-shot-prompting-3/800/450)
 
 
 Here is how to implement few-shot classification in Python:

@@ -3,7 +3,7 @@ title: "364 Days of Writing About AI: Lessons Learned and Surprising Insights"
 meta_title: ""
 description: "A personal retrospective on the experience of writing about artificial intelligence every day for nearly a year, covering the lessons learned about AI, writing, learning in public, and the unexpected insights that emerged along the way."
 date: 2029-03-23
-image: "/images/blogs/retrospective/cover.jpg"
+image: "https://picsum.photos/seed/year-of-ai-writing-retrospective-cover/1200/630"
 categories: ["Reflections"]
 author: "Amar Singh"
 tags: ["retrospective", "learning-journey", "writing", "personal-growth"]
@@ -52,7 +52,7 @@ The tooling is not perfect, but it is light-years ahead of where it was five yea
 
 ### Ethical Concerns Are Not Abstract
 
-![Daily writing habit showing consistency over 364 days](/images/blogs/pool-learning/3.jpg)
+![Daily writing habit showing consistency over 364 days](https://picsum.photos/seed/year-of-ai-writing-retrospective-1/800/450)
 
 
 Before this project, I understood AI ethics primarily as an abstract intellectual topic. Writing about it extensively, reading case studies of AI systems that caused real harm, engaging with perspectives from affected communities, and examining the regulatory landscape in detail transformed my understanding. AI ethics is not a philosophical exercise; it is a practical discipline that affects real people in real ways.
@@ -93,7 +93,7 @@ For example, comparing a neural network to the human brain is an analogy so perv
 
 ### Feedback Loops Matter Enormously
 
-![Key lessons learned about AI from a year of exploration](/images/blogs/pool-learning/4.jpg)
+![Key lessons learned about AI from a year of exploration](https://picsum.photos/seed/year-of-ai-writing-retrospective-2/800/450)
 
 
 Publishing daily meant receiving feedback daily, through comments, messages, shares, and engagement metrics. This feedback loop was invaluable for improving my writing. I could see which explanations clicked and which fell flat, which topics sparked discussion and which were met with silence, which formats worked and which did not.
@@ -124,7 +124,7 @@ This is not false modesty. It is a genuine observation about the vastness of the
 
 ### Compounding Returns
 
-![Community engagement and feedback loop from public learning](/images/blogs/pool-learning/5.jpg)
+![Community engagement and feedback loop from public learning](https://picsum.photos/seed/year-of-ai-writing-retrospective-3/800/450)
 
 
 The value of the project compounded over time in ways I did not anticipate. Early posts provided foundations that later posts could build on, reducing the amount of background explanation needed. The growing archive became a reference I could link to, creating a web of interconnected content that was more valuable than the sum of its parts. Readers who discovered the project later could work through the archive at their own pace, creating an evergreen resource.

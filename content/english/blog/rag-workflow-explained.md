@@ -5,7 +5,7 @@ draft: false
 description: "A step-by-step walkthrough of the complete RAG pipeline — from document ingestion to response generation — with code examples and optimization tips."
 tags: ["RAG", "LLM", "Vector Search", "AI Pipeline", "Generative AI"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/rag-workflow-explained-cover/1200/630"
 keywords: ["RAG workflow", "RAG pipeline", "document retrieval", "semantic search", "RAG implementation", "AI pipeline architecture"]
 ---
 
@@ -99,7 +99,7 @@ def chunk_documents(documents, chunk_size=500, chunk_overlap=100):
 **Chunking strategies compared:**
 
 
-![Illustration of knowledge base integration with language models](/images/blogs/pool-rag/5.jpg)
+![Illustration of knowledge base integration with language models](https://picsum.photos/seed/rag-workflow-explained-1/800/450)
 
 | Strategy | Chunk Size | Overlap | Best For |
 |----------|-----------|---------|----------|
@@ -195,7 +195,7 @@ def retrieve(collection, query: str, top_k: int = 5):
 **Improving retrieval quality:**
 
 
-![Visual representation of vector search and document retrieval](/images/blogs/pool-rag/4.jpg)
+![Visual representation of vector search and document retrieval](https://picsum.photos/seed/rag-workflow-explained-2/800/450)
 
 **Hybrid search** combines vector search with keyword search:
 
@@ -284,7 +284,7 @@ def generate_response(query: str, retrieved_docs: list) -> str:
 Putting it all together:
 
 
-![Diagram of retrieval-augmented generation architecture](/images/blogs/pool-rag/3.jpg)
+![Diagram of retrieval-augmented generation architecture](https://picsum.photos/seed/rag-workflow-explained-3/800/450)
 
 ```python
 class RAGPipeline:

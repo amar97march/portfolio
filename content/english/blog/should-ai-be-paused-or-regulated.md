@@ -5,7 +5,7 @@ draft: false
 description: "An honest analysis of the debate over whether AI development should be paused, heavily regulated, or allowed to proceed with lighter oversight. Examining arguments from all sides."
 tags: ["AI Regulation", "AI Safety", "AI Ethics", "Opinion", "Policy", "Technology"]
 categories: ["AI Regulation"]
-image: "/images/blogs/pool-regulation/1.jpg"
+image: "https://picsum.photos/seed/should-ai-be-paused-or-regulated-cover/1200/630"
 keywords: ["AI pause", "AI moratorium", "AI regulation debate", "should we pause AI", "AI safety regulation", "AI development speed"]
 ---
 
@@ -37,7 +37,7 @@ Society needs time to understand AI, debate its implications, and develop approp
 
 ---
 
-![Weighing the arguments for and against pausing AI development](/images/blogs/pool-regulation/3.jpg)
+![Weighing the arguments for and against pausing AI development](https://picsum.photos/seed/should-ai-be-paused-or-regulated-1/800/450)
 
 ### The Case Against Pausing
 
@@ -78,7 +78,7 @@ While a global pause is unrealistic, international regulatory coordination is ac
 
 ---
 
-![Regulatory frameworks as an alternative to pausing AI](/images/blogs/pool-regulation/4.jpg)
+![Regulatory frameworks as an alternative to pausing AI](https://picsum.photos/seed/should-ai-be-paused-or-regulated-2/800/450)
 
 ### The Arguments I Find Most Persuasive
 
@@ -118,7 +118,7 @@ Independent safety research, independent auditing, and independent regulatory bo
 
 ---
 
-![Balancing innovation and safety in AI development](/images/blogs/pool-regulation/5.jpg)
+![Balancing innovation and safety in AI development](https://picsum.photos/seed/should-ai-be-paused-or-regulated-3/800/450)
 
 ### What Individual Developers Can Do
 

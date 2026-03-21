@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to Large Language Models — what they are, how they evolved from the Transformer architecture, and why scale changes everything in AI."
 tags: ["LLM", "Generative AI", "Transformer", "NLP", "Deep Learning"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://picsum.photos/seed/what-is-a-large-language-model-cover/1200/630"
 keywords: ["large language model", "LLM explained", "transformer architecture", "GPT", "scaling laws", "natural language processing", "AI language model"]
 ---
 
@@ -52,7 +52,7 @@ Output → P(next token) → "Paris" (highest probability)
 
 The model generates text one token at a time, feeding each generated token back as input. This is called **autoregressive generation**.
 
-![How large language models process and generate text](/images/blogs/pool-genai/6.jpg)
+![How large language models process and generate text](https://picsum.photos/seed/what-is-a-large-language-model-1/800/450)
 
 ### Why Scale Matters: Scaling Laws
 
@@ -109,7 +109,7 @@ The model sees trillions of these examples during training. In the process, it l
 
 This is why some researchers describe LLMs as "compressed representations of their training data." The model does not store facts in a database. Instead, it learns statistical patterns that allow it to generate text that is contextually appropriate.
 
-![Scaling laws and emergent capabilities in large language models](/images/blogs/pool-genai/7.jpg)
+![Scaling laws and emergent capabilities in large language models](https://picsum.photos/seed/what-is-a-large-language-model-2/800/450)
 
 ### What LLMs Can and Cannot Do
 
@@ -142,7 +142,7 @@ Every LLM has a **context window** — the maximum number of tokens it can proce
 
 A larger context window means the model can "see" more text at once — entire codebases, long documents, or extended conversations. This has massive implications for practical applications like document analysis, code review, and research assistance.
 
-![LLM capabilities and limitations in real-world applications](/images/blogs/pool-genai/8.jpg)
+![LLM capabilities and limitations in real-world applications](https://picsum.photos/seed/what-is-a-large-language-model-3/800/450)
 
 ### LLMs as Foundation Models
 

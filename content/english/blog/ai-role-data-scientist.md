@@ -5,7 +5,7 @@ draft: false
 description: "Explore the role of the Data Scientist in the AI ecosystem. Learn what Data Scientists do daily, the skills they need, their typical salary ranges, and why they are the explorers who turn raw data into actionable insights."
 tags: ["Data Science", "AI Careers", "Machine Learning", "Python", "Statistics"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1531746790095-e5b2333e8edb?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data scientist role", "what does a data scientist do", "data scientist skills", "data scientist salary", "AI careers", "data science career path"]
 ---
 
@@ -28,7 +28,7 @@ Here is a simplified view of a typical day:
 
 The key word here is **exploration**. Unlike a Machine Learning Engineer, who builds production systems, the Data Scientist is primarily an investigator. They ask questions, form hypotheses, and test them against data.
 
-![Data scientist exploring datasets and discovering patterns in data](/images/blogs/pool-career/3.jpg)
+![Data scientist exploring datasets and discovering patterns in data](https://picsum.photos/seed/ai-role-data-scientist-1/800/450)
 
 ### The Core Skill Set
 
@@ -86,7 +86,7 @@ Here is a realistic stack for a modern Data Scientist:
 | Cloud | AWS SageMaker, GCP Vertex AI, Databricks |
 | Version Control | Git, DVC (Data Version Control) |
 
-![Data science toolkit spanning programming, statistics, and domain knowledge](/images/blogs/pool-career/5.jpg)
+![Data science toolkit spanning programming, statistics, and domain knowledge](https://picsum.photos/seed/ai-role-data-scientist-2/800/450)
 
 ### Where Data Scientists Work
 
@@ -119,7 +119,7 @@ Salaries vary enormously by geography, company size, and experience. As a rough 
 
 In major tech hubs like San Francisco, New York, or Bangalore (for Indian markets), total compensation including stock options and bonuses can be significantly higher.
 
-![Data scientist career path from junior to director level](/images/blogs/pool-career/7.jpg)
+![Data scientist career path from junior to director level](https://picsum.photos/seed/ai-role-data-scientist-3/800/450)
 
 ### Common Misconceptions
 

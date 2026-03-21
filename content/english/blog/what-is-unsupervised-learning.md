@@ -5,7 +5,7 @@ draft: false
 description: "Discover the world of Unsupervised Learning. Learn how machines find patterns in unlabeled data, explore the technical mechanics of clustering and dimensionality reduction, and build your own model in Python."
 tags: ["Machine Learning", "Unsupervised Learning", "AI", "Data Science", "Clustering", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/blog6/cover.png"
+image: "https://picsum.photos/seed/what-is-unsupervised-learning-cover/1200/630"
 ---
 
 In my previous post, we looked at [Supervised Learning](https://amar97march.github.io/portfolio/blog/what-is-supervised-learning/), where a machine learns from a teacher using labeled "flashcards." It's a structured, guided process where the right answer is always provided.
@@ -41,7 +41,7 @@ In the real world, this is how Netflix realizes that people who watch 80s synth-
 
 ---
 
-![K-Means clustering revealing hidden customer segments](/images/blogs/pool-ml/3.jpg)
+![K-Means clustering revealing hidden customer segments](https://picsum.photos/seed/what-is-unsupervised-learning-1/800/450)
 
 
 ### The Technical Deep Dive
@@ -78,7 +78,7 @@ If a supervised model predicts a house price, we can check the actual sale price
 
 ---
 
-![Elbow method chart for selecting optimal cluster count](/images/blogs/pool-ml/4.jpg)
+![Elbow method chart for selecting optimal cluster count](https://picsum.photos/seed/what-is-unsupervised-learning-2/800/450)
 
 
 ### The Coding Tutorial — Building a Clustering Model
@@ -250,4 +250,4 @@ It is the tool we use when we don't even know what questions to ask yet. It's ho
 
 ---
 
-![Dimensionality reduction visualizing high-dimensional data](/images/blogs/pool-ml/5.jpg)
+![Dimensionality reduction visualizing high-dimensional data](https://picsum.photos/seed/what-is-unsupervised-learning-3/800/450)

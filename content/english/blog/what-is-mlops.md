@@ -5,7 +5,7 @@ draft: false
 description: "MLOps brings DevOps principles to machine learning, bridging the gap between model development and production deployment. Learn what MLOps is, why it matters, and how it transforms the way teams build and ship AI systems."
 tags: ["MLOps", "Machine Learning", "DevOps", "AI", "Production ML", "Data Science"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://picsum.photos/seed/what-is-mlops-cover/1200/630"
 keywords: ["what is mlops", "mlops explained", "devops for machine learning", "ml production", "mlops fundamentals"]
 ---
 
@@ -58,7 +58,7 @@ MLOps sits at the center, borrowing the best ideas from each discipline and appl
 
 ---
 
-![MLOps pipeline from data ingestion to model monitoring](/images/blogs/pool-mlops/3.jpg)
+![MLOps pipeline from data ingestion to model monitoring](https://picsum.photos/seed/what-is-mlops-1/800/450)
 
 
 ## The Core Principles of MLOps
@@ -135,7 +135,7 @@ Most organizations are somewhere between Level 0 and Level 1. Reaching Level 2 r
 
 ---
 
-![MLOps maturity levels from manual to automated CI/CD](/images/blogs/pool-mlops/4.jpg)
+![MLOps maturity levels from manual to automated CI/CD](https://picsum.photos/seed/what-is-mlops-2/800/450)
 
 
 ## A Day in the Life of an MLOps Engineer
@@ -172,7 +172,7 @@ We will explore many of these tools in depth throughout this series.
 
 ---
 
-![MLOps tech stack showing tools for each pipeline stage](/images/blogs/pool-mlops/5.jpg)
+![MLOps tech stack showing tools for each pipeline stage](https://picsum.photos/seed/what-is-mlops-3/800/450)
 
 
 ## Why MLOps Matters More Than Ever

@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on walkthrough of building a house price prediction model using linear regression — from data exploration to feature engineering to model evaluation."
 tags: ["Linear Regression", "Use Case", "House Prices", "Scikit-Learn", "Machine Learning"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://picsum.photos/seed/predicting-house-prices-linear-regression-cover/1200/630"
 keywords: ["house price prediction", "linear regression example", "real estate ML", "sklearn regression", "ML use case"]
 ---
 
@@ -78,7 +78,7 @@ print(data['price'].describe())
 Before building any model, you must understand your data.
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/5.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/predicting-house-prices-linear-regression-1/800/450)
 
 ```python
 # Overview
@@ -174,7 +174,7 @@ X_test_scaled = scaler.transform(X_test)
 ## Step 4: Train and Evaluate Models
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/4.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/predicting-house-prices-linear-regression-2/800/450)
 
 ```python
 # Model 1: Basic Linear Regression
@@ -261,7 +261,7 @@ plt.savefig('feature_importance.png')
 ## Step 7: Residual Analysis
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/predicting-house-prices-linear-regression-3/800/450)
 
 ```python
 # Check residuals to validate model assumptions

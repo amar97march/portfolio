@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive look at TensorFlow — its architecture, the Keras API, deployment capabilities, and when to choose it for your ML projects."
 tags: ["TensorFlow", "Deep Learning", "Google", "Keras", "ML Frameworks"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://picsum.photos/seed/tensorflow-deep-dive-cover/1200/630"
 keywords: ["tensorflow tutorial", "tensorflow explained", "keras tensorflow", "deep learning framework", "google tensorflow"]
 ---
 
@@ -125,7 +125,7 @@ class CustomModel(keras.Model):
 model = CustomModel()
 ```
 
-![Building models with the Keras API in TensorFlow](/images/blogs/pool-tools/3.jpg)
+![Building models with the Keras API in TensorFlow](https://picsum.photos/seed/tensorflow-deep-dive-1/800/450)
 
 ## Complete Training Example
 
@@ -207,7 +207,7 @@ test_loss, test_acc = model.evaluate(x_test, y_test)
 print(f"Test accuracy: {test_acc:.2%}")
 ```
 
-![Training a CNN with TensorFlow and data augmentation](/images/blogs/pool-tools/4.jpg)
+![Training a CNN with TensorFlow and data augmentation](https://picsum.photos/seed/tensorflow-deep-dive-2/800/450)
 
 ## TensorFlow's Deployment Ecosystem
 
@@ -259,7 +259,7 @@ A complete production ML pipeline framework covering data validation, preprocess
 | TPU support | Native | Limited |
 | Visualization | TensorBoard | TensorBoard (shared) |
 
-![TensorFlow deployment ecosystem across platforms](/images/blogs/pool-tools/5.jpg)
+![TensorFlow deployment ecosystem across platforms](https://picsum.photos/seed/tensorflow-deep-dive-3/800/450)
 
 ## When to Choose TensorFlow
 

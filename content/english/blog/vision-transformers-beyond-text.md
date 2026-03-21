@@ -5,7 +5,7 @@ draft: false
 description: "Transformers were designed for language, but they work remarkably well for images, audio, proteins, and more. Learn how Vision Transformers (ViT) work and why the Transformer is becoming the universal architecture of AI."
 tags: ["Deep Learning", "Transformers", "Vision Transformers", "Computer Vision", "AI"]
 categories: ["Deep Learning"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/vision-transformers-beyond-text-cover/1200/630"
 keywords: ["vision transformer", "ViT", "transformers beyond text", "image classification transformer", "multimodal AI", "universal architecture"]
 ---
 
@@ -82,7 +82,7 @@ That is it. The image becomes a sequence of 196 vectors, and a standard Transfor
 
 ---
 
-![Vision Transformer splitting images into patches for processing](/images/blogs/pool-dl/3.jpg)
+![Vision Transformer splitting images into patches for processing](https://picsum.photos/seed/vision-transformers-beyond-text-1/800/450)
 
 ### Part 3: Why Does This Work?
 
@@ -111,7 +111,7 @@ The key finding: **inductive bias helps when data is limited, but hurts when dat
 
 ---
 
-![Comparing Vision Transformers and CNNs for image tasks](/images/blogs/pool-dl/4.jpg)
+![Comparing Vision Transformers and CNNs for image tasks](https://picsum.photos/seed/vision-transformers-beyond-text-2/800/450)
 
 ### Part 5: Beyond Vision — The Universal Architecture
 
@@ -166,7 +166,7 @@ The Transformer's universality reveals something deep about the nature of intell
 
 ---
 
-![Transformers as the universal architecture across AI domains](/images/blogs/pool-dl/5.jpg)
+![Transformers as the universal architecture across AI domains](https://picsum.photos/seed/vision-transformers-beyond-text-3/800/450)
 
 ### Part 7: What Comes After?
 

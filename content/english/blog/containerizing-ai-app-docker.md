@@ -5,7 +5,7 @@ draft: false
 description: "Docker containers are essential for deploying ML models consistently across environments. Learn how to containerize a model serving application, optimize image size, handle model artifacts, and follow best practices for production Docker images."
 tags: ["ML Deployment", "Docker", "Containers", "Machine Learning", "DevOps", "FastAPI"]
 categories: ["ML Deployment"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1547954575-855750c57bd3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["docker ml model", "containerize ai application", "docker machine learning", "ml model docker deployment", "docker fastapi model serving"]
 ---
 
@@ -143,7 +143,7 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
 
-![Illustration of containerized AI application deployment architecture](/images/blogs/pool-deploy/3.jpg)
+![Illustration of containerized AI application deployment architecture](https://picsum.photos/seed/containerizing-ai-app-docker-1/800/450)
 
 ### Minimize Image Size
 
@@ -240,7 +240,7 @@ docker run -p 8000:8000 \
 ---
 
 
-![Visual showing the packaging and shipping of ML models to production](/images/blogs/pool-deploy/4.jpg)
+![Visual showing the packaging and shipping of ML models to production](https://picsum.photos/seed/containerizing-ai-app-docker-2/800/450)
 
 ## GPU Support
 
@@ -333,7 +333,7 @@ USER appuser
 ```
 
 
-![Conceptual image of scalable infrastructure for serving AI applications](/images/blogs/pool-deploy/5.jpg)
+![Conceptual image of scalable infrastructure for serving AI applications](https://picsum.photos/seed/containerizing-ai-app-docker-3/800/450)
 
 ### 3. Use Health Checks
 

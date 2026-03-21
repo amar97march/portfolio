@@ -3,7 +3,7 @@ title: "AI-Powered Robot Surgeons: How Machine Learning Is Transforming the Oper
 meta_title: ""
 description: "Discover how AI and robotics are revolutionizing surgery through autonomous suturing, real-time tissue analysis, and surgical guidance systems that enhance precision, reduce complications, and expand access to expert-level care."
 date: 2027-07-11
-image: "/images/blogs/ai-robot-surgeons/cover.jpg"
+image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["healthcare", "robotics", "surgery", "computer-vision"]
@@ -22,7 +22,7 @@ But early surgical robots were essentially sophisticated remote-control tools. T
 
 The AI revolution in surgical robotics began when researchers started asking a different question: what if the robot could see, understand, and act on its own? What if it could recognize tissue types, identify anatomical structures, predict complications, and even perform certain steps of a procedure autonomously?
 
-![Robotic surgical system performing precision operations in the operating room](/images/blogs/pool-industry/3.jpg)
+![Robotic surgical system performing precision operations in the operating room](https://picsum.photos/seed/ai-robot-surgeons-1/800/450)
 
 ## How AI Sees the Surgical Field
 
@@ -348,7 +348,7 @@ The robot performs most of the procedure autonomously, with the surgeon availabl
 
 The robot performs the entire procedure without any human involvement. This remains a distant goal and raises profound ethical questions about accountability and consent.
 
-![AI system performing autonomous surgical tasks with sub-millimeter precision](/images/blogs/pool-industry/5.jpg)
+![AI system performing autonomous surgical tasks with sub-millimeter precision](https://picsum.photos/seed/ai-robot-surgeons-2/800/450)
 
 ## AI-Powered Surgical Guidance
 
@@ -594,7 +594,7 @@ The long-term vision includes Level 3 and potentially Level 4 autonomous surgica
 
 Remote surgery, where a surgeon in one city operates on a patient in another through a robotic system, will become increasingly practical as 5G and future network technologies provide the low latency required for real-time surgical control.
 
-![Regulatory and safety frameworks governing AI in surgical robotics](/images/blogs/pool-industry/7.jpg)
+![Regulatory and safety frameworks governing AI in surgical robotics](https://picsum.photos/seed/ai-robot-surgeons-3/800/450)
 
 ## The Human Element
 

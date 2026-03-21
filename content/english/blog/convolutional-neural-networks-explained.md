@@ -5,7 +5,7 @@ draft: false
 description: "Understanding Convolutional Neural Networks — the architecture that revolutionized computer vision by learning to see edges, textures, and objects in images."
 tags: ["CNN", "Computer Vision", "Deep Learning", "Image Recognition", "Convolutional Neural Network"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=1200&h=630&fit=crop&auto=format"
 keywords: ["convolutional neural network", "CNN explained", "image recognition", "computer vision", "convolution operation"]
 ---
 
@@ -71,7 +71,7 @@ Here is why CNNs are so efficient: the same filter is used at every position in 
 This parameter sharing also provides **translation invariance**: a filter that detects a cat ear in one part of the image will detect it anywhere.
 
 
-![Illustration of deep learning neural network layers and feature extraction](/images/blogs/pool-dl/3.jpg)
+![Illustration of deep learning neural network layers and feature extraction](https://picsum.photos/seed/convolutional-neural-networks-explained-1/800/450)
 
 ## The CNN Architecture
 
@@ -134,7 +134,7 @@ Pooling reduces a 224x224 feature map to 112x112 (with a 2x2 pool), cutting the 
 After several rounds of convolution and pooling, the feature maps are flattened into a 1D vector and passed through one or more fully connected layers for the final classification.
 
 
-![Visual showing how convolutional filters detect patterns in visual data](/images/blogs/pool-dl/4.jpg)
+![Visual showing how convolutional filters detect patterns in visual data](https://picsum.photos/seed/convolutional-neural-networks-explained-2/800/450)
 
 ## A Complete CNN in PyTorch
 
@@ -204,7 +204,7 @@ This mirrors how neuroscientists believe the human visual cortex processes infor
 The pioneer. Yann LeCun's network for digit recognition. Just 5 layers, but it proved the concept.
 
 
-![Conceptual image of hierarchical feature learning in deep neural networks](/images/blogs/pool-dl/5.jpg)
+![Conceptual image of hierarchical feature learning in deep neural networks](https://picsum.photos/seed/convolutional-neural-networks-explained-3/800/450)
 
 ### AlexNet (2012)
 The breakthrough. Won ImageNet by a massive margin, using GPU training, ReLU activations, and dropout. This paper ignited the deep learning revolution.

@@ -5,7 +5,7 @@ draft: false
 description: "PCA can compress images by keeping only the most important components. This hands-on tutorial shows how to compress and reconstruct images using Principal Component Analysis in Python."
 tags: ["Machine Learning", "PCA", "Image Processing", "Dimensionality Reduction", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1527066236128-2f274b14d05f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["PCA image compression", "image compression machine learning", "dimensionality reduction images", "principal component analysis tutorial", "image reconstruction"]
 ---
 
@@ -55,7 +55,7 @@ plt.show()
 ---
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/image-compression-with-pca-1/800/450)
 
 ### Part 3: Applying PCA with Different Numbers of Components
 
@@ -166,7 +166,7 @@ for threshold in [0.90, 0.95, 0.99]:
 ---
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/image-compression-with-pca-2/800/450)
 
 ### Part 5: Compressing Color Images
 
@@ -247,7 +247,7 @@ plt.show()
 ---
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/image-compression-with-pca-3/800/450)
 
 ### Part 7: PCA vs. Modern Compression
 

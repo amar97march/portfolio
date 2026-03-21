@@ -5,7 +5,7 @@ draft: false
 description: "From demand forecasting to warehouse optimization to last-mile delivery, AI is transforming every link in the supply chain. This post explores how machine learning tackles the immense complexity of getting products from factory to doorstep."
 tags: ["AI", "Supply Chain", "Logistics", "Machine Learning", "Optimization", "Demand Forecasting"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/supply-chain-optimization-ai-cover/1200/630"
 keywords: ["AI supply chain", "demand forecasting machine learning", "warehouse optimization AI", "last mile delivery AI", "supply chain management"]
 ---
 
@@ -33,7 +33,7 @@ The combinatorial complexity is staggering. A company with 10,000 SKUs across 50
 
 ---
 
-![AI optimizing supply chain logistics and operations](/images/blogs/pool-industry/3.jpg)
+![AI optimizing supply chain logistics and operations](https://picsum.photos/seed/supply-chain-optimization-ai-1/800/450)
 
 ### Part 2: Demand Forecasting
 
@@ -146,7 +146,7 @@ def compute_safety_stock(demand_forecast_mean, demand_forecast_std,
 
 ---
 
-![Demand forecasting and inventory management with machine learning](/images/blogs/pool-industry/4.jpg)
+![Demand forecasting and inventory management with machine learning](https://picsum.photos/seed/supply-chain-optimization-ai-2/800/450)
 
 ### Part 4: Route Optimization
 
@@ -175,7 +175,7 @@ Inside the warehouse, AI optimizes:
 
 ---
 
-![Warehouse automation and route optimization powered by AI](/images/blogs/pool-industry/5.jpg)
+![Warehouse automation and route optimization powered by AI](https://picsum.photos/seed/supply-chain-optimization-ai-3/800/450)
 
 ### Part 6: Supply Chain Resilience
 

@@ -3,7 +3,7 @@ title: "K-Nearest Neighbors: The Intuitive Algorithm Where You Are Who Your Neig
 meta_title: ""
 description: "A deep dive into the K-Nearest Neighbors algorithm, covering its mathematical foundations, distance metrics, hyperparameter tuning, and practical implementation with scikit-learn for classification and regression tasks."
 date: 2026-07-13
-image: "/images/blogs/knn-algorithm/cover.jpg"
+image: "https://images.unsplash.com/photo-1580752300992-559f8e0734e0?w=1200&h=630&fit=crop&auto=format"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["knn", "classification", "algorithms", "scikit-learn"]
@@ -75,7 +75,7 @@ d(x, y) = sum(|x_i - y_i|) for i in 1..n
 Manhattan distance measures the distance along axes at right angles. It is more robust to outliers than Euclidean distance because it does not square the differences.
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/knn-algorithm-explained-1/800/450)
 
 ### Minkowski Distance
 
@@ -226,7 +226,7 @@ class KNNClassifier:
 This implementation makes the algorithm's mechanics transparent. The fit method does nothing but store data. All the computation happens at prediction time, which is a defining characteristic of lazy learners.
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/knn-algorithm-explained-2/800/450)
 
 ## Weighted KNN: Not All Neighbors Are Created Equal
 
@@ -334,7 +334,7 @@ nearest_ids = index.get_nns_by_vector(query_point, k=5)
 ```
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/knn-algorithm-explained-3/800/450)
 
 ## Full scikit-learn Pipeline
 

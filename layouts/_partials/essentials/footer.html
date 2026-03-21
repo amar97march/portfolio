@@ -13,9 +13,17 @@
         <p class="text-text-light dark:text-darkmode-text-light mb-6 max-w-sm">
           Open to collaborations, freelance projects, and interesting conversations about tech.
         </p>
-        <a href="mailto:{{ site.Params.email | default `hello@amarsingh.dev` }}" class="text-lg font-semibold hover:text-primary dark:hover:text-darkmode-primary transition-colors">
-          {{ site.Params.email | default "hello@amarsingh.dev" }}
+        <a href="mailto:{{ site.Params.email }}" class="text-lg font-semibold hover:text-primary dark:hover:text-darkmode-primary transition-colors">
+          {{ site.Params.email }}
         </a>
+        <div class="flex flex-col sm:flex-row gap-4 mt-4 text-sm text-text-light dark:text-darkmode-text-light">
+          <span class="flex items-center gap-2">
+            <i class="fa-solid fa-phone text-xs"></i> +91 8005509499
+          </span>
+          <span class="flex items-center gap-2">
+            <i class="fa-solid fa-location-dot text-xs"></i> Bangalore, India
+          </span>
+        </div>
       </div>
 
       <!-- Center: Navigation Links -->
@@ -59,7 +67,7 @@
         &copy; {{ now.Year }} {{ site.Params.copyright | markdownify }}
       </p>
       <p class="text-text-light dark:text-darkmode-text-light text-sm opacity-50">
-        Built with Hugo
+        Designed &amp; Built by Amar Singh
       </p>
     </div>
   </div>

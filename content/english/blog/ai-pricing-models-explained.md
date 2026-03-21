@@ -3,7 +3,7 @@ title: "AI Pricing Models Explained: Per-Token vs Per-Seat vs Per-API-Call"
 meta_title: ""
 description: "A comprehensive breakdown of the most common AI pricing models including per-token, per-seat, per-API-call, and hybrid approaches, with practical guidance on choosing the right model for your needs."
 date: 2028-02-24
-image: "/images/blogs/ai-pricing-models/cover.jpg"
+image: "https://images.unsplash.com/photo-1556155943-0f90f26f8a6b?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Business"]
 author: "Amar Singh"
 tags: ["pricing", "business-model", "api", "saas"]
@@ -54,7 +54,7 @@ Understanding the token economy is crucial for managing costs under per-token pr
 
 **Gaming and waste**: In some implementations, per-token pricing can create perverse incentives. If a system generates verbose responses, the provider earns more even though the additional tokens provide no value to the user. This misalignment is mitigated by competition (users can switch to providers that generate more concise, useful responses) but is worth considering when evaluating providers.
 
-![Comparison of different AI pricing models and their cost structures](/images/blogs/pool-business/3.jpg)
+![Comparison of different AI pricing models and their cost structures](https://picsum.photos/seed/ai-pricing-models-explained-1/800/450)
 
 ## Per-Seat Pricing
 
@@ -144,7 +144,7 @@ Compute-based pricing is most common in cloud AI platforms where users train cus
 
 **Idle resource risk**: Dedicated inference endpoints incur costs even when they are not processing requests. Managing the trade-off between availability (keeping endpoints running for fast response) and cost (shutting down idle endpoints) requires careful capacity planning.
 
-![Evaluating compute-based pricing for GPU-intensive AI workloads](/images/blogs/pool-business/5.jpg)
+![Evaluating compute-based pricing for GPU-intensive AI workloads](https://picsum.photos/seed/ai-pricing-models-explained-2/800/450)
 
 ## Hybrid and Tiered Models
 
@@ -194,7 +194,7 @@ If you are evaluating AI services, the pricing model should be part of your eval
 
 **Negotiate**: For significant usage volumes, most AI providers will negotiate custom pricing that may combine elements of multiple models or offer volume discounts not available on standard price lists.
 
-![Framework for choosing the right AI pricing model for your use case](/images/blogs/pool-business/7.jpg)
+![Framework for choosing the right AI pricing model for your use case](https://picsum.photos/seed/ai-pricing-models-explained-3/800/450)
 
 ## The Future of AI Pricing
 

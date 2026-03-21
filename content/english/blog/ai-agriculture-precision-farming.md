@@ -5,7 +5,7 @@ draft: false
 description: "How AI and machine learning are transforming agriculture through precision farming — from drone-based crop monitoring to automated disease detection and yield prediction."
 tags: ["AI", "Agriculture", "Precision Farming", "Computer Vision", "IoT", "Food Security"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI agriculture", "precision farming", "crop disease detection", "drone farming AI", "yield prediction machine learning", "smart farming", "AI food security"]
 ---
 
@@ -27,7 +27,7 @@ The concept is not new — GPS-guided tractors and soil sampling have been aroun
 
 ---
 
-![Drones monitoring crop health over agricultural fields](/images/blogs/pool-good/3.jpg)
+![Drones monitoring crop health over agricultural fields](https://picsum.photos/seed/ai-agriculture-precision-farming-1/800/450)
 
 ### AI Applications in Agriculture
 
@@ -132,7 +132,7 @@ Applying AI to agriculture presents unique data challenges:
 
 ---
 
-![AI-powered precision spraying reducing herbicide use on farms](/images/blogs/pool-good/5.jpg)
+![AI-powered precision spraying reducing herbicide use on farms](https://picsum.photos/seed/ai-agriculture-precision-farming-2/800/450)
 
 ### AI for Smallholder Farmers
 
@@ -148,7 +148,7 @@ Promising approaches include:
 
 ---
 
-![Smartphone-based AI advisors helping smallholder farmers in developing countries](/images/blogs/pool-good/7.jpg)
+![Smartphone-based AI advisors helping smallholder farmers in developing countries](https://picsum.photos/seed/ai-agriculture-precision-farming-3/800/450)
 
 ### The Environmental Impact
 

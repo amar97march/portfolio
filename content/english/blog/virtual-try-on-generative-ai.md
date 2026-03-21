@@ -5,7 +5,7 @@ draft: false
 description: "Generative AI enables you to see how clothes, glasses, and makeup look on you without physically trying them on. This post explores the computer vision and diffusion model techniques powering virtual try-on technology."
 tags: ["AI", "Generative AI", "Computer Vision", "Virtual Try-On", "GANs", "Diffusion Models"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://picsum.photos/seed/virtual-try-on-generative-ai-cover/1200/630"
 keywords: ["virtual try-on AI", "generative AI fashion", "GAN try on", "AI clothing visualization", "augmented reality fashion"]
 ---
 
@@ -107,7 +107,7 @@ The final stage combines the warped garment with the person image to produce a p
 
 ---
 
-![Computer vision pipeline powering virtual try-on technology](/images/blogs/pool-industry/6.jpg)
+![Computer vision pipeline powering virtual try-on technology](https://picsum.photos/seed/virtual-try-on-generative-ai-1/800/450)
 
 ### Part 3: Beyond Clothing — Other Applications
 
@@ -121,7 +121,7 @@ The final stage combines the warped garment with the person image to produce a p
 
 ---
 
-![Virtual try-on applications for eyewear, makeup, and more](/images/blogs/pool-industry/7.jpg)
+![Virtual try-on applications for eyewear, makeup, and more](https://picsum.photos/seed/virtual-try-on-generative-ai-2/800/450)
 
 ### Part 4: Current Limitations
 
@@ -139,7 +139,7 @@ Despite impressive progress, virtual try-on technology has real limitations:
 
 ---
 
-![Business impact of AI-powered virtual try-on technology](/images/blogs/pool-industry/8.jpg)
+![Business impact of AI-powered virtual try-on technology](https://picsum.photos/seed/virtual-try-on-generative-ai-3/800/450)
 
 ### Part 5: The Business Impact
 

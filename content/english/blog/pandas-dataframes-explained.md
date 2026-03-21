@@ -5,7 +5,7 @@ draft: false
 description: "A practical introduction to Pandas DataFrames — the essential data structure for data manipulation, cleaning, and analysis in machine learning workflows."
 tags: ["Pandas", "Python", "Data Science", "DataFrames", "Data Analysis"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://picsum.photos/seed/pandas-dataframes-explained-cover/1200/630"
 keywords: ["pandas tutorial", "dataframe explained", "pandas for beginners", "data manipulation python", "pandas machine learning"]
 ---
 
@@ -101,7 +101,7 @@ print(df['department'].value_counts())
 ```
 
 
-![Python programming tools for data science](/images/blogs/pool-tools/3.jpg)
+![Python programming tools for data science](https://picsum.photos/seed/pandas-dataframes-explained-1/800/450)
 
 ## Selecting Data
 
@@ -247,7 +247,7 @@ combined = pd.concat([df1, df2], ignore_index=True)
 ```
 
 
-![Scientific computing libraries and frameworks](/images/blogs/pool-tools/4.jpg)
+![Scientific computing libraries and frameworks](https://picsum.photos/seed/pandas-dataframes-explained-2/800/450)
 
 ## Pandas for Machine Learning Preprocessing
 
@@ -321,7 +321,7 @@ df['log_salary'] = np.log(df['salary'])
 ```
 
 
-![Developer tools powering the AI ecosystem](/images/blogs/pool-tools/5.jpg)
+![Developer tools powering the AI ecosystem](https://picsum.photos/seed/pandas-dataframes-explained-3/800/450)
 
 ## Performance Tips
 

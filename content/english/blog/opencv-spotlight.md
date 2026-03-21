@@ -5,7 +5,7 @@ draft: false
 description: "OpenCV has been the backbone of Computer Vision for over two decades. This post explores its history, core capabilities, and how it remains relevant in the age of deep learning."
 tags: ["Computer Vision", "OpenCV", "Python", "Image Processing", "Tools"]
 categories: ["Computer Vision"]
-image: "/images/blogs/pool-cv/1.jpg"
+image: "https://picsum.photos/seed/opencv-spotlight-cover/1200/630"
 keywords: ["OpenCV", "computer vision library", "image processing", "video processing", "cv2", "edge detection", "face detection", "Haar cascades"]
 ---
 
@@ -84,7 +84,7 @@ print(f"Found {len(contours)} contours")
 This simple pipeline — read, preprocess, detect, annotate, save — is the bread and butter of Computer Vision, and OpenCV makes each step straightforward.
 
 
-![Computer vision analyzing visual data](/images/blogs/pool-cv/3.jpg)
+![Computer vision analyzing visual data](https://picsum.photos/seed/opencv-spotlight-1/800/450)
 
 ---
 
@@ -157,7 +157,7 @@ out.release()
 This pattern — read frame, process, write — is the foundation for building video analytics pipelines, surveillance systems, and real-time processing applications.
 
 
-![Image processing and object recognition](/images/blogs/pool-cv/4.jpg)
+![Image processing and object recognition](https://picsum.photos/seed/opencv-spotlight-2/800/450)
 
 ---
 
@@ -205,7 +205,7 @@ In 2027, with all the deep learning tools available, why should you care about O
 **Integration.** OpenCV works with every major deep learning framework. It is the glue that connects your camera to your model to your output display.
 
 
-![Visual AI technology detecting patterns in images](/images/blogs/pool-cv/5.jpg)
+![Visual AI technology detecting patterns in images](https://picsum.photos/seed/opencv-spotlight-3/800/450)
 
 ---
 

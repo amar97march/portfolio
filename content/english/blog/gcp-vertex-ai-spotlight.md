@@ -5,7 +5,7 @@ draft: false
 description: "Vertex AI is Google Cloud's unified ML platform, bringing together AutoML, custom training, model serving, and MLOps tools under a single API. Explore its architecture, key features, and how it compares to other cloud ML platforms."
 tags: ["MLOps", "GCP", "Vertex AI", "Machine Learning", "Cloud ML", "Google Cloud"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?w=1200&h=630&fit=crop&auto=format"
 keywords: ["vertex ai google cloud", "gcp ml platform", "vertex ai tutorial", "google cloud machine learning", "vertex ai vs sagemaker"]
 ---
 
@@ -125,7 +125,7 @@ job.run()
 
 ---
 
-![Google Cloud Vertex AI unified ML platform architecture](/images/blogs/pool-mlops/6.jpg)
+![Google Cloud Vertex AI unified ML platform architecture](https://picsum.photos/seed/gcp-vertex-ai-spotlight-1/800/450)
 
 ## Vertex AI Feature Store
 
@@ -221,7 +221,7 @@ batch_prediction_job = model.batch_predict(
 
 ---
 
-![Model deployment and serving on cloud endpoints](/images/blogs/pool-mlops/7.jpg)
+![Model deployment and serving on cloud endpoints](https://picsum.photos/seed/gcp-vertex-ai-spotlight-2/800/450)
 
 ## Vertex AI Pipelines
 
@@ -311,7 +311,7 @@ job = aiplatform.ModelDeploymentMonitoringJob.create(
 
 ---
 
-![Monitoring and managing ML models in production](/images/blogs/pool-mlops/8.jpg)
+![Monitoring and managing ML models in production](https://picsum.photos/seed/gcp-vertex-ai-spotlight-3/800/450)
 
 ## What Makes Vertex AI Unique
 

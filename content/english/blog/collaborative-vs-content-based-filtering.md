@@ -5,7 +5,7 @@ draft: false
 description: "Should you recommend based on what similar users liked, or based on the attributes of the items themselves? This post breaks down collaborative filtering, content-based filtering, and hybrid approaches with practical code examples."
 tags: ["AI", "Recommendation Systems", "Collaborative Filtering", "Content-Based Filtering", "Machine Learning", "Python"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?w=1200&h=630&fit=crop&auto=format"
 keywords: ["collaborative filtering", "content-based filtering", "recommendation engine tutorial", "hybrid recommender", "cosine similarity recommendations"]
 ---
 
@@ -74,7 +74,7 @@ print(content_based_recommend('The Dark Knight'))
 ---
 
 
-![Illustration of machine learning algorithms processing and classifying data](/images/blogs/pool-ml/3.jpg)
+![Illustration of machine learning algorithms processing and classifying data](https://picsum.photos/seed/collaborative-vs-content-based-filtering-1/800/450)
 
 ### Part 2: Collaborative Filtering — "Users Like You Also Liked..."
 
@@ -156,7 +156,7 @@ This was Amazon's key insight. Item-based CF is more stable than user-based CF b
 ---
 
 
-![Visual depicting pattern recognition and feature analysis in ML models](/images/blogs/pool-ml/4.jpg)
+![Visual depicting pattern recognition and feature analysis in ML models](https://picsum.photos/seed/collaborative-vs-content-based-filtering-2/800/450)
 
 ### Part 3: Hybrid Approaches — The Best of Both Worlds
 
@@ -192,7 +192,7 @@ Train a model that learns when to use collaborative filtering and when to use co
 ---
 
 
-![Conceptual image showing the mathematical foundations of predictive modeling](/images/blogs/pool-ml/5.jpg)
+![Conceptual image showing the mathematical foundations of predictive modeling](https://picsum.photos/seed/collaborative-vs-content-based-filtering-3/800/450)
 
 ### Part 4: Beyond Ratings — Modern Signals
 

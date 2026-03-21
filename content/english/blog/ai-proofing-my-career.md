@@ -5,7 +5,7 @@ draft: false
 description: "A personal account of the specific strategies I'm using to ensure my career remains relevant and valuable in an AI-transformed world."
 tags: ["AI & Career", "Career Development", "Personal Growth", "AI Skills", "Future of Work", "Strategy"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI proof career", "career strategy AI", "future proof career", "AI skills development", "staying relevant AI", "career planning AI"]
 ---
 
@@ -39,7 +39,7 @@ AI is automating tasks from the bottom up. The most routine, well-defined tasks 
 
 The principle: **do the work that requires judgment, context, and accountability—the work that AI cannot verify for itself.**
 
-![Professional climbing the abstraction ladder in their AI career](/images/blogs/pool-career/3.jpg)
+![Professional climbing the abstraction ladder in their AI career](https://picsum.photos/seed/ai-proofing-my-career-1/800/450)
 
 ---
 
@@ -136,7 +136,7 @@ def should_use_ai(task: dict) -> dict:
         }
 ```
 
-![Developer using AI tools alongside manual problem-solving techniques](/images/blogs/pool-career/5.jpg)
+![Developer using AI tools alongside manual problem-solving techniques](https://picsum.photos/seed/ai-proofing-my-career-2/800/450)
 
 ---
 
@@ -167,7 +167,7 @@ Career transitions—whether voluntary or forced—require financial resilience.
 
 This is not AI-specific advice. It is career advice that becomes more important in a rapidly changing environment.
 
-![Building a resilient career strategy in the age of AI](/images/blogs/pool-career/7.jpg)
+![Building a resilient career strategy in the age of AI](https://picsum.photos/seed/ai-proofing-my-career-3/800/450)
 
 ---
 

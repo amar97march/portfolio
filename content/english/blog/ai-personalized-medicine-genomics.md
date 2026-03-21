@@ -3,7 +3,7 @@ title: "Personalized Medicine: How AI Analyzes Your Genome to Customize Treatmen
 meta_title: ""
 description: "Explore how artificial intelligence is transforming genomic medicine by analyzing DNA sequences, predicting drug responses, identifying disease risk, and enabling truly personalized treatment plans tailored to each patient's unique genetic profile."
 date: 2027-07-20
-image: "/images/blogs/ai-personalized-medicine/cover.jpg"
+image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["healthcare", "genomics", "personalized-medicine", "bioinformatics"]
@@ -34,7 +34,7 @@ While DNA tells you what genes a person has, RNA-seq tells you which genes are a
 
 SNPs are single-letter variations in the DNA code. There are millions of known SNPs across the human genome, and many are associated with disease risk or drug response. SNP arrays can genotype hundreds of thousands of these variants simultaneously and form the basis of consumer genetic tests and many pharmacogenomic applications.
 
-![AI analyzing genomic sequences to identify disease-related variants](/images/blogs/pool-industry/3.jpg)
+![AI analyzing genomic sequences to identify disease-related variants](https://picsum.photos/seed/ai-personalized-medicine-genomics-1/800/450)
 
 ## AI for Variant Calling and Interpretation
 
@@ -417,7 +417,7 @@ class PharmacogenomicPredictor:
         return ["Metabolizer status adjustment"]
 ```
 
-![Machine learning predicting drug responses based on patient genetic profiles](/images/blogs/pool-industry/5.jpg)
+![Machine learning predicting drug responses based on patient genetic profiles](https://picsum.photos/seed/ai-personalized-medicine-genomics-2/800/450)
 
 ## Cancer Genomics and AI
 
@@ -647,7 +647,7 @@ class PolygenicRiskCalculator:
         return actions.get(disease, ["Consult with specialist"])
 ```
 
-![Ethical considerations in genomic data privacy and personalized medicine](/images/blogs/pool-industry/7.jpg)
+![Ethical considerations in genomic data privacy and personalized medicine](https://picsum.photos/seed/ai-personalized-medicine-genomics-3/800/450)
 
 ## Challenges and Ethical Considerations
 

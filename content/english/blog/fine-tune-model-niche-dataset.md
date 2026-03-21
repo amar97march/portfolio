@@ -5,7 +5,7 @@ draft: false
 description: "A guide to building an impressive portfolio project by fine-tuning a pre-trained model on a niche, domain-specific dataset. Learn the end-to-end process from data collection to evaluation and deployment."
 tags: ["Fine-Tuning", "Transfer Learning", "Portfolio Project", "Deep Learning", "Python"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["fine-tune model", "transfer learning project", "AI portfolio project", "niche dataset", "model fine-tuning", "LoRA fine-tuning"]
 ---
 
@@ -52,7 +52,7 @@ The best niche datasets come from domains you personally know or care about. Her
 - Real estate price prediction for a specific city
 - Climate data analysis for a specific region
 
-![Collecting and curating a unique domain-specific dataset](/images/blogs/pool-portfolio/3.jpg)
+![Collecting and curating a unique domain-specific dataset](https://picsum.photos/seed/fine-tune-model-niche-dataset-1/800/450)
 
 ### The End-to-End Process
 
@@ -213,7 +213,7 @@ trainer = Trainer(
 trainer.train()
 ```
 
-![Fine-tuning a pre-trained model on custom data](/images/blogs/pool-portfolio/4.jpg)
+![Fine-tuning a pre-trained model on custom data](https://picsum.photos/seed/fine-tune-model-niche-dataset-2/800/450)
 
 #### Step 4: Evaluation
 
@@ -248,7 +248,7 @@ def evaluate_model(model, test_dataset, label_names):
 
 Create an excellent README, push to GitHub, and deploy a demo.
 
-![Presenting portfolio project results with clear metrics](/images/blogs/pool-portfolio/5.jpg)
+![Presenting portfolio project results with clear metrics](https://picsum.photos/seed/fine-tune-model-niche-dataset-3/800/450)
 
 ### What Makes This Project Shine
 

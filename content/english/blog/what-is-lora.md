@@ -5,7 +5,7 @@ draft: false
 description: "A deep dive into LoRA — the math, the intuition, and practical guidance for using Low-Rank Adaptation to fine-tune LLMs efficiently."
 tags: ["LoRA", "PEFT", "Fine-Tuning", "LLM", "Deep Learning"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://picsum.photos/seed/what-is-lora-cover/1200/630"
 keywords: ["LoRA explained", "low-rank adaptation", "LoRA fine-tuning", "LoRA math", "LoRA hyperparameters", "efficient fine-tuning"]
 ---
 
@@ -51,7 +51,7 @@ The change needed for fine-tuning occupies a low-dimensional subspace of the ful
 
 ### How LoRA Works During Training
 
-![Low-rank matrix decomposition diagram for LoRA adaptation](/images/blogs/pool-llm/6.jpg)
+![Low-rank matrix decomposition diagram for LoRA adaptation](https://picsum.photos/seed/what-is-lora-1/800/450)
 
 
 During training, the forward pass becomes:
@@ -112,7 +112,7 @@ model.save_pretrained("./merged_model")
 
 ### Choosing the Right Hyperparameters
 
-![Memory comparison between full fine-tuning and LoRA](/images/blogs/pool-llm/7.jpg)
+![Memory comparison between full fine-tuning and LoRA](https://picsum.photos/seed/what-is-lora-2/800/450)
 
 
 #### Rank (r)
@@ -189,7 +189,7 @@ Uses different learning rates for matrices A and B (B gets a higher learning rat
 
 ### Multiple LoRA Adapters
 
-![Multiple LoRA adapters sharing a single base model](/images/blogs/pool-llm/8.jpg)
+![Multiple LoRA adapters sharing a single base model](https://picsum.photos/seed/what-is-lora-3/800/450)
 
 
 One of LoRA's most powerful features is the ability to maintain multiple adapters for different tasks:

@@ -3,7 +3,7 @@ title: "How Should We Compensate Creators for AI Training Data? A Framework"
 meta_title: ""
 description: "Exploring the complex question of how to fairly compensate creators whose work is used to train AI models, examining existing proposals, technical solutions, and a practical framework for data rights in the age of generative AI."
 date: 2028-08-04
-image: "/images/blogs/compensating-creators/cover.jpg"
+image: "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["compensation", "creators", "copyright", "data-rights"]
@@ -51,7 +51,7 @@ The most straightforward approach is direct licensing, where AI companies negoti
 Direct licensing has the advantage of being familiar and legally straightforward. It respects existing intellectual property frameworks and gives creators clear control over how their work is used. However, it has significant limitations. It is impractical for the billions of individual creators whose work appears on the internet but who lack the resources or organization to negotiate licenses. It also tends to favor large content aggregators over individual creators, potentially reinforcing existing power imbalances.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/compensating-creators-training-data-1/800/450)
 
 ### Collective Licensing
 
@@ -100,7 +100,7 @@ Data valuation methods like Shapley values provide a theoretically rigorous way 
 Approximation methods have been developed to make data valuation more tractable. Techniques like Data Shapley, KNN-Shapley, and influence functions provide computationally feasible estimates of training sample contributions. These methods are still imperfect and can produce noisy estimates, but they represent significant progress toward practical attribution.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/compensating-creators-training-data-2/800/450)
 
 ### Payment Distribution Systems
 
@@ -137,7 +137,7 @@ Determining eligibility for revenue sharing would rely on technical attribution 
 A portion of the collected licensing fees would be directed to an innovation fund that supports research into better attribution methods, develops tools for creators to manage their data rights, and funds projects that explore new models of creative collaboration between humans and AI. This fund would ensure that the compensation framework itself continues to evolve and improve.
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/compensating-creators-training-data-3/800/450)
 
 ## Challenges and Objections
 

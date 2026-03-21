@@ -3,7 +3,7 @@ title: "Graph Neural Networks in Practice: Social Networks, Drug Discovery, and 
 meta_title: ""
 description: "A comprehensive exploration of Graph Neural Networks and their transformative applications in social network analysis, drug discovery, and other domains where relational data reigns supreme."
 date: 2028-12-14
-image: "/images/blogs/gnns-practice/cover.jpg"
+image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=630&fit=crop&auto=format"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["gnn", "graph-neural-networks", "drug-discovery", "social-networks"]
@@ -128,7 +128,7 @@ class CustomMPNN(MessagePassing):
         return self.mlp(torch.cat([x_i, x_j], dim=-1))
 ```
 
-![Graph neural networks processing relational data structures](/images/blogs/pool-ml/3.jpg)
+![Graph neural networks processing relational data structures](https://picsum.photos/seed/gnns-social-networks-drug-discovery-1/800/450)
 
 ## GNNs in Social Network Analysis
 
@@ -166,7 +166,7 @@ GNNs can capture these patterns by learning representations that encode both the
 
 Alibaba has published work on using GNNs for fraud detection in their e-commerce platform, processing graphs with billions of edges to identify fraudulent merchants and reviews. Their approach combines heterogeneous graph neural networks (which handle multiple types of nodes and edges) with attention mechanisms to focus on the most suspicious patterns.
 
-![Molecular graphs enabling AI-driven drug discovery](/images/blogs/pool-ml/4.jpg)
+![Molecular graphs enabling AI-driven drug discovery](https://picsum.photos/seed/gnns-social-networks-drug-discovery-2/800/450)
 
 ## GNNs in Drug Discovery
 
@@ -262,7 +262,7 @@ Many important optimization problems, from scheduling to routing to chip design,
 
 For example, GNNs have been applied to the traveling salesman problem, graph coloring, maximum independent set, and satisfiability problems. While they may not always match the performance of specialized solvers, they offer a compelling trade-off between solution quality and computation time, especially for large instances where exact methods are intractable.
 
-![Real-world applications of graph-based machine learning](/images/blogs/pool-ml/5.jpg)
+![Real-world applications of graph-based machine learning](https://picsum.photos/seed/gnns-social-networks-drug-discovery-3/800/450)
 
 ## Practical Challenges and Best Practices
 

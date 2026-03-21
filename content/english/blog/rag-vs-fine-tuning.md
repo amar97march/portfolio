@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide to choosing between RAG and fine-tuning for your LLM application — covering use cases, costs, trade-offs, and when to combine both."
 tags: ["RAG", "Fine-Tuning", "LLM", "AI Architecture", "Generative AI"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/rag-vs-fine-tuning-cover/1200/630"
 keywords: ["RAG vs fine-tuning", "when to use RAG", "when to fine-tune", "LLM customization", "RAG or fine-tuning", "AI application architecture"]
 ---
 
@@ -67,7 +67,7 @@ Example: Legal document assistant
 **3. You need transparency and auditability**
 
 
-![Illustration of knowledge base integration with language models](/images/blogs/pool-rag/8.jpg)
+![Illustration of knowledge base integration with language models](https://picsum.photos/seed/rag-vs-fine-tuning-1/800/450)
 
 With RAG, you can inspect exactly which documents were retrieved and how they influenced the response. This is crucial for regulated industries.
 
@@ -130,7 +130,7 @@ RAG requires sending retrieved documents in every prompt, consuming tokens and m
 The most powerful approach is often combining RAG and fine-tuning:
 
 
-![Visual representation of vector search and document retrieval](/images/blogs/pool-rag/7.jpg)
+![Visual representation of vector search and document retrieval](https://picsum.photos/seed/rag-vs-fine-tuning-2/800/450)
 
 ```
 Fine-tuned model + RAG = Best of both worlds
@@ -192,7 +192,7 @@ class MedicalAssistant:
 **Example: 10,000 queries per day**
 
 
-![Diagram of retrieval-augmented generation architecture](/images/blogs/pool-rag/6.jpg)
+![Diagram of retrieval-augmented generation architecture](https://picsum.photos/seed/rag-vs-fine-tuning-3/800/450)
 
 ```
 RAG approach:

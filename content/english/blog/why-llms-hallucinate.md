@@ -5,7 +5,7 @@ draft: false
 description: "A technical deep dive into why Large Language Models generate false information, the types of hallucination, and practical strategies to detect and prevent them."
 tags: ["LLM", "Hallucination", "RAG", "AI Safety", "Generative AI"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/why-llms-hallucinate-cover/1200/630"
 keywords: ["LLM hallucination", "AI hallucination", "why AI makes things up", "fixing AI hallucinations", "grounding LLMs", "factual accuracy AI"]
 ---
 
@@ -54,7 +54,7 @@ Later in response: "Since its founding in 2015, the company..."
 
 ### Why Hallucination Happens: The Technical Roots
 
-![Root causes of LLM hallucination from training to inference](/images/blogs/pool-rag/3.jpg)
+![Root causes of LLM hallucination from training to inference](https://picsum.photos/seed/why-llms-hallucinate-1/800/450)
 
 
 Understanding the root causes helps us design mitigations.
@@ -122,7 +122,7 @@ def verify_claims(response):
 
 ### Strategies to Reduce Hallucination
 
-![Hallucination detection strategies and verification pipeline](/images/blogs/pool-rag/4.jpg)
+![Hallucination detection strategies and verification pipeline](https://picsum.photos/seed/why-llms-hallucinate-2/800/450)
 
 
 #### Strategy 1: Retrieval-Augmented Generation (RAG)
@@ -243,7 +243,7 @@ It is important to understand that hallucination risk varies by task:
 
 ### Building Hallucination-Aware Systems
 
-![Risk spectrum of hallucination across different task types](/images/blogs/pool-rag/5.jpg)
+![Risk spectrum of hallucination across different task types](https://picsum.photos/seed/why-llms-hallucinate-3/800/450)
 
 
 For production applications, design your system to account for hallucination:

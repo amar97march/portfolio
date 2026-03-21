@@ -5,7 +5,7 @@ draft: false
 description: "AI-generated content is everywhere — in the blogs you read, the emails you receive, and the product descriptions you browse. How can you spot it? Should you care? And what does this mean for trust online?"
 tags: ["AI", "Content Detection", "Marketing", "Ethics", "Generative AI", "Trust"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1505238680356-667803448bb6?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI generated content detection", "spot AI writing", "AI marketing content", "AI content authenticity", "AI content ethics"]
 ---
 
@@ -92,7 +92,7 @@ The fundamental problem with detection is an arms race: as detectors improve, th
 
 ---
 
-![Detecting AI-generated text with analysis tools](/images/blogs/pool-industry/3.jpg)
+![Detecting AI-generated text with analysis tools](https://picsum.photos/seed/fooled-by-ai-marketing-content-1/800/450)
 
 ### Part 3: Should You Care?
 
@@ -108,7 +108,7 @@ The answer depends on the content type and context:
 
 ---
 
-![Impact of AI content on trust and information quality](/images/blogs/pool-industry/4.jpg)
+![Impact of AI content on trust and information quality](https://picsum.photos/seed/fooled-by-ai-marketing-content-2/800/450)
 
 ### Part 4: The Trust Problem
 
@@ -124,7 +124,7 @@ If a significant fraction of online content is AI-generated, and you cannot reli
 
 ---
 
-![Preserving authentic content in an AI-generated landscape](/images/blogs/pool-industry/5.jpg)
+![Preserving authentic content in an AI-generated landscape](https://picsum.photos/seed/fooled-by-ai-marketing-content-3/800/450)
 
 ### Part 5: What Can Be Done?
 

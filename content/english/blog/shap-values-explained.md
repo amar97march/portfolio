@@ -3,7 +3,7 @@ title: "SHAP Values Explained: Understanding Feature Contributions in ML Models"
 meta_title: ""
 description: "A comprehensive guide to SHAP (SHapley Additive exPlanations), the game-theory-based approach to explaining machine learning predictions. Learn how SHAP values work, why they matter, and how to use them in practice."
 date: 2028-04-12
-image: "/images/blogs/shap-values/cover.jpg"
+image: "https://picsum.photos/seed/shap-values-explained-cover/1200/630"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["xai", "shap", "interpretability", "feature-importance"]
@@ -26,7 +26,7 @@ Shapley values solve this by considering every possible ordering in which the pl
 
 For three players, there are 3! = 6 possible orderings. Suppose Alice is a domain expert whose knowledge is worth 60,000 dollars on her own, Bob is a data analyst who adds 30,000 dollars to any team, and Carol is a project manager who adds 20,000 dollars to any team but adds 40,000 dollars when both Alice and Bob are already present because she can coordinate their complementary skills. The Shapley values would consider all six orderings and compute each person's average marginal contribution, resulting in a fair allocation that accounts for complementarities and synergies.
 
-![Shapley values distributing contributions fairly among features](/images/blogs/pool-ml/3.jpg)
+![Shapley values distributing contributions fairly among features](https://picsum.photos/seed/shap-values-explained-1/800/450)
 
 ## From Game Theory to Machine Learning
 
@@ -96,7 +96,7 @@ DeepSHAP is much faster than KernelSHAP for neural networks because it leverages
 
 For linear models, SHAP values can be computed analytically. If the model is f(x) = w_0 + w_1*x_1 + ... + w_p*x_p, the SHAP value for feature i is simply w_i * (x_i - E[x_i]) when features are independent. LinearSHAP handles this case and extends it to account for feature correlations when needed.
 
-![Different SHAP algorithm implementations for various model types](/images/blogs/pool-ml/4.jpg)
+![Different SHAP algorithm implementations for various model types](https://picsum.photos/seed/shap-values-explained-2/800/450)
 
 ## Practical Usage: A Complete Workflow
 
@@ -184,7 +184,7 @@ shap_interaction_values = explainer.shap_interaction_values(X_test)
 
 The interaction values matrix has shape (n_samples, n_features, n_features). The diagonal entries are the main effects, and the off-diagonal entries are the interaction effects. This provides deep insight into how features work together to influence predictions.
 
-![SHAP visualizations explaining model predictions](/images/blogs/pool-ml/5.jpg)
+![SHAP visualizations explaining model predictions](https://picsum.photos/seed/shap-values-explained-3/800/450)
 
 ## SHAP for Model Debugging and Validation
 

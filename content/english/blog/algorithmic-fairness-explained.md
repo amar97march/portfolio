@@ -3,7 +3,7 @@ title: "Algorithmic Fairness: What Does 'Fair' Even Mean in Machine Learning?"
 meta_title: ""
 description: "A deep dive into the competing mathematical definitions of fairness in machine learning, why they often conflict with each other, and practical approaches for building fairer AI systems."
 date: 2028-03-28
-image: "/images/blogs/algorithmic-fairness/cover.jpg"
+image: "https://images.unsplash.com/photo-1527430253228-e93688616381?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["fairness", "bias", "ethics", "responsible-ai"]
@@ -34,7 +34,7 @@ Even when protected attributes like race or gender are excluded from model input
 
 The pervasiveness of proxy variables means that achieving fairness requires more than simply removing protected attributes from the feature set. It requires understanding the relationships between features and protected attributes and actively designing the model to prevent proxy-based discrimination.
 
-![Complexities of measuring fairness across different demographic groups](/images/blogs/pool-ethics/3.jpg)
+![Complexities of measuring fairness across different demographic groups](https://picsum.photos/seed/algorithmic-fairness-explained-1/800/450)
 
 ## Formal Definitions of Fairness
 
@@ -158,7 +158,7 @@ Second, the trade-off is often smaller than feared. In many practical applicatio
 
 Third, fairness constraints can sometimes improve generalization. Models that are forced to achieve consistent performance across groups may learn more robust features that generalize better to new data, particularly data from underrepresented groups.
 
-![Trade-off between prediction accuracy and fairness in ML systems](/images/blogs/pool-ethics/5.jpg)
+![Trade-off between prediction accuracy and fairness in ML systems](https://picsum.photos/seed/algorithmic-fairness-explained-2/800/450)
 
 ## Context-Dependent Fairness
 
@@ -208,7 +208,7 @@ Model cards, datasheets for datasets, and algorithmic impact assessments provide
 
 Fairness is not a one-time property. As populations change, data distributions shift, and societal context evolves, a system that was fair at deployment may become unfair over time. Continuous monitoring of fairness metrics in production systems is essential for maintaining fairness over time.
 
-![Organizational approaches to building fairer AI systems](/images/blogs/pool-ethics/7.jpg)
+![Organizational approaches to building fairer AI systems](https://picsum.photos/seed/algorithmic-fairness-explained-3/800/450)
 
 ## The Path Forward
 

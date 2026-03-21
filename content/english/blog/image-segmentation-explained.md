@@ -5,7 +5,7 @@ draft: false
 description: "Image segmentation takes Computer Vision to pixel-level precision — classifying every single pixel in an image. This post covers semantic, instance, and panoptic segmentation, the architectures that power them, and real-world applications."
 tags: ["Computer Vision", "Image Segmentation", "Deep Learning", "U-Net", "Semantic Segmentation"]
 categories: ["Computer Vision"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1534996858200-73d6cf9e0e51?w=1200&h=630&fit=crop&auto=format"
 keywords: ["image segmentation", "semantic segmentation", "instance segmentation", "panoptic segmentation", "U-Net", "Mask R-CNN", "SAM", "pixel classification"]
 ---
 
@@ -86,7 +86,7 @@ This simplified version captures the core idea: encode, decode, and use skip con
 ---
 
 
-![Computer vision system analyzing and interpreting visual data](/images/blogs/pool-cv/3.jpg)
+![Computer vision system analyzing and interpreting visual data](https://picsum.photos/seed/image-segmentation-explained-1/800/450)
 
 ### Instance Segmentation: Identifying Individuals
 
@@ -132,7 +132,7 @@ masks, scores, logits = predictor.predict(
 ---
 
 
-![Illustration of image processing through convolutional neural networks](/images/blogs/pool-cv/5.jpg)
+![Illustration of image processing through convolutional neural networks](https://picsum.photos/seed/image-segmentation-explained-2/800/450)
 
 ### Loss Functions for Segmentation
 
@@ -157,7 +157,7 @@ Training segmentation models requires specialized loss functions:
 ---
 
 
-![Visual representation of object recognition and pixel classification](/images/blogs/pool-cv/7.jpg)
+![Visual representation of object recognition and pixel classification](https://picsum.photos/seed/image-segmentation-explained-3/800/450)
 
 ### Real-World Applications
 

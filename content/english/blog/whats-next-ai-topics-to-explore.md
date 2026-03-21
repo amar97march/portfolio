@@ -3,7 +3,7 @@ title: "What's Next? The AI Topics I'm Most Excited to Explore"
 meta_title: ""
 description: "A forward-looking exploration of the most exciting and important AI topics on the horizon, from multimodal reasoning and world models to AI governance, neuromorphic computing, and the evolving relationship between humans and intelligent systems."
 date: 2029-03-26
-image: "/images/blogs/whats-next/cover.jpg"
+image: "https://picsum.photos/seed/whats-next-ai-topics-to-explore-cover/1200/630"
 categories: ["Reflections"]
 author: "Amar Singh"
 tags: ["future", "predictions", "roadmap", "community"]
@@ -31,7 +31,7 @@ The concept of world models, internal representations that allow an AI system to
 Building AI systems with comparable simulation capabilities would be transformative. A world model that understands physics could power more capable robots. A world model that understands social dynamics could enable more nuanced conversational AI. A world model that understands economic systems could improve forecasting and planning.
 
 
-![Emerging AI research directions and frontier topics](/images/blogs/pool-learning/6.jpg)
+![Emerging AI research directions and frontier topics](https://picsum.photos/seed/whats-next-ai-topics-to-explore-1/800/450)
 
 Current research on world models is being pursued from multiple directions. Video prediction models learn to simulate visual dynamics from large video datasets. Physics-informed neural networks incorporate known physical laws into their predictions. Generative models are being adapted to serve as simulators for planning and decision-making.
 
@@ -66,7 +66,7 @@ AlphaFold's prediction of protein structures was a watershed moment, demonstrati
 I am particularly excited about AI for materials discovery. The search for new materials with specific properties, such as better batteries, more efficient solar cells, stronger and lighter structural materials, or more effective catalysts, is traditionally slow and expensive. AI systems that can predict material properties from composition and structure, suggest promising candidates for synthesis, and even design novel materials from scratch could dramatically accelerate this process.
 
 
-![Human-AI collaboration interface design concepts](/images/blogs/pool-learning/7.jpg)
+![Human-AI collaboration interface design concepts](https://picsum.photos/seed/whats-next-ai-topics-to-explore-2/800/450)
 
 Climate science is another domain where AI has enormous potential. Climate models are computationally expensive, limiting the resolution and number of scenarios that can be simulated. AI-based emulators can approximate the behavior of full climate models at a fraction of the computational cost, enabling more comprehensive exploration of climate scenarios and faster evaluation of mitigation strategies.
 
@@ -100,7 +100,7 @@ I am interested in how to design AI systems that complement rather than replace 
 
 Trust calibration is a particularly important challenge. Users who over-trust AI systems may accept incorrect outputs without verification. Users who under-trust AI systems may fail to benefit from accurate outputs. The ideal is calibrated trust, where users rely on the AI when it is likely to be correct and verify or override when it is likely to be wrong. Designing systems that communicate their uncertainty effectively and help users develop accurate mental models of the system's capabilities is an active area of research with enormous practical importance.
 
-![AI for scientific discovery across multiple disciplines](/images/blogs/pool-learning/8.jpg)
+![AI for scientific discovery across multiple disciplines](https://picsum.photos/seed/whats-next-ai-topics-to-explore-3/800/450)
 
 
 I am also fascinated by the cognitive effects of working with AI systems over extended periods. How does regular use of AI assistance change how people think, learn, and make decisions? Are there skills that atrophy when AI takes over certain cognitive tasks? Are there new skills that emerge from human-AI collaboration? These questions sit at the intersection of AI research, cognitive science, and human factors engineering, and they will become increasingly important as AI becomes more deeply integrated into professional and personal life.

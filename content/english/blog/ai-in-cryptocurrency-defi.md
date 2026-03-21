@@ -5,7 +5,7 @@ draft: false
 description: "AI and blockchain are converging in powerful ways. From automated trading bots and smart contract auditing to on-chain analytics and DeFi optimization, this post explores how machine learning is reshaping the crypto ecosystem."
 tags: ["AI", "Cryptocurrency", "DeFi", "Blockchain", "Machine Learning", "Smart Contracts"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI cryptocurrency", "DeFi machine learning", "smart contract auditing AI", "crypto trading bot", "on-chain analytics"]
 ---
 
@@ -60,7 +60,7 @@ def get_crypto_sentiment(coin: str, posts: list[str]) -> dict:
 
 ---
 
-![AI-powered sentiment analysis and trading algorithms in crypto markets](/images/blogs/pool-industry/3.jpg)
+![AI-powered sentiment analysis and trading algorithms in crypto markets](https://picsum.photos/seed/ai-in-cryptocurrency-defi-1/800/450)
 
 ### Part 2: AI for Smart Contract Security
 
@@ -133,7 +133,7 @@ MEV refers to the profit that can be extracted by reordering, inserting, or cens
 
 ---
 
-![Machine learning optimizing DeFi yield farming and liquidation prediction](/images/blogs/pool-industry/5.jpg)
+![Machine learning optimizing DeFi yield farming and liquidation prediction](https://picsum.photos/seed/ai-in-cryptocurrency-defi-2/800/450)
 
 ### Part 4: On-Chain Analytics and Intelligence
 
@@ -160,7 +160,7 @@ These applications are still largely experimental, but they represent a natural 
 
 ---
 
-![Autonomous AI agents operating on blockchain networks](/images/blogs/pool-industry/7.jpg)
+![Autonomous AI agents operating on blockchain networks](https://picsum.photos/seed/ai-in-cryptocurrency-defi-3/800/450)
 
 ### Part 6: Risks and Reality Checks
 

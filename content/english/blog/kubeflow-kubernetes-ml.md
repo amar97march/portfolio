@@ -5,7 +5,7 @@ draft: false
 description: "Kubeflow brings the power of Kubernetes to ML workflows, enabling scalable, reproducible, and portable machine learning pipelines. Learn what Kubeflow offers, how its components work together, and when it is the right choice for your team."
 tags: ["MLOps", "Kubeflow", "Kubernetes", "ML Pipelines", "Machine Learning", "Infrastructure"]
 categories: ["MLOps"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["kubeflow tutorial", "kubeflow kubernetes ml", "kubeflow pipelines", "ml orchestration kubernetes", "kubeflow components"]
 ---
 
@@ -119,7 +119,7 @@ Jupyter notebook servers running on Kubernetes, with access to cluster resources
 - Built-in support for JupyterLab, VS Code Server, and RStudio.
 
 
-![MLOps pipeline orchestrating model training and deployment at scale](/images/blogs/pool-mlops/3.jpg)
+![MLOps pipeline orchestrating model training and deployment at scale](https://picsum.photos/seed/kubeflow-kubernetes-ml-1/800/450)
 
 ### 3. KServe (Model Serving)
 
@@ -246,7 +246,7 @@ spec:
 Kubeflow is powerful, but it is not for everyone. Here is a decision framework:
 
 
-![Illustration of Kubernetes-based machine learning infrastructure](/images/blogs/pool-mlops/5.jpg)
+![Illustration of Kubernetes-based machine learning infrastructure](https://picsum.photos/seed/kubeflow-kubernetes-ml-2/800/450)
 
 ### Use Kubeflow When:
 
@@ -286,7 +286,7 @@ def conditional_pipeline():
 ```
 
 
-![Visual representation of automated ML workflow management](/images/blogs/pool-mlops/7.jpg)
+![Visual representation of automated ML workflow management](https://picsum.photos/seed/kubeflow-kubernetes-ml-3/800/450)
 
 ### Parallel Execution
 

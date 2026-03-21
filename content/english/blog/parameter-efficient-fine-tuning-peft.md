@@ -5,7 +5,7 @@ draft: false
 description: "Learn how Parameter-Efficient Fine-Tuning methods like LoRA, QLoRA, and adapters let you customize LLMs using a fraction of the compute and memory."
 tags: ["PEFT", "Fine-Tuning", "LoRA", "LLM", "Deep Learning"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://picsum.photos/seed/parameter-efficient-fine-tuning-peft-cover/1200/630"
 keywords: ["PEFT", "parameter efficient fine-tuning", "LoRA", "QLoRA", "adapters", "efficient LLM training", "fine-tuning without GPU"]
 ---
 
@@ -97,7 +97,7 @@ Input → Down-project (smaller dim) → Activation → Up-project → + Input
 Adapters are effective but add latency during inference (extra computations at each layer).
 
 
-![Large language model fine-tuning and adaptation](/images/blogs/pool-llm/3.jpg)
+![Large language model fine-tuning and adaptation](https://picsum.photos/seed/parameter-efficient-fine-tuning-peft-1/800/450)
 
 ### LoRA in Practice
 
@@ -189,7 +189,7 @@ model.save_pretrained("./my_lora_adapter")
 ```
 
 
-![Efficient parameter updates for neural networks](/images/blogs/pool-llm/4.jpg)
+![Efficient parameter updates for neural networks](https://picsum.photos/seed/parameter-efficient-fine-tuning-peft-2/800/450)
 
 ### Using a LoRA-Adapted Model
 
@@ -227,7 +227,7 @@ print(tokenizer.decode(outputs[0]))
 For most applications, **QLoRA** provides the best trade-off between quality, cost, and accessibility.
 
 
-![LLM customization and training optimization](/images/blogs/pool-llm/5.jpg)
+![LLM customization and training optimization](https://picsum.photos/seed/parameter-efficient-fine-tuning-peft-3/800/450)
 
 ### When to Use PEFT vs. Full Fine-Tuning
 

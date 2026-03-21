@@ -5,7 +5,7 @@ draft: false
 description: "AI personalization makes products more useful, but it requires collecting intimate data about user behavior. Where is the line between helpful and creepy? This post examines the tension at the heart of modern tech."
 tags: ["AI", "Privacy", "Personalization", "Ethics", "Data Collection", "Machine Learning"]
 categories: ["AI Ethics"]
-image: "/images/blogs/pool-ethics/1.jpg"
+image: "https://picsum.photos/seed/personalization-vs-privacy-cover/1200/630"
 keywords: ["AI personalization privacy", "creepy line technology", "data collection ethics", "user privacy machine learning", "personalization vs privacy"]
 ---
 
@@ -53,7 +53,7 @@ Here is where it gets uncomfortable. To personalize effectively, AI systems need
 - Your network connection
 
 
-![Diagram showing responsible AI development practices](/images/blogs/pool-ethics/5.jpg)
+![Diagram showing responsible AI development practices](https://picsum.photos/seed/personalization-vs-privacy-1/800/450)
 
 **Demographic Data:**
 - Age, gender, income bracket (inferred if not provided)
@@ -92,7 +92,7 @@ The good news: it is possible to personalize without maximizing surveillance. Se
 Add calibrated noise to data before analysis, making it impossible to determine whether any individual's data was included in the dataset:
 
 
-![Illustration of privacy and fairness considerations in technology](/images/blogs/pool-ethics/4.jpg)
+![Illustration of privacy and fairness considerations in technology](https://picsum.photos/seed/personalization-vs-privacy-2/800/450)
 
 ```python
 import numpy as np
@@ -144,7 +144,7 @@ def federated_training_round(global_model, user_devices):
 Google uses federated learning for next-word prediction in Gboard, learning typing patterns without collecting individual keystrokes.
 
 
-![Visual representation of AI ethics principles and frameworks](/images/blogs/pool-ethics/3.jpg)
+![Visual representation of AI ethics principles and frameworks](https://picsum.photos/seed/personalization-vs-privacy-3/800/450)
 
 #### 4.3 On-Device Personalization
 

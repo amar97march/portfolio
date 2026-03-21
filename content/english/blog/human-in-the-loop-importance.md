@@ -5,7 +5,7 @@ draft: false
 description: "An exploration of why keeping humans in the loop is critical for AI systems, how HITL works in practice, and where the boundaries of human oversight lie."
 tags: ["AI & Career", "HITL", "Human-in-the-Loop", "AI Safety", "AI Design", "Human Oversight"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["human in the loop AI", "HITL", "human oversight AI", "AI human collaboration", "AI automation boundaries", "human AI interaction"]
 ---
 
@@ -37,7 +37,7 @@ Users and stakeholders are more likely to trust and adopt AI systems that includ
 ---
 
 
-![Professional navigating career decisions in the age of AI](/images/blogs/pool-career/3.jpg)
+![Professional navigating career decisions in the age of AI](https://picsum.photos/seed/human-in-the-loop-importance-1/800/450)
 
 ### The HITL Spectrum
 
@@ -158,7 +158,7 @@ The AI operates autonomously, but humans randomly sample and review a percentage
 ---
 
 
-![Illustration of evolving job roles and skill requirements](/images/blogs/pool-career/5.jpg)
+![Illustration of evolving job roles and skill requirements](https://picsum.photos/seed/human-in-the-loop-importance-2/800/450)
 
 ### The Challenges of HITL
 
@@ -177,7 +177,7 @@ HITL is not without its own problems:
 ---
 
 
-![Visual representation of human-AI collaboration in the workplace](/images/blogs/pool-career/7.jpg)
+![Visual representation of human-AI collaboration in the workplace](https://picsum.photos/seed/human-in-the-loop-importance-3/800/450)
 
 ### Designing Effective HITL Systems
 

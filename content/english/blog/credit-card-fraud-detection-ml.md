@@ -5,7 +5,7 @@ draft: false
 description: "Credit card fraud detection is one of the most impactful applications of machine learning. Learn how ML models identify fraudulent transactions in real-time, and the unique challenges of extreme class imbalance."
 tags: ["Machine Learning", "Fraud Detection", "Classification", "Imbalanced Data", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1504384308793-0e90f88a8a32?w=1200&h=630&fit=crop&auto=format"
 keywords: ["fraud detection machine learning", "credit card fraud", "imbalanced classification", "SMOTE", "anomaly detection", "real-world ML"]
 ---
 
@@ -41,7 +41,7 @@ Fraud labels are often delayed — it takes days or weeks for a cardholder to re
 ---
 
 
-![Illustration of machine learning algorithms processing and classifying data](/images/blogs/pool-ml/3.jpg)
+![Illustration of machine learning algorithms processing and classifying data](https://picsum.photos/seed/credit-card-fraud-detection-ml-1/800/450)
 
 ### Part 2: The Data
 
@@ -114,7 +114,7 @@ def evaluate_model(model, X_test, y_test, model_name="Model"):
 ---
 
 
-![Visual depicting pattern recognition and feature analysis in ML models](/images/blogs/pool-ml/4.jpg)
+![Visual depicting pattern recognition and feature analysis in ML models](https://picsum.photos/seed/credit-card-fraud-detection-ml-2/800/450)
 
 ### Part 4: Handling Class Imbalance
 
@@ -197,7 +197,7 @@ evaluate_model(model, X_test, y_test, "XGBoost (Production)")
 ---
 
 
-![Conceptual image showing the mathematical foundations of predictive modeling](/images/blogs/pool-ml/5.jpg)
+![Conceptual image showing the mathematical foundations of predictive modeling](https://picsum.photos/seed/credit-card-fraud-detection-ml-3/800/450)
 
 ### Part 6: Real-World Considerations
 

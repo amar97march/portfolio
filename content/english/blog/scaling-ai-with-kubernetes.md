@@ -5,7 +5,7 @@ draft: false
 description: "Kubernetes is the industry standard for orchestrating containerized applications at scale. Learn how to deploy ML models on Kubernetes with auto-scaling, rolling updates, health checks, and GPU scheduling."
 tags: ["ML Deployment", "Kubernetes", "Docker", "Scaling", "Machine Learning", "Infrastructure"]
 categories: ["ML Deployment"]
-image: "/images/blogs/pool-deploy/1.jpg"
+image: "https://picsum.photos/seed/scaling-ai-with-kubernetes-cover/1200/630"
 keywords: ["kubernetes ml deployment", "scale ai kubernetes", "k8s model serving", "kubernetes machine learning", "ml auto scaling"]
 ---
 
@@ -122,7 +122,7 @@ spec:
 ### The Service
 
 
-![Illustration of scalable AI serving patterns](/images/blogs/pool-deploy/5.jpg)
+![Illustration of scalable AI serving patterns](https://picsum.photos/seed/scaling-ai-with-kubernetes-1/800/450)
 
 ```yaml
 # service.yaml
@@ -221,7 +221,7 @@ spec:
 Deploy a new version:
 
 
-![Visual representation of MLOps pipeline and monitoring](/images/blogs/pool-deploy/4.jpg)
+![Visual representation of MLOps pipeline and monitoring](https://picsum.photos/seed/scaling-ai-with-kubernetes-2/800/450)
 
 ```bash
 # Update the image
@@ -332,7 +332,7 @@ data:
 ### Secrets for Sensitive Data
 
 
-![Diagram of model deployment architecture and infrastructure](/images/blogs/pool-deploy/3.jpg)
+![Diagram of model deployment architecture and infrastructure](https://picsum.photos/seed/scaling-ai-with-kubernetes-3/800/450)
 
 ```bash
 kubectl create secret generic model-secrets \

@@ -5,7 +5,7 @@ draft: false
 description: "K-Means clustering automatically discovers groups in unlabeled data. Learn how the algorithm works, how to choose K, and when K-Means is the right tool for your problem."
 tags: ["Machine Learning", "Clustering", "K-Means", "Unsupervised Learning", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&h=630&fit=crop&auto=format"
 keywords: ["k-means clustering", "unsupervised learning", "clustering algorithm", "elbow method", "silhouette score", "data segmentation"]
 ---
 
@@ -80,7 +80,7 @@ plt.show()
 ---
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/k-means-clustering-explained-1/800/450)
 
 ### Part 3: The Mathematics
 
@@ -127,7 +127,7 @@ plt.show()
 ---
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/k-means-clustering-explained-2/800/450)
 
 ### Part 5: The Silhouette Score — A Better Metric
 
@@ -198,7 +198,7 @@ labels = kmeans.fit_predict(X_scaled)
 ---
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/k-means-clustering-explained-3/800/450)
 
 ### Part 7: K-Means Variants
 

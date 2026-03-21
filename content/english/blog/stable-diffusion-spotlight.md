@@ -5,7 +5,7 @@ draft: false
 description: "Stable Diffusion democratized AI image generation by making a powerful diffusion model open source and runnable on consumer hardware. This post explores its architecture, ecosystem, and why open-source matters for generative AI."
 tags: ["Generative AI", "Stable Diffusion", "Open Source", "AI Art", "Tools", "Deep Learning"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/stable-diffusion-spotlight-cover/1200/630"
 keywords: ["Stable Diffusion", "open source AI", "latent diffusion", "ComfyUI", "AUTOMATIC1111", "LoRA", "DreamBooth", "ControlNet"]
 ---
 
@@ -31,7 +31,7 @@ The model components:
 
 ---
 
-![Stable Diffusion latent diffusion model architecture overview](/images/blogs/pool-genai/3.jpg)
+![Stable Diffusion latent diffusion model architecture overview](https://picsum.photos/seed/stable-diffusion-spotlight-1/800/450)
 
 ### Why Open Source Matters
 
@@ -88,7 +88,7 @@ image = pipe(
 
 ---
 
-![The rich ecosystem of tools built around Stable Diffusion](/images/blogs/pool-genai/4.jpg)
+![The rich ecosystem of tools built around Stable Diffusion](https://picsum.photos/seed/stable-diffusion-spotlight-2/800/450)
 
 ### Running Stable Diffusion Locally
 
@@ -138,7 +138,7 @@ This runs entirely on your local machine. No API calls, no subscriptions, no dat
 
 ---
 
-![Evolution of Stable Diffusion from version 1.5 to SD3](/images/blogs/pool-genai/5.jpg)
+![Evolution of Stable Diffusion from version 1.5 to SD3](https://picsum.photos/seed/stable-diffusion-spotlight-3/800/450)
 
 ### Stable Diffusion vs. Midjourney
 

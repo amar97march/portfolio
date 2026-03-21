@@ -3,7 +3,7 @@ title: "Model Decay: Why Machine Learning Models Get Stale Over Time"
 meta_title: ""
 description: "Learn why machine learning models inevitably degrade in production, how to measure staleness, and practical strategies for maintaining model freshness through monitoring, retraining schedules, and automated pipelines."
 date: 2027-06-23
-image: "/images/blogs/model-decay/cover.jpg"
+image: "https://images.unsplash.com/photo-1544256740-2c1ee67c4f03?w=1200&h=630&fit=crop&auto=format"
 categories: ["MLOps"]
 author: "Amar Singh"
 tags: ["model-decay", "staleness", "retraining", "production-ml"]
@@ -264,7 +264,7 @@ Some models influence the very data they are trained on, creating feedback loops
 Sometimes a model decays not because its predictions are technically less accurate, but because the business context around it has changed. A model that predicts customer lifetime value might still produce technically accurate predictions, but if the company's pricing strategy has changed, those predictions might no longer translate into good business decisions.
 
 
-![Machine learning operations and infrastructure](/images/blogs/pool-mlops/3.jpg)
+![Machine learning operations and infrastructure](https://picsum.photos/seed/model-decay-explained-1/800/450)
 
 ## Quantifying Model Shelf Life
 
@@ -470,7 +470,7 @@ class ModelFreshnessFramework:
 ```
 
 
-![Production ML pipeline and deployment workflow](/images/blogs/pool-mlops/4.jpg)
+![Production ML pipeline and deployment workflow](https://picsum.photos/seed/model-decay-explained-2/800/450)
 
 ## Strategies for Combating Model Decay
 
@@ -659,7 +659,7 @@ def calculate_optimal_retraining_frequency(
 ```
 
 
-![MLOps tooling and automation systems](/images/blogs/pool-mlops/5.jpg)
+![MLOps tooling and automation systems](https://picsum.photos/seed/model-decay-explained-3/800/450)
 
 ## Monitoring Model Decay in Practice
 

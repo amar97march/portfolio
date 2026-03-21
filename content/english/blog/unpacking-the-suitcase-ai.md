@@ -5,7 +5,7 @@ draft: false
 description: "A definitive guide to the 'suitcase' metaphor for Artificial Intelligence. We unpack the history, the distinct technologies inside (from GOFAI to Transformers), the moving goalposts of Tesler's Theorem, and the paradoxes that define the field."
 tags: ["AI", "Machine Learning", "Philosophy", "Deep Learning", "AGI", "LLM", "Tech History"]
 categories: ["AI Fundamentals"]
-image: "/images/blogs/blog1/UnpackingTheSuitcase.png"
+image: "https://picsum.photos/seed/unpacking-the-suitcase-ai-cover/1200/630"
 keywords: ["AI definition", "Marvin Minsky", "Suitcase word", "Machine Learning vs AI", "Tesler's Theorem", "Moravec's Paradox", "AGI vs ANI", "Transformer Architecture", "AI Energy Consumption"]
 ---
 
@@ -54,7 +54,7 @@ This is the top layer, the one currently bursting out of the suitcase. Inspired 
 
 ---
 
-![Unpacking the layers of technology inside the AI suitcase](/images/blogs/pool-ml/6.jpg)
+![Unpacking the layers of technology inside the AI suitcase](https://picsum.photos/seed/unpacking-the-suitcase-ai-1/800/450)
 
 ## 3. The "AI Effect": The Moving Goalpost
 Here is the strangest phenomenon regarding this suitcase: **As soon as we understand how a tool works, we take it out of the suitcase.**
@@ -96,7 +96,7 @@ This is the hidden item in the suitcase: **Physical Infrastructure.** AI is not 
 
 ---
 
-![The explosive growth in AI model parameters and compute](/images/blogs/pool-ml/7.jpg)
+![The explosive growth in AI model parameters and compute](https://picsum.photos/seed/unpacking-the-suitcase-ai-2/800/450)
 
 ## 5. The Paradoxes: What is Missing?
 When people look at the AI suitcase, they often assume it contains things that aren't there yet. This confusion arises from two famous paradoxes.
@@ -122,7 +122,7 @@ In Modern AI (Layer C), we don't write the code. We write the architecture, and 
 
 If an LLM hallucinates a legal precedent or denies a loan application, we often *cannot* mathematically trace exactly why it made that decision. We are carrying a suitcase, but we don't have the key to open the inner-most compartment. This is the **Interpretability Problem**.
 
-![The paradoxes and black box challenges of modern AI](/images/blogs/pool-ml/8.jpg)
+![The paradoxes and black box challenges of modern AI](https://picsum.photos/seed/unpacking-the-suitcase-ai-3/800/450)
 
 ## Conclusion: ANI vs. AGI
 The final distinction to make when carrying this suitcase is the destination.

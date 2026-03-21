@@ -5,7 +5,7 @@ draft: false
 description: "In 2006, Netflix offered $1 million to anyone who could improve their recommendation algorithm by 10%. The competition reshaped the field of collaborative filtering and launched a thousand recommendation startups."
 tags: ["AI", "Recommendation Systems", "Netflix Prize", "Collaborative Filtering", "Machine Learning", "Matrix Factorization"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/netflix-prize-recommendation-engines-cover/1200/630"
 keywords: ["Netflix Prize", "recommendation engine", "collaborative filtering", "matrix factorization", "SVD recommendations"]
 ---
 
@@ -29,7 +29,7 @@ But the value of recommendations extends far beyond entertainment:
 Recommendation engines are not a feature. For many companies, they **are** the product.
 
 
-![AI applications in industry and business](/images/blogs/pool-industry/6.jpg)
+![AI applications in industry and business](https://picsum.photos/seed/netflix-prize-recommendation-engines-1/800/450)
 
 ---
 
@@ -131,7 +131,7 @@ The competition was ultimately won by "BellKor's Pragmatic Chaos," a team formed
 This lesson — that ensembles of diverse models outperform any individual model — remains one of the most important practical insights in applied machine learning.
 
 
-![Machine learning transforming enterprise operations](/images/blogs/pool-industry/7.jpg)
+![Machine learning transforming enterprise operations](https://picsum.photos/seed/netflix-prize-recommendation-engines-2/800/450)
 
 ---
 
@@ -151,7 +151,7 @@ The Netflix Prize optimized for rating prediction, but Netflix's actual business
 The lasting impact of the Netflix Prize was not the specific algorithm that won. It was the techniques (matrix factorization, temporal modeling, ensemble methods) and the community of researchers it attracted to the recommendation systems field.
 
 
-![Data-driven decision making in organizations](/images/blogs/pool-industry/8.jpg)
+![Data-driven decision making in organizations](https://picsum.photos/seed/netflix-prize-recommendation-engines-3/800/450)
 
 ---
 

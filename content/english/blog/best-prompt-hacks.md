@@ -5,7 +5,7 @@ draft: false
 description: "Battle-tested prompt hacks and advanced techniques I use daily to get consistently excellent outputs from ChatGPT, Claude, and other LLMs."
 tags: ["Prompt Engineering", "ChatGPT", "Claude", "LLM", "Productivity"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://images.unsplash.com/photo-1593376853899-fbb47a057fa0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["prompt hacks", "best prompts", "ChatGPT tips", "Claude tips", "advanced prompting", "AI productivity", "prompt tricks"]
 ---
 
@@ -78,7 +78,7 @@ provide an improved version.
 
 Models are often surprisingly good at identifying their own shortcomings when explicitly asked. This is a free quality check.
 
-![Advanced prompting techniques for getting better AI outputs](/images/blogs/pool-prompt/3.jpg)
+![Advanced prompting techniques for getting better AI outputs](https://picsum.photos/seed/best-prompt-hacks-1/800/450)
 
 ### Hack 5: The Negative Example
 
@@ -179,7 +179,7 @@ Step 5: "Add JSDoc comments and TypeScript types."
 
 Each step is focused and manageable. The final result is typically better than asking for everything at once, because the model can focus its attention on one concern at a time.
 
-![Structured prompts with scope limiters and incremental refinement](/images/blogs/pool-prompt/5.jpg)
+![Structured prompts with scope limiters and incremental refinement](https://picsum.photos/seed/best-prompt-hacks-2/800/450)
 
 ### Hack 10: The "Write Tests First" Approach
 
@@ -259,7 +259,7 @@ Then give your recommendation for my use case:
 
 Tables force the model to be systematic and cover all criteria evenly. They are also much easier to read than paragraphs of prose.
 
-![XML-tagged prompts and comparison table techniques for complex AI tasks](/images/blogs/pool-prompt/7.jpg)
+![XML-tagged prompts and comparison table techniques for complex AI tasks](https://picsum.photos/seed/best-prompt-hacks-3/800/450)
 
 ### Hack 13: The "As If I Were" Format
 

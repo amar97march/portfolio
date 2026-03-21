@@ -5,7 +5,7 @@ draft: false
 description: "How machine learning algorithms are sifting through cosmic data to discover exoplanets, classify galaxies, and push the boundaries of our understanding of the universe."
 tags: ["AI", "Astronomy", "Exoplanets", "Deep Learning", "NASA", "Space"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI astronomy", "exoplanet detection", "machine learning space", "NASA Kepler", "transit method AI", "galaxy classification", "neural network astronomy"]
 ---
 
@@ -47,7 +47,7 @@ This is a classic signal-detection-in-noise problem, and neural networks excel a
 
 ---
 
-![Analyzing light curves from space telescopes to detect exoplanet transits](/images/blogs/pool-good/3.jpg)
+![Analyzing light curves from space telescopes to detect exoplanet transits](https://picsum.photos/seed/ai-astronomy-finding-planets-1/800/450)
 
 ### Machine Learning for Planet Hunting
 
@@ -137,7 +137,7 @@ Projects like **Breakthrough Listen** (the search for extraterrestrial intellige
 
 ---
 
-![AI classifying galaxies and detecting gravitational lenses across the cosmos](/images/blogs/pool-good/5.jpg)
+![AI classifying galaxies and detecting gravitational lenses across the cosmos](https://picsum.photos/seed/ai-astronomy-finding-planets-2/800/450)
 
 ### The Challenge of Labeled Data in Space
 
@@ -151,7 +151,7 @@ There is also the problem of **confirmation bias in labels**. The planets we hav
 
 ---
 
-![Neural networks discovering exoplanets that human reviewers missed](/images/blogs/pool-good/7.jpg)
+![Neural networks discovering exoplanets that human reviewers missed](https://picsum.photos/seed/ai-astronomy-finding-planets-3/800/450)
 
 ### The Philosophical Dimension
 

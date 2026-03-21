@@ -5,7 +5,7 @@ draft: false
 description: "A detailed breakdown of the European Union's AI Act, the world's first comprehensive AI law. Learn about its risk-based classification system, compliance requirements, and what it means for developers worldwide."
 tags: ["AI Regulation", "EU AI Act", "Policy", "Compliance", "Technology Law", "Risk Management"]
 categories: ["AI Regulation"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?w=1200&h=630&fit=crop&auto=format"
 keywords: ["EU AI Act", "AI regulation", "risk-based AI", "high-risk AI", "AI compliance", "European AI law", "AI governance"]
 ---
 
@@ -39,7 +39,7 @@ These bans took effect in February 2025, making them the first provisions to bec
 
 ---
 
-![AI regulation framework with risk-based classification tiers](/images/blogs/pool-regulation/6.jpg)
+![AI regulation framework with risk-based classification tiers](https://picsum.photos/seed/eu-ai-act-explained-1/800/450)
 
 ### Tier 2: High Risk (Heavily Regulated)
 
@@ -143,7 +143,7 @@ Each EU member state will designate national authorities to enforce the Act. At 
 
 ---
 
-![Compliance timeline and enforcement mechanisms for AI law](/images/blogs/pool-regulation/7.jpg)
+![Compliance timeline and enforcement mechanisms for AI law](https://picsum.photos/seed/eu-ai-act-explained-2/800/450)
 
 ### What This Means for Developers
 
@@ -208,7 +208,7 @@ class EUAIActCompliance:
 
 ---
 
-![Global impact of European AI regulation standards](/images/blogs/pool-regulation/8.jpg)
+![Global impact of European AI regulation standards](https://picsum.photos/seed/eu-ai-act-explained-3/800/450)
 
 ### The Brussels Effect
 

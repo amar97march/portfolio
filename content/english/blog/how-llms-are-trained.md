@@ -5,7 +5,7 @@ draft: false
 description: "A deep dive into the two-phase training process of Large Language Models — pre-training on massive datasets and fine-tuning for specific tasks."
 tags: ["LLM", "Training", "Pre-training", "Fine-tuning", "Deep Learning", "Generative AI"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1542435503-956c469947f6?w=1200&h=630&fit=crop&auto=format"
 keywords: ["LLM training", "pre-training", "fine-tuning", "how GPT is trained", "RLHF", "instruction tuning", "model training pipeline"]
 ---
 
@@ -23,7 +23,7 @@ Training an LLM is not a single step. It happens in distinct phases, each servin
 Think of it like education. Pre-training is like going through school and university — absorbing a vast amount of general knowledge. Alignment is like professional training — learning how to apply that knowledge helpfully and responsibly.
 
 
-![Creative AI generating novel content from learned patterns](/images/blogs/pool-genai/3.jpg)
+![Creative AI generating novel content from learned patterns](https://picsum.photos/seed/how-llms-are-trained-1/800/450)
 
 ### Phase 1: Pre-training
 
@@ -104,7 +104,7 @@ Why? Because in the training data, questions are often followed by more question
 This is the gap that Phase 2 fills.
 
 
-![Illustration of the generative process from noise to coherent output](/images/blogs/pool-genai/5.jpg)
+![Illustration of the generative process from noise to coherent output](https://picsum.photos/seed/how-llms-are-trained-2/800/450)
 
 ### Phase 2: Alignment (Fine-tuning + RLHF)
 
@@ -174,7 +174,7 @@ Production Model (GPT-4, Claude, etc.)
 Each step builds on the previous one. You cannot skip Phase 1 — the model needs the broad knowledge from pre-training. And you cannot skip Phase 2 — without alignment, the model is a powerful but uncontrolled text generator.
 
 
-![Visual representation of text-to-image generation pipeline](/images/blogs/pool-genai/7.jpg)
+![Visual representation of text-to-image generation pipeline](https://picsum.photos/seed/how-llms-are-trained-3/800/450)
 
 ### Instruction Tuning: A Key Technique
 

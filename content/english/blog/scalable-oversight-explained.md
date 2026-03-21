@@ -5,7 +5,7 @@ draft: false
 description: "An exploration of the scalable oversight problem in AI safety: how do we ensure AI systems behave correctly when they become too capable for humans to directly evaluate?"
 tags: ["AI Safety", "Scalable Oversight", "AI Alignment", "Superalignment", "Research", "AI Governance"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://picsum.photos/seed/scalable-oversight-explained-cover/1200/630"
 keywords: ["scalable oversight", "AI supervision", "superhuman AI", "AI safety research", "superalignment", "oversight problem", "AI evaluation"]
 ---
 
@@ -54,7 +54,7 @@ The goal of scalable oversight research is to find a third path: **enabling AI s
 Several approaches are being researched:
 
 
-![Diagram showing safety evaluation frameworks and protocols](/images/blogs/pool-safety/8.jpg)
+![Diagram showing safety evaluation frameworks and protocols](https://picsum.photos/seed/scalable-oversight-explained-1/800/450)
 
 #### 1. AI-Assisted Evaluation
 
@@ -128,7 +128,7 @@ class ScalableOversightPipeline:
 #### 2. Debate
 
 
-![Illustration of oversight mechanisms for advanced AI systems](/images/blogs/pool-safety/7.jpg)
+![Illustration of oversight mechanisms for advanced AI systems](https://picsum.photos/seed/scalable-oversight-explained-2/800/450)
 
 Two AI systems argue opposing sides of a question, and a human judges which argument is more convincing. The key insight is that a human who cannot independently evaluate a complex claim might still be able to judge which of two arguments about that claim is stronger.
 
@@ -151,7 +151,7 @@ This is the promise of interpretability research: making AI systems transparent 
 #### 5. Process-Based Supervision
 
 
-![Visual representation of AI safety principles and alignment research](/images/blogs/pool-safety/6.jpg)
+![Visual representation of AI safety principles and alignment research](https://picsum.photos/seed/scalable-oversight-explained-3/800/450)
 
 Instead of judging whether an AI's final output is correct (outcome-based supervision), evaluate whether the reasoning process used to generate the output is sound (process-based supervision).
 

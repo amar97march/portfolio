@@ -5,7 +5,7 @@ draft: false
 description: "Not all leads are created equal. AI-powered lead scoring predicts which prospects are most likely to convert, allowing sales teams to focus their energy where it matters most."
 tags: ["AI", "Lead Scoring", "Machine Learning", "Sales", "Marketing", "CRM"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1639322537504-6427168e7953?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI lead scoring", "predictive lead scoring", "machine learning sales", "lead qualification AI", "CRM machine learning"]
 ---
 
@@ -132,7 +132,7 @@ def score_lead(lead, model, scaler):
 
 ---
 
-![Machine learning model training on lead conversion data for scoring](/images/blogs/pool-industry/3.jpg)
+![Machine learning model training on lead conversion data for scoring](https://picsum.photos/seed/ai-lead-scoring-1/800/450)
 
 ### Part 2: What Makes a Good Lead Score
 
@@ -148,7 +148,7 @@ The scoring model's value depends on its ability to **rank** leads correctly, no
 
 ---
 
-![Evaluating lead score quality with calibration and distribution analysis](/images/blogs/pool-industry/5.jpg)
+![Evaluating lead score quality with calibration and distribution analysis](https://picsum.photos/seed/ai-lead-scoring-2/800/450)
 
 ### Part 3: Advanced Techniques
 
@@ -184,7 +184,7 @@ Companies with multiple products need to score leads for each product separately
 
 ---
 
-![Advanced lead scoring with time-series features and decay functions](/images/blogs/pool-industry/7.jpg)
+![Advanced lead scoring with time-series features and decay functions](https://picsum.photos/seed/ai-lead-scoring-3/800/450)
 
 ### Part 4: Integration and Adoption
 

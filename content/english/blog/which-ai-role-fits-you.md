@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide to help developers and analysts decide which AI career role fits their personality, skills, and goals. Compare Data Scientist, ML Engineer, Data Engineer, AI Researcher, MLOps Engineer, and AI Product Manager roles side by side."
 tags: ["AI Careers", "Career Guide", "Machine Learning", "Data Science"]
 categories: ["AI & Career"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/which-ai-role-fits-you-cover/1200/630"
 keywords: ["AI career path", "which AI role", "data scientist vs ML engineer", "AI career guide", "best AI role for me", "AI job roles comparison"]
 ---
 
@@ -70,7 +70,7 @@ Here is a side-by-side comparison across key dimensions:
 
 ### Common Transition Paths
 
-![Comparison matrix of AI career roles across key dimensions](/images/blogs/pool-career/6.jpg)
+![Comparison matrix of AI career roles across key dimensions](https://picsum.photos/seed/which-ai-role-fits-you-1/800/450)
 
 
 Most people do not start in their ideal AI role. Here are common transition paths:
@@ -111,7 +111,7 @@ For each role, here are the most critical skills to develop:
 
 ### What the Market Wants in 2028
 
-![Common career transition paths between AI roles](/images/blogs/pool-career/7.jpg)
+![Common career transition paths between AI roles](https://picsum.photos/seed/which-ai-role-fits-you-2/800/450)
 
 
 Based on job market trends:
@@ -141,7 +141,7 @@ Many successful AI professionals have changed roles multiple times. A Data Scien
 
 ### The Decision Framework
 
-![Skills gap analysis for each AI specialization](/images/blogs/pool-career/8.jpg)
+![Skills gap analysis for each AI specialization](https://picsum.photos/seed/which-ai-role-fits-you-3/800/450)
 
 
 If you are still unsure, use this simple framework:

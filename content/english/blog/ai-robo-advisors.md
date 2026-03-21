@@ -5,7 +5,7 @@ draft: false
 description: "Robo-advisors manage over $1 trillion in assets by combining modern portfolio theory with machine learning. Learn how they work, how they compare to human advisors, and where AI is taking personal finance next."
 tags: ["AI", "Robo-Advisors", "Finance", "Portfolio Optimization", "Machine Learning", "Fintech"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=1200&h=630&fit=crop&auto=format"
 keywords: ["robo advisor AI", "automated investing", "portfolio optimization machine learning", "Wealthfront Betterment", "AI personal finance"]
 ---
 
@@ -59,7 +59,7 @@ def optimize_portfolio(expected_returns, cov_matrix, target_return):
     return result.x
 ```
 
-![Automated portfolio optimization running on financial market data](/images/blogs/pool-industry/3.jpg)
+![Automated portfolio optimization running on financial market data](https://picsum.photos/seed/ai-robo-advisors-1/800/450)
 
 **Step 3: Implementation with ETFs.** The target allocation is implemented using low-cost index ETFs. Instead of buying individual stocks, the robo-advisor buys broad market ETFs like VTI (total US stock market) or BND (total US bond market).
 
@@ -104,7 +104,7 @@ Traditional MPT relies on historical mean returns and covariance, which are noto
 - **Hierarchical Risk Parity:** Use clustering to build more robust portfolios that do not depend on accurate return estimates
 - **Regime-Aware Allocation:** Use hidden Markov models to detect market regimes and adjust allocations accordingly
 
-![AI-powered financial dashboard showing personalized investment recommendations](/images/blogs/pool-industry/5.jpg)
+![AI-powered financial dashboard showing personalized investment recommendations](https://picsum.photos/seed/ai-robo-advisors-2/800/450)
 
 ---
 
@@ -141,7 +141,7 @@ The true potential of AI in personal finance extends far beyond portfolio manage
 
 This is not science fiction. The components exist today — portfolio optimization, financial simulation, NLP-powered interfaces. The challenge is integrating them into a coherent system and building the trust necessary for people to delegate such consequential decisions to software.
 
-![Future of AI-driven comprehensive financial planning and advisory](/images/blogs/pool-industry/7.jpg)
+![Future of AI-driven comprehensive financial planning and advisory](https://picsum.photos/seed/ai-robo-advisors-3/800/450)
 
 ---
 

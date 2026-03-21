@@ -3,7 +3,7 @@ title: "365 Days of AI: The Topics That Resonated Most With Readers"
 meta_title: ""
 description: "A comprehensive review of which AI topics generated the most engagement, discussion, and practical value for readers over the course of a year-long daily writing project about artificial intelligence."
 date: 2029-03-02
-image: "/images/blogs/year-review/cover.jpg"
+image: "https://picsum.photos/seed/most-useful-ai-topics-year-review-cover/1200/630"
 categories: ["Reflections"]
 author: "Amar Singh"
 tags: ["year-review", "community", "learning", "retrospective"]
@@ -55,7 +55,7 @@ The post on how we measure whether an AI is good consistently attracted new read
 Posts about data quality, feature engineering, and the practical realities of working with messy real-world data resonated strongly. The post on data quality versus algorithm choice, which argued that improving your data almost always matters more than improving your model, generated some of the most engaged discussion in the comments. Experienced practitioners validated this from their own experience, while students were surprised to learn that the glamorous part of machine learning (the modeling) is often the least important part of a successful project.
 
 
-![Student learning AI and machine learning concepts](/images/blogs/pool-learning/6.jpg)
+![Student learning AI and machine learning concepts](https://picsum.photos/seed/most-useful-ai-topics-year-review-1/800/450)
 
 ## The Career Content: Surprisingly High Demand
 
@@ -92,7 +92,7 @@ Posts about bias in AI systems, from data collection to model deployment, genera
 Posts about AI safety and alignment attracted a passionate and knowledgeable readership. The post on the debate between AI safety and AI capabilities was one of the most commented posts in the series. What I found interesting was the diversity of viewpoints represented: researchers who prioritize alignment, engineers who focus on capabilities, and practitioners who see the tension between the two as a false dichotomy.
 
 
-![Educational resources for artificial intelligence](/images/blogs/pool-learning/7.jpg)
+![Educational resources for artificial intelligence](https://picsum.photos/seed/most-useful-ai-topics-year-review-2/800/450)
 
 ## Topics That Surprised Me by Underperforming
 
@@ -131,7 +131,7 @@ Post titles that included specific technologies, tools, or methods (like "FastAP
 Engagement with career-focused content peaked in January and September, likely corresponding to job search cycles. Engagement with tutorial content peaked during summer months, when students and professionals had more time for hands-on learning. Ethics and policy content spiked around major regulatory announcements and industry controversies.
 
 
-![Building foundational knowledge in AI](/images/blogs/pool-learning/8.jpg)
+![Building foundational knowledge in AI](https://picsum.photos/seed/most-useful-ai-topics-year-review-3/800/450)
 
 ## What This Tells Us About the AI Community
 

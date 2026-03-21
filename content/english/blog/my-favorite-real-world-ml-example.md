@@ -5,7 +5,7 @@ draft: false
 description: "Discover how your everyday email spam filter is actually a sophisticated machine learning system using Naive Bayes, feature extraction, and continuous learning."
 tags: ["Machine Learning", "Spam Filter", "Naive Bayes", "Real World AI"]
 categories: ["AI Fundamentals"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/my-favorite-real-world-ml-example-cover/1200/630"
 keywords: ["spam filter machine learning", "naive bayes email", "real world ML example", "how spam filters work"]
 ---
 
@@ -24,7 +24,7 @@ Back in the early 2000s, spam was genuinely out of control. Studies estimated th
 The solution? Stop writing rules. Let the machine learn the rules itself.
 
 
-![Student learning AI and machine learning concepts](/images/blogs/pool-learning/3.jpg)
+![Student learning AI and machine learning concepts](https://picsum.photos/seed/my-favorite-real-world-ml-example-1/800/450)
 
 ## How a Spam Filter Actually Works
 
@@ -151,7 +151,7 @@ Gmail alone filters over 100 million spam emails every day. The system needs to 
 Every user interaction is a learning opportunity. When millions of users collectively mark a new type of scam as spam, the model updates and protects everyone. This is **collective intelligence** powered by machine learning.
 
 
-![Educational resources for artificial intelligence](/images/blogs/pool-learning/4.jpg)
+![Educational resources for artificial intelligence](https://picsum.photos/seed/my-favorite-real-world-ml-example-2/800/450)
 
 ## The Feedback Loop
 
@@ -167,7 +167,7 @@ One of the most elegant aspects of spam filtering is its **feedback loop**. Here
 This loop means the system is **always learning**, always improving. It is a living, breathing ML system that gets smarter with every interaction.
 
 
-![Building foundational knowledge in AI](/images/blogs/pool-learning/5.jpg)
+![Building foundational knowledge in AI](https://picsum.photos/seed/my-favorite-real-world-ml-example-3/800/450)
 
 ## What You Can Learn From This
 

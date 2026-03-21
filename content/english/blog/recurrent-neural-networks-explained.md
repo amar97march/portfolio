@@ -5,7 +5,7 @@ draft: false
 description: "An in-depth look at Recurrent Neural Networks — the architecture that gave neural networks memory, enabling them to process sequences like text, speech, and time series."
 tags: ["RNN", "LSTM", "Deep Learning", "Sequence Modeling", "NLP"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://picsum.photos/seed/recurrent-neural-networks-explained-cover/1200/630"
 keywords: ["recurrent neural network", "RNN explained", "LSTM", "GRU", "sequence modeling", "NLP deep learning"]
 ---
 
@@ -69,7 +69,7 @@ h_t = tanh(W_xh * x_t + W_hh * h_{t-1} + b_h)
 This is elegant in its simplicity: the new hidden state `h_t` depends on both the current input `x_t` and the previous hidden state `h_{t-1}`. The hidden state is the network's **memory**, carrying information from all previous time steps.
 
 
-![Illustration of gradient flow and model training dynamics](/images/blogs/pool-dl/5.jpg)
+![Illustration of gradient flow and model training dynamics](https://picsum.photos/seed/recurrent-neural-networks-explained-1/800/450)
 
 ## Unrolling Through Time
 
@@ -131,7 +131,7 @@ In practice, this means a standard RNN can effectively "remember" only about 10-
 The **Long Short-Term Memory** (LSTM) network, introduced by Hochreiter and Schmidhuber in 1997, is the most successful solution to the vanishing gradient problem in RNNs.
 
 
-![Diagram showing neural network layers and data transformation](/images/blogs/pool-dl/4.jpg)
+![Diagram showing neural network layers and data transformation](https://picsum.photos/seed/recurrent-neural-networks-explained-2/800/450)
 
 The key innovation is a **cell state** — a separate memory pathway that runs through the entire sequence with minimal modification. Information can be added to or removed from the cell state through **gates**.
 
@@ -201,7 +201,7 @@ class TextClassifier(nn.Module):
 ## GRU: Gated Recurrent Unit
 
 
-![Visual representation of deep learning network architecture](/images/blogs/pool-dl/3.jpg)
+![Visual representation of deep learning network architecture](https://picsum.photos/seed/recurrent-neural-networks-explained-3/800/450)
 
 The **GRU**, introduced in 2014 by Cho et al., is a simplified version of the LSTM. It merges the cell state and hidden state into a single state and uses only two gates instead of three:
 

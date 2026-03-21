@@ -3,7 +3,7 @@ title: "Breaking Down a Cutting-Edge AI Research Paper: A Step-by-Step Analysis"
 meta_title: ""
 description: "A practical guide to reading, understanding, and critically analyzing AI research papers, demonstrated through a detailed walkthrough of a real cutting-edge paper's key components."
 date: 2029-01-19
-image: "/images/blogs/ai-research-paper/cover.jpg"
+image: "https://images.unsplash.com/photo-1560732488-6b0df240254a?w=1200&h=630&fit=crop&auto=format"
 categories: ["Research"]
 author: "Amar Singh"
 tags: ["research-papers", "arxiv", "paper-analysis", "academic"]
@@ -96,7 +96,7 @@ The training procedure is where many practical details live. Key elements to und
 **Training time and resources**: How long does training take? What hardware is required? A method that achieves marginal improvements but requires 100 GPUs for a week may not be practical for most teams.
 
 
-![Illustration of structured learning and knowledge building in AI](/images/blogs/pool-learning/3.jpg)
+![Illustration of structured learning and knowledge building in AI](https://picsum.photos/seed/breaking-down-ai-research-paper-1/800/450)
 
 ## Step 3: Evaluating the Experiments
 
@@ -165,7 +165,7 @@ How well do the results generalize beyond the specific experimental setup? Key q
 - Does the method require domain-specific knowledge or modifications to apply to new problems?
 
 
-![Visual depicting the process of analyzing research methodically](/images/blogs/pool-learning/4.jpg)
+![Visual depicting the process of analyzing research methodically](https://picsum.photos/seed/breaking-down-ai-research-paper-2/800/450)
 
 ### Limitations and Failure Modes
 
@@ -219,7 +219,7 @@ Tools like Zotero, Mendeley, or Paperpile help you organize papers, manage citat
 Rather than trying to keep up with the entire arXiv firehose, follow the researchers and research groups whose work is most relevant to your interests. Subscribe to proceedings from top venues like NeurIPS, ICML, ICLR, ACL, and CVPR. Use tools like Semantic Scholar, Connected Papers, or Google Scholar alerts to discover relevant new work.
 
 
-![Conceptual image showing the journey from theory to practical understanding](/images/blogs/pool-learning/5.jpg)
+![Conceptual image showing the journey from theory to practical understanding](https://picsum.photos/seed/breaking-down-ai-research-paper-3/800/450)
 
 ### Start with Survey Papers
 

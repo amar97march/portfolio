@@ -5,7 +5,7 @@ draft: false
 description: "Anomaly detection identifies unusual patterns that do not conform to expected behavior. Learn the key techniques — statistical, distance-based, and model-based — and when to use each approach."
 tags: ["Machine Learning", "Anomaly Detection", "Unsupervised Learning", "Outliers", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1200&h=630&fit=crop&auto=format"
 keywords: ["anomaly detection", "outlier detection", "isolation forest", "novelty detection", "unsupervised anomaly detection", "fraud detection"]
 ---
 
@@ -27,7 +27,7 @@ An anomaly is a data point that deviates significantly from the expected pattern
 
 **Collective anomalies:** A group of related data points that together form an anomalous pattern, even though each individual point might look normal. A series of small ATM withdrawals from different cities in rapid succession might individually look normal but collectively indicate fraud.
 
-![Different types of anomalies detected in datasets including point and contextual outliers](/images/blogs/pool-ml/3.jpg)
+![Different types of anomalies detected in datasets including point and contextual outliers](https://picsum.photos/seed/anomaly-detection-explained-1/800/450)
 
 ---
 
@@ -172,7 +172,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Local outlier factor detecting anomalies in clusters of varying density](/images/blogs/pool-ml/5.jpg)
+![Local outlier factor detecting anomalies in clusters of varying density](https://picsum.photos/seed/anomaly-detection-explained-2/800/450)
 
 ---
 
@@ -235,7 +235,7 @@ For high-dimensional data, autoencoders provide a deep learning approach. An aut
 
 The idea is simple: train the model to compress and reconstruct normal patterns. Anything it cannot reconstruct well is unusual.
 
-![Autoencoder architecture used for high-dimensional anomaly detection](/images/blogs/pool-ml/7.jpg)
+![Autoencoder architecture used for high-dimensional anomaly detection](https://picsum.photos/seed/anomaly-detection-explained-3/800/450)
 
 ---
 

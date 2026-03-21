@@ -5,7 +5,7 @@ draft: false
 description: "Batch prediction is the simplest and most cost-effective way to deploy ML models. Learn when to use batch inference, how to design batch prediction pipelines, and common patterns for scheduling and storing predictions."
 tags: ["ML Deployment", "Batch Prediction", "Machine Learning", "MLOps", "Data Engineering", "Inference"]
 categories: ["ML Deployment"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=630&fit=crop&auto=format"
 keywords: ["batch prediction ml", "batch inference pattern", "offline prediction", "ml deployment patterns", "batch scoring pipeline"]
 ---
 
@@ -58,7 +58,7 @@ If users do not need predictions within milliseconds, batch processing is simple
 
 Batch jobs can run on cheaper compute (spot instances, preemptible VMs) and scale down to zero between runs. Real-time endpoints need to be always on.
 
-![Batch prediction architecture computing and storing predictions on a schedule](/images/blogs/pool-deploy/3.jpg)
+![Batch prediction architecture computing and storing predictions on a schedule](https://picsum.photos/seed/batch-prediction-pattern-1/800/450)
 
 ---
 
@@ -228,7 +228,7 @@ def run_batch_prediction_pipeline():
         raise
 ```
 
-![Complete batch prediction pipeline with validation and error handling](/images/blogs/pool-deploy/5.jpg)
+![Complete batch prediction pipeline with validation and error handling](https://picsum.photos/seed/batch-prediction-pattern-2/800/450)
 
 ---
 
@@ -303,7 +303,7 @@ def get_churn_risk(customer_id):
     }
 ```
 
-![Downstream applications consuming precomputed batch predictions](/images/blogs/pool-deploy/7.jpg)
+![Downstream applications consuming precomputed batch predictions](https://picsum.photos/seed/batch-prediction-pattern-3/800/450)
 
 ---
 

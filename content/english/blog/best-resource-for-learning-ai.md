@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive, curated guide to the best resources for learning artificial intelligence in 2028 — covering courses, books, YouTube channels, communities, tools, and learning strategies for every level."
 tags: ["AI Education", "Learning Resources", "Machine Learning", "Deep Learning", "Career"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=1200&h=630&fit=crop&auto=format"
 keywords: ["best AI resources 2028", "learn AI resources", "AI learning guide", "machine learning resources", "best way to learn AI"]
 ---
 
@@ -64,7 +64,7 @@ If you already work with data (SQL, Excel, dashboards) and want to add ML skills
 
 **Timeline**: 3-5 months to add ML capability to your existing analytics skills.
 
-![Curated learning resources for AI covering courses, books, and practice platforms](/images/blogs/pool-learning/3.jpg)
+![Curated learning resources for AI covering courses, books, and practice platforms](https://picsum.photos/seed/best-resource-for-learning-ai-1/800/450)
 
 ### For Advanced Practitioners
 
@@ -150,7 +150,7 @@ If you want to push the boundaries of AI:
 | Google Colab | Free GPU access |
 | GitHub | Project hosting and open source |
 
-![Comprehensive table of free AI learning resources across all levels](/images/blogs/pool-learning/5.jpg)
+![Comprehensive table of free AI learning resources across all levels](https://picsum.photos/seed/best-resource-for-learning-ai-2/800/450)
 
 ### Learning Strategies That Work
 
@@ -185,7 +185,7 @@ It is better to deeply understand one area of ML than to have surface knowledge 
 
 **Neglecting software engineering**: Many AI learners focus exclusively on modeling and neglect code quality, version control, testing, and deployment. These skills are essential for any AI career.
 
-![Common mistakes to avoid when learning AI including tutorial hell](/images/blogs/pool-learning/7.jpg)
+![Common mistakes to avoid when learning AI including tutorial hell](https://picsum.photos/seed/best-resource-for-learning-ai-3/800/450)
 
 ### The One-Year Plan
 

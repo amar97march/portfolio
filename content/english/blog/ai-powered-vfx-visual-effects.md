@@ -3,7 +3,7 @@ title: "AI-Powered VFX: De-Aging Actors, Digital Doubles, and the Future of Visu
 meta_title: ""
 description: "Explore how artificial intelligence is revolutionizing visual effects in film and television, from neural face de-aging and digital human creation to AI-driven compositing, rotoscoping, and the emerging ethical questions around synthetic media in entertainment."
 date: 2027-10-06
-image: "/images/blogs/ai-vfx/cover.jpg"
+image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["vfx", "deepfake", "computer-vision", "entertainment"]
@@ -34,7 +34,7 @@ A modern VFX pipeline consists of dozens of interconnected stages. Understanding
 
 **Environment creation** involves building digital worlds. AI generates textures, vegetation, atmospheric effects, and entire landscapes.
 
-![AI-driven visual effects transforming film production pipelines](/images/blogs/pool-industry/4.jpg)
+![AI-driven visual effects transforming film production pipelines](https://picsum.photos/seed/ai-powered-vfx-visual-effects-1/800/450)
 
 ## Neural Face De-Aging
 
@@ -378,7 +378,7 @@ Two of the hardest elements to render realistically are hair and clothing. Tradi
 
 Neural hair rendering systems learn how individual strands interact with light, how they move with head motion, and how they respond to wind and gravity. These learned models can generate hair that is virtually indistinguishable from real footage.
 
-![Neural networks creating photorealistic digital doubles of actors](/images/blogs/pool-industry/6.jpg)
+![Neural networks creating photorealistic digital doubles of actors](https://picsum.photos/seed/ai-powered-vfx-visual-effects-2/800/450)
 
 ## AI-Powered Rotoscoping
 
@@ -605,7 +605,7 @@ The numbers tell a compelling story. Tasks that once required days of artist tim
 
 **Environment creation**: Building a photorealistic CG environment from scratch traditionally takes weeks to months. AI-assisted approaches can generate base environments in hours, with artists spending their time on creative refinement rather than mechanical construction.
 
-![Impact of AI on VFX production timelines and creative workflows](/images/blogs/pool-industry/8.jpg)
+![Impact of AI on VFX production timelines and creative workflows](https://picsum.photos/seed/ai-powered-vfx-visual-effects-3/800/450)
 
 ## Ethical Considerations
 

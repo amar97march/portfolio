@@ -5,7 +5,7 @@ draft: false
 description: "Generative Adversarial Networks (GANs) revolutionized AI-generated content by pitting two neural networks against each other. This post explains how GANs work, their remarkable capabilities, and why they were the first step toward AI-generated art."
 tags: ["Generative AI", "GAN", "Deep Learning", "AI Art", "Neural Networks"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/what-is-a-gan-cover/1200/630"
 keywords: ["GAN", "generative adversarial network", "generator", "discriminator", "AI art", "deepfake", "StyleGAN", "image generation"]
 ---
 
@@ -41,7 +41,7 @@ Where `x` is real data, `z` is random noise, `G(z)` is the generated fake, and `
 
 ---
 
-![The adversarial game between generator and discriminator networks](/images/blogs/pool-genai/3.jpg)
+![The adversarial game between generator and discriminator networks](https://picsum.photos/seed/what-is-a-gan-1/800/450)
 
 ### A Simple GAN in PyTorch
 
@@ -135,7 +135,7 @@ The original GAN produced blurry, low-resolution images. But the architecture ev
 
 ---
 
-![The evolution of GAN architectures from DCGAN to StyleGAN](/images/blogs/pool-genai/4.jpg)
+![The evolution of GAN architectures from DCGAN to StyleGAN](https://picsum.photos/seed/what-is-a-gan-2/800/450)
 
 ### What GANs Can Do
 
@@ -167,7 +167,7 @@ Despite their power, GANs are notoriously difficult to train:
 
 ---
 
-![GAN applications from image generation to super-resolution](/images/blogs/pool-genai/5.jpg)
+![GAN applications from image generation to super-resolution](https://picsum.photos/seed/what-is-a-gan-3/800/450)
 
 ### GANs and the Ethics Question
 

@@ -5,7 +5,7 @@ draft: false
 description: "Financial regulators demand that AI decisions be explainable. But the most accurate models are often the least interpretable. This post explores the explainability-accuracy trade-off and the techniques bridging the gap."
 tags: ["AI", "Explainability", "XAI", "Finance", "SHAP", "LIME", "Regulation"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&h=630&fit=crop&auto=format"
 keywords: ["explainable AI finance", "XAI", "SHAP values", "LIME", "model interpretability", "AI regulation finance"]
 ---
 
@@ -61,7 +61,7 @@ The **Federal Reserve's SR 11-7** guidance on model risk management requires tha
 
 ---
 
-![Financial AI models balancing accuracy with interpretability](/images/blogs/pool-industry/6.jpg)
+![Financial AI models balancing accuracy with interpretability](https://picsum.photos/seed/explainability-in-finance-ai-1/800/450)
 
 ### Part 3: Explainability Techniques
 
@@ -139,7 +139,7 @@ Recent research has shown that EBMs can match the accuracy of gradient boosted t
 
 ---
 
-![SHAP values and feature attribution visualizations](/images/blogs/pool-industry/7.jpg)
+![SHAP values and feature attribution visualizations](https://picsum.photos/seed/explainability-in-finance-ai-2/800/450)
 
 ### Part 4: Practical Approaches in Production
 
@@ -168,7 +168,7 @@ model = xgb.XGBClassifier(
 
 ---
 
-![Regulatory compliance and model auditing in finance](/images/blogs/pool-industry/8.jpg)
+![Regulatory compliance and model auditing in finance](https://picsum.photos/seed/explainability-in-finance-ai-3/800/450)
 
 ### The Takeaway
 

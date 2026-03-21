@@ -5,7 +5,7 @@ draft: false
 description: "Explore the role of the AI Researcher, the inventor who pushes the boundaries of what machines can learn. Learn about their daily work, essential skills, career path, and why this role is the engine of AI innovation."
 tags: ["AI Research", "AI Careers", "Deep Learning", "Machine Learning", "Academia"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1617839625591-e18809be8cd6?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI researcher role", "AI research career", "machine learning research", "AI PhD", "deep learning research", "NeurIPS", "AI researcher salary"]
 ---
 
@@ -30,7 +30,7 @@ A typical research cycle might span weeks or months:
 
 The failure rate is high. Many promising ideas do not pan out. Many submitted papers are rejected. Resilience and genuine intellectual curiosity are prerequisites.
 
-![AI researcher running experiments and analyzing results in the lab](/images/blogs/pool-career/3.jpg)
+![AI researcher running experiments and analyzing results in the lab](https://picsum.photos/seed/ai-role-researcher-1/800/450)
 
 ### Where Do AI Researchers Work?
 
@@ -116,7 +116,7 @@ Writing papers is a core output of research. You must be able to present your id
 
 The ability to read a paper critically — identifying assumptions, potential flaws, and unexplored directions — is essential. Top researchers can spot the key contribution (and the key weakness) in a paper within minutes.
 
-![Mathematical foundations and deep learning frameworks used in AI research](/images/blogs/pool-career/5.jpg)
+![Mathematical foundations and deep learning frameworks used in AI research](https://picsum.photos/seed/ai-role-researcher-2/800/450)
 
 ### Research Areas in AI (2028)
 
@@ -154,7 +154,7 @@ Research salaries vary dramatically between academia and industry:
 
 The gap between academia and industry compensation is significant, which is why many researchers move to industry.
 
-![AI researcher career trajectory from PhD student to principal scientist](/images/blogs/pool-career/7.jpg)
+![AI researcher career trajectory from PhD student to principal scientist](https://picsum.photos/seed/ai-role-researcher-3/800/450)
 
 ### Common Misconceptions
 

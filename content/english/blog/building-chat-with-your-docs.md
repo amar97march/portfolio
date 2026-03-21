@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on tutorial for building a production-quality 'Chat With Your Docs' application using RAG, vector databases, and LLMs."
 tags: ["RAG", "Tutorial", "LLM", "ChromaDB", "Python", "Project"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://images.unsplash.com/photo-1623282033815-40b8d0960e4b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["chat with documents", "RAG tutorial", "document chatbot", "build RAG app", "LLM document search", "AI document assistant"]
 ---
 
@@ -43,7 +43,7 @@ Response with Citations
 ```
 
 
-![Diagram showing the retrieval-augmented generation architecture](/images/blogs/pool-rag/3.jpg)
+![Diagram showing the retrieval-augmented generation architecture](https://picsum.photos/seed/building-chat-with-your-docs-1/800/450)
 
 ### Step 1: Project Setup
 
@@ -179,7 +179,7 @@ def search(query: str, top_k: int = 5, filter_source: str = None):
 ```
 
 
-![Visual illustrating document processing and vector search workflow](/images/blogs/pool-rag/4.jpg)
+![Visual illustrating document processing and vector search workflow](https://picsum.photos/seed/building-chat-with-your-docs-2/800/450)
 
 ### Step 4: The Chat Engine
 
@@ -353,7 +353,7 @@ python main.py
 ```
 
 
-![Conceptual image of an AI system grounding its responses in source documents](/images/blogs/pool-rag/5.jpg)
+![Conceptual image of an AI system grounding its responses in source documents](https://picsum.photos/seed/building-chat-with-your-docs-3/800/450)
 
 ### Key Design Decisions Explained
 

@@ -5,7 +5,7 @@ draft: false
 description: "There is no one-size-fits-all MLOps stack. Learn how to evaluate your requirements, understand trade-offs, and assemble the right combination of tools for your team size, budget, and technical maturity."
 tags: ["MLOps", "Machine Learning", "Architecture", "Tool Selection", "Production ML", "Strategy"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=630&fit=crop&auto=format"
 keywords: ["choose mlops stack", "mlops tool selection", "ml platform comparison", "mlops architecture decision", "best mlops tools"]
 ---
 
@@ -45,7 +45,7 @@ Before choosing tools, understand where you are. Answer these questions honestly
 ---
 
 
-![Diagram illustrating MLOps pipeline components and workflow](/images/blogs/pool-mlops/3.jpg)
+![Diagram illustrating MLOps pipeline components and workflow](https://picsum.photos/seed/choosing-the-right-mlops-stack-1/800/450)
 
 ## Step 2: Map Your Requirements to Tool Categories
 
@@ -139,7 +139,7 @@ Not every team needs every category on day one. Prioritize based on your biggest
 ## Step 4: Decision Matrix by Team Size
 
 
-![Visual showing the infrastructure behind production machine learning](/images/blogs/pool-mlops/4.jpg)
+![Visual showing the infrastructure behind production machine learning](https://picsum.photos/seed/choosing-the-right-mlops-stack-2/800/450)
 
 ### Solo Data Scientist or Small Startup (1-3 people)
 
@@ -192,7 +192,7 @@ The instinct to build custom tools is strong in engineering teams. Resist it for
 **Rule of thumb**: Build only what differentiates your business. Buy or use open source for everything else.
 
 
-![Illustration of automated model deployment and monitoring systems](/images/blogs/pool-mlops/5.jpg)
+![Illustration of automated model deployment and monitoring systems](https://picsum.photos/seed/choosing-the-right-mlops-stack-3/800/450)
 
 ### Mistake 2: Choosing Tools Before Understanding Problems
 

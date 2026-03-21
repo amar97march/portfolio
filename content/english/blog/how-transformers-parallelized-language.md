@@ -5,7 +5,7 @@ draft: false
 description: "The Transformer's ability to process all words simultaneously was the key breakthrough that enabled modern AI. Learn why parallelization matters, how it works, and why it made billion-parameter models possible."
 tags: ["Deep Learning", "Transformers", "GPU", "Parallelization", "AI"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?w=1200&h=630&fit=crop&auto=format"
 keywords: ["transformer parallelization", "GPU training", "attention parallelism", "scaling AI models", "transformer efficiency", "compute AI"]
 ---
 
@@ -92,7 +92,7 @@ Even on a CPU, you will see a significant speedup. On a GPU, the difference is o
 ---
 
 
-![Neural network architecture with layers processing information in parallel](/images/blogs/pool-dl/3.jpg)
+![Neural network architecture with layers processing information in parallel](https://picsum.photos/seed/how-transformers-parallelized-language-1/800/450)
 
 ### Part 3: GPU Architecture and Why It Matters
 
@@ -130,7 +130,7 @@ Shorter paths mean stronger gradient signals, which means the model can learn lo
 ---
 
 
-![Illustration of deep learning model training on GPU hardware](/images/blogs/pool-dl/5.jpg)
+![Illustration of deep learning model training on GPU hardware](https://picsum.photos/seed/how-transformers-parallelized-language-2/800/450)
 
 ### Part 5: The Training Paradigm Shift
 
@@ -183,7 +183,7 @@ This is why context length has been one of the most active areas of research. Se
 ---
 
 
-![Visual representation of attention mechanisms in transformer networks](/images/blogs/pool-dl/7.jpg)
+![Visual representation of attention mechanisms in transformer networks](https://picsum.photos/seed/how-transformers-parallelized-language-3/800/450)
 
 ### Part 7: Parallelism During Inference
 

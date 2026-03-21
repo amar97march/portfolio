@@ -3,7 +3,7 @@ title: "Reinforcement Learning for Data Center Optimization: A Practical Deep Di
 meta_title: ""
 description: "An in-depth exploration of how reinforcement learning is being used to optimize data center operations, from cooling systems to workload scheduling, with real-world case studies and practical implementation guidance."
 date: 2029-01-04
-image: "/images/blogs/rl-data-center/cover.jpg"
+image: "https://picsum.photos/seed/rl-data-center-optimization-cover/1200/630"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["reinforcement-learning", "data-center", "optimization", "energy-efficiency"]
@@ -93,7 +93,7 @@ class DataCenterDQN(nn.Module):
 DQN is straightforward to implement and debug, but the discretization of the action space limits its precision and becomes impractical when controlling multiple parameters simultaneously.
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/5.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/rl-data-center-optimization-1/800/450)
 
 ### Soft Actor-Critic (SAC) for Continuous Control
 
@@ -174,7 +174,7 @@ Deploying RL in a real data center is fundamentally different from running exper
 Safety is the paramount concern. An RL agent that saves energy by allowing temperatures to rise above safe thresholds could damage millions of dollars worth of equipment and disrupt services for millions of users. Hard safety constraints must be enforced at multiple levels.
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/4.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/rl-data-center-optimization-2/800/450)
 
 The first level is the reward function, which penalizes unsafe states. The second level is action filtering, where proposed actions are checked against safety constraints before being applied. The third level is the building management system (BMS), which has its own safety interlocks that override any external control signals.
 
@@ -261,7 +261,7 @@ class JointOptimizationAgent:
 ### Handling Non-Stationarity
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/rl-data-center-optimization-3/800/450)
 
 Data center dynamics change over time due to equipment aging, hardware upgrades, seasonal weather variations, and evolving workload patterns. An RL agent trained on historical data may gradually become suboptimal as conditions drift.
 

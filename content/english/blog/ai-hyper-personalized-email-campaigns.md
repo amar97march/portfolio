@@ -3,7 +3,7 @@ title: "Hyper-Personalization: Building AI-Driven Email Campaigns That Actually 
 meta_title: ""
 description: "Learn how to build AI-powered email marketing systems that go beyond basic segmentation, using NLP, behavioral modeling, and predictive analytics to deliver hyper-personalized campaigns that dramatically improve open rates, click-through rates, and conversions."
 date: 2027-09-06
-image: "/images/blogs/ai-email-campaigns/cover.jpg"
+image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI in Marketing"]
 author: "Amar Singh"
 tags: ["email-marketing", "personalization", "nlp", "marketing-automation"]
@@ -188,7 +188,7 @@ class EmailPersonalizationFeatureStore:
         return {}
 ```
 
-![Building subscriber behavioral profiles for email personalization](/images/blogs/pool-business/3.jpg)
+![Building subscriber behavioral profiles for email personalization](https://picsum.photos/seed/ai-hyper-personalized-email-campaigns-1/800/450)
 
 ## AI-Powered Subject Line Generation
 
@@ -429,7 +429,7 @@ class SendTimeOptimizer:
         ])
 ```
 
-![AI optimizing email send times for individual subscriber engagement patterns](/images/blogs/pool-business/5.jpg)
+![AI optimizing email send times for individual subscriber engagement patterns](https://picsum.photos/seed/ai-hyper-personalized-email-campaigns-2/800/450)
 
 ## Dynamic Content Assembly
 
@@ -709,7 +709,7 @@ class EmailElementOptimizer:
                 self.bandits[element].update(variant, converted)
 ```
 
-![Multi-armed bandit algorithms continuously optimizing email elements](/images/blogs/pool-business/7.jpg)
+![Multi-armed bandit algorithms continuously optimizing email elements](https://picsum.photos/seed/ai-hyper-personalized-email-campaigns-3/800/450)
 
 ## Email Fatigue Management
 

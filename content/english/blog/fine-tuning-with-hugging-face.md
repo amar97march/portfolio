@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on guide to fine-tuning LLMs using the Hugging Face ecosystem — Transformers, PEFT, TRL, and Datasets — with complete code examples."
 tags: ["Hugging Face", "Fine-Tuning", "Transformers", "PEFT", "Python", "Tutorial"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://images.unsplash.com/photo-1517430816045-df4b7de7f6b8?w=1200&h=630&fit=crop&auto=format"
 keywords: ["Hugging Face fine-tuning", "transformers library", "TRL trainer", "PEFT tutorial", "fine-tune Llama", "Hugging Face tutorial"]
 ---
 
@@ -142,7 +142,7 @@ print(f"Model loaded: {MODEL_NAME}")
 print(f"Model size: {model.get_memory_footprint() / 1e9:.1f} GB")
 ```
 
-![Loading and quantizing large language models for training](/images/blogs/pool-llm/6.jpg)
+![Loading and quantizing large language models for training](https://picsum.photos/seed/fine-tuning-with-hugging-face-1/800/450)
 
 ### Step 3: Configure LoRA
 
@@ -236,7 +236,7 @@ def train_model(model, tokenizer, train_dataset, eval_dataset):
 trainer = train_model(model, tokenizer, train_dataset, eval_dataset)
 ```
 
-![Training with LoRA adapters and SFT optimization](/images/blogs/pool-llm/7.jpg)
+![Training with LoRA adapters and SFT optimization](https://picsum.photos/seed/fine-tuning-with-hugging-face-2/800/450)
 
 ### Step 5: Evaluate
 
@@ -384,7 +384,7 @@ trainer.save_model(f"{OUTPUT_DIR}/final_adapter")
 print("Done! Fine-tuned adapter saved.")
 ```
 
-![Merging adapters and deploying fine-tuned models](/images/blogs/pool-llm/8.jpg)
+![Merging adapters and deploying fine-tuned models](https://picsum.photos/seed/fine-tuning-with-hugging-face-3/800/450)
 
 ### Tips From Production
 

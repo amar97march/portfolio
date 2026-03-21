@@ -5,7 +5,7 @@ draft: false
 description: "Prepare for ML system design interviews with a structured approach. Learn how to design scalable machine learning systems, from recommendation engines to fraud detection pipelines, and communicate your design effectively."
 tags: ["AI Interview", "System Design", "Machine Learning", "Architecture", "Career"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["ML system design interview", "machine learning system design", "AI interview system design", "designing ML systems", "ML architecture interview"]
 ---
 
@@ -59,7 +59,7 @@ Translate the business problem into a well-defined ML problem:
 - Offline: Historical data with temporal split
 - Online: A/B testing with randomized user assignment
 
-![Defining ML problems and requirements for system design interviews](/images/blogs/pool-career/3.jpg)
+![Defining ML problems and requirements for system design interviews](https://picsum.photos/seed/ai-interview-system-design-1/800/450)
 
 ### Step 3: Design the Data Pipeline
 
@@ -129,7 +129,7 @@ Rank the ~1,000 candidates using a more sophisticated model:
 
 Applying a complex ranking model to 1M items per request is computationally infeasible at 200ms latency. The retrieval stage efficiently narrows the candidates; the ranking stage precisely orders them.
 
-![Designing scalable data pipelines and model architectures for ML systems](/images/blogs/pool-career/5.jpg)
+![Designing scalable data pipelines and model architectures for ML systems](https://picsum.photos/seed/ai-interview-system-design-2/800/450)
 
 ### Step 5: Design the Serving System
 
@@ -199,7 +199,7 @@ User Request
 
 **4. Address scale explicitly.** Mention how your design handles the stated scale. "At 10M users with 100M interactions per day, we need distributed training and a feature store that can serve features at sub-10ms latency."
 
-![Communicating ML system design decisions effectively in interviews](/images/blogs/pool-career/7.jpg)
+![Communicating ML system design decisions effectively in interviews](https://picsum.photos/seed/ai-interview-system-design-3/800/450)
 
 ### Common ML System Design Questions
 

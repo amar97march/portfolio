@@ -5,7 +5,7 @@ draft: false
 description: "The uncomfortable truth about machine learning: the algorithm you choose matters far less than the quality, quantity, and representativeness of your data."
 tags: ["Data Quality", "Data Science", "Machine Learning", "Best Practices"]
 categories: ["Data Science"]
-image: "/images/blogs/pool-data/1.jpg"
+image: "https://images.unsplash.com/photo-1551808525-51a94da548ce?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data quality machine learning", "data vs algorithm", "garbage in garbage out", "ML data quality"]
 ---
 
@@ -44,7 +44,7 @@ In my professional experience, every significant performance improvement has com
 - **Cleaning duplicate and near-duplicate records** from a dataset reduced overfitting dramatically
 - **Balancing class distributions** solved a model's tendency to ignore minority classes
 
-![Data quality analysis process with charts and metrics](/images/blogs/pool-data/3.jpg)
+![Data quality analysis process with charts and metrics](https://picsum.photos/seed/data-quality-vs-algorithm-choice-1/800/450)
 
 ## The Dimensions of Data Quality
 
@@ -139,7 +139,7 @@ for key, value in report.items():
     print(f"{key}: {value}")
 ```
 
-![Examining datasets for errors and inconsistencies](/images/blogs/pool-data/4.jpg)
+![Examining datasets for errors and inconsistencies](https://picsum.photos/seed/data-quality-vs-algorithm-choice-2/800/450)
 
 ## Real-World Impact: A Story
 
@@ -172,7 +172,7 @@ I think about data quality as a pyramid. You need to satisfy each level before m
 
 Most teams jump to model building when they are only at level 3 or 4. This is a recipe for wasted effort.
 
-![Building a data quality pipeline for machine learning](/images/blogs/pool-data/5.jpg)
+![Building a data quality pipeline for machine learning](https://picsum.photos/seed/data-quality-vs-algorithm-choice-3/800/450)
 
 ## Practical Advice
 

@@ -5,7 +5,7 @@ draft: false
 description: "An honest examination of whether the more pressing AI risk is the misuse of current systems or the potential emergence of superintelligent AI, and why the answer might be both."
 tags: ["AI Safety", "AI Risk", "AI Misuse", "Superintelligence", "AI Ethics", "Current AI Harms"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI misuse", "superintelligence risk", "current AI harms", "AI risk debate", "near-term AI risk", "long-term AI risk"]
 ---
 
@@ -36,7 +36,7 @@ We do not know when or if AGI will arrive. We do not know what form it will take
 ---
 
 
-![Illustration of AI safety mechanisms and guardrails](/images/blogs/pool-safety/3.jpg)
+![Illustration of AI safety mechanisms and guardrails](https://picsum.photos/seed/bigger-risk-ai-misuse-or-superintelligence-1/800/450)
 
 ### The Case for Prioritizing Existential Risk
 
@@ -55,7 +55,7 @@ The people working on existential risk are generally not the same people who wou
 ---
 
 
-![Visual representation of balancing AI capabilities with alignment](/images/blogs/pool-safety/4.jpg)
+![Visual representation of balancing AI capabilities with alignment](https://picsum.photos/seed/bigger-risk-ai-misuse-or-superintelligence-2/800/450)
 
 ### The Misuse Spectrum
 
@@ -89,7 +89,7 @@ The important insight is that **these tiers are connected**. The organizations, 
 ---
 
 
-![Conceptual image depicting responsible AI development practices](/images/blogs/pool-safety/5.jpg)
+![Conceptual image depicting responsible AI development practices](https://picsum.photos/seed/bigger-risk-ai-misuse-or-superintelligence-3/800/450)
 
 ### Where I Land
 

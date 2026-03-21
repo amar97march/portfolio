@@ -5,7 +5,7 @@ draft: false
 description: "Customer service chatbots have evolved from frustrating decision trees to genuinely helpful AI assistants. This post covers the architecture of modern chatbot systems, from intent classification to LLM-powered conversational agents."
 tags: ["AI", "Chatbots", "NLP", "Customer Service", "LLM", "Machine Learning"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI chatbot customer service", "conversational AI", "intent classification", "LLM chatbot", "customer support automation"]
 ---
 
@@ -85,7 +85,7 @@ But raw LLMs have a critical limitation for customer service: they do not know a
 
 ---
 
-![Evolution of customer service chatbots from rule-based to LLM-powered](/images/blogs/pool-industry/3.jpg)
+![Evolution of customer service chatbots from rule-based to LLM-powered](https://picsum.photos/seed/ai-chatbots-customer-service-1/800/450)
 
 ### Part 2: Modern Chatbot Architecture
 
@@ -163,7 +163,7 @@ Customer-facing LLMs need guardrails:
 
 ---
 
-![RAG-powered chatbot architecture retrieving knowledge base documents](/images/blogs/pool-industry/5.jpg)
+![RAG-powered chatbot architecture retrieving knowledge base documents](https://picsum.photos/seed/ai-chatbots-customer-service-2/800/450)
 
 ### Part 3: Measuring Success
 
@@ -183,7 +183,7 @@ How do you know if your chatbot is working? Key metrics:
 
 ---
 
-![Measuring chatbot performance with key customer service metrics](/images/blogs/pool-industry/7.jpg)
+![Measuring chatbot performance with key customer service metrics](https://picsum.photos/seed/ai-chatbots-customer-service-3/800/450)
 
 ### Part 4: Best Practices
 

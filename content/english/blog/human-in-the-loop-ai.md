@@ -3,7 +3,7 @@ title: "Human-in-the-Loop AI: Why Keeping Humans Involved Still Matters"
 meta_title: ""
 description: "An in-depth exploration of human-in-the-loop (HITL) AI systems, examining why human oversight remains essential even as AI capabilities grow. Covers design patterns, real-world applications, and the future of human-AI collaboration."
 date: 2028-06-20
-image: "/images/blogs/human-in-loop/cover.jpg"
+image: "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["hitl", "human-oversight", "responsible-ai", "automation"]
@@ -63,7 +63,7 @@ Trust in AI systems is not a binary state but a spectrum that develops over time
 Organizations that deploy fully automated AI systems often face resistance from the people who are expected to rely on them. Physicians may refuse to follow AI recommendations they do not understand. Loan officers may develop workarounds that circumvent AI-based decisioning. Content moderators may lose confidence in AI-assisted tools that make obvious errors. HITL designs that respect human expertise and autonomy are more likely to achieve genuine adoption.
 
 
-![Illustration of human oversight in AI-powered decision systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration of human oversight in AI-powered decision systems](https://picsum.photos/seed/human-in-the-loop-ai-1/800/450)
 
 ## HITL Design Patterns
 
@@ -114,7 +114,7 @@ In traditional supervised learning, you collect a large labeled dataset and trai
 Active learning flips the script. Instead of labeling everything and then training, you start with a small labeled dataset, train an initial model, and then use the model to identify which unlabeled instances would be most valuable to label next. The human labels those specific instances, the model is retrained, and the cycle repeats.
 
 
-![Visual representation of ethical considerations in automated processes](/images/blogs/pool-ethics/5.jpg)
+![Visual representation of ethical considerations in automated processes](https://picsum.photos/seed/human-in-the-loop-ai-2/800/450)
 
 ### Query Strategies
 
@@ -173,7 +173,7 @@ Self-driving cars represent a fascinating case study in the evolution of human-i
 This progression illustrates how HITL design can evolve over time. The initial heavy human involvement allowed the technology to operate safely while accumulating the data and experience needed to improve. As the AI's capabilities expanded and its failure modes were better understood, the human role was gradually reduced in the domains where the AI was most reliable.
 
 
-![Conceptual depiction of balancing efficiency with human judgment](/images/blogs/pool-ethics/7.jpg)
+![Conceptual depiction of balancing efficiency with human judgment](https://picsum.photos/seed/human-in-the-loop-ai-3/800/450)
 
 ### Criminal Justice Risk Assessment
 

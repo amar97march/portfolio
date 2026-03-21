@@ -3,7 +3,7 @@ title: "AI's Impact on Creative Jobs: Threat, Tool, or Transformation?"
 meta_title: ""
 description: "Exploring how artificial intelligence is reshaping creative industries from graphic design to music composition, and what this means for the future of human creativity and employment."
 date: 2027-10-15
-image: "/images/blogs/ai-creative-jobs/cover.jpg"
+image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI & Society"]
 author: "Amar Singh"
 tags: ["creative-ai", "jobs", "art", "future-of-work"]
@@ -34,7 +34,7 @@ Perhaps no creative discipline felt the tremor more intensely than illustration.
 
 In music, AI composition tools became capable of generating background music, jingles, and even full tracks in specific genres. Stock music libraries faced the same pressures as stock photography. Composers who specialized in production music for advertisements, podcasts, and corporate videos found themselves competing with algorithms that could produce genre-appropriate tracks in minutes.
 
-![AI disrupting creative industries from stock photography to copywriting](/images/blogs/pool-ethics/3.jpg)
+![AI disrupting creative industries from stock photography to copywriting](https://picsum.photos/seed/ai-impact-creative-jobs-1/800/450)
 
 ## The Tool Narrative: Augmentation and Enhancement
 
@@ -86,7 +86,7 @@ AI's impact on creative quality follows a distinctive pattern. At the low end of
 
 The middle of the quality spectrum is where the most interesting transformation occurs. Work that was previously "good enough" when produced by competent humans is now compared against the virtually limitless output of AI systems. This pushes human creatives either upward toward higher-quality, more distinctive work or sideways into roles that combine creativity with AI tool mastery.
 
-![The transformation of creative work from execution to creative direction](/images/blogs/pool-ethics/5.jpg)
+![The transformation of creative work from execution to creative direction](https://picsum.photos/seed/ai-impact-creative-jobs-2/800/450)
 
 ## Industry-by-Industry Analysis
 
@@ -144,7 +144,7 @@ Perhaps most fundamentally, human creativity involves intentionality -- the cons
 
 Much professional creative work is inherently collaborative and relational. Understanding a client's unspoken needs, reading the room in a brainstorming session, building on a colleague's half-formed idea, navigating the politics of creative decision-making -- these interpersonal dimensions of creative work are deeply human and remain essential in professional contexts.
 
-![Authentic human creativity and lived experience remaining irreplaceable by AI](/images/blogs/pool-ethics/7.jpg)
+![Authentic human creativity and lived experience remaining irreplaceable by AI](https://picsum.photos/seed/ai-impact-creative-jobs-3/800/450)
 
 ## Navigating the Transformation: Strategies for Creative Professionals
 

@@ -5,7 +5,7 @@ draft: false
 description: "A curated list of the three best free courses for learning artificial intelligence and machine learning, with honest reviews of what each course does well and where it falls short."
 tags: ["AI Education", "Machine Learning", "Free Courses", "Learning Resources", "Online Learning"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/top-free-ai-courses-cover/1200/630"
 keywords: ["free AI courses", "best machine learning courses", "learn AI free", "AI education", "online AI courses", "machine learning MOOC"]
 ---
 
@@ -43,7 +43,7 @@ Andrew Ng's original Machine Learning course on Coursera was the course that lau
 
 **Time commitment**: Approximately 3-4 months at 5-7 hours per week.
 
-![Free online courses for learning AI and machine learning](/images/blogs/pool-learning/6.jpg)
+![Free online courses for learning AI and machine learning](https://picsum.photos/seed/top-free-ai-courses-1/800/450)
 
 ### Course 2: fast.ai's Practical Deep Learning for Coders
 
@@ -87,7 +87,7 @@ Stanford's CS229, taught by Andrew Ng (and later by other faculty), is the full 
 
 **Time commitment**: Approximately 3-4 months at 8-10 hours per week.
 
-![Building practical deep learning skills through structured courses](/images/blogs/pool-learning/7.jpg)
+![Building practical deep learning skills through structured courses](https://picsum.photos/seed/top-free-ai-courses-2/800/450)
 
 ### The Learning Path I Recommend
 
@@ -110,7 +110,7 @@ Where paid courses can add value:
 
 But for core AI and ML fundamentals, you genuinely do not need to spend a dollar.
 
-![Continuing the learning journey beyond courses](/images/blogs/pool-learning/8.jpg)
+![Continuing the learning journey beyond courses](https://picsum.photos/seed/top-free-ai-courses-3/800/450)
 
 ### Beyond Courses
 

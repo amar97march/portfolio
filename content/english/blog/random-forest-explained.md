@@ -5,7 +5,7 @@ draft: false
 description: "Random Forests combine hundreds of Decision Trees to create a model that is accurate, robust, and resistant to overfitting. Learn how bagging and feature randomness work together to build one of ML's most reliable algorithms."
 tags: ["Machine Learning", "Random Forest", "Ensemble Methods", "Classification", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/random-forest-explained-cover/1200/630"
 keywords: ["random forest", "ensemble learning", "bagging", "bootstrap aggregation", "decision tree ensemble", "random forest vs decision tree"]
 ---
 
@@ -52,7 +52,7 @@ For classification, the default is $\sqrt{p}$ features (where $p$ is the total n
 This forces trees to explore different features and different patterns. Some trees might discover that Feature A is important, while others rely on Feature C. The ensemble captures a richer representation of the data than any individual tree could.
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/8.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/random-forest-explained-1/800/450)
 
 ---
 
@@ -104,7 +104,7 @@ print(f"OOB Score: {rf.oob_score_:.4f}")
 - `min_samples_leaf`: Prevents trees from creating very small leaf nodes.
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/7.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/random-forest-explained-2/800/450)
 
 ---
 
@@ -144,7 +144,7 @@ print(perm_importances.head(10))
 ---
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/6.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/random-forest-explained-3/800/450)
 
 ### Part 7: Random Forest vs. Decision Tree
 

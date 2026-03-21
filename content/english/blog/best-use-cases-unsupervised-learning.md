@@ -5,7 +5,7 @@ draft: false
 description: "Unsupervised learning discovers hidden structure in data without labels. Explore the most impactful real-world applications, from customer segmentation to recommendation engines."
 tags: ["Machine Learning", "Unsupervised Learning", "Use Cases", "Data Science"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop&auto=format"
 keywords: ["unsupervised learning applications", "clustering use cases", "dimensionality reduction", "anomaly detection use cases", "recommendation systems", "market basket analysis"]
 ---
 
@@ -45,7 +45,7 @@ We also explored this in the previous post. Anomaly detection finds data points 
 
 **Techniques used:** Isolation Forest, LOF, One-Class SVM, Autoencoders.
 
-![Customer segmentation and anomaly detection as key unsupervised learning applications](/images/blogs/pool-ml/4.jpg)
+![Customer segmentation and anomaly detection as key unsupervised learning applications](https://picsum.photos/seed/best-use-cases-unsupervised-learning-1/800/450)
 
 ---
 
@@ -116,7 +116,7 @@ The classic example: customers who buy diapers also tend to buy beer (the story 
 
 **Techniques used:** Apriori algorithm, FP-Growth.
 
-![Topic modeling discovering hidden themes across large document collections](/images/blogs/pool-ml/6.jpg)
+![Topic modeling discovering hidden themes across large document collections](https://picsum.photos/seed/best-use-cases-unsupervised-learning-2/800/450)
 
 ---
 
@@ -156,7 +156,7 @@ Unsupervised learning is foundational in biology:
 - **Cell type discovery:** Single-cell RNA sequencing produces thousands of cells, each with thousands of gene measurements. Clustering reveals distinct cell types.
 - **Phylogenetics:** Hierarchical clustering of genetic sequences to understand evolutionary relationships.
 
-![Unsupervised learning used for genomics and bioinformatics applications](/images/blogs/pool-ml/8.jpg)
+![Unsupervised learning used for genomics and bioinformatics applications](https://picsum.photos/seed/best-use-cases-unsupervised-learning-3/800/450)
 
 ---
 

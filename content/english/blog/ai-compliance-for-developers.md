@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide for software developers on navigating AI compliance requirements, from documentation and testing to deployment and monitoring."
 tags: ["AI Compliance", "AI Regulation", "Developers", "Software Engineering", "Best Practices", "MLOps"]
 categories: ["AI Regulation"]
-image: "/images/blogs/pool-regulation/1.jpg"
+image: "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI compliance developers", "AI regulation compliance", "developer AI guidelines", "AI development best practices", "model documentation", "AI testing requirements"]
 ---
 
@@ -43,7 +43,7 @@ As a developer, you need to be aware of compliance requirements at every stage o
 
 ---
 
-![Developer compliance requirements across the AI lifecycle stages](/images/blogs/pool-regulation/3.jpg)
+![Developer compliance requirements across the AI lifecycle stages](https://picsum.photos/seed/ai-compliance-for-developers-1/800/450)
 
 ### Building Compliance Into Your Development Workflow
 
@@ -318,7 +318,7 @@ def ai_disclosure(system_description: str):
 
 ---
 
-![Automated fairness testing integrated into CI/CD pipelines](/images/blogs/pool-regulation/5.jpg)
+![Automated fairness testing integrated into CI/CD pipelines](https://picsum.photos/seed/ai-compliance-for-developers-2/800/450)
 
 ### The Compliance Checklist
 
@@ -366,7 +366,7 @@ Here is a practical checklist for every AI project:
 
 ---
 
-![Common compliance mistakes developers make when building AI systems](/images/blogs/pool-regulation/7.jpg)
+![Common compliance mistakes developers make when building AI systems](https://picsum.photos/seed/ai-compliance-for-developers-3/800/450)
 
 ### The Silver Lining
 

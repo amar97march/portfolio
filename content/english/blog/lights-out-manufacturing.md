@@ -3,7 +3,7 @@ title: "Lights-Out Manufacturing: The Future of Fully Automated Factories"
 meta_title: ""
 description: "An in-depth look at lights-out manufacturing -- factories that operate with zero human presence on the production floor -- exploring its technologies, real-world implementations, economic implications, and the path toward fully autonomous production."
 date: 2027-11-05
-image: "/images/blogs/lights-out-manufacturing/cover.jpg"
+image: "https://images.unsplash.com/photo-1488229297570-58520851e868?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["manufacturing", "automation", "smart-factory", "industry-4"]
@@ -75,7 +75,7 @@ AI models trained on historical failure data learn to recognize the patterns tha
 The reliability requirements for lights-out manufacturing are stringent. Equipment must be designed for extended autonomous operation, with redundant systems for critical functions and the ability to safely shut down if problems occur that cannot be resolved automatically.
 
 
-![Smart factory floor with AI-driven automation and monitoring](/images/blogs/pool-industry/3.jpg)
+![Smart factory floor with AI-driven automation and monitoring](https://picsum.photos/seed/lights-out-manufacturing-1/800/450)
 
 ### Digital Twin Integration
 
@@ -126,7 +126,7 @@ Full lights-out operation in food manufacturing faces unique challenges related 
 ## The Economic Case for Lights-Out Manufacturing
 
 
-![Illustration of industrial IoT sensors and connected manufacturing](/images/blogs/pool-industry/5.jpg)
+![Illustration of industrial IoT sensors and connected manufacturing](https://picsum.photos/seed/lights-out-manufacturing-2/800/450)
 
 ### Labor Cost Reduction
 
@@ -163,7 +163,7 @@ The most fundamental challenge of lights-out manufacturing is handling exception
 In a conventional factory, a human operator uses experience, judgment, and improvisation to resolve these exceptions. In a lights-out factory, the automated systems must either resolve the exception automatically or fail safely and alert remote operators. Developing automated systems capable of handling the full range of exceptions that occur in real manufacturing is one of the most difficult technical challenges in lights-out manufacturing.
 
 
-![Visual representation of AI-powered quality control and optimization](/images/blogs/pool-industry/7.jpg)
+![Visual representation of AI-powered quality control and optimization](https://picsum.photos/seed/lights-out-manufacturing-3/800/450)
 
 ### Initial Investment
 

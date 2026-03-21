@@ -5,7 +5,7 @@ draft: false
 description: "How to approach and excel at take-home challenges in AI interviews. Learn the evaluation criteria, time management strategies, and presentation tips that separate winning submissions from average ones."
 tags: ["AI Interview", "Career", "Machine Learning", "Take-Home Challenge", "Interview Preparation"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI take-home challenge", "ML interview take-home", "data science take-home", "interview assignment", "machine learning challenge"]
 ---
 
@@ -66,7 +66,7 @@ Most take-home challenges give you 3-7 days but expect 4-8 hours of work. Here i
 - Ensure everything runs from scratch
 - Proofread your writeup
 
-![Managing time effectively during AI take-home interview challenges](/images/blogs/pool-career/3.jpg)
+![Managing time effectively during AI take-home interview challenges](https://picsum.photos/seed/ai-interview-take-home-challenge-1/800/450)
 
 ### The Submission Structure
 
@@ -158,7 +158,7 @@ The evaluator should be able to clone your repository and run everything with mi
 - Set random seeds for reproducibility
 - Include clear setup instructions in your README
 
-![Key principles for building winning take-home challenge submissions](/images/blogs/pool-career/5.jpg)
+![Key principles for building winning take-home challenge submissions](https://picsum.photos/seed/ai-interview-take-home-challenge-2/800/450)
 
 ### Common Mistakes
 
@@ -182,7 +182,7 @@ Without a baseline, your results have no context. "AUC of 0.87" means nothing wi
 
 A beautiful model with no explanation is a black box. Evaluators are hiring a colleague, not a model. They need to see that you can communicate your work.
 
-![Avoiding common mistakes that weaken take-home challenge submissions](/images/blogs/pool-career/7.jpg)
+![Avoiding common mistakes that weaken take-home challenge submissions](https://picsum.photos/seed/ai-interview-take-home-challenge-3/800/450)
 
 ### The Presentation (If Required)
 

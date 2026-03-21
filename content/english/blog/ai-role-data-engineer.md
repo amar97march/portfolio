@@ -5,7 +5,7 @@ draft: false
 description: "Discover the role of the Data Engineer in the AI ecosystem. Learn how Data Engineers build the pipelines and infrastructure that make machine learning possible, and why they are the unsung heroes of every AI team."
 tags: ["Data Engineering", "AI Careers", "ETL", "Data Pipelines", "Big Data"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data engineer role", "data engineer skills", "data engineering career", "ETL pipelines", "data infrastructure", "AI careers", "data engineer salary"]
 ---
 
@@ -35,7 +35,7 @@ A typical week might look like this:
 
 The theme is **reliability**. A Data Engineer's job is to ensure that data is where it needs to be, when it needs to be there, in the format it needs to be in — every single time.
 
-![Data engineer building and monitoring complex data pipelines](/images/blogs/pool-career/4.jpg)
+![Data engineer building and monitoring complex data pipelines](https://picsum.photos/seed/ai-role-data-engineer-1/800/450)
 
 ### Core Skills
 
@@ -104,7 +104,7 @@ Understanding how to design a data warehouse — star schemas, slowly changing d
 | Data Quality | Great Expectations, dbt tests, Monte Carlo |
 | Infrastructure | Docker, Kubernetes, Terraform |
 
-![Data engineering tools and technologies used in modern data platforms](/images/blogs/pool-career/6.jpg)
+![Data engineering tools and technologies used in modern data platforms](https://picsum.photos/seed/ai-role-data-engineer-2/800/450)
 
 ### The ETL/ELT Pipeline
 
@@ -139,7 +139,7 @@ Data Engineers are in extremely high demand, and salaries reflect this:
 - **Senior (5-8 years)**: $170,000 - $230,000
 - **Staff / Principal**: $220,000 - $320,000+
 
-![Career progression path for data engineers from junior to principal](/images/blogs/pool-career/8.jpg)
+![Career progression path for data engineers from junior to principal](https://picsum.photos/seed/ai-role-data-engineer-3/800/450)
 
 ### Common Misconceptions
 

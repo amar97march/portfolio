@@ -5,7 +5,7 @@ draft: false
 description: "A beginner-friendly explanation of neural networks, drawing parallels with the human brain and breaking down the math behind artificial neurons."
 tags: ["Neural Networks", "Deep Learning", "AI Basics", "Perceptron"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://picsum.photos/seed/what-is-a-neural-network-cover/1200/630"
 keywords: ["what is a neural network", "neural network explained", "artificial neurons", "perceptron", "deep learning basics"]
 ---
 
@@ -91,7 +91,7 @@ The bias term is a constant that gives the neuron flexibility. Without it, the n
 
 A simple analogy: imagine a thermostat. The bias is like the baseline temperature setting. The inputs and weights adjust the temperature up or down from that baseline. Without the baseline, you would always be adjusting from zero degrees, which is not very useful.
 
-![How a single artificial neuron processes inputs and produces output](/images/blogs/pool-dl/3.jpg)
+![How a single artificial neuron processes inputs and produces output](https://picsum.photos/seed/what-is-a-neural-network-1/800/450)
 
 ## From One Neuron to Many: The Network
 
@@ -152,7 +152,7 @@ Multiple layers solve this by learning **hierarchical features**:
 
 Each layer builds on the abstractions learned by the previous layer. This hierarchical feature learning is what makes neural networks so powerful and so different from traditional algorithms.
 
-![Layers of neurons learning hierarchical features](/images/blogs/pool-dl/4.jpg)
+![Layers of neurons learning hierarchical features](https://picsum.photos/seed/what-is-a-neural-network-2/800/450)
 
 ## How Does a Neural Network Learn?
 
@@ -182,7 +182,7 @@ for epoch in range(1000):
     network.update_weights(gradients, learning_rate=0.01)
 ```
 
-![Neural network training through gradient descent and backpropagation](/images/blogs/pool-dl/5.jpg)
+![Neural network training through gradient descent and backpropagation](https://picsum.photos/seed/what-is-a-neural-network-3/800/450)
 
 ## The Power and the Limitations
 

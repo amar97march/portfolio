@@ -5,7 +5,7 @@ draft: false
 description: "An exploration of how bias enters machine learning systems through data — the types of bias, real-world consequences, and practical strategies for detection and mitigation."
 tags: ["AI Ethics", "Bias", "Fairness", "Data Quality", "Responsible AI"]
 categories: ["AI Ethics"]
-image: "/images/blogs/pool-ethics/1.jpg"
+image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&h=630&fit=crop&auto=format"
 keywords: ["bias in AI", "data bias", "algorithmic fairness", "AI ethics", "biased training data"]
 ---
 
@@ -34,7 +34,7 @@ The way data is collected introduces systematic errors. In healthcare, certain c
 The data collection process systematically excludes certain groups. Surveys conducted online miss people without internet access. Datasets from top hospitals miss patients who cannot afford premium healthcare. Social media data overrepresents younger, more tech-savvy demographics.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/bias-in-data-garbage-in-garbage-out-1/800/450)
 
 ### Label Bias
 
@@ -55,7 +55,7 @@ The model works better for some groups than others. Speech recognition systems t
 The model reinforces stereotypes. Language models that associate "doctor" with "he" and "nurse" with "she" are encoding gender stereotypes from their training data.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/bias-in-data-garbage-in-garbage-out-2/800/450)
 
 ## Detecting Bias
 
@@ -167,7 +167,7 @@ balanced_df = pd.concat(balanced_dfs)
 ```
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/bias-in-data-garbage-in-garbage-out-3/800/450)
 
 ### In-processing: Constrain the Model
 

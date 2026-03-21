@@ -5,7 +5,7 @@ draft: false
 description: "A deep dive into Constitutional AI (CAI), the alignment technique developed by Anthropic that uses a set of principles to guide AI behavior, reducing reliance on human feedback."
 tags: ["AI Safety", "Constitutional AI", "Anthropic", "RLHF", "AI Alignment", "Claude"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&h=630&fit=crop&auto=format"
 keywords: ["Constitutional AI", "Anthropic", "CAI", "RLAIF", "AI alignment technique", "Claude AI", "AI safety research"]
 ---
 
@@ -32,7 +32,7 @@ To understand why Constitutional AI was developed, we need to understand the lim
 ---
 
 
-![Illustration of AI safety mechanisms and guardrails](/images/blogs/pool-safety/3.jpg)
+![Illustration of AI safety mechanisms and guardrails](https://picsum.photos/seed/constitutional-ai-anthropic-1/800/450)
 
 ### How Constitutional AI Works
 
@@ -162,7 +162,7 @@ The explicitness of the constitution is a major advantage. Unlike implicit RLHF 
 ---
 
 
-![Visual representation of balancing AI capabilities with alignment](/images/blogs/pool-safety/4.jpg)
+![Visual representation of balancing AI capabilities with alignment](https://picsum.photos/seed/constitutional-ai-anthropic-2/800/450)
 
 ### Advantages Over Standard RLHF
 
@@ -181,7 +181,7 @@ The explicitness of the constitution is a major advantage. Unlike implicit RLHF 
 ---
 
 
-![Conceptual image depicting responsible AI development practices](/images/blogs/pool-safety/5.jpg)
+![Conceptual image depicting responsible AI development practices](https://picsum.photos/seed/constitutional-ai-anthropic-3/800/450)
 
 ### Limitations and Challenges
 

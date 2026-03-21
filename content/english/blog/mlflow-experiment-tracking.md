@@ -5,7 +5,7 @@ draft: false
 description: "MLflow is the most widely adopted open-source platform for ML experiment tracking, model registry, and deployment. Learn how to set it up, use its core components, and integrate it into your ML workflow."
 tags: ["MLOps", "MLflow", "Experiment Tracking", "Model Registry", "Machine Learning", "Python"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200&h=630&fit=crop&auto=format"
 keywords: ["mlflow tutorial", "mlflow experiment tracking", "mlflow setup", "mlflow model registry", "mlflow guide"]
 ---
 
@@ -49,7 +49,7 @@ A centralized store for managing model versions, stage transitions, and annotati
 ---
 
 
-![Machine learning operations and infrastructure](/images/blogs/pool-mlops/3.jpg)
+![Machine learning operations and infrastructure](https://picsum.photos/seed/mlflow-experiment-tracking-1/800/450)
 
 ## Setting Up MLflow
 
@@ -247,7 +247,7 @@ with mlflow.start_run(run_name="hyperparameter_search"):
 ---
 
 
-![Production ML pipeline and deployment workflow](/images/blogs/pool-mlops/4.jpg)
+![Production ML pipeline and deployment workflow](https://picsum.photos/seed/mlflow-experiment-tracking-2/800/450)
 
 ## MLflow Models: Packaging for Deployment
 
@@ -349,7 +349,7 @@ client.transition_model_version_stage(
 ---
 
 
-![MLOps tooling and automation systems](/images/blogs/pool-mlops/5.jpg)
+![MLOps tooling and automation systems](https://picsum.photos/seed/mlflow-experiment-tracking-3/800/450)
 
 ## Querying the Tracking Server Programmatically
 

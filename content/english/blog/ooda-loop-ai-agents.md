@@ -3,7 +3,7 @@ title: "The OODA Loop for AI Agents: Observe, Orient, Decide, Act"
 meta_title: ""
 description: "How the military OODA Loop framework maps onto the architecture of modern AI agents, providing a structured approach to building autonomous systems that perceive, reason, plan, and execute in dynamic environments."
 date: 2027-04-04
-image: "/images/blogs/ooda-loop-agents/cover.jpg"
+image: "https://picsum.photos/seed/ooda-loop-ai-agents-cover/1200/630"
 categories: ["AI Agents"]
 author: "Amar Singh"
 tags: ["agents", "ooda-loop", "decision-making", "autonomous-systems"]
@@ -23,7 +23,7 @@ Boyd developed the OODA Loop while studying why American F-86 Sabres achieved a 
 The OODA Loop is not a simple sequential process. It is a recursive, overlapping cycle with feedback loops between every stage. The output of "Act" feeds back into "Observe." The mental models built during "Orient" shape what you notice during "Observe." The speed of the loop matters, but so does the quality of each stage.
 
 
-![Autonomous AI agent decision-making loop](/images/blogs/pool-agents/6.jpg)
+![Autonomous AI agent decision-making loop](https://picsum.photos/seed/ooda-loop-ai-agents-1/800/450)
 
 ## Stage 1: Observe
 
@@ -197,7 +197,7 @@ class AdaptiveOrienter:
 ```
 
 
-![Intelligent systems observing and acting in environments](/images/blogs/pool-agents/7.jpg)
+![Intelligent systems observing and acting in environments](https://picsum.photos/seed/ooda-loop-ai-agents-2/800/450)
 
 ## Stage 3: Decide
 
@@ -406,7 +406,7 @@ class OODAAgent:
 ```
 
 
-![AI agent architecture and planning framework](/images/blogs/pool-agents/8.jpg)
+![AI agent architecture and planning framework](https://picsum.photos/seed/ooda-loop-ai-agents-3/800/450)
 
 ## Boyd's Advanced Concepts Applied to AI Agents
 

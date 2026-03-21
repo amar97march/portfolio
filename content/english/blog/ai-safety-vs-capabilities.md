@@ -5,7 +5,7 @@ draft: false
 description: "An analysis of the tension between AI safety research and AI capabilities research, why both are essential, and how to strike the right balance."
 tags: ["AI Safety", "AI Capabilities", "AI Research", "AI Alignment", "AI Ethics", "Technology"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI safety vs capabilities", "AI research balance", "AI safety investment", "capabilities research", "alignment tax", "responsible AI development"]
 ---
 
@@ -45,7 +45,7 @@ Safety research is focused on ensuring that AI systems behave as intended, do no
 
 Safety research produces less visible but critically important outcomes: frameworks for red-teaming, techniques for detecting model biases, methods for understanding model internals, and policies for responsible deployment.
 
-![Balancing AI capabilities advancement with safety research priorities](/images/blogs/pool-safety/3.jpg)
+![Balancing AI capabilities advancement with safety research priorities](https://picsum.photos/seed/ai-safety-vs-capabilities-1/800/450)
 
 ---
 
@@ -101,7 +101,7 @@ Currently, capabilities research dominates safety research by a significant marg
 
 This imbalance is concerning. As AI systems become more powerful, the gap between what they can do and what we can verify about their behavior grows. If capabilities continue to outpace safety, we risk deploying systems whose behavior we cannot reliably predict or control.
 
-![AI safety research investment gap compared to capabilities funding](/images/blogs/pool-safety/5.jpg)
+![AI safety research investment gap compared to capabilities funding](https://picsum.photos/seed/ai-safety-vs-capabilities-2/800/450)
 
 ---
 
@@ -181,7 +181,7 @@ class IntegratedAIPipeline:
 
 **5. Create regulatory incentives.** Regulations should create financial incentives for safety investment. Tax credits for safety research, liability protections for organizations that meet safety standards, and penalties for those that do not can shift the cost-benefit calculation.
 
-![Integrated safety gates built into the AI development pipeline](/images/blogs/pool-safety/7.jpg)
+![Integrated safety gates built into the AI development pipeline](https://picsum.photos/seed/ai-safety-vs-capabilities-3/800/450)
 
 ---
 

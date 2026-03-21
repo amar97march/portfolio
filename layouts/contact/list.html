@@ -15,16 +15,47 @@
       </p>
 
       <!-- Email -->
-      <div class="flex items-center gap-4 mb-8 reveal-up">
+      <div class="flex items-center gap-4 mb-6 reveal-up">
         <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
           <i class="fa-solid fa-envelope" style="color: var(--accent-violet-light);"></i>
         </div>
         <div>
           <span class="text-white/40 text-sm block">Email</span>
-          <a href="mailto:{{ site.Params.email | default `hello@amarsingh.dev` }}" class="text-white hover:text-[var(--accent-violet-light)] transition-colors">
-            {{ site.Params.email | default "hello@amarsingh.dev" }}
+          <a href="mailto:{{ site.Params.email }}" class="text-white hover:text-[var(--accent-violet-light)] transition-colors">
+            {{ site.Params.email }}
           </a>
         </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="flex items-center gap-4 mb-6 reveal-up">
+        <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-phone" style="color: var(--accent-violet-light);"></i>
+        </div>
+        <div>
+          <span class="text-white/40 text-sm block">Phone</span>
+          <a href="tel:+918005509499" class="text-white hover:text-[var(--accent-violet-light)] transition-colors">
+            +91 8005509499
+          </a>
+        </div>
+      </div>
+
+      <!-- Location -->
+      <div class="flex items-center gap-4 mb-8 reveal-up">
+        <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-location-dot" style="color: var(--accent-violet-light);"></i>
+        </div>
+        <div>
+          <span class="text-white/40 text-sm block">Location</span>
+          <span class="text-white">Bangalore, India</span>
+        </div>
+      </div>
+
+      <!-- Download Resume -->
+      <div class="mb-8 reveal-up">
+        <a href="/resume.pdf" target="_blank" rel="noopener" class="btn-primary-custom magnetic-btn inline-flex items-center gap-2">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
       </div>
 
       <!-- Social Icons -->

@@ -1,42 +1,62 @@
 {{ define "main" }}
 
-<!-- ===== HERO SECTION ===== -->
-<section class="section-dark py-24 lg:py-36 relative overflow-hidden">
-  <!-- Decorative shapes -->
-  <div class="absolute top-20 right-10 w-40 h-40 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
-  <div class="absolute bottom-10 left-20 w-56 h-56 rounded-full bg-white/5 parallax-bg" data-speed="0.3"></div>
-  <div class="absolute top-1/3 left-1/4 w-24 h-24 rounded-lg bg-white/5 rotate-45 parallax-bg" data-speed="0.15"></div>
+<!-- ===== 1. DARK HERO WITH ANIMATED HEADING ===== -->
+<section class="section-dark py-24 lg:py-40 relative overflow-hidden">
+  <!-- Parallax decorative shapes -->
+  <div class="absolute top-16 right-10 w-44 h-44 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
+  <div class="absolute bottom-12 left-16 w-64 h-64 rounded-full bg-white/5 parallax-bg" data-speed="0.3"></div>
+  <div class="absolute top-1/3 left-1/4 w-28 h-28 rounded-lg bg-white/5 rotate-45 parallax-bg" data-speed="0.15"></div>
+  <div class="absolute top-1/2 right-1/4 w-20 h-20 rounded-full bg-white/[0.03] parallax-bg" data-speed="0.25"></div>
+  <div class="absolute bottom-1/3 right-1/3 w-36 h-36 rounded-lg bg-white/[0.03] rotate-12 parallax-bg" data-speed="0.18"></div>
 
   <div class="container text-center relative z-10">
     <div class="accent-line mx-auto reveal-up"></div>
-    <h1 class="text-5xl lg:text-7xl font-bold mb-6 split-text">About Me</h1>
-    <p class="text-white/60 text-xl max-w-2xl mx-auto reveal-up">
-      Full Stack Developer &amp; ML Engineer crafting scalable solutions with purpose.
+    <p class="text-white/40 uppercase tracking-[0.3em] text-sm mb-4 reveal-up">Senior Full-Stack (AI/ML) Developer</p>
+    <h1 class="text-5xl md:text-6xl lg:text-8xl font-bold mb-6 split-text">Amar Singh</h1>
+    <p class="text-white/60 text-xl md:text-2xl max-w-3xl mx-auto reveal-up leading-relaxed">
+      8 years of building high-performance web apps &amp; integrated AI solutions &mdash; from pixel-perfect front-ends to robust, scalable back-ends.
     </p>
+    <div class="flex flex-wrap justify-center gap-4 mt-10 reveal-up">
+      <a href="mailto:amar97march@gmail.com" class="btn-primary-custom magnetic-btn">
+        <i class="fa-solid fa-envelope mr-2"></i> Get in Touch
+      </a>
+      <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn">
+        <i class="fab fa-linkedin mr-2"></i> LinkedIn
+      </a>
+      <a href="https://github.com/amar97march" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn">
+        <i class="fab fa-github mr-2"></i> GitHub
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- ===== BIO + PHOTO (Split Layout) ===== -->
+
+<!-- ===== 2. BIO + PHOTO SPLIT LAYOUT ===== -->
 <section class="py-20 lg:py-28">
   <div class="container">
     <div class="row items-center">
       <!-- Left: Photo -->
       <div class="lg:col-5 mb-12 lg:mb-0 reveal-left">
         <div class="photo-creative max-w-md mx-auto lg:mx-0">
-          <img src="{{ `images/amarimage.jpg` | relURL }}" alt="Amar Singh" loading="lazy" class="w-full">
+          <img src="{{ `images/amarimage.jpg` | absURL }}" alt="Amar Singh — Senior Full-Stack Developer" loading="lazy" class="w-full">
         </div>
       </div>
 
-      <!-- Right: Bio text with drop-cap -->
+      <!-- Right: Bio -->
       <div class="lg:col-7 lg:pl-16 reveal-right">
         <div class="accent-line"></div>
         <h2 class="section-heading mb-6">Who I Am</h2>
         <p class="text-lg leading-relaxed mb-5 opacity-80 drop-cap">
-          I'm a Full Stack Developer with deep expertise in ReactJS, Vue.js, Django, and FastAPI. I specialize in building scalable web applications, reliable APIs, and ML-powered features that solve real problems.
+          Senior Full-Stack Developer with 8 years of hands-on experience designing, building, and deploying high-performance web applications and integrated AI solutions. Proven expertise across the entire stack, from pixel-perfect front-ends with React, Vue, and Nuxt.js to robust back-ends powered by Django and FastAPI.
         </p>
         <p class="text-lg leading-relaxed mb-8 opacity-80">
-          With an M.Tech in Machine Learning and Data Science from BITS Pilani, I bring a unique blend of engineering depth and ML knowledge to every project. My experience spans enterprise workforce systems, RAG-powered knowledge assistants, analytics dashboards, and microservice architectures.
+          Currently expanding my technical leadership with an M.Tech in Artificial Intelligence from BITS Pilani (Dec 2025), bringing hands-on experience in RAG, Agentic AI, NLP, Computer Vision, and Generative AI to every project I touch.
         </p>
+        <div class="flex flex-wrap gap-3 mb-6">
+          <span class="tag-pill"><i class="fa-solid fa-location-dot mr-1"></i> Bangalore</span>
+          <span class="tag-pill"><i class="fa-solid fa-phone mr-1"></i> 8005509499</span>
+          <span class="tag-pill"><i class="fa-solid fa-envelope mr-1"></i> amar97march@gmail.com</span>
+        </div>
         <div class="flex flex-wrap gap-4">
           <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-primary-custom magnetic-btn">
             LinkedIn <i class="fab fa-linkedin ml-1"></i>
@@ -50,7 +70,40 @@
   </div>
 </section>
 
-<!-- ===== WORK EXPERIENCE TIMELINE ===== -->
+
+<!-- ===== 3. STATS COUNTER ROW ===== -->
+<section class="section-dark py-16 lg:py-24 relative overflow-hidden">
+  <div class="absolute top-10 left-10 w-32 h-32 rounded-full bg-white/[0.03] parallax-bg" data-speed="0.12"></div>
+  <div class="absolute bottom-10 right-16 w-48 h-48 rounded-full bg-white/[0.03] parallax-bg" data-speed="0.2"></div>
+
+  <div class="container relative z-10">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center stagger-children">
+      <!-- Stat 1 -->
+      <div class="reveal-up">
+        <div class="text-4xl lg:text-5xl font-bold text-gradient mb-2">8+</div>
+        <p class="text-white/60 text-sm uppercase tracking-wider">Years Experience</p>
+      </div>
+      <!-- Stat 2 -->
+      <div class="reveal-up">
+        <div class="text-4xl lg:text-5xl font-bold text-gradient mb-2">5000+</div>
+        <p class="text-white/60 text-sm uppercase tracking-wider">Documents Processed</p>
+      </div>
+      <!-- Stat 3 -->
+      <div class="reveal-up">
+        <div class="text-4xl lg:text-5xl font-bold text-gradient mb-2">30,000+</div>
+        <p class="text-white/60 text-sm uppercase tracking-wider">Users Served</p>
+      </div>
+      <!-- Stat 4 -->
+      <div class="reveal-up">
+        <div class="text-4xl lg:text-5xl font-bold text-gradient mb-2">3x</div>
+        <p class="text-white/60 text-sm uppercase tracking-wider">Best Performer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== 4. WORK EXPERIENCE TIMELINE ===== -->
 <section class="py-20 lg:py-28 bg-gradient-subtle">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
@@ -61,84 +114,279 @@
 
     <div class="max-w-3xl mx-auto">
       <div class="timeline">
-        <!-- PTW -->
-        <div class="timeline-item reveal-left">
-          <span class="timeline-company">PTW</span>
-          <h3 class="timeline-role">Senior Full Stack Developer</h3>
-          <span class="timeline-date">2023 &ndash; Present</span>
-          <p class="timeline-desc">
-            Building and maintaining scalable web applications with React, Django, and REST APIs. Leading frontend architecture decisions and optimizing system performance across distributed microservice architectures.
-          </p>
-        </div>
-
-        <!-- Antro-PAI -->
-        <div class="timeline-item reveal-right">
-          <span class="timeline-company">Antro-PAI</span>
-          <h3 class="timeline-role">ML Engineer</h3>
-          <span class="timeline-date">2022 &ndash; 2023</span>
-          <p class="timeline-desc">
-            Designed and deployed ML pipelines for NLP and RAG-based systems using Python, FastAPI, and large language models. Built knowledge assistants that improved document retrieval accuracy and user experience.
-          </p>
-        </div>
-
-        <!-- Fractal Analytics -->
-        <div class="timeline-item reveal-left">
-          <span class="timeline-company">Fractal Analytics</span>
-          <h3 class="timeline-role">Data Engineer</h3>
-          <span class="timeline-date">2021 &ndash; 2022</span>
-          <p class="timeline-desc">
-            Developed analytics dashboards and data visualization tools using Vue.js. Worked on data-intensive features, API design, and frontend performance optimization for enterprise clients.
-          </p>
-        </div>
 
         <!-- Mindfire Solutions -->
-        <div class="timeline-item reveal-right">
+        <div class="timeline-item reveal-left">
           <span class="timeline-company">Mindfire Solutions</span>
-          <h3 class="timeline-role">Software Developer</h3>
-          <span class="timeline-date">2019 &ndash; 2021</span>
+          <h3 class="timeline-role">Senior Software Engineer</h3>
+          <span class="timeline-date">Aug 2021 &ndash; Present</span>
           <p class="timeline-desc">
-            Built robust backend services with Django, Celery, and Docker. Implemented microservice architectures, task queues, background processing, and RESTful APIs for enterprise clients.
+            <strong>PDF Anonymisation Tool:</strong> Built a Nuxt.js front-end integrated with Google Vision and Tesseract OCR, achieving a 70% increase in redaction efficiency across 5,000+ documents.
+          </p>
+          <p class="timeline-desc mt-2">
+            <strong>Call Recording Analysis:</strong> Developed a Nuxt.js platform leveraging Google Audio API for real-time sentiment analysis on call recordings.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span class="tag-pill"><i class="fa-solid fa-trophy mr-1"></i> Best Troubleshooter &mdash; Oct 2023</span>
+            <span class="tag-pill"><i class="fa-solid fa-star mr-1"></i> Best Performer &mdash; Aug 2024</span>
+            <span class="tag-pill"><i class="fa-solid fa-star mr-1"></i> Best Performer &mdash; Dec 2024</span>
+          </div>
+        </div>
+
+        <!-- Pole to Win / Side -->
+        <div class="timeline-item reveal-right">
+          <span class="timeline-company">Pole to Win / "Side"</span>
+          <h3 class="timeline-role">Software Engineer</h3>
+          <span class="timeline-date">Jan 2020 &ndash; July 2021</span>
+          <p class="timeline-desc">
+            <strong>Workforce Management:</strong> Engineered a platform managing 4,000+ employees with workflow automation, saving 20+ admin hours per month.
+          </p>
+          <p class="timeline-desc mt-2">
+            <strong>Audio Tool &mdash; Cyberpunk 2077:</strong> Built voice-over workflow management tooling for the AAA game title.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span class="tag-pill"><i class="fa-solid fa-award mr-1"></i> Top Performer &mdash; Q2 2020</span>
+          </div>
+        </div>
+
+        <!-- Norm Software -->
+        <div class="timeline-item reveal-left">
+          <span class="timeline-company">Norm Software</span>
+          <h3 class="timeline-role">Software Engineer</h3>
+          <span class="timeline-date">Feb 2019 &ndash; Jan 2020</span>
+          <p class="timeline-desc">
+            <strong>JVB Health &amp; Wellness:</strong> Delivered a health platform with 20,000+ users integrating Garmin and Apple Watch APIs for real-time fitness data.
+          </p>
+          <p class="timeline-desc mt-2">
+            <strong>Double Critical:</strong> Built a social gaming app reaching 10,000+ users. Led the Worksnaps employee management tool as team lead.
           </p>
         </div>
+
+        <!-- Bull8 Clothing -->
+        <div class="timeline-item reveal-right">
+          <span class="timeline-company">Bull8 Clothing</span>
+          <h3 class="timeline-role">Founder &amp; Full-Stack Developer</h3>
+          <span class="timeline-date">Sep 2016 &ndash; Jan 2019</span>
+          <p class="timeline-desc">
+            Built an e-commerce platform from scratch using Django and REST APIs. Engineered an automated order fulfillment pipeline and managed full DevOps infrastructure on AWS with Docker, including SEO optimization.
+          </p>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== EDUCATION ===== -->
+
+<!-- ===== 5. KEY PROJECTS SHOWCASE ===== -->
 <section class="py-20 lg:py-28">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
       <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Key Projects</h2>
+      <p class="section-subtitle mx-auto">Real-world products that ship and scale</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-children">
+
+      <!-- Project 1 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-file-shield text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">PDF Anonymisation Tool</h3>
+        <p class="credential-card-institution">Mindfire Solutions</p>
+        <p class="credential-card-field">
+          Nuxt.js, Google Vision, Tesseract OCR. Automated PII redaction across 5,000+ documents with 70% efficiency gain.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">Nuxt.js</span>
+          <span class="tag-pill">Google Vision</span>
+          <span class="tag-pill">OCR</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-headset text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Call Recording Analysis</h3>
+        <p class="credential-card-institution">Mindfire Solutions</p>
+        <p class="credential-card-field">
+          Real-time sentiment analysis platform built with Nuxt.js and Google Audio API for call center quality assurance.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">Nuxt.js</span>
+          <span class="tag-pill">Google Audio</span>
+          <span class="tag-pill">NLP</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-users-gear text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Workforce Management</h3>
+        <p class="credential-card-institution">Pole to Win</p>
+        <p class="credential-card-field">
+          Enterprise platform for 4,000+ employees. Automated workflows that saved 20+ admin hours per month.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">Automation</span>
+          <span class="tag-pill">Enterprise</span>
+          <span class="tag-pill">4K+ Users</span>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-gamepad text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Audio Tool &mdash; Cyberpunk 2077</h3>
+        <p class="credential-card-institution">Pole to Win / "Side"</p>
+        <p class="credential-card-field">
+          Voice-over workflow management tool for the AAA game, streamlining audio production pipelines.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">AAA Gaming</span>
+          <span class="tag-pill">Audio</span>
+          <span class="tag-pill">Workflow</span>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-heart-pulse text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">JVB Health &amp; Wellness</h3>
+        <p class="credential-card-institution">Norm Software</p>
+        <p class="credential-card-field">
+          Health platform serving 20,000+ users with Garmin and Apple Watch API integrations for real-time fitness tracking.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">Health Tech</span>
+          <span class="tag-pill">Wearables</span>
+          <span class="tag-pill">20K+ Users</span>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-cart-shopping text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Bull8 Clothing E-Commerce</h3>
+        <p class="credential-card-institution">Bull8 Clothing (Founded)</p>
+        <p class="credential-card-field">
+          Full e-commerce platform built from scratch with Django, REST APIs, automated fulfillment, AWS, Docker, and SEO.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="tag-pill">Django</span>
+          <span class="tag-pill">AWS</span>
+          <span class="tag-pill">E-Commerce</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== 6. EDUCATION ===== -->
+<section class="py-20 lg:py-28 bg-gradient-subtle">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
       <h2 class="section-heading">Education</h2>
-      <p class="section-subtitle mx-auto">Academic foundation in engineering and machine learning</p>
+      <p class="section-subtitle mx-auto">Academic foundation in engineering and artificial intelligence</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto stagger-children">
-      <!-- MSc ML & Data Science -->
+      <!-- M.Tech -->
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-brain text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">M.Tech, Artificial Intelligence</h3>
+        <p class="credential-card-institution">BITS Pilani</p>
+        <p class="credential-card-field">
+          <i class="fa-solid fa-calendar-days mr-1 opacity-60"></i> Dec 2023 &ndash; Expected Dec 2025
+        </p>
+        <p class="credential-card-field mt-2">RAG, Agentic AI, NLP, Computer Vision, Generative AI, Deep Learning</p>
+      </div>
+
+      <!-- B.E. -->
       <div class="credential-card tilt-card">
         <div class="mb-4">
           <i class="fa-solid fa-graduation-cap text-2xl text-primary dark:text-darkmode-primary"></i>
         </div>
-        <h3 class="credential-card-degree">MSc ML &amp; Data Science</h3>
-        <p class="credential-card-institution">BITS Pilani</p>
-        <p class="credential-card-field">Machine Learning, Deep Learning, NLP, Statistical Modeling</p>
-      </div>
-
-      <!-- BTech Computer Science -->
-      <div class="credential-card tilt-card">
-        <div class="mb-4">
-          <i class="fa-solid fa-university text-2xl text-primary dark:text-darkmode-primary"></i>
-        </div>
-        <h3 class="credential-card-degree">BTech Computer Science</h3>
-        <p class="credential-card-institution">College of Engineering &amp; Technology</p>
-        <p class="credential-card-field">Data Structures, Algorithms, Software Engineering</p>
+        <h3 class="credential-card-degree">Bachelor of Engineering &amp; Technology</h3>
+        <p class="credential-card-institution">Govt. College of Eng. &amp; Technology (RTU)</p>
+        <p class="credential-card-field">
+          <i class="fa-solid fa-calendar-days mr-1 opacity-60"></i> 2015 &ndash; 2019
+        </p>
+        <p class="credential-card-field mt-2">Data Structures, Algorithms, Software Engineering, Operating Systems</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SKILLS PROGRESS BARS ===== -->
+
+<!-- ===== 7. CERTIFICATIONS ===== -->
+<section class="py-20 lg:py-28">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Certifications</h2>
+      <p class="section-subtitle mx-auto">Continuous learning and professional development</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto stagger-children">
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-robot text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Machine Learning A-Z</h3>
+        <p class="credential-card-institution">Udemy</p>
+        <p class="credential-card-field">Hands-On Python &amp; R for ML, Deep Learning, and Data Science</p>
+      </div>
+
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-brands fa-apple text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Complete iOS App Development Bootcamp</h3>
+        <p class="credential-card-institution">Udemy</p>
+        <p class="credential-card-field">Full iOS development with Swift and UIKit</p>
+      </div>
+
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-database text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Big Data Analytics &amp; Diploma in Data Science</h3>
+        <p class="credential-card-institution">Naresh I-Technologies</p>
+        <p class="credential-card-field">Big Data ecosystems, analytics pipelines, and data science fundamentals</p>
+      </div>
+
+      <div class="credential-card tilt-card">
+        <div class="mb-4">
+          <i class="fa-solid fa-hands-helping text-2xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h3 class="credential-card-degree">Certificate of Merit for Volunteering</h3>
+        <p class="credential-card-institution">United Nations Volunteer</p>
+        <p class="credential-card-field">Recognition for community service and volunteering contributions</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== 8. SKILLS & EXPERTISE ===== -->
 <section class="py-20 lg:py-28 bg-gradient-subtle">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
@@ -147,10 +395,11 @@
       <p class="section-subtitle mx-auto">Core competencies across the full development stack</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl mx-auto stagger-children">
+    <!-- Progress Bars -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl mx-auto mb-16 stagger-children">
       <div class="skill-bar">
         <div class="skill-bar-header">
-          <span>Frontend</span>
+          <span><i class="fa-solid fa-palette mr-2"></i>Frontend</span>
           <span>90%</span>
         </div>
         <div class="skill-bar-track">
@@ -160,7 +409,7 @@
 
       <div class="skill-bar">
         <div class="skill-bar-header">
-          <span>Backend</span>
+          <span><i class="fa-solid fa-server mr-2"></i>Backend</span>
           <span>95%</span>
         </div>
         <div class="skill-bar-track">
@@ -170,26 +419,172 @@
 
       <div class="skill-bar">
         <div class="skill-bar-header">
-          <span>Cloud / DevOps</span>
-          <span>80%</span>
-        </div>
-        <div class="skill-bar-track">
-          <div class="skill-bar-fill animate-progress" data-progress="80%"></div>
-        </div>
-      </div>
-
-      <div class="skill-bar">
-        <div class="skill-bar-header">
-          <span>AI / ML</span>
+          <span><i class="fa-solid fa-brain mr-2"></i>AI / ML</span>
           <span>85%</span>
         </div>
         <div class="skill-bar-track">
           <div class="skill-bar-fill animate-progress" data-progress="85%"></div>
         </div>
       </div>
+
+      <div class="skill-bar">
+        <div class="skill-bar-header">
+          <span><i class="fa-solid fa-cloud mr-2"></i>Cloud / DevOps</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar-track">
+          <div class="skill-bar-fill animate-progress" data-progress="80%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categorized Skill Tags -->
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 stagger-children">
+
+        <!-- AI & ML -->
+        <div class="credential-card reveal-up">
+          <h4 class="font-semibold text-lg mb-4"><i class="fa-solid fa-microchip mr-2 text-primary dark:text-darkmode-primary"></i>AI &amp; Machine Learning</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag-pill">RAG</span>
+            <span class="tag-pill">Agentic AI</span>
+            <span class="tag-pill">NLP</span>
+            <span class="tag-pill">Computer Vision</span>
+            <span class="tag-pill">TensorFlow</span>
+            <span class="tag-pill">scikit-learn</span>
+            <span class="tag-pill">Hugging Face</span>
+            <span class="tag-pill">GPT</span>
+            <span class="tag-pill">Llama</span>
+            <span class="tag-pill">Google Vision</span>
+            <span class="tag-pill">OpenAI</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="credential-card reveal-up">
+          <h4 class="font-semibold text-lg mb-4"><i class="fa-solid fa-gears mr-2 text-primary dark:text-darkmode-primary"></i>Back-End</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag-pill">Python</span>
+            <span class="tag-pill">Django</span>
+            <span class="tag-pill">FastAPI</span>
+            <span class="tag-pill">Celery</span>
+            <span class="tag-pill">REST APIs</span>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="credential-card reveal-up">
+          <h4 class="font-semibold text-lg mb-4"><i class="fa-solid fa-code mr-2 text-primary dark:text-darkmode-primary"></i>Front-End</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag-pill">JavaScript</span>
+            <span class="tag-pill">React.js</span>
+            <span class="tag-pill">Vue.js</span>
+            <span class="tag-pill">Nuxt.js</span>
+            <span class="tag-pill">HTML/CSS</span>
+            <span class="tag-pill">Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Cloud & DevOps + Databases -->
+        <div class="credential-card reveal-up">
+          <h4 class="font-semibold text-lg mb-4"><i class="fa-solid fa-cloud-arrow-up mr-2 text-primary dark:text-darkmode-primary"></i>Cloud, DevOps &amp; Databases</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag-pill">AWS</span>
+            <span class="tag-pill">GCP</span>
+            <span class="tag-pill">Docker</span>
+            <span class="tag-pill">Git</span>
+            <span class="tag-pill">SQL</span>
+            <span class="tag-pill">MongoDB</span>
+            <span class="tag-pill">Django ORM</span>
+            <span class="tag-pill">SQLAlchemy</span>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
+
+
+<!-- ===== 9. AWARDS & RECOGNITION ===== -->
+<section class="py-20 lg:py-28">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Awards &amp; Recognition</h2>
+      <p class="section-subtitle mx-auto">Consistently recognized for performance and impact</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto stagger-children">
+      <div class="credential-card tilt-card text-center">
+        <div class="mb-4">
+          <i class="fa-solid fa-trophy text-3xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h4 class="font-semibold mb-1">Best Troubleshooter</h4>
+        <p class="opacity-60 text-sm">Mindfire Solutions</p>
+        <p class="opacity-50 text-xs mt-1">October 2023</p>
+      </div>
+
+      <div class="credential-card tilt-card text-center">
+        <div class="mb-4">
+          <i class="fa-solid fa-star text-3xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h4 class="font-semibold mb-1">Best Performer</h4>
+        <p class="opacity-60 text-sm">Mindfire Solutions</p>
+        <p class="opacity-50 text-xs mt-1">August 2024</p>
+      </div>
+
+      <div class="credential-card tilt-card text-center">
+        <div class="mb-4">
+          <i class="fa-solid fa-star text-3xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h4 class="font-semibold mb-1">Best Performer</h4>
+        <p class="opacity-60 text-sm">Mindfire Solutions</p>
+        <p class="opacity-50 text-xs mt-1">December 2024</p>
+      </div>
+
+      <div class="credential-card tilt-card text-center">
+        <div class="mb-4">
+          <i class="fa-solid fa-award text-3xl text-primary dark:text-darkmode-primary"></i>
+        </div>
+        <h4 class="font-semibold mb-1">Top Performer</h4>
+        <p class="opacity-60 text-sm">Pole to Win</p>
+        <p class="opacity-50 text-xs mt-1">Q2 2020</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== 10. CTA SECTION ===== -->
+<section class="section-dark py-20 lg:py-28 relative overflow-hidden">
+  <!-- Parallax decorative shapes -->
+  <div class="absolute top-10 left-1/4 w-40 h-40 rounded-full bg-white/[0.03] parallax-bg" data-speed="0.15"></div>
+  <div class="absolute bottom-10 right-1/4 w-56 h-56 rounded-full bg-white/[0.03] parallax-bg" data-speed="0.22"></div>
+  <div class="absolute top-1/2 right-10 w-24 h-24 rounded-lg bg-white/[0.03] rotate-45 parallax-bg" data-speed="0.18"></div>
+
+  <div class="container text-center relative z-10">
+    <div class="max-w-2xl mx-auto">
+      <div class="accent-line mx-auto reveal-up"></div>
+      <h2 class="text-4xl lg:text-5xl font-bold mb-6 split-text">Let's Build Something Great</h2>
+      <p class="text-white/60 text-lg mb-10 reveal-up">
+        Whether you need a scalable full-stack application, an AI-powered feature, or a technical co-founder mindset on your next project &mdash; I'm ready.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 reveal-up">
+        <a href="mailto:amar97march@gmail.com" class="btn-primary-custom magnetic-btn">
+          <i class="fa-solid fa-paper-plane mr-2"></i> Send a Message
+        </a>
+        <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn">
+          <i class="fab fa-linkedin mr-2"></i> Connect on LinkedIn
+        </a>
+        <a href="https://github.com/amar97march" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn">
+          <i class="fab fa-github mr-2"></i> View GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- ===== PAGE CONTENT ===== -->
 {{ with .Content }}

@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide to using Kaggle effectively for building your AI portfolio. Learn how to choose competitions, write winning notebooks, build your Kaggle profile, and translate Kaggle experience into career opportunities."
 tags: ["Kaggle", "AI Portfolio", "Machine Learning", "Data Science", "Competitions"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://picsum.photos/seed/using-kaggle-build-portfolio-cover/1200/630"
 keywords: ["Kaggle portfolio", "Kaggle competitions", "machine learning competitions", "Kaggle tips", "data science portfolio", "Kaggle career"]
 ---
 
@@ -51,7 +51,7 @@ When you are ready for real competitions, choose based on:
 
 **Domain interest**: You will be more motivated and produce better work if the problem domain interests you.
 
-![Building a Kaggle profile through competitions and notebooks](/images/blogs/pool-portfolio/3.jpg)
+![Building a Kaggle profile through competitions and notebooks](https://picsum.photos/seed/using-kaggle-build-portfolio-1/800/450)
 
 #### Step 3: Write Exceptional Notebooks
 
@@ -142,7 +142,7 @@ Your Kaggle profile is a portfolio in itself. Over time, aim to have:
 - **Discussion contributions**: Thoughtful comments and shared insights.
 - **A progression story**: Your early notebooks should be simpler than your later ones, showing growth.
 
-![Writing well-structured Kaggle notebooks for your portfolio](/images/blogs/pool-portfolio/4.jpg)
+![Writing well-structured Kaggle notebooks for your portfolio](https://picsum.photos/seed/using-kaggle-build-portfolio-2/800/450)
 
 ### What Kaggle Rankings Mean to Employers
 
@@ -168,7 +168,7 @@ That said, rankings are not everything. A well-written notebook that demonstrate
 
 **5. Only competing, never contributing.** Writing helpful notebooks, sharing insights, and answering questions builds your reputation and deepens your understanding.
 
-![Translating Kaggle experience into career opportunities](/images/blogs/pool-portfolio/5.jpg)
+![Translating Kaggle experience into career opportunities](https://picsum.photos/seed/using-kaggle-build-portfolio-3/800/450)
 
 ### Translating Kaggle to Your Career
 

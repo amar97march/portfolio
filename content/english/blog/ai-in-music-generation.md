@@ -5,7 +5,7 @@ draft: false
 description: "AI can now generate full songs — vocals, instruments, and production — from a text prompt. This post explores how generative music works, the tools leading the revolution, and what it means for the future of music."
 tags: ["Audio AI", "Music Generation", "Suno", "Udio", "Generative AI"]
 categories: ["Audio AI"]
-image: "/images/blogs/pool-audio/1.jpg"
+image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI music", "Suno AI", "Udio", "music generation", "generative music", "AI song", "text to music", "MusicLM"]
 ---
 
@@ -62,7 +62,7 @@ Udio's differentiators:
 
 ---
 
-![AI music generation tools producing full songs from text prompts](/images/blogs/pool-audio/3.jpg)
+![AI music generation tools producing full songs from text prompts](https://picsum.photos/seed/ai-in-music-generation-1/800/450)
 
 ### How AI Music Generation Works
 
@@ -96,7 +96,7 @@ Several research models paved the way for today's commercial tools:
 
 ---
 
-![Transformer models processing audio tokens to generate music](/images/blogs/pool-audio/5.jpg)
+![Transformer models processing audio tokens to generate music](https://picsum.photos/seed/ai-in-music-generation-2/800/450)
 
 ### The Copyright Minefield
 
@@ -112,7 +112,7 @@ AI music generation has created a legal and ethical minefield:
 
 ---
 
-![Copyright and legal challenges surrounding AI-generated music](/images/blogs/pool-audio/7.jpg)
+![Copyright and legal challenges surrounding AI-generated music](https://picsum.photos/seed/ai-in-music-generation-3/800/450)
 
 ### Creative Possibilities
 

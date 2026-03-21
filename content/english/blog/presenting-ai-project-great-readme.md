@@ -3,7 +3,7 @@ title: "How to Present Your AI Project: The Art of Writing a Great README"
 meta_title: ""
 description: "A comprehensive guide to writing exceptional README files for AI and machine learning projects, covering structure, content strategy, visual elements, and the specific documentation needs that make AI projects stand out on GitHub."
 date: 2028-11-14
-image: "/images/blogs/great-readme/cover.jpg"
+image: "https://picsum.photos/seed/presenting-ai-project-great-readme-cover/1200/630"
 categories: ["Career"]
 author: "Amar Singh"
 tags: ["readme", "documentation", "portfolio", "github"]
@@ -71,7 +71,7 @@ A picture is worth a thousand words, and this is especially true for AI projects
 For AI projects, effective visual elements include:
 
 
-![Diagram showing career pathways in artificial intelligence](/images/blogs/pool-career/8.jpg)
+![Diagram showing career pathways in artificial intelligence](https://picsum.photos/seed/presenting-ai-project-great-readme-1/800/450)
 
 **Architecture diagrams** that show the high-level structure of your model or system. These do not need to be publication-quality; a clear diagram created with tools like draw.io, Excalidraw, or even ASCII art can be highly effective.
 
@@ -134,7 +134,7 @@ The results section is where you showcase what your project achieves. Present yo
 **Ablation studies** that show the contribution of different components of your approach add significant credibility. They demonstrate that you understand why your approach works, not just that it works.
 
 
-![Illustration of portfolio building strategies for tech professionals](/images/blogs/pool-career/7.jpg)
+![Illustration of portfolio building strategies for tech professionals](https://picsum.photos/seed/presenting-ai-project-great-readme-2/800/450)
 
 ### Reproducibility
 
@@ -199,7 +199,7 @@ Honest documentation of limitations builds trust with users and collaborators. I
 ### Documenting Compute Requirements
 
 
-![Visual guide to AI career development and professional growth](/images/blogs/pool-career/6.jpg)
+![Visual guide to AI career development and professional growth](https://picsum.photos/seed/presenting-ai-project-great-readme-3/800/450)
 
 AI projects often require significant computational resources, and failing to document this can lead to frustration when users try to run your code on inadequate hardware. Include clear specifications for the minimum and recommended hardware, estimated training and inference times on different hardware configurations, and estimated costs if using cloud computing resources.
 

@@ -5,7 +5,7 @@ draft: false
 description: "A practical comparison of Keras and PyTorch — two approaches to deep learning that serve different needs. Learn which one is right for your goals and experience level."
 tags: ["Keras", "PyTorch", "Deep Learning", "ML Frameworks", "Comparison"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://images.unsplash.com/photo-1579403124614-197f69d8187b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["keras vs pytorch", "which framework to learn", "keras or pytorch beginner", "deep learning framework comparison"]
 ---
 
@@ -122,7 +122,7 @@ for epoch in range(10):
 The Keras version is roughly 15 lines. The PyTorch version is roughly 40 lines. But those extra 25 lines give you direct access to every step of the training process.
 
 
-![Developer workspace with machine learning frameworks and tools](/images/blogs/pool-tools/3.jpg)
+![Developer workspace with machine learning frameworks and tools](https://picsum.photos/seed/keras-vs-pytorch-1/800/450)
 
 ## Detailed Comparison
 
@@ -175,7 +175,7 @@ for i, (inputs, targets) in enumerate(train_loader):
 Implementing this in Keras requires overriding `train_step()` — possible, but less intuitive.
 
 
-![Illustration comparing different approaches to building AI systems](/images/blogs/pool-tools/5.jpg)
+![Illustration comparing different approaches to building AI systems](https://picsum.photos/seed/keras-vs-pytorch-2/800/450)
 
 ### Ecosystem and Community
 
@@ -198,7 +198,7 @@ Both frameworks are highly optimized and use similar underlying CUDA libraries. 
 - You are building **standard architectures** (classification, regression, segmentation)
 
 
-![Visual representation of the deep learning toolkit ecosystem](/images/blogs/pool-tools/7.jpg)
+![Visual representation of the deep learning toolkit ecosystem](https://picsum.photos/seed/keras-vs-pytorch-3/800/450)
 
 ### Learn PyTorch First If:
 

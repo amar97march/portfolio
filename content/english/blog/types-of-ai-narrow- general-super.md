@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to the three stages of AI evolution: Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), and Artificial Super Intelligence (ASI)."
 tags: ["AI", "ANI", "AGI", "ASI", "Future of AI"]
 categories: ["AI Fundamentals"]
-image: "/images/blogs/blog3/cover.png"
+image: "https://picsum.photos/seed/types-of-ai-narrow- general-super-cover/1200/630"
 keywords: ["Artificial Narrow Intelligence", "Artificial General Intelligence", "Artificial Super Intelligence", "ANI", "AGI", "ASI", "AI evolution", "AI stages"]
 ---
 
@@ -65,7 +65,7 @@ They do not "know" history; they recall statistical patterns of text relating to
 
 ---
 
-![The three stages of AI evolution from narrow to super intelligence](/images/blogs/pool-learning/3.jpg)
+![The three stages of AI evolution from narrow to super intelligence](https://picsum.photos/seed/types-of-ai-narrow- general-super-1/800/450)
 
 ### Stage 2: Artificial General Intelligence (AGI)
 **AKA: "Strong AI," "Human-Level AI"**
@@ -101,7 +101,7 @@ This sounds trivial to a human, but it requires immense general intelligence: vi
 
 ---
 
-![Artificial General Intelligence as the near-term research goal](/images/blogs/pool-learning/4.jpg)
+![Artificial General Intelligence as the near-term research goal](https://picsum.photos/seed/types-of-ai-narrow- general-super-2/800/450)
 
 ### Stage 3: Artificial Super Intelligence (ASI)
 **AKA: "God-like AI"**
@@ -151,7 +151,7 @@ To keep these concepts straight in your next strategic meeting, use this compari
   <img src="/portfolio/images/blogs/blog3/The%20Journey%20Ahead.png" alt="The Journey Ahead" style="max-width:100%;height:auto;border-radius:6px;box-shadow:0 6px 20px rgba(16,24,40,0.12);">
 
 
-![Understanding where we stand in the AI evolution spectrum](/images/blogs/pool-learning/5.jpg)
+![Understanding where we stand in the AI evolution spectrum](https://picsum.photos/seed/types-of-ai-narrow- general-super-3/800/450)
 
 ### Conclusion: Navigating the Present
 

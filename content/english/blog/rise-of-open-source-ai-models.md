@@ -3,7 +3,7 @@ title: "The Rise of Open-Source AI Models and Why They Might Win"
 meta_title: ""
 description: "A comprehensive analysis of how open-source AI models like LLaMA, Mistral, and others are challenging proprietary alternatives, exploring the technical, economic, and strategic forces driving the open-source AI movement."
 date: 2028-08-22
-image: "/images/blogs/open-source-ai/cover.jpg"
+image: "https://picsum.photos/seed/rise-of-open-source-ai-models-cover/1200/630"
 categories: ["AI Industry"]
 author: "Amar Singh"
 tags: ["open-source", "llama", "mistral", "democratization"]
@@ -49,7 +49,7 @@ The Stable Diffusion ecosystem demonstrated the power of open-source AI in the m
 ### Hugging Face: The Infrastructure Layer
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/5.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/rise-of-open-source-ai-models-1/800/450)
 
 While not a model developer in the traditional sense, Hugging Face has become the critical infrastructure layer of the open-source AI ecosystem. Their platform hosts tens of thousands of models, datasets, and applications, making it trivially easy for developers to discover, download, and deploy open-source AI models. Their Transformers library provides a unified interface for working with models from dozens of different architectures and providers.
 
@@ -92,7 +92,7 @@ Beyond the technical arguments, several strategic and economic factors favor ope
 ### The Commodity Trap
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/4.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/rise-of-open-source-ai-models-2/800/450)
 
 In technology markets, components that become commoditized tend to be captured by open-source implementations. This happened with operating systems (Linux), web servers (Apache, Nginx), databases (PostgreSQL, MySQL), and countless other categories. Once a technology is sufficiently understood and multiple implementations exist, proprietary offerings struggle to justify their premium pricing.
 
@@ -135,7 +135,7 @@ Proponents of open-source AI counter that safety through obscurity is not effect
 ### The Business Model Question
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/rise-of-open-source-ai-models-3/800/450)
 
 While open-source AI has clear benefits for users, building a sustainable business around open-source AI models is challenging. Companies like Mistral and Stability AI have struggled with revenue models that can sustain the enormous costs of model development. The history of open-source software shows that while open-source projects can become dominant technologies, the companies behind them often struggle to capture a proportionate share of the value they create.
 

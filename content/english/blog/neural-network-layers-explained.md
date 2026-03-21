@@ -5,7 +5,7 @@ draft: false
 description: "A detailed breakdown of the three fundamental layer types in neural networks — input, hidden, and output — and how data flows through them to make predictions."
 tags: ["Neural Networks", "Deep Learning", "Network Architecture", "Layers"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://picsum.photos/seed/neural-network-layers-explained-cover/1200/630"
 keywords: ["neural network layers", "input layer", "hidden layer", "output layer", "deep learning architecture"]
 ---
 
@@ -26,7 +26,7 @@ Each layer takes the output of the previous layer, applies a mathematical transf
 Think of it like a factory assembly line. Raw materials (data) enter at one end, go through multiple processing stations (hidden layers), and a finished product (prediction) comes out at the other end. Each station adds value by transforming the materials in a specific way.
 
 
-![Deep learning neural network architecture](/images/blogs/pool-dl/3.jpg)
+![Deep learning neural network architecture](https://picsum.photos/seed/neural-network-layers-explained-1/800/450)
 
 ## The Input Layer: Where Data Enters
 
@@ -191,7 +191,7 @@ In a **fully connected** (also called "dense") layer, every neuron is connected 
 Each connection pattern is optimized for different types of data and problems. I will cover these specialized architectures in dedicated posts.
 
 
-![Layers and nodes in a neural network diagram](/images/blogs/pool-dl/4.jpg)
+![Layers and nodes in a neural network diagram](https://picsum.photos/seed/neural-network-layers-explained-2/800/450)
 
 ## The Output Layer: Where Predictions Are Made
 
@@ -264,7 +264,7 @@ class PricePredictor(nn.Module):
 | Multi-label | N | Sigmoid (each) | [0, 1] each, independent |
 
 
-![Deep learning model training and optimization](/images/blogs/pool-dl/5.jpg)
+![Deep learning model training and optimization](https://picsum.photos/seed/neural-network-layers-explained-3/800/450)
 
 ## Putting It All Together
 

@@ -5,7 +5,7 @@ draft: false
 description: "How AI-powered adaptive learning systems are personalizing education at scale — adjusting to each student's pace, knowledge gaps, and learning style. The promise, the reality, and the concerns."
 tags: ["AI", "Education", "Adaptive Learning", "EdTech", "Personalization", "LLMs"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI education", "adaptive learning", "personalized learning AI", "Khan Academy AI", "intelligent tutoring systems", "AI tutor", "Khanmigo"]
 ---
 
@@ -33,7 +33,7 @@ Instead of a fixed curriculum where every student sees the same content in the s
 
 The concept predates modern AI — early computer-based adaptive learning systems existed in the 1970s. But modern AI, particularly large language models and reinforcement learning, has made these systems dramatically more capable.
 
-![AI-powered adaptive learning system adjusting to student performance](/images/blogs/pool-good/3.jpg)
+![AI-powered adaptive learning system adjusting to student performance](https://picsum.photos/seed/ai-personalized-education-1/800/450)
 
 ---
 
@@ -106,7 +106,7 @@ The most transformative development is the integration of **large language model
 - **Provide worked examples** tailored to the student's specific confusion
 - **Give encouragement** and emotional support
 
-![Student interacting with a personalized AI tutoring interface](/images/blogs/pool-good/5.jpg)
+![Student interacting with a personalized AI tutoring interface](https://picsum.photos/seed/ai-personalized-education-2/800/450)
 
 ---
 
@@ -148,7 +148,7 @@ The evidence for AI-powered adaptive learning is promising but mixed:
 - The technology works best as a supplement to human teaching, not a replacement.
 - Motivation and engagement remain challenges — some students disengage from AI tutors more quickly than from human teachers.
 
-![Classroom integrating AI technology with traditional teaching methods](/images/blogs/pool-good/7.jpg)
+![Classroom integrating AI technology with traditional teaching methods](https://picsum.photos/seed/ai-personalized-education-3/800/450)
 
 ---
 

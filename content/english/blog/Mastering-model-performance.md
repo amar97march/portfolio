@@ -4,7 +4,7 @@ date: 2026-01-04T09:00:00+05:30
 draft: false
 series: ["Mastering Model Performance"]
 summary: "Why 100% accuracy is often a sign of failure, and the core conflict between Memory and Intelligence in AI."
-image: "/images/blogs/blog9/The Analogy: The Three Students.png"
+image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=630&fit=crop&auto=format"
 tags: ["Machine Learning", "Data Science", "Generalization", "Overfitting", "Philosophy"]
 categories: ["Machine Learning"]
 ---
@@ -82,7 +82,7 @@ In Machine Learning, **Generalization** is the ability of a model to perform wel
 
 Both of these result in a model that fails in production. The entire discipline of Machine Learning Engineering—from Regularization to Cross-Validation—is effectively a war against these two enemies, trying to find the thin strip of land in the middle called **"The Good Fit."**
 
-![Understanding the balance between memorization and generalization in machine learning](/images/blogs/pool-ml/3.jpg)
+![Understanding the balance between memorization and generalization in machine learning](https://picsum.photos/seed/Mastering-model-performance-1/800/450)
 
 ## 2: The Analogy — The Three Students
 
@@ -440,7 +440,7 @@ If you had just done a single Train/Test split, you might have seen 0.92 and tho
 Now that we know how to measure the problem correctly, we are ready to start fixing it. In the next part, we will look at the first cure for Overfitting: Regularization.
 ```
 
-![Regularization techniques helping models find the right complexity](/images/blogs/pool-ml/4.jpg)
+![Regularization techniques helping models find the right complexity](https://picsum.photos/seed/Mastering-model-performance-2/800/450)
 
 ## 7: The Magic Pill — Regularization (L1 & L2)
 
@@ -802,7 +802,7 @@ The only downside? **Interpretability**.
 If your boss asks, *"Why did the AI reject this loan?"*, it's easy to explain one Decision Tree ("It checked income > $50k").
 It is very hard to explain a Random Forest ("Well, 400 trees voted Yes and 600 voted No...").
 
-![Evaluating model performance with the right metrics](/images/blogs/pool-ml/5.jpg)
+![Evaluating model performance with the right metrics](https://picsum.photos/seed/Mastering-model-performance-3/800/450)
 
 ## 12: The Metrics Trap — Why Accuracy is a Liar
 

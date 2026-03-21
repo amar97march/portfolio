@@ -5,7 +5,7 @@ draft: false
 description: "A step-by-step code tutorial for implementing linear regression in scikit-learn — from importing data to evaluating and visualizing your model."
 tags: ["Scikit-Learn", "Linear Regression", "Tutorial", "Python", "Machine Learning"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=1200&h=630&fit=crop&auto=format"
 keywords: ["scikit-learn linear regression", "sklearn tutorial", "python regression tutorial", "ML code tutorial"]
 ---
 
@@ -81,7 +81,7 @@ print(f"Testing samples: {len(X_test)}")
 ```
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/linear-regression-scikit-learn-tutorial-1/800/450)
 
 ### Fit the Model
 
@@ -155,7 +155,7 @@ plt.show()
 ```
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/linear-regression-scikit-learn-tutorial-2/800/450)
 
 ## Part 2: Multiple Linear Regression
 
@@ -298,7 +298,7 @@ print(f"  RMSE mean: {-cv_rmse.mean():.4f} (+/- {cv_rmse.std():.4f})")
 ```
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/linear-regression-scikit-learn-tutorial-3/800/450)
 
 ## Part 6: Making Predictions on New Data
 

@@ -5,7 +5,7 @@ draft: false
 description: "The 2017 paper 'Attention Is All You Need' introduced the Transformer architecture and changed AI forever. Learn what the paper proposed, why it mattered, and how it led to GPT, BERT, and the current AI revolution."
 tags: ["Deep Learning", "Transformers", "Attention", "NLP", "AI History"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["attention is all you need", "transformer paper", "transformer architecture", "Vaswani", "self-attention", "deep learning history"]
 ---
 
@@ -46,7 +46,7 @@ The paper proposed a model that:
 
 The key insight was that attention — a mechanism already used as an add-on to RNNs — could replace recurrence entirely if designed correctly.
 
-![The Transformer architecture replacing recurrence with pure attention mechanisms](/images/blogs/pool-dl/3.jpg)
+![The Transformer architecture replacing recurrence with pure attention mechanisms](https://picsum.photos/seed/attention-is-all-you-need-explained-1/800/450)
 
 ---
 
@@ -105,7 +105,7 @@ The results were striking:
 
 The Transformer was not just better — it was better *and* faster. This combination is rare in machine learning, where there is usually a tradeoff between quality and efficiency.
 
-![Transformer model achieving state-of-the-art translation benchmarks](/images/blogs/pool-dl/5.jpg)
+![Transformer model achieving state-of-the-art translation benchmarks](https://picsum.photos/seed/attention-is-all-you-need-explained-2/800/450)
 
 ---
 
@@ -140,7 +140,7 @@ Use only the decoder part. Designed for text generation.
 #### Encoder-Decoder Models (T5, BART)
 Use the full Transformer architecture. Designed for sequence-to-sequence tasks like translation, summarization, and question answering.
 
-![Family tree of models spawned by the Transformer including GPT, BERT, and beyond](/images/blogs/pool-dl/7.jpg)
+![Family tree of models spawned by the Transformer including GPT, BERT, and beyond](https://picsum.photos/seed/attention-is-all-you-need-explained-3/800/450)
 
 ---
 

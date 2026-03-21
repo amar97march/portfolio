@@ -3,7 +3,7 @@ title: "Who Owns the Copyright to AI-Generated Art? The Legal Battle Explained"
 meta_title: ""
 description: "A detailed exploration of the legal battle over copyright ownership of AI-generated art. Examines key cases, international approaches, the human authorship requirement, and what this means for artists, developers, and businesses using AI creative tools."
 date: 2028-07-23
-image: "/images/blogs/copyright-ai-art/cover.jpg"
+image: "https://images.unsplash.com/photo-1526666923367-77d56057870b?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["copyright", "ai-art", "legal", "intellectual-property"]
@@ -61,7 +61,7 @@ Proponents argue that a skilled prompt engineer exercises significant creative j
 A detailed prompt like "an oil painting in the style of the Hudson River School depicting a misty autumn morning in the Catskill Mountains with a lone figure on a stone bridge, warm golden light filtering through ancient oaks, with particular attention to atmospheric perspective and the interplay of light and shadow on water" reflects substantial creative judgment. The argument is that this creative judgment should be recognized as authorship.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/copyright-ai-generated-art-1/800/450)
 
 ### The Argument Against Prompt Authorship
 
@@ -104,7 +104,7 @@ However, other Chinese courts have reached different conclusions, and the law in
 Japan's approach is complex. While Japanese copyright law requires human authorship, the cultural and legal environment is relatively permissive toward AI-generated content. Japan's AI strategy has emphasized enabling AI development, and the government has signaled openness to accommodating AI-generated works within the copyright framework.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/copyright-ai-generated-art-2/800/450)
 
 ## Practical Implications for Different Stakeholders
 
@@ -137,7 +137,7 @@ If AI-generated content is largely uncopyrightable, a vast quantity of creative 
 The lack of copyright protection for AI-generated content creates interesting competitive dynamics. In industries where content differentiation is important, businesses cannot rely on copyright to prevent competitors from copying AI-generated content. This may shift competitive advantage toward factors other than content itself: brand, distribution, curation, personalization, and customer relationships.
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/copyright-ai-generated-art-3/800/450)
 
 ### The Authentication and Provenance Challenge
 

@@ -5,7 +5,7 @@ draft: false
 description: "AI is breaking language barriers with real-time speech translation and automatic video dubbing. This post explores how these technologies work, the current state of the art, and the profound implications for global communication."
 tags: ["Audio AI", "Translation", "Dubbing", "Speech AI", "Multilingual AI"]
 categories: ["Audio AI"]
-image: "/images/blogs/pool-audio/1.jpg"
+image: "https://picsum.photos/seed/real-time-translation-dubbing-ai-cover/1200/630"
 keywords: ["real-time translation", "AI dubbing", "speech translation", "voice dubbing", "language barrier", "simultaneous translation", "AI localization"]
 ---
 
@@ -40,7 +40,7 @@ The pipeline approach (ASR → MT → TTS) works but has limitations: errors com
 The next generation of systems uses **end-to-end speech-to-speech translation** — a single model that takes audio in one language and directly produces audio in another language, without an intermediate text step.
 
 
-![Diagram showing real-time audio AI system architecture](/images/blogs/pool-audio/8.jpg)
+![Diagram showing real-time audio AI system architecture](https://picsum.photos/seed/real-time-translation-dubbing-ai-1/800/450)
 
 Meta's **SeamlessM4T** (Massively Multilingual & Multimodal Machine Translation) is a leading example. It handles:
 - Speech-to-speech translation
@@ -75,7 +75,7 @@ Several companies are building comprehensive AI dubbing solutions:
 **Papercup.** Focuses on high-quality AI dubbing for professional content — YouTube channels, courses, and corporate videos.
 
 
-![Illustration of sound wave analysis and generation techniques](/images/blogs/pool-audio/7.jpg)
+![Illustration of sound wave analysis and generation techniques](https://picsum.photos/seed/real-time-translation-dubbing-ai-2/800/450)
 
 **Rask AI.** Provides AI-powered video localization with translation, voice cloning, and lip sync for content creators.
 
@@ -108,7 +108,7 @@ Despite impressive progress, real-time translation still faces significant chall
 **Prosody transfer.** Preserving the emotional content, emphasis, and rhythm of speech across languages is still an open challenge. Languages have different prosodic patterns, and what sounds natural in one language may sound odd when transferred to another.
 
 
-![Visual representation of audio processing and speech AI pipeline](/images/blogs/pool-audio/6.jpg)
+![Visual representation of audio processing and speech AI pipeline](https://picsum.photos/seed/real-time-translation-dubbing-ai-3/800/450)
 
 ---
 

@@ -5,7 +5,7 @@ draft: false
 description: "Modern multimodal AI can look at a chart, graph, or data visualization and explain what it shows in plain language. This post explores how chart understanding works, its practical applications, and where the technology stands today."
 tags: ["Generative AI", "Data Analysis", "Multimodal AI", "Computer Vision", "Visualization"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI chart reading", "data visualization AI", "chart understanding", "graph analysis AI", "multimodal data", "AI data interpretation"]
 ---
 
@@ -34,7 +34,7 @@ For an AI to do this, it needs strong visual understanding (reading text in imag
 
 Modern vision-language models handle all of these steps with impressive accuracy.
 
-![AI analyzing a complex data visualization with multiple chart elements](/images/blogs/pool-genai/3.jpg)
+![AI analyzing a complex data visualization with multiple chart elements](https://picsum.photos/seed/ai-reading-charts-explaining-data-1/800/450)
 
 ---
 
@@ -96,7 +96,7 @@ Modern multimodal models excel at several chart-related tasks:
 
 **Question answering.** You can ask specific questions about a chart: "Which product had the highest sales in Q3?" "When did the trend reverse?" "What percentage of the total does category A represent?"
 
-![Multimodal AI model interpreting trends and patterns in business data](/images/blogs/pool-genai/5.jpg)
+![Multimodal AI model interpreting trends and patterns in business data](https://picsum.photos/seed/ai-reading-charts-explaining-data-2/800/450)
 
 ---
 
@@ -130,7 +130,7 @@ Chart understanding is not flawless. Key limitations include:
 
 **Research.** Scientists can get quick interpretations of experimental results, compare findings with expectations, and generate chart descriptions for papers.
 
-![Automated chart analysis pipeline processing multiple data visualizations](/images/blogs/pool-genai/7.jpg)
+![Automated chart analysis pipeline processing multiple data visualizations](https://picsum.photos/seed/ai-reading-charts-explaining-data-3/800/450)
 
 ---
 

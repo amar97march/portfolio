@@ -5,7 +5,7 @@ draft: false
 description: "Algorithmic trading now accounts for over 70% of all equity trades. Discover how AI and machine learning power high-frequency strategies, from simple moving-average crossovers to deep reinforcement learning agents that adapt to live markets."
 tags: ["AI", "Algorithmic Trading", "Finance", "Machine Learning", "Reinforcement Learning", "Time Series"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1607799279861-4dd421887f3d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI algorithmic trading", "machine learning finance", "high frequency trading AI", "quant trading", "reinforcement learning trading"]
 ---
 
@@ -29,7 +29,7 @@ This post walks through the evolution of algorithmic trading, the machine learni
 
 ---
 
-![The evolution of algorithmic trading from floor traders to server racks](/images/blogs/pool-industry/3.jpg)
+![The evolution of algorithmic trading from floor traders to server racks](https://picsum.photos/seed/ai-algorithmic-trading-1/800/450)
 
 ### Part 2: How Traditional Algo Trading Works
 
@@ -130,7 +130,7 @@ A fine-tuned transformer model can read a 10-K filing and identify subtle langua
 
 ---
 
-![Machine learning models analyzing financial data patterns for trading signals](/images/blogs/pool-industry/5.jpg)
+![Machine learning models analyzing financial data patterns for trading signals](https://picsum.photos/seed/ai-algorithmic-trading-2/800/450)
 
 ### Part 4: The Risks and Challenges
 
@@ -165,7 +165,7 @@ Each layer uses different ML techniques, and the entire pipeline is retrained on
 
 ---
 
-![Ensemble trading systems combining multiple ML approaches for alpha generation](/images/blogs/pool-industry/7.jpg)
+![Ensemble trading systems combining multiple ML approaches for alpha generation](https://picsum.photos/seed/ai-algorithmic-trading-3/800/450)
 
 ### The Takeaway
 

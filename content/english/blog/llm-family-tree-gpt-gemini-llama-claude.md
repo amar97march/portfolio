@@ -5,7 +5,7 @@ draft: false
 description: "A detailed comparison of the four major LLM families — GPT, Gemini, Llama, and Claude — covering their architectures, strengths, and ideal use cases."
 tags: ["LLM", "GPT", "Gemini", "Llama", "Claude", "Generative AI"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=630&fit=crop&auto=format"
 keywords: ["GPT vs Gemini", "Llama vs Claude", "LLM comparison", "best LLM", "OpenAI GPT", "Google Gemini", "Meta Llama", "Anthropic Claude"]
 ---
 
@@ -47,7 +47,7 @@ OpenAI's GPT (Generative Pre-trained Transformer) series is arguably the model t
 - Occasional concerns about data privacy and training data practices
 
 
-![Creative AI generating novel content from learned patterns](/images/blogs/pool-genai/3.jpg)
+![Creative AI generating novel content from learned patterns](https://picsum.photos/seed/llm-family-tree-gpt-gemini-llama-claude-1/800/450)
 
 ### Gemini: The Multimodal Native
 
@@ -97,7 +97,7 @@ Meta's Llama (Large Language Model Meta AI) series represents the most significa
 - May lag behind closed-source models on some benchmarks
 
 
-![Illustration of the generative process from noise to coherent output](/images/blogs/pool-genai/5.jpg)
+![Illustration of the generative process from noise to coherent output](https://picsum.photos/seed/llm-family-tree-gpt-gemini-llama-claude-2/800/450)
 
 ### Claude: The Safety-First Model
 
@@ -152,7 +152,7 @@ Choosing an LLM is not about finding the "best" one — it is about finding the 
 - You need detailed, well-structured explanations
 
 
-![Visual representation of text-to-image generation pipeline](/images/blogs/pool-genai/7.jpg)
+![Visual representation of text-to-image generation pipeline](https://picsum.photos/seed/llm-family-tree-gpt-gemini-llama-claude-3/800/450)
 
 ### The Convergence Trend
 

@@ -5,7 +5,7 @@ draft: false
 description: "When disaster strikes, speed saves lives. AI-powered satellite analysis, damage assessment, and resource optimization are transforming how the world responds to natural disasters and humanitarian crises."
 tags: ["AI", "Humanitarian Aid", "Disaster Response", "Computer Vision", "Satellite Imagery", "Crisis Mapping"]
 categories: ["AI for Good"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI disaster response", "crisis mapping AI", "satellite damage assessment", "humanitarian AI", "disaster zone mapping", "AI earthquake response", "flood detection AI"]
 ---
 
@@ -31,7 +31,7 @@ Every hour of delay in getting accurate situational awareness costs lives.
 
 ---
 
-![AI analyzing satellite imagery to assess disaster zone damage](/images/blogs/pool-good/3.jpg)
+![AI analyzing satellite imagery to assess disaster zone damage](https://picsum.photos/seed/ai-humanitarian-aid-disaster-mapping-1/800/450)
 
 ### AI-Powered Satellite Damage Assessment
 
@@ -112,7 +112,7 @@ AI is accelerating this process:
 
 ---
 
-![Flood mapping using SAR satellite imagery and computer vision](/images/blogs/pool-good/5.jpg)
+![Flood mapping using SAR satellite imagery and computer vision](https://picsum.photos/seed/ai-humanitarian-aid-disaster-mapping-2/800/450)
 
 ### AI for Resource Optimization
 
@@ -141,7 +141,7 @@ Tools like **CrisisNLP** and platforms developed by organizations like the Qatar
 
 ---
 
-![Optimizing humanitarian aid logistics and resource allocation with AI](/images/blogs/pool-good/7.jpg)
+![Optimizing humanitarian aid logistics and resource allocation with AI](https://picsum.photos/seed/ai-humanitarian-aid-disaster-mapping-3/800/450)
 
 ### Challenges in Humanitarian AI
 

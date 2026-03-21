@@ -5,7 +5,7 @@ draft: false
 description: "A deep dive into PyTorch — the deep learning framework that won over researchers with its Pythonic design, dynamic graphs, and exceptional debugging experience."
 tags: ["PyTorch", "Deep Learning", "Meta", "ML Frameworks", "Research"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://picsum.photos/seed/pytorch-deep-dive-cover/1200/630"
 keywords: ["pytorch tutorial", "pytorch explained", "pytorch vs tensorflow", "deep learning pytorch", "meta pytorch"]
 ---
 
@@ -97,7 +97,7 @@ This autograd system is the engine behind backpropagation. PyTorch records every
 Moving computations to GPU is trivial in PyTorch:
 
 
-![Diagram showing software ecosystem for machine learning projects](/images/blogs/pool-tools/5.jpg)
+![Diagram showing software ecosystem for machine learning projects](https://picsum.photos/seed/pytorch-deep-dive-1/800/450)
 
 ```python
 # Check GPU availability
@@ -219,7 +219,7 @@ for epoch in range(num_epochs):
 ### DataLoaders
 
 
-![Illustration of developer workflow and toolchain integration](/images/blogs/pool-tools/4.jpg)
+![Illustration of developer workflow and toolchain integration](https://picsum.photos/seed/pytorch-deep-dive-2/800/450)
 
 PyTorch's `DataLoader` handles batching, shuffling, and multi-process data loading:
 
@@ -283,7 +283,7 @@ torch.save(checkpoint, 'checkpoint.pth')
 ## The PyTorch Ecosystem
 
 
-![Visual overview of AI development tools and frameworks](/images/blogs/pool-tools/3.jpg)
+![Visual overview of AI development tools and frameworks](https://picsum.photos/seed/pytorch-deep-dive-3/800/450)
 
 ### Torchvision
 Computer vision datasets, models, and transforms:

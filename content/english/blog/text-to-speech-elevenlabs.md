@@ -5,7 +5,7 @@ draft: false
 description: "AI-powered text-to-speech has reached the point where synthetic voices are nearly indistinguishable from human speech. This post explores how modern TTS works, the rise of ElevenLabs, and the implications of realistic AI voices."
 tags: ["Audio AI", "Text-to-Speech", "ElevenLabs", "Voice AI", "Deep Learning"]
 categories: ["Audio AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/text-to-speech-elevenlabs-cover/1200/630"
 keywords: ["text to speech", "TTS", "ElevenLabs", "voice synthesis", "AI voice", "speech synthesis", "realistic voices", "voice AI"]
 ---
 
@@ -70,7 +70,7 @@ with open("output.mp3", "wb") as f:
 
 ---
 
-![ElevenLabs voice synthesis technology in action](/images/blogs/pool-audio/6.jpg)
+![ElevenLabs voice synthesis technology in action](https://picsum.photos/seed/text-to-speech-elevenlabs-1/800/450)
 
 ### Open-Source Alternatives
 
@@ -113,7 +113,7 @@ The latest models (like ElevenLabs' and OpenAI's TTS) combine these stages into 
 
 ---
 
-![How modern text-to-speech pipelines process language](/images/blogs/pool-audio/7.jpg)
+![How modern text-to-speech pipelines process language](https://picsum.photos/seed/text-to-speech-elevenlabs-2/800/450)
 
 ### Applications
 
@@ -133,7 +133,7 @@ The latest models (like ElevenLabs' and OpenAI's TTS) combine these stages into 
 
 ---
 
-![Applications of AI voice technology across industries](/images/blogs/pool-audio/8.jpg)
+![Applications of AI voice technology across industries](https://picsum.photos/seed/text-to-speech-elevenlabs-3/800/450)
 
 ### The Quality Threshold
 

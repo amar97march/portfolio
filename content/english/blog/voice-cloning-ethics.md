@@ -5,7 +5,7 @@ draft: false
 description: "Voice cloning technology can replicate anyone's voice from a short audio sample. This post examines how it works, its legitimate uses, and the serious ethical challenges it creates — from fraud to consent."
 tags: ["Audio AI", "Voice Cloning", "AI Ethics", "Deep Learning", "Security"]
 categories: ["Audio AI"]
-image: "/images/blogs/pool-audio/1.jpg"
+image: "https://picsum.photos/seed/voice-cloning-ethics-cover/1200/630"
 keywords: ["voice cloning", "voice deepfake", "voice synthesis", "AI voice clone", "voice fraud", "voice ethics", "consent", "voice authentication"]
 ---
 
@@ -54,7 +54,7 @@ Voice cloning has many beneficial applications:
 
 ---
 
-![Voice cloning technology and its legitimate applications](/images/blogs/pool-audio/3.jpg)
+![Voice cloning technology and its legitimate applications](https://picsum.photos/seed/voice-cloning-ethics-1/800/450)
 
 ### The Dark Side
 
@@ -87,7 +87,7 @@ This is an asymmetric situation: the technology to clone voices is widely availa
 
 ---
 
-![The ethical challenges of voice cloning and consent](/images/blogs/pool-audio/4.jpg)
+![The ethical challenges of voice cloning and consent](https://picsum.photos/seed/voice-cloning-ethics-2/800/450)
 
 ### Detection and Defense
 
@@ -130,7 +130,7 @@ As technologists:
 
 ---
 
-![Building defenses and guardrails against voice deepfakes](/images/blogs/pool-audio/5.jpg)
+![Building defenses and guardrails against voice deepfakes](https://picsum.photos/seed/voice-cloning-ethics-3/800/450)
 
 ### My Perspective
 

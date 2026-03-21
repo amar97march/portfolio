@@ -5,7 +5,7 @@ draft: false
 description: "GPT-4o brought text, vision, and audio into a single unified model with natural, conversational interaction. This post explores what makes GPT-4o special, how it works, and what the 'omni' approach means for the future of AI."
 tags: ["Generative AI", "GPT-4o", "OpenAI", "Multimodal AI", "LLMs"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://picsum.photos/seed/openai-gpt4o-spotlight-cover/1200/630"
 keywords: ["GPT-4o", "OpenAI", "omni model", "multimodal GPT", "voice AI", "ChatGPT", "AI assistant"]
 ---
 
@@ -50,7 +50,7 @@ This unified approach provides:
 **Translation and language.** Performs well across 50+ languages, with natural-sounding voice output in multiple languages.
 
 
-![Generative AI creating digital content](/images/blogs/pool-genai/6.jpg)
+![Generative AI creating digital content](https://picsum.photos/seed/openai-gpt4o-spotlight-1/800/450)
 
 ---
 
@@ -110,7 +110,7 @@ The most striking aspect of GPT-4o is the voice experience. Previous AI voice as
 This voice capability is what makes GPT-4o feel less like a chatbot and more like a conversational partner.
 
 
-![Creative applications of artificial intelligence](/images/blogs/pool-genai/7.jpg)
+![Creative applications of artificial intelligence](https://picsum.photos/seed/openai-gpt4o-spotlight-2/800/450)
 
 ---
 
@@ -141,7 +141,7 @@ This voice capability is what makes GPT-4o feel less like a chatbot and more lik
 **Safety filters.** GPT-4o sometimes refuses reasonable requests due to content safety filters. While these filters serve an important purpose, they can be frustrating for legitimate use cases.
 
 
-![AI-powered content generation tools](/images/blogs/pool-genai/8.jpg)
+![AI-powered content generation tools](https://picsum.photos/seed/openai-gpt4o-spotlight-3/800/450)
 
 ---
 

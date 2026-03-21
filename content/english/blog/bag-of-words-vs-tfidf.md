@@ -5,7 +5,7 @@ draft: false
 description: "Bag-of-Words and TF-IDF are the foundational text representation methods in NLP. Learn how they work, their differences, and when they are still the right choice in modern applications."
 tags: ["NLP", "TF-IDF", "Bag of Words", "Text Processing", "Python"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=1200&h=630&fit=crop&auto=format"
 keywords: ["bag of words", "TF-IDF", "text representation", "document term matrix", "text vectorization", "NLP feature extraction"]
 ---
 
@@ -60,7 +60,7 @@ Document 1 and Document 2 look very similar because they share "the," "sat," and
 
 This is where TF-IDF comes in.
 
-![Document-term matrix showing word counts across multiple text documents](/images/blogs/pool-nlp/3.jpg)
+![Document-term matrix showing word counts across multiple text documents](https://picsum.photos/seed/bag-of-words-vs-tfidf-1/800/450)
 
 ---
 
@@ -157,7 +157,7 @@ print(f"Non-zero entries: {X_tfidf.nnz}")
 print(f"Sparsity: {1 - X_tfidf.nnz / (X_tfidf.shape[0] * X_tfidf.shape[1]):.2%}")
 ```
 
-![TF-IDF weighting scheme highlighting important terms in documents](/images/blogs/pool-nlp/5.jpg)
+![TF-IDF weighting scheme highlighting important terms in documents](https://picsum.photos/seed/bag-of-words-vs-tfidf-2/800/450)
 
 ---
 
@@ -237,7 +237,7 @@ print(df_sim)
 
 Documents about ML/DL will have high similarity; the weather document will have low similarity to the others. This is the foundation of search engines and recommendation systems.
 
-![Cosine similarity matrix comparing document vectors for text retrieval](/images/blogs/pool-nlp/7.jpg)
+![Cosine similarity matrix comparing document vectors for text retrieval](https://picsum.photos/seed/bag-of-words-vs-tfidf-3/800/450)
 
 ---
 

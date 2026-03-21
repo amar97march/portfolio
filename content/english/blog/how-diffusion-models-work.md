@@ -5,7 +5,7 @@ draft: false
 description: "A technical deep dive into the mathematics and mechanics of diffusion models — from the forward noising process to the reverse denoising process, with code examples and practical insights."
 tags: ["Generative AI", "Diffusion Models", "Deep Learning", "Mathematics", "Tutorial"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=630&fit=crop&auto=format"
 keywords: ["diffusion model math", "DDPM", "denoising", "noise schedule", "forward process", "reverse process", "U-Net", "latent diffusion"]
 ---
 
@@ -59,7 +59,7 @@ The neural network `epsilon_theta` is trained to predict the noise that was adde
 ---
 
 
-![Creative AI generating novel content from learned patterns](/images/blogs/pool-genai/3.jpg)
+![Creative AI generating novel content from learned patterns](https://picsum.photos/seed/how-diffusion-models-work-1/800/450)
 
 ### The Training Objective
 
@@ -143,7 +143,7 @@ def cosine_schedule(T, s=0.008):
 ---
 
 
-![Illustration of the generative process from noise to coherent output](/images/blogs/pool-genai/5.jpg)
+![Illustration of the generative process from noise to coherent output](https://picsum.photos/seed/how-diffusion-models-work-2/800/450)
 
 ### The Denoising Network: U-Net Architecture
 
@@ -175,7 +175,7 @@ This approach reduces computation by roughly 64x while maintaining image quality
 ---
 
 
-![Visual representation of text-to-image generation pipeline](/images/blogs/pool-genai/7.jpg)
+![Visual representation of text-to-image generation pipeline](https://picsum.photos/seed/how-diffusion-models-work-3/800/450)
 
 ### Sampling: From Noise to Image
 

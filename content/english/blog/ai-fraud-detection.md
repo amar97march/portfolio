@@ -5,7 +5,7 @@ draft: false
 description: "Fraud detection was one of the earliest commercial applications of machine learning. Learn how AI systems catch fraudulent transactions in real time using anomaly detection, supervised classification, and graph neural networks."
 tags: ["AI", "Fraud Detection", "Anomaly Detection", "Machine Learning", "Finance", "Classification"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI fraud detection", "anomaly detection machine learning", "credit card fraud AI", "transaction monitoring", "graph neural networks fraud"]
 ---
 
@@ -56,7 +56,7 @@ Machine learning did not replace rules entirely — most production systems stil
 
 ---
 
-![Real-time fraud detection evaluating millions of transactions per second](/images/blogs/pool-industry/3.jpg)
+![Real-time fraud detection evaluating millions of transactions per second](https://picsum.photos/seed/ai-fraud-detection-1/800/450)
 
 ### Part 3: Machine Learning for Fraud Detection
 
@@ -149,7 +149,7 @@ This relational reasoning is something tabular models fundamentally cannot do, a
 
 ---
 
-![Graph neural networks uncovering hidden fraud networks and relationships](/images/blogs/pool-industry/5.jpg)
+![Graph neural networks uncovering hidden fraud networks and relationships](https://picsum.photos/seed/ai-fraud-detection-2/800/450)
 
 ### Part 4: Production Architecture
 
@@ -166,7 +166,7 @@ The entire pipeline must execute in under 100 milliseconds, which constrains mod
 
 ---
 
-![Production fraud detection pipeline processing transactions in real time](/images/blogs/pool-industry/7.jpg)
+![Production fraud detection pipeline processing transactions in real time](https://picsum.photos/seed/ai-fraud-detection-3/800/450)
 
 ### Part 5: Metrics That Matter
 

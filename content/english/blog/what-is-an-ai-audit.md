@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to AI audits—what they are, why they matter, how they work in practice, and what tools and frameworks auditors use to evaluate AI systems for fairness, compliance, and safety."
 tags: ["AI Audit", "AI Regulation", "Fairness", "Compliance", "Bias", "AI Ethics"]
 categories: ["AI Regulation"]
-image: "/images/blogs/pool-regulation/1.jpg"
+image: "https://picsum.photos/seed/what-is-an-ai-audit-cover/1200/630"
 keywords: ["AI audit", "algorithmic audit", "AI fairness", "AI compliance", "bias testing", "AI accountability", "model evaluation"]
 ---
 
@@ -56,7 +56,7 @@ Conducted by the organization's own team. Useful for ongoing quality assurance b
 
 ---
 
-![AI audit compliance dashboard showing fairness metrics](/images/blogs/pool-regulation/3.jpg)
+![AI audit compliance dashboard showing fairness metrics](https://picsum.photos/seed/what-is-an-ai-audit-1/800/450)
 
 
 ### What Gets Audited?
@@ -183,7 +183,7 @@ The organization addresses the findings. The auditor may conduct a follow-up ass
 
 ---
 
-![Team reviewing algorithmic audit results on screen](/images/blogs/pool-regulation/4.jpg)
+![Team reviewing algorithmic audit results on screen](https://picsum.photos/seed/what-is-an-ai-audit-2/800/450)
 
 
 ### Common Audit Frameworks and Standards
@@ -214,7 +214,7 @@ AI auditing is still a maturing field, and significant challenges remain:
 
 ---
 
-![Regulatory framework checklist for AI systems](/images/blogs/pool-regulation/5.jpg)
+![Regulatory framework checklist for AI systems](https://picsum.photos/seed/what-is-an-ai-audit-3/800/450)
 
 
 ### Building Audit-Ready AI Systems

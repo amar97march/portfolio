@@ -5,7 +5,7 @@ draft: false
 description: "How to prepare for the project deep dive portion of AI interviews. Learn what interviewers are really looking for, how to structure your project narrative, and common mistakes that candidates make."
 tags: ["AI Interview", "Career", "Machine Learning", "Interview Preparation", "Projects"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI interview project deep dive", "ML interview project presentation", "presenting AI projects", "interview preparation", "data science interview"]
 ---
 
@@ -50,7 +50,7 @@ Every project deep dive starts with your overview. Here is a template:
 
 "At a fintech startup, we were losing an estimated $2M annually to fraudulent transactions that our rule-based system could not detect. I framed this as a binary classification problem — predicting whether a transaction is fraudulent based on 45 features including transaction amount, time, merchant category, and user behavior patterns. I chose gradient boosting (LightGBM) over deep learning because we had structured data and needed interpretable predictions for compliance reasons. The key challenges were extreme class imbalance — only 0.3% of transactions were fraudulent — and the need for real-time inference under 50ms. The final model achieved a recall of 94% at a precision of 87%, reducing fraud losses by an estimated 65%. The most important lesson was that feature engineering — particularly behavioral features like deviation from a user's typical transaction pattern — mattered far more than model complexity."
 
-![Structuring your AI project narrative for interview presentations](/images/blogs/pool-career/3.jpg)
+![Structuring your AI project narrative for interview presentations](https://picsum.photos/seed/ai-interview-project-deep-dive-1/800/450)
 
 ### Preparing for the Deep Dive Questions
 
@@ -80,7 +80,7 @@ Quantify wherever possible. Business metrics are better than model metrics. "The
 
 Demonstrate awareness of this critical issue. Discuss temporal splitting for time-series data, not using target information during feature engineering, and using pipelines to prevent train-test leakage.
 
-![Preparing for tough follow-up questions during ML project deep dives](/images/blogs/pool-career/5.jpg)
+![Preparing for tough follow-up questions during ML project deep dives](https://picsum.photos/seed/ai-interview-project-deep-dive-2/800/450)
 
 ### Common Mistakes in Project Deep Dives
 
@@ -118,7 +118,7 @@ For each project, prepare:
 - A one-page summary with key metrics and decisions
 - Visual aids (architecture diagrams, results charts) if allowed
 
-![Preparing compelling project portfolios for AI interview success](/images/blogs/pool-career/7.jpg)
+![Preparing compelling project portfolios for AI interview success](https://picsum.photos/seed/ai-interview-project-deep-dive-3/800/450)
 
 ### The Secret to Great Deep Dives
 

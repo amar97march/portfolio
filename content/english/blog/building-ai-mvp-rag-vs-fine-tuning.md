@@ -5,7 +5,7 @@ draft: false
 description: "When building an AI product, one of the first architectural decisions is whether to use Retrieval-Augmented Generation or fine-tuning. This post breaks down when to use each approach, their trade-offs, and how to decide."
 tags: ["AI", "RAG", "Fine-Tuning", "LLMs", "Product Development", "Architecture"]
 categories: ["AI Business"]
-image: "/images/blogs/pool-business/1.jpg"
+image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200&h=630&fit=crop&auto=format"
 keywords: ["RAG vs fine-tuning", "retrieval augmented generation", "AI MVP", "LLM architecture", "AI product development", "when to fine-tune", "when to use RAG"]
 ---
 
@@ -136,7 +136,7 @@ training_data = [
 ---
 
 
-![Illustration of AI product development decision-making process](/images/blogs/pool-business/3.jpg)
+![Illustration of AI product development decision-making process](https://picsum.photos/seed/building-ai-mvp-rag-vs-fine-tuning-1/800/450)
 
 ### When to Use RAG
 
@@ -171,7 +171,7 @@ Choose fine-tuning when:
 ---
 
 
-![Visual comparing different technical approaches for building AI products](/images/blogs/pool-business/4.jpg)
+![Visual comparing different technical approaches for building AI products](https://picsum.photos/seed/building-ai-mvp-rag-vs-fine-tuning-2/800/450)
 
 ### The Hybrid Approach
 
@@ -224,7 +224,7 @@ Fine-tuning should come later, once you:
 ---
 
 
-![Conceptual image showing the path from MVP to production AI system](/images/blogs/pool-business/5.jpg)
+![Conceptual image showing the path from MVP to production AI system](https://picsum.photos/seed/building-ai-mvp-rag-vs-fine-tuning-3/800/450)
 
 ### Common Pitfalls
 

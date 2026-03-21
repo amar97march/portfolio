@@ -5,7 +5,7 @@ draft: false
 description: "MLOps is still a maturing discipline, and teams across the industry face recurring challenges. From organizational silos to technical debt, explore the most common obstacles and practical strategies for overcoming them."
 tags: ["MLOps", "Machine Learning", "Production ML", "Data Science", "Engineering", "Team Management"]
 categories: ["MLOps"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1484557052511-ed1b134a1379?w=1200&h=630&fit=crop&auto=format"
 keywords: ["mlops challenges", "ml production problems", "machine learning operations issues", "mlops best practices", "ml team challenges"]
 ---
 
@@ -62,7 +62,7 @@ Models are only as good as their data. But maintaining data quality at scale is 
 ---
 
 
-![Diagram illustrating MLOps pipeline components and workflow](/images/blogs/pool-mlops/3.jpg)
+![Diagram illustrating MLOps pipeline components and workflow](https://picsum.photos/seed/biggest-mlops-challenges-1/800/450)
 
 ## Challenge 3: Reproducibility
 
@@ -107,7 +107,7 @@ Each component needs to be provisioned, configured, maintained, secured, and sca
 ---
 
 
-![Visual showing the infrastructure behind production machine learning](/images/blogs/pool-mlops/4.jpg)
+![Visual showing the infrastructure behind production machine learning](https://picsum.photos/seed/biggest-mlops-challenges-2/800/450)
 
 ## Challenge 5: Monitoring and Observability
 
@@ -150,7 +150,7 @@ Three years later, the team is still deploying models manually, and every deploy
 ---
 
 
-![Illustration of automated model deployment and monitoring systems](/images/blogs/pool-mlops/5.jpg)
+![Illustration of automated model deployment and monitoring systems](https://picsum.photos/seed/biggest-mlops-challenges-3/800/450)
 
 ## Challenge 7: Regulatory Compliance and Auditability
 

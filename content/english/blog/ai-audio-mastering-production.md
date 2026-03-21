@@ -5,7 +5,7 @@ draft: false
 description: "AI is revolutionizing audio production — from automated mastering to intelligent mixing, stem separation, and noise removal. This post explores the tools and techniques that are making professional-quality audio accessible to everyone."
 tags: ["Audio AI", "Audio Production", "Music Technology", "AI Tools", "Mastering"]
 categories: ["Audio AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI mastering", "audio production AI", "stem separation", "noise removal", "LANDR", "iZotope", "Demucs", "audio mixing AI"]
 ---
 
@@ -31,7 +31,7 @@ A professional mastering session costs $50-200+ per track and requires a treated
 
 ---
 
-![AI-powered audio mastering tools processing sound waveforms](/images/blogs/pool-audio/3.jpg)
+![AI-powered audio mastering tools processing sound waveforms](https://picsum.photos/seed/ai-audio-mastering-production-1/800/450)
 
 ### AI Mastering Services
 
@@ -96,7 +96,7 @@ AI has revolutionized audio cleanup:
 
 ---
 
-![Deep learning separating music into individual vocal and instrument stems](/images/blogs/pool-audio/5.jpg)
+![Deep learning separating music into individual vocal and instrument stems](https://picsum.photos/seed/ai-audio-mastering-production-2/800/450)
 
 ### AI-Assisted Mixing
 
@@ -122,7 +122,7 @@ AI is also transforming sound design:
 
 ---
 
-![AI transforming sound design with text-to-audio generation](/images/blogs/pool-audio/7.jpg)
+![AI transforming sound design with text-to-audio generation](https://picsum.photos/seed/ai-audio-mastering-production-3/800/450)
 
 ### The Impact on the Industry
 

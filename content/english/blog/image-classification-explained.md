@@ -5,7 +5,7 @@ draft: false
 description: "Image classification is the foundational task of Computer Vision — assigning a label to an entire image. This post breaks down how it works, the architectures behind it, and how to build your own classifier from scratch."
 tags: ["Computer Vision", "Image Classification", "CNN", "Deep Learning", "Python", "Tutorial"]
 categories: ["Computer Vision"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["image classification", "CNN", "convolutional neural network", "ResNet", "VGG", "cat vs dog classifier", "transfer learning", "deep learning"]
 ---
 
@@ -42,7 +42,7 @@ This approach worked reasonably well for constrained problems, but it had a fata
 ---
 
 
-![Computer vision system analyzing and interpreting visual data](/images/blogs/pool-cv/3.jpg)
+![Computer vision system analyzing and interpreting visual data](https://picsum.photos/seed/image-classification-explained-1/800/450)
 
 ### Enter the Convolutional Neural Network
 
@@ -118,7 +118,7 @@ The history of image classification is marked by a series of increasingly powerf
 ---
 
 
-![Illustration of image processing through convolutional neural networks](/images/blogs/pool-cv/5.jpg)
+![Illustration of image processing through convolutional neural networks](https://picsum.photos/seed/image-classification-explained-2/800/450)
 
 ### Transfer Learning: Standing on the Shoulders of Giants
 
@@ -164,7 +164,7 @@ How do you know if your classifier is good? The key metrics are:
 ---
 
 
-![Visual representation of object recognition and pixel classification](/images/blogs/pool-cv/7.jpg)
+![Visual representation of object recognition and pixel classification](https://picsum.photos/seed/image-classification-explained-3/800/450)
 
 ### Common Pitfalls
 

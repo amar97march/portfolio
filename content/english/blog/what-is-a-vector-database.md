@@ -5,7 +5,7 @@ draft: false
 description: "A complete guide to vector databases — how they work, why they matter for AI applications, and how to choose the right one for your RAG pipeline."
 tags: ["Vector Database", "RAG", "Embeddings", "AI Infrastructure", "Generative AI"]
 categories: ["RAG & Retrieval"]
-image: "/images/blogs/pool-rag/1.jpg"
+image: "https://picsum.photos/seed/what-is-a-vector-database-cover/1200/630"
 keywords: ["vector database", "vector DB", "embedding database", "similarity search", "Pinecone", "Chroma", "Milvus", "HNSW"]
 ---
 
@@ -115,7 +115,7 @@ def dot_product(a, b):
 
 Cosine similarity is the standard choice for text embeddings because it measures the angle between vectors regardless of magnitude.
 
-![How vector databases index and search embeddings](/images/blogs/pool-rag/3.jpg)
+![How vector databases index and search embeddings](https://picsum.photos/seed/what-is-a-vector-database-1/800/450)
 
 ### Key Features of Vector Databases
 
@@ -186,7 +186,7 @@ The ecosystem is growing rapidly. Here is how the major options compare:
 | Want serverless | Pinecone or LanceDB |
 | Want to avoid vendor lock-in | Qdrant or Milvus (self-hosted) |
 
-![Choosing the right vector database for your AI application](/images/blogs/pool-rag/4.jpg)
+![Choosing the right vector database for your AI application](https://picsum.photos/seed/what-is-a-vector-database-2/800/450)
 
 ### Practical Example: Building a Searchable Knowledge Base
 
@@ -282,7 +282,7 @@ collection = client.create_collection(
 **Memory usage:**
 A single 1536-dimension float32 vector uses ~6KB. One million vectors use ~6GB. Plan your infrastructure accordingly.
 
-![Vector databases as a critical component of the modern AI stack](/images/blogs/pool-rag/5.jpg)
+![Vector databases as a critical component of the modern AI stack](https://picsum.photos/seed/what-is-a-vector-database-3/800/450)
 
 ### Vector Databases in the AI Stack
 

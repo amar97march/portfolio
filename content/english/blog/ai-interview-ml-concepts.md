@@ -5,7 +5,7 @@ draft: false
 description: "Prepare for the ML concepts portion of AI interviews. Learn how to explain overfitting, the bias-variance tradeoff, regularization, and other fundamental concepts clearly and confidently."
 tags: ["AI Interview", "Machine Learning", "Overfitting", "Career", "Interview Preparation"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["ML interview concepts", "explain overfitting", "bias variance tradeoff", "regularization interview", "AI interview preparation", "machine learning concepts"]
 ---
 
@@ -46,7 +46,7 @@ This progression takes the interviewer from "they understand it" to "they really
 
 **Practical implications**: This tradeoff guides model selection. Simple models (linear regression, shallow trees) have high bias and low variance. Complex models (deep neural networks, large random forests) have low bias and high variance. Techniques like ensembling (bagging reduces variance, boosting reduces bias) are designed specifically to manage this tradeoff.
 
-![Explaining overfitting and the bias-variance tradeoff in AI interviews](/images/blogs/pool-career/4.jpg)
+![Explaining overfitting and the bias-variance tradeoff in AI interviews](https://picsum.photos/seed/ai-interview-ml-concepts-1/800/450)
 
 ### Concept 3: Regularization
 
@@ -68,7 +68,7 @@ This progression takes the interviewer from "they understand it" to "they really
 
 **Practical implications**: I use 5-fold or 10-fold stratified cross-validation as the standard for model evaluation. It is more reliable than a single train/test split, especially with small datasets. For time series data, I use time-based splits to avoid data leakage.
 
-![Cross-validation and regularization concepts for ML interview preparation](/images/blogs/pool-career/6.jpg)
+![Cross-validation and regularization concepts for ML interview preparation](https://picsum.photos/seed/ai-interview-ml-concepts-2/800/450)
 
 ### Concept 5: Gradient Descent
 
@@ -90,7 +90,7 @@ This progression takes the interviewer from "they understand it" to "they really
 
 **Practical implications**: I always consider the cost of false positives versus false negatives when choosing metrics. For imbalanced datasets, accuracy is misleading — a model predicting the majority class always achieves high accuracy. F1, precision-recall curves, and AUC-ROC are more informative.
 
-![Precision recall and F1 score evaluation metrics for interview preparation](/images/blogs/pool-career/8.jpg)
+![Precision recall and F1 score evaluation metrics for interview preparation](https://picsum.photos/seed/ai-interview-ml-concepts-3/800/450)
 
 ### How to Practice
 

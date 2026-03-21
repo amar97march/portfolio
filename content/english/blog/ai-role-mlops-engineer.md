@@ -5,7 +5,7 @@ draft: false
 description: "Explore the role of the MLOps Engineer, the operator who keeps machine learning systems running reliably in production. Learn about their responsibilities, tools, career path, and why MLOps has become one of the most in-demand AI roles."
 tags: ["MLOps", "AI Careers", "DevOps", "Machine Learning", "CI/CD"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop&auto=format"
 keywords: ["MLOps engineer role", "MLOps career", "ML operations", "model monitoring", "ML pipeline", "AI careers", "MLOps salary"]
 ---
 
@@ -28,7 +28,7 @@ Machine learning is different. ML models degrade over time because:
 
 Without someone actively monitoring and maintaining these systems, they silently rot. MLOps exists to prevent that rot.
 
-![MLOps engineer monitoring model performance dashboards and pipeline health](/images/blogs/pool-career/3.jpg)
+![MLOps engineer monitoring model performance dashboards and pipeline health](https://picsum.photos/seed/ai-role-mlops-engineer-1/800/450)
 
 ### What Does an MLOps Engineer Do Daily?
 
@@ -128,7 +128,7 @@ You need to monitor not just infrastructure metrics (CPU, memory, latency) but a
 
 MLOps engineers version control not just code, but also data, models, configurations, and experiments. Tools like DVC, MLflow, and Weights & Biases are essential.
 
-![CI/CD pipeline orchestrating model training, evaluation, and deployment](/images/blogs/pool-career/5.jpg)
+![CI/CD pipeline orchestrating model training, evaluation, and deployment](https://picsum.photos/seed/ai-role-mlops-engineer-2/800/450)
 
 ### The MLOps Toolkit
 
@@ -175,7 +175,7 @@ MLOps is one of the fastest-growing roles in AI, and salaries have risen accordi
 - **Senior (5-8 years)**: $180,000 - $250,000
 - **Staff / Principal**: $240,000 - $340,000+
 
-![MLOps career path from junior engineer to ML platform director](/images/blogs/pool-career/7.jpg)
+![MLOps career path from junior engineer to ML platform director](https://picsum.photos/seed/ai-role-mlops-engineer-3/800/450)
 
 ### Common Misconceptions
 

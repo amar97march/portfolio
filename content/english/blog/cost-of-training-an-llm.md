@@ -5,7 +5,7 @@ draft: false
 description: "An honest breakdown of everything it costs to train a Large Language Model — from GPU clusters and electricity to human labor and environmental impact."
 tags: ["LLM", "Training", "AI Cost", "GPU", "Generative AI", "Infrastructure"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1614064642639-e398521bb244?w=1200&h=630&fit=crop&auto=format"
 keywords: ["cost of training LLM", "GPU cost AI", "LLM training budget", "AI compute cost", "training GPT cost", "AI infrastructure", "environmental cost AI"]
 ---
 
@@ -53,7 +53,7 @@ At $0.10/kWh: ~$1.5M in electricity alone
 And that is just the GPUs. The cooling systems, networking equipment, storage servers, and other infrastructure roughly double the total power consumption. Data centers in hot climates spend even more on cooling.
 
 
-![Illustration of the massive computational infrastructure behind LLM training](/images/blogs/pool-genai/3.jpg)
+![Illustration of the massive computational infrastructure behind LLM training](https://picsum.photos/seed/cost-of-training-an-llm-1/800/450)
 
 ### Data: The Hidden Expense
 
@@ -87,7 +87,7 @@ A conservative estimate for a 50-person team working for 12-18 months: **$20-40 
 And these estimates might be low. Top AI researchers have received compensation packages exceeding $5 million per year at labs like OpenAI, Google DeepMind, and Anthropic.
 
 
-![Visual showing the scale and cost components of training large AI models](/images/blogs/pool-genai/4.jpg)
+![Visual showing the scale and cost components of training large AI models](https://picsum.photos/seed/cost-of-training-an-llm-2/800/450)
 
 ### Failed Experiments: The Unseen Cost
 
@@ -114,7 +114,7 @@ Beyond GPUs, training at scale requires:
 Building a world-class training cluster from scratch costs $1-5 billion. Even renting from cloud providers involves significant infrastructure engineering.
 
 
-![Conceptual image depicting the resource requirements for frontier AI systems](/images/blogs/pool-genai/5.jpg)
+![Conceptual image depicting the resource requirements for frontier AI systems](https://picsum.photos/seed/cost-of-training-an-llm-3/800/450)
 
 ### The Environmental Cost
 

@@ -5,7 +5,7 @@ draft: false
 description: "Google Gemini was designed from the ground up as a multimodal AI model. This post explores its architecture, capabilities, how it compares to competitors, and why it represents Google's most ambitious AI effort."
 tags: ["Generative AI", "Google Gemini", "Multimodal AI", "Deep Learning", "LLMs"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1487611459768-bd414656ea10?w=1200&h=630&fit=crop&auto=format"
 keywords: ["Google Gemini", "Gemini AI", "multimodal model", "Gemini Pro", "Gemini Ultra", "Google AI", "DeepMind"]
 ---
 
@@ -62,7 +62,7 @@ Gemini comes in several sizes, optimized for different use cases:
 
 ---
 
-![Multimodal AI processing text, images, and video together](/images/blogs/pool-genai/6.jpg)
+![Multimodal AI processing text, images, and video together](https://picsum.photos/seed/google-gemini-multimodal-1/800/450)
 
 ### Using Gemini via the API
 
@@ -120,7 +120,7 @@ The API is straightforward and well-documented, with support for streaming, func
 
 ---
 
-![Comparing frontier AI models across capabilities](/images/blogs/pool-genai/7.jpg)
+![Comparing frontier AI models across capabilities](https://picsum.photos/seed/google-gemini-multimodal-2/800/450)
 
 ### Gemini vs. the Competition
 
@@ -146,7 +146,7 @@ This combination of data, distribution, and infrastructure is difficult for any 
 
 ---
 
-![The competitive landscape of large language models](/images/blogs/pool-genai/8.jpg)
+![The competitive landscape of large language models](https://picsum.photos/seed/google-gemini-multimodal-3/800/450)
 
 ### My Assessment
 

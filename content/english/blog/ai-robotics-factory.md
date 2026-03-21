@@ -3,7 +3,7 @@ title: "AI-Powered Robotics in the Factory: From Assembly Lines to Collaborative
 meta_title: ""
 description: "An in-depth exploration of how artificial intelligence is transforming industrial robotics, from traditional assembly line automation to modern collaborative robots that work alongside humans."
 date: 2027-10-27
-image: "/images/blogs/ai-robotics-factory/cover.jpg"
+image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Applications"]
 author: "Amar Singh"
 tags: ["robotics", "manufacturing", "cobots", "automation"]
@@ -42,7 +42,7 @@ Reinforcement learning enables robots to learn complex manipulation skills throu
 
 Natural language processing allows operators to communicate with robots using spoken language rather than specialized programming interfaces. Instead of writing code or using a teach pendant, an operator might tell a robot to "pick up the red parts from the bin and place them on the conveyor" and the robot would understand and execute the instruction.
 
-![Evolution of industrial robotics from programmable arms to intelligent systems](/images/blogs/pool-industry/4.jpg)
+![Evolution of industrial robotics from programmable arms to intelligent systems](https://picsum.photos/seed/ai-robotics-factory-1/800/450)
 
 ## The Rise of Collaborative Robots
 
@@ -126,7 +126,7 @@ AMRs are most valuable when they are integrated with broader factory management 
 
 This integration creates a flexible, responsive logistics system that adapts to changing production requirements without the need for fixed conveyor systems or manual material handling. Production layouts can be reconfigured without rebuilding material handling infrastructure, since AMRs can navigate any accessible path.
 
-![Autonomous mobile robots navigating a modern manufacturing facility](/images/blogs/pool-industry/6.jpg)
+![Autonomous mobile robots navigating a modern manufacturing facility](https://picsum.photos/seed/ai-robotics-factory-2/800/450)
 
 ## The Human-Robot Collaboration Paradigm
 
@@ -176,7 +176,7 @@ While cobot prices have decreased significantly, the total cost of deployment --
 
 Introducing AI-powered robots into a factory requires significant workforce adaptation. Workers need training not just on how to operate alongside robots but on how to program, maintain, and troubleshoot them. Manufacturing cultures that have traditionally valued manual skill may need to evolve to embrace human-robot collaboration. Managing this cultural transition is often as challenging as the technical deployment.
 
-![Challenges and limitations of deploying AI robotics in manufacturing](/images/blogs/pool-industry/8.jpg)
+![Challenges and limitations of deploying AI robotics in manufacturing](https://picsum.photos/seed/ai-robotics-factory-3/800/450)
 
 ## The Future of Factory Robotics
 

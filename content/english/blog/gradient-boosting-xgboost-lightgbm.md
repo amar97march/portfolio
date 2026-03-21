@@ -5,7 +5,7 @@ draft: false
 description: "Gradient Boosting builds trees sequentially, with each tree correcting the errors of the last. Learn how XGBoost and LightGBM work, and why they dominate data science competitions."
 tags: ["Machine Learning", "XGBoost", "LightGBM", "Gradient Boosting", "Algorithms", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["gradient boosting", "XGBoost", "LightGBM", "boosting vs bagging", "tabular data", "kaggle competitions"]
 ---
 
@@ -59,7 +59,7 @@ A lower learning rate means each tree has less influence, requiring more trees b
 
 ---
 
-![Gradient boosting building trees sequentially to correct errors](/images/blogs/pool-ml/3.jpg)
+![Gradient boosting building trees sequentially to correct errors](https://picsum.photos/seed/gradient-boosting-xgboost-lightgbm-1/800/450)
 
 ### Part 3: XGBoost — eXtreme Gradient Boosting
 
@@ -152,7 +152,7 @@ print(f"Accuracy: {accuracy_score(y_test, y_pred):.4f}")
 
 ---
 
-![Comparing XGBoost and LightGBM performance on tabular datasets](/images/blogs/pool-ml/5.jpg)
+![Comparing XGBoost and LightGBM performance on tabular datasets](https://picsum.photos/seed/gradient-boosting-xgboost-lightgbm-2/800/450)
 
 ### Part 5: XGBoost vs. LightGBM — When to Use Which
 
@@ -209,7 +209,7 @@ print(f"Best iteration: {model.best_iteration}")
 
 ---
 
-![Why gradient boosting is the go-to algorithm for structured data](/images/blogs/pool-ml/7.jpg)
+![Why gradient boosting is the go-to algorithm for structured data](https://picsum.photos/seed/gradient-boosting-xgboost-lightgbm-3/800/450)
 
 ### Part 7: Why Gradient Boosting Dominates Tabular Data
 

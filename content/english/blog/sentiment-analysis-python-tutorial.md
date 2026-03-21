@@ -5,7 +5,7 @@ draft: false
 description: "A complete hands-on tutorial for building a sentiment analysis system in Python. Covers data loading, preprocessing, feature extraction, model training, evaluation, and comparison of multiple approaches."
 tags: ["NLP", "Sentiment Analysis", "Python", "Tutorial", "Scikit-Learn"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/sentiment-analysis-python-tutorial-cover/1200/630"
 keywords: ["sentiment analysis tutorial", "python NLP tutorial", "text classification python", "VADER sentiment", "scikit-learn text classification"]
 ---
 
@@ -116,7 +116,7 @@ print(df['label'].value_counts())
 ---
 
 
-![Diagram showing NLP model architecture and data flow](/images/blogs/pool-nlp/8.jpg)
+![Diagram showing NLP model architecture and data flow](https://picsum.photos/seed/sentiment-analysis-python-tutorial-1/800/450)
 
 ### Step 3: Text Preprocessing
 
@@ -193,7 +193,7 @@ print(classification_report(
 ### Step 5: Approach 2 — TF-IDF + Classical ML
 
 
-![Illustration of text analysis and language understanding techniques](/images/blogs/pool-nlp/7.jpg)
+![Illustration of text analysis and language understanding techniques](https://picsum.photos/seed/sentiment-analysis-python-tutorial-2/800/450)
 
 ```python
 # Split data
@@ -315,7 +315,7 @@ plt.show()
 ---
 
 
-![Visual representation of natural language processing pipeline](/images/blogs/pool-nlp/6.jpg)
+![Visual representation of natural language processing pipeline](https://picsum.photos/seed/sentiment-analysis-python-tutorial-3/800/450)
 
 ### Step 8: Comparing All Approaches
 

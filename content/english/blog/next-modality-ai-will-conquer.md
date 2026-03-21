@@ -5,7 +5,7 @@ draft: false
 description: "AI has conquered text, images, and audio. What comes next? This post shares my prediction for the next modality AI will master and why it will change everything."
 tags: ["AI Futures", "Prediction", "Technology Trends", "Generative AI", "Robotics"]
 categories: ["AI Futures"]
-image: "/images/blogs/pool-frontier/1.jpg"
+image: "https://picsum.photos/seed/next-modality-ai-will-conquer-cover/1200/630"
 keywords: ["next AI modality", "AI prediction", "future of AI", "physical world AI", "embodied AI", "robotics AI", "3D generation", "world models"]
 ---
 
@@ -38,7 +38,7 @@ This means several things converging simultaneously:
 **Spatial computing.** AI that understands and augments 3D space — powering AR/VR experiences, spatial mapping, indoor navigation, and mixed-reality interfaces.
 
 
-![Cutting-edge AI research and future technology](/images/blogs/pool-frontier/6.jpg)
+![Cutting-edge AI research and future technology](https://picsum.photos/seed/next-modality-ai-will-conquer-1/800/450)
 
 ---
 
@@ -75,7 +75,7 @@ Despite these challenges, the building blocks for physical-world AI are emerging
 **Spatial computing platforms.** Apple Vision Pro and Meta Quest are building the consumer platforms for spatial computing. As these mature, the demand for AI that understands and augments 3D space will explode.
 
 
-![Next-generation artificial intelligence concepts](/images/blogs/pool-frontier/7.jpg)
+![Next-generation artificial intelligence concepts](https://picsum.photos/seed/next-modality-ai-will-conquer-2/800/450)
 
 ---
 
@@ -108,7 +108,7 @@ This is inherently speculative, but here is my sense of the timeline:
 **2035+.** Robots that can operate flexibly in unstructured human environments (homes, outdoor spaces). Physical-world AI becomes as capable and accessible as digital AI is today.
 
 
-![Frontier AI capabilities and emerging possibilities](/images/blogs/pool-frontier/8.jpg)
+![Frontier AI capabilities and emerging possibilities](https://picsum.photos/seed/next-modality-ai-will-conquer-3/800/450)
 
 ---
 

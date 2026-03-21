@@ -3,7 +3,7 @@ title: "The Fair Use Debate: Is Training AI on Public Data 'Theft'?"
 meta_title: ""
 description: "A comprehensive analysis of the legal and ethical debate over using publicly available data to train AI models. Examines fair use doctrine, ongoing lawsuits, competing arguments, and the implications for the future of AI development."
 date: 2028-07-17
-image: "/images/blogs/fair-use-debate/cover.jpg"
+image: "https://images.unsplash.com/photo-1550009158-9ebf5e841ca3?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["fair-use", "copyright", "training-data", "legal"]
@@ -68,7 +68,7 @@ AI companies emphasize the enormous societal benefits of AI systems trained on l
 
 With training datasets containing billions of documents from millions of creators, obtaining individual licenses would be practically impossible and would effectively prevent the development of AI systems. AI companies argue that fair use serves as a safety valve for precisely these situations where the transaction costs of licensing are prohibitively high relative to the value of any individual work.
 
-![Legal frameworks governing AI training on copyrighted content](/images/blogs/pool-ethics/3.jpg)
+![Legal frameworks governing AI training on copyrighted content](https://picsum.photos/seed/fair-use-debate-ai-training-1/800/450)
 
 ## The Creators' Arguments Against Fair Use
 
@@ -118,7 +118,7 @@ The Authors Guild, joined by prominent authors, filed suit against OpenAI allegi
 
 Several class action lawsuits have been filed by visual artists against AI companies including Stability AI, Midjourney, and DeviantArt, alleging that their artwork was used without permission to train image generation models that now compete directly with their livelihoods.
 
-![Creators and technology companies debating data rights](/images/blogs/pool-ethics/5.jpg)
+![Creators and technology companies debating data rights](https://picsum.photos/seed/fair-use-debate-ai-training-2/800/450)
 
 ## The International Perspective
 
@@ -164,7 +164,7 @@ Technical approaches like opt-out mechanisms (robots.txt extensions, metadata st
 
 Some observers advocate for a comprehensive political settlement, a grand bargain where AI companies agree to contribute to a fund that compensates creators, creators agree to a limited training exception, and governments establish a regulatory framework that governs both the use of training data and the outputs of AI systems. This would require unprecedented coordination among technology companies, creative industries, and governments, but it would provide the certainty that all parties need.
 
-![Finding fair solutions for AI training and creator compensation](/images/blogs/pool-ethics/7.jpg)
+![Finding fair solutions for AI training and creator compensation](https://picsum.photos/seed/fair-use-debate-ai-training-3/800/450)
 
 ## The Ethical Dimension Beyond Legality
 

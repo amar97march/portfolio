@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive deep-dive into the hierarchy of AI, ML, and Deep Learning. We unpack the visual framework, the history, and the architectural differences for professionals."
 tags: ["AI", "Machine Learning", "Deep Learning", "Tech Basics", "Data Science"]
 categories: ["AI Fundamentals"]
-image: "/images/blogs/blog2/cover.png"
+image: "https://images.unsplash.com/photo-1512941937-f2c8e43e6dba?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI vs ML vs DL", "Difference between AI and Machine Learning", "Deep Learning explained", "Neural Networks", "Generative AI hierarchy"]
 ---
 
@@ -83,7 +83,7 @@ Before we leave the broad "AI" layer, we must address the "Intelligence" part. C
 
 ---
 
-![Understanding the hierarchy of AI technologies](/images/blogs/pool-learning/6.jpg)
+![Understanding the hierarchy of AI technologies](https://picsum.photos/seed/decoding-the-matrix-1/800/450)
 
 ## Machine Learning (ML) — The Statistical Revolution
 
@@ -139,7 +139,7 @@ If you messed up the feature definitions, the model failed. This "Feature Extrac
 
 ---
 
-![Machine learning paradigms and training approaches](/images/blogs/pool-learning/7.jpg)
+![Machine learning paradigms and training approaches](https://picsum.photos/seed/decoding-the-matrix-2/800/450)
 
 ## Deep Learning (DL) — The Neural Revolution
 
@@ -189,7 +189,7 @@ Deep Learning is powerful, but it is not free. It comes with three massive costs
 
 ---
 
-![Neural networks learning representations from data](/images/blogs/pool-learning/8.jpg)
+![Neural networks learning representations from data](https://picsum.photos/seed/decoding-the-matrix-3/800/450)
 
 ## Generative AI & The Future (The New Frontier)
 

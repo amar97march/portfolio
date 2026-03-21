@@ -5,7 +5,7 @@ draft: false
 description: "How satellite imagery, computer vision, and acoustic monitoring powered by AI are fighting deforestation and wildlife poaching in real time across the globe."
 tags: ["AI", "Conservation", "Deforestation", "Poaching", "Computer Vision", "Satellite Imagery"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI deforestation", "AI anti-poaching", "satellite monitoring forests", "Global Forest Watch", "Rainforest Connection", "wildlife conservation AI"]
 ---
 
@@ -60,7 +60,7 @@ def detect_forest_change(ndvi_baseline, ndvi_current, threshold=-0.3):
 
 The impact is measurable. In several countries, near real-time deforestation alerts have enabled enforcement agencies to respond within days rather than months, catching illegal logging operations while they are still active.
 
-![Satellite imagery analysis detecting deforestation patterns in tropical forests](/images/blogs/pool-good/4.jpg)
+![Satellite imagery analysis detecting deforestation patterns in tropical forests](https://picsum.photos/seed/ai-tracking-deforestation-poaching-1/800/450)
 
 #### Brazil's DETER System
 
@@ -104,7 +104,7 @@ AI image classification models can automatically:
 
 Projects like **Wildlife Insights** (a collaboration between Google and conservation organizations) provide cloud-based AI tools that conservation teams worldwide can use to process their camera trap images.
 
-![AI-powered camera traps and acoustic sensors monitoring wildlife areas](/images/blogs/pool-good/6.jpg)
+![AI-powered camera traps and acoustic sensors monitoring wildlife areas](https://picsum.photos/seed/ai-tracking-deforestation-poaching-2/800/450)
 
 ---
 
@@ -145,7 +145,7 @@ The same AI systems that help rangers find poachers could theoretically be used 
 
 Forest monitoring technology can protect indigenous lands from illegal encroachment. But it can also be used by governments to surveil indigenous communities themselves. The ethics of conservation surveillance must center indigenous rights and sovereignty.
 
-![Conservation technology balancing environmental protection and indigenous rights](/images/blogs/pool-good/8.jpg)
+![Conservation technology balancing environmental protection and indigenous rights](https://picsum.photos/seed/ai-tracking-deforestation-poaching-3/800/450)
 
 ---
 

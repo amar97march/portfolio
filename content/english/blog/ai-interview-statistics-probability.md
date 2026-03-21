@@ -5,7 +5,7 @@ draft: false
 description: "Prepare for statistics and probability questions in AI interviews. Covers hypothesis testing, Bayesian reasoning, distributions, A/B testing, and the statistical concepts most frequently tested."
 tags: ["AI Interview", "Statistics", "Probability", "Career", "Interview Preparation"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI interview statistics", "probability interview questions", "hypothesis testing interview", "Bayesian reasoning", "A/B testing interview", "statistics for data science"]
 ---
 
@@ -68,7 +68,7 @@ Know these distributions, when to use them, and their key properties:
 | Uniform | Equal probability across range | Used for random initialization |
 | Exponential | Time between events | Memoryless property |
 
-![Probability fundamentals and Bayesian reasoning for AI interviews](/images/blogs/pool-career/3.jpg)
+![Probability fundamentals and Bayesian reasoning for AI interviews](https://picsum.photos/seed/ai-interview-statistics-probability-1/800/450)
 
 ### Hypothesis Testing
 
@@ -147,7 +147,7 @@ calculate_sample_size()
 
 **Why it matters**: It justifies using normal-distribution-based statistical tests even when the underlying data is not normally distributed, provided the sample size is large enough. It also explains why many natural phenomena appear normally distributed — they are sums of many small, independent effects.
 
-![Statistical concepts applied to machine learning model evaluation](/images/blogs/pool-career/5.jpg)
+![Statistical concepts applied to machine learning model evaluation](https://picsum.photos/seed/ai-interview-statistics-probability-2/800/450)
 
 ### Tricky Interview Questions
 
@@ -163,7 +163,7 @@ When the data does not meet the assumptions of parametric tests (normality, equa
 
 As the sample size increases, the sample mean converges to the population mean. This is why larger datasets generally give more reliable estimates and why we trust averages from large samples more than small ones.
 
-![Preparation strategies for statistics questions in data science interviews](/images/blogs/pool-career/7.jpg)
+![Preparation strategies for statistics questions in data science interviews](https://picsum.photos/seed/ai-interview-statistics-probability-3/800/450)
 
 ### How to Prepare
 

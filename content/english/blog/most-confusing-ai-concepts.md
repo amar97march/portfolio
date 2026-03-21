@@ -5,7 +5,7 @@ draft: false
 description: "A clear breakdown of the most commonly confused AI terms and concepts — from parameters vs. hyperparameters to AI vs. ML vs. DL and everything in between."
 tags: ["AI Fundamentals", "Machine Learning", "Terminology", "Beginner Guide"]
 categories: ["AI Fundamentals"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/most-confusing-ai-concepts-cover/1200/630"
 keywords: ["confusing AI concepts", "AI terminology", "machine learning terms", "AI vs ML vs DL", "parameters vs hyperparameters"]
 ---
 
@@ -71,7 +71,7 @@ An analogy: training is like studying for an exam (slow, effortful). Inference i
 A common mistake is conflating the two. When someone asks "how fast is this model?" they usually mean inference speed. When they ask "how expensive is this model?" they usually mean training cost.
 
 
-![Student learning AI and machine learning concepts](/images/blogs/pool-learning/6.jpg)
+![Student learning AI and machine learning concepts](https://picsum.photos/seed/most-confusing-ai-concepts-1/800/450)
 
 ## 4. Overfitting vs. Underfitting
 
@@ -137,7 +137,7 @@ Both are used to evaluate model performance on unseen data, but they serve diffe
 Think of it this way: the validation set is your practice exam. The test set is the real exam. If you peek at the real exam to study, your final score does not accurately reflect your knowledge.
 
 
-![Educational resources for artificial intelligence](/images/blogs/pool-learning/7.jpg)
+![Educational resources for artificial intelligence](https://picsum.photos/seed/most-confusing-ai-concepts-2/800/450)
 
 ## 8. Loss Function vs. Metric
 
@@ -184,7 +184,7 @@ y = df['price']
 ```
 
 
-![Building foundational knowledge in AI](/images/blogs/pool-learning/8.jpg)
+![Building foundational knowledge in AI](https://picsum.photos/seed/most-confusing-ai-concepts-3/800/450)
 
 ## 12. Generative vs. Discriminative Models
 

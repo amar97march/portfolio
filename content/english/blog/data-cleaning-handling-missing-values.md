@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on guide to data cleaning and handling missing values — the essential first step in any machine learning project, with practical Python examples."
 tags: ["Data Cleaning", "Missing Values", "Preprocessing", "Pandas", "Data Science"]
 categories: ["Data Science"]
-image: "/images/blogs/pool-data/1.jpg"
+image: "https://images.unsplash.com/photo-1496096265110-f83ad7f96608?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data cleaning", "handling missing values", "data preprocessing", "imputation methods", "pandas data cleaning"]
 ---
 
@@ -86,7 +86,7 @@ plt.savefig('missing_values.png')
 ```
 
 
-![Illustration of data preprocessing and transformation pipelines](/images/blogs/pool-data/3.jpg)
+![Illustration of data preprocessing and transformation pipelines](https://picsum.photos/seed/data-cleaning-handling-missing-values-1/800/450)
 
 ### Types of Missing Data
 
@@ -160,7 +160,7 @@ df['salary'] = df['salary'].fillna(df['salary'].median())
 ```
 
 
-![Visual showing techniques for cleaning and augmenting training datasets](/images/blogs/pool-data/4.jpg)
+![Visual showing techniques for cleaning and augmenting training datasets](https://picsum.photos/seed/data-cleaning-handling-missing-values-2/800/450)
 
 ### Strategy 4: Predictive Imputation
 
@@ -240,7 +240,7 @@ df['hire_date'] = pd.to_datetime(df['hire_date'], format='mixed', dayfirst=False
 ```
 
 
-![Conceptual image of turning raw data into high-quality model inputs](/images/blogs/pool-data/5.jpg)
+![Conceptual image of turning raw data into high-quality model inputs](https://picsum.photos/seed/data-cleaning-handling-missing-values-3/800/450)
 
 ## 4. Handling Outliers
 

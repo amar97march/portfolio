@@ -3,7 +3,7 @@ title: "Why Monitoring ML Models Is Fundamentally Different from Monitoring Soft
 meta_title: ""
 description: "A comprehensive exploration of why traditional software monitoring fails for machine learning systems, covering data drift, concept drift, silent model degradation, and the specialized observability practices required to keep ML models healthy in production."
 date: 2027-06-14
-image: "/images/blogs/monitoring-ml/cover.jpg"
+image: "https://picsum.photos/seed/monitoring-ml-vs-software-cover/1200/630"
 categories: ["MLOps"]
 author: "Amar Singh"
 tags: ["monitoring", "mlops", "observability", "model-performance"]
@@ -176,7 +176,7 @@ PSI is widely used in financial services for monitoring model inputs:
 - **PSI > 0.2:** Significant drift. Model may need retraining.
 
 
-![Machine learning operations and infrastructure](/images/blogs/pool-mlops/3.jpg)
+![Machine learning operations and infrastructure](https://picsum.photos/seed/monitoring-ml-vs-software-1/800/450)
 
 ## Concept Drift: When the Rules Change
 
@@ -328,7 +328,7 @@ Traditional APM (Application Performance Monitoring) tools monitor the computati
 This is equivalent to a calculator that returns "7" when you ask for "3 + 4" but returns "11" when you ask for "5 + 6." The calculator is operational --- it responds to every query quickly and without errors. But its answers are wrong, and no amount of uptime monitoring will detect that.
 
 
-![Production ML pipeline and deployment workflow](/images/blogs/pool-mlops/4.jpg)
+![Production ML pipeline and deployment workflow](https://picsum.photos/seed/monitoring-ml-vs-software-2/800/450)
 
 ## Building an ML Monitoring Stack
 
@@ -540,7 +540,7 @@ class RetrainingDecisionEngine:
 ```
 
 
-![MLOps tooling and automation systems](/images/blogs/pool-mlops/5.jpg)
+![MLOps tooling and automation systems](https://picsum.photos/seed/monitoring-ml-vs-software-3/800/450)
 
 ## Tooling Landscape
 

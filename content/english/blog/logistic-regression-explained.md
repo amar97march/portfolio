@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive guide to logistic regression — the go-to algorithm for binary classification that uses the sigmoid function to predict probabilities."
 tags: ["Logistic Regression", "Classification", "Machine Learning", "Algorithms", "Sigmoid"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1568952433726-3896e3881c65?w=1200&h=630&fit=crop&auto=format"
 keywords: ["logistic regression", "binary classification", "sigmoid function", "classification algorithm", "ML algorithms"]
 ---
 
@@ -78,7 +78,7 @@ def logistic_regression_predict(X, weights, bias, threshold=0.5):
 ```
 
 
-![Machine learning algorithm visualization](/images/blogs/pool-ml/6.jpg)
+![Machine learning algorithm visualization](https://picsum.photos/seed/logistic-regression-explained-1/800/450)
 
 ## The Loss Function: Binary Cross-Entropy
 
@@ -183,7 +183,7 @@ for feature_idx, coef in enumerate(model.coef_[0]):
 ```
 
 
-![Statistical modeling and classification concepts](/images/blogs/pool-ml/7.jpg)
+![Statistical modeling and classification concepts](https://picsum.photos/seed/logistic-regression-explained-2/800/450)
 
 ## Interpreting Coefficients
 
@@ -256,7 +256,7 @@ print(f"Recall at this threshold: {recall_score(y_test, y_pred_custom):.3f}")
 ```
 
 
-![Data science workflow and model evaluation](/images/blogs/pool-ml/8.jpg)
+![Data science workflow and model evaluation](https://picsum.photos/seed/logistic-regression-explained-3/800/450)
 
 ## Multi-Class Logistic Regression
 

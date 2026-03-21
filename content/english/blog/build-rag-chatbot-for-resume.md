@@ -5,7 +5,7 @@ draft: false
 description: "A step-by-step guide to building a Retrieval-Augmented Generation chatbot that answers questions about your resume. This portfolio project demonstrates NLP skills, vector databases, and full-stack AI development."
 tags: ["RAG", "LLM", "Portfolio Project", "NLP", "Vector Database", "Python"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?w=1200&h=630&fit=crop&auto=format"
 keywords: ["RAG chatbot", "retrieval augmented generation", "AI portfolio project", "resume chatbot", "vector database", "LangChain project"]
 ---
 
@@ -54,7 +54,7 @@ User Question
 ```
 
 
-![Screenshot-style illustration of an AI portfolio project in action](/images/blogs/pool-portfolio/3.jpg)
+![Screenshot-style illustration of an AI portfolio project in action](https://picsum.photos/seed/build-rag-chatbot-for-resume-1/800/450)
 
 ### Step 1: Prepare Your Knowledge Base
 
@@ -176,7 +176,7 @@ def retrieve_context(query: str, collection, embedding_model, top_k: int = 5):
 ```
 
 
-![Visual showing the architecture of an end-to-end AI application](/images/blogs/pool-portfolio/4.jpg)
+![Visual showing the architecture of an end-to-end AI application](https://picsum.photos/seed/build-rag-chatbot-for-resume-2/800/450)
 
 ### Step 4: Generate Answers with an LLM
 
@@ -286,7 +286,7 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 Deploy to any cloud provider (AWS ECS, Google Cloud Run, Railway, or even a free tier service for demos).
 
 
-![Conceptual image of building and deploying intelligent applications](/images/blogs/pool-portfolio/5.jpg)
+![Conceptual image of building and deploying intelligent applications](https://picsum.photos/seed/build-rag-chatbot-for-resume-3/800/450)
 
 ### Why This Project Impresses
 

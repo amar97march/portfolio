@@ -5,7 +5,7 @@ draft: false
 description: "Midjourney has become the go-to tool for AI-generated art, known for its distinctive aesthetic quality and ease of use. This post explores what makes Midjourney special, how to use it effectively, and where it fits in the generative AI landscape."
 tags: ["Generative AI", "Midjourney", "AI Art", "Tools", "Image Generation"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=1200&h=630&fit=crop&auto=format"
 keywords: ["Midjourney", "AI art", "text-to-image", "image generation tool", "AI art tool", "prompt engineering", "Midjourney tips"]
 ---
 
@@ -42,7 +42,7 @@ Several things set Midjourney apart from its competitors:
 **Community.** The Discord-based model created a vibrant community of users who share prompts, techniques, and inspiration. The public channels serve as both a gallery and a learning environment.
 
 
-![Generative AI creating digital content](/images/blogs/pool-genai/6.jpg)
+![Generative AI creating digital content](https://picsum.photos/seed/midjourney-spotlight-1/800/450)
 
 ---
 
@@ -107,7 +107,7 @@ Higher chaos (0-100) produces more diverse results within a single generation.
 **Architecture and interior design.** The tool produces exceptional architectural visualizations and interior design concepts, making it popular among design professionals.
 
 
-![Creative applications of artificial intelligence](/images/blogs/pool-genai/7.jpg)
+![Creative applications of artificial intelligence](https://picsum.photos/seed/midjourney-spotlight-2/800/450)
 
 ---
 
@@ -140,7 +140,7 @@ Midjourney has been adopted across various professional fields:
 **Architecture.** Architects use it for early-stage conceptual visualization and client presentations.
 
 
-![AI-powered content generation tools](/images/blogs/pool-genai/8.jpg)
+![AI-powered content generation tools](https://picsum.photos/seed/midjourney-spotlight-3/800/450)
 
 ---
 

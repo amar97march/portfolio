@@ -5,7 +5,7 @@ draft: false
 description: "The attention mechanism allows neural networks to focus on the most relevant parts of the input. Learn how attention works through intuitive analogies, mathematics, and code examples."
 tags: ["Deep Learning", "Attention", "Transformers", "NLP", "Python"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=630&fit=crop&auto=format"
 keywords: ["attention mechanism", "scaled dot product attention", "query key value", "multi-head attention", "neural network attention"]
 ---
 
@@ -55,7 +55,7 @@ Where:
 - Softmax converts scores to probabilities (weights that sum to 1)
 - Multiplying by $V$ produces the weighted output
 
-![Query, Key, Value mechanism computing attention weights between words](/images/blogs/pool-dl/4.jpg)
+![Query, Key, Value mechanism computing attention weights between words](https://picsum.photos/seed/attention-mechanism-explained-1/800/450)
 
 ---
 
@@ -172,7 +172,7 @@ Different heads learn to attend to different things:
 - Head 3 might capture proximity relationships.
 - Head 4 might learn syntactic dependencies.
 
-![Multiple attention heads learning different types of linguistic relationships](/images/blogs/pool-dl/6.jpg)
+![Multiple attention heads learning different types of linguistic relationships](https://picsum.photos/seed/attention-mechanism-explained-2/800/450)
 
 ---
 
@@ -232,7 +232,7 @@ In a traditional database, you query with a key and get an exact match. In atten
 
 This perspective explains why attention is so powerful: it gives the model a flexible, learnable mechanism for routing information from any part of the input to any part of the output.
 
-![Attention as a differentiable memory enabling flexible information routing](/images/blogs/pool-dl/8.jpg)
+![Attention as a differentiable memory enabling flexible information routing](https://picsum.photos/seed/attention-mechanism-explained-3/800/450)
 
 ---
 

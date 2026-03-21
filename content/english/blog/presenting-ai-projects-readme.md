@@ -5,7 +5,7 @@ draft: false
 description: "Learn how to write an excellent README for your AI and machine learning projects. A great README can be the difference between a project that gets noticed and one that gets ignored."
 tags: ["AI Portfolio", "GitHub", "Documentation", "README", "Projects"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://picsum.photos/seed/presenting-ai-projects-readme-cover/1200/630"
 keywords: ["AI project README", "how to write README", "ML project documentation", "presenting AI projects", "GitHub README template"]
 ---
 
@@ -54,7 +54,7 @@ Immediately after the title, include a visual element: a screenshot, a demo GIF,
 Put your best numbers front and center. Do not make people scroll to find out if the project actually works:
 
 
-![Diagram showing portfolio presentation strategies](/images/blogs/pool-portfolio/5.jpg)
+![Diagram showing portfolio presentation strategies](https://picsum.photos/seed/presenting-ai-projects-readme-1/800/450)
 
 ```markdown
 ## Results
@@ -129,7 +129,7 @@ streamlit run app.py
 If someone cannot get your project running in under 5 minutes, simplify the setup.
 
 
-![Illustration of project documentation best practices](/images/blogs/pool-portfolio/4.jpg)
+![Illustration of project documentation best practices](https://picsum.photos/seed/presenting-ai-projects-readme-2/800/450)
 
 #### 7. Project Structure
 
@@ -178,7 +178,7 @@ This section is optional but powerful. It shows self-awareness and intellectual 
 #### 9. Future Work
 
 
-![Visual guide to showcasing AI projects effectively](/images/blogs/pool-portfolio/3.jpg)
+![Visual guide to showcasing AI projects effectively](https://picsum.photos/seed/presenting-ai-projects-readme-3/800/450)
 
 Show that you are thinking beyond the current state:
 

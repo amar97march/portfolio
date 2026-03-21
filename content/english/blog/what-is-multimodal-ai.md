@@ -5,7 +5,7 @@ draft: false
 description: "Multimodal AI systems can understand and generate across text, images, audio, and video simultaneously. This post explains what multimodal AI is, why it matters, and how it is reshaping the capabilities of modern AI systems."
 tags: ["Generative AI", "Multimodal AI", "Deep Learning", "GPT-4", "Gemini"]
 categories: ["Generative AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/what-is-multimodal-ai-cover/1200/630"
 keywords: ["multimodal AI", "multimodal models", "text and image AI", "vision language model", "GPT-4V", "Gemini", "cross-modal understanding"]
 ---
 
@@ -52,7 +52,7 @@ A **multimodal model** is one that can process and/or generate data across two o
 
 ---
 
-![Multimodal AI processing text images and audio simultaneously](/images/blogs/pool-genai/6.jpg)
+![Multimodal AI processing text images and audio simultaneously](https://picsum.photos/seed/what-is-multimodal-ai-1/800/450)
 
 
 ### How Multimodal Models Work
@@ -81,7 +81,7 @@ CLIP became a building block for many subsequent systems: it is the text encoder
 
 ---
 
-![Architecture diagram of unified multimodal transformer](/images/blogs/pool-genai/7.jpg)
+![Architecture diagram of unified multimodal transformer](https://picsum.photos/seed/what-is-multimodal-ai-2/800/450)
 
 
 ### The Current State of the Art
@@ -116,7 +116,7 @@ The most capable multimodal models today include:
 
 ---
 
-![Practical applications of multimodal AI across industries](/images/blogs/pool-genai/8.jpg)
+![Practical applications of multimodal AI across industries](https://picsum.photos/seed/what-is-multimodal-ai-3/800/450)
 
 
 ### The Architecture Shift

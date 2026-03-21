@@ -3,7 +3,7 @@ title: "Beyond Accuracy: How Do We Actually Measure If an AI Is 'Good'?"
 date: 2026-02-23T10:00:00+05:30
 draft: false
 description: "Accuracy is the most famous metric in AI. It is also the most dangerous. We unpack the full arsenal of evaluation metrics—Precision, Recall, F1-Score, AUC-ROC, BLEU, Perplexity, and human evaluation—and reveal why choosing the wrong metric can be worse than building the wrong model."
-image: "/images/blogs/blog10/cover.png"
+image: "https://images.unsplash.com/photo-1519241047957-be31d7278b5d?w=1200&h=630&fit=crop&auto=format"
 tags: ["Machine Learning", "AI Evaluation", "Data Science", "Metrics", "NLP", "Deep Learning"]
 keywords: ["AI evaluation metrics", "how to evaluate AI", "accuracy vs precision vs recall", "F1 score explained", "AUC-ROC curve", "BLEU score", "perplexity", "confusion matrix", "AI benchmarks", "LLM evaluation"]
 categories: ["Machine Learning"]
@@ -124,7 +124,7 @@ This asymmetry is the entire reason why "accuracy" is insufficient.
 Now that we have the Confusion Matrix, let's derive every major metric from it. We will use the numbers from the cancer example above.
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/how-do-we-measure-if-an-ai-is-good-1/800/450)
 
 ### 4.1: Accuracy — The Popular Lie
 
@@ -311,7 +311,7 @@ $$MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
 **Strength:** Easy to interpret. Treats all errors equally. A $\$10,000$ error is twice as bad as a $\$5,000$ error—no more, no less.
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/how-do-we-measure-if-an-ai-is-good-2/800/450)
 
 ### 6.2: Mean Squared Error (MSE) and Root Mean Squared Error (RMSE)
 
@@ -527,7 +527,7 @@ Key fairness metrics include:
 - **Calibration:** If the model says a candidate has an 80% chance of being qualified, is that true for *all* demographic groups, or only some?
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/how-do-we-measure-if-an-ai-is-good-3/800/450)
 
 ### 9.2: Robustness
 

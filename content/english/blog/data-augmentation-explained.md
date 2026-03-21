@@ -5,7 +5,7 @@ draft: false
 description: "Learn how data augmentation creates synthetic training examples through transformations, helping ML models generalize better without collecting more real data."
 tags: ["Data Augmentation", "Deep Learning", "Computer Vision", "NLP", "Data Science"]
 categories: ["Data Science"]
-image: "/images/blogs/pool-data/1.jpg"
+image: "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data augmentation", "synthetic data", "image augmentation", "text augmentation", "training data"]
 ---
 
@@ -106,7 +106,7 @@ transform = A.Compose([
 ```
 
 
-![Illustration of data preprocessing and transformation pipelines](/images/blogs/pool-data/3.jpg)
+![Illustration of data preprocessing and transformation pipelines](https://picsum.photos/seed/data-augmentation-explained-1/800/450)
 
 ### Cutout and CutMix
 
@@ -210,7 +210,7 @@ original = "The food at this restaurant was absolutely delicious"
 ```
 
 
-![Visual showing techniques for cleaning and augmenting training datasets](/images/blogs/pool-data/4.jpg)
+![Visual showing techniques for cleaning and augmenting training datasets](https://picsum.photos/seed/data-augmentation-explained-2/800/450)
 
 ## Tabular Data Augmentation
 
@@ -247,7 +247,7 @@ def augment_with_noise(X, y, noise_level=0.01, n_copies=2):
 Never augment validation or test data. Augmentation is a training technique. Your evaluation should reflect real-world conditions.
 
 
-![Conceptual image of turning raw data into high-quality model inputs](/images/blogs/pool-data/5.jpg)
+![Conceptual image of turning raw data into high-quality model inputs](https://picsum.photos/seed/data-augmentation-explained-3/800/450)
 
 ### 2. Preserve Labels
 

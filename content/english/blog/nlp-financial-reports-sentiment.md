@@ -5,7 +5,7 @@ draft: false
 description: "Financial reports and earnings calls contain signals that move markets. Learn how NLP techniques — from bag-of-words to transformer models — extract sentiment, detect hedging language, and generate tradeable insights from text."
 tags: ["AI", "NLP", "Finance", "Sentiment Analysis", "Transformers", "FinBERT"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/nlp-financial-reports-sentiment-cover/1200/630"
 keywords: ["NLP financial analysis", "sentiment analysis earnings calls", "FinBERT", "financial text mining", "NLP stock prediction"]
 ---
 
@@ -28,7 +28,7 @@ This makes financial NLP both easier and harder than general NLP:
 Research has consistently shown that textual information in financial documents contains **incremental predictive power** beyond what the numbers alone provide. Studies have found correlations between earnings call sentiment and subsequent stock returns, abnormal trading volume, and analyst forecast revisions.
 
 
-![AI applications in industry and business](/images/blogs/pool-industry/3.jpg)
+![AI applications in industry and business](https://picsum.photos/seed/nlp-financial-reports-sentiment-1/800/450)
 
 ---
 
@@ -137,7 +137,7 @@ Earnings calls are particularly rich sources of information because they include
 **5. Executive Vocal Features.** Beyond text, some systems analyze audio features of earnings calls — pitch, speed, hesitation patterns. Research has found that vocal stress indicators correlate with future earnings revisions.
 
 
-![Machine learning transforming enterprise operations](/images/blogs/pool-industry/4.jpg)
+![Machine learning transforming enterprise operations](https://picsum.photos/seed/nlp-financial-reports-sentiment-2/800/450)
 
 ---
 
@@ -176,7 +176,7 @@ def compare_risk_sections(current_10k_risks, previous_10k_risks):
 **Readability.** Research has found that companies with poor earnings tend to write more complex, harder-to-read filings — a phenomenon sometimes called "obfuscation." Readability metrics (Fog Index, Flesch-Kincaid) applied to financial filings have predictive value.
 
 
-![Data-driven decision making in organizations](/images/blogs/pool-industry/5.jpg)
+![Data-driven decision making in organizations](https://picsum.photos/seed/nlp-financial-reports-sentiment-3/800/450)
 
 ---
 

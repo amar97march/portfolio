@@ -7,7 +7,7 @@
 <section class="blog-hero">
   {{ with .Params.image }}
     <div class="blog-hero-image parallax-bg" data-speed="0.15">
-      <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}">
+      {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "w-full blog-hero-img") }}
     </div>
   {{ end }}
   <div class="blog-hero-content">
@@ -100,7 +100,7 @@
         <a href="{{ .RelPermalink }}" class="blog-card block">
           {{ with .Params.image }}
             <div class="blog-card-image">
-              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+              {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "w-full" "Loading" "lazy") }}
             </div>
           {{ end }}
           <div class="blog-card-body">

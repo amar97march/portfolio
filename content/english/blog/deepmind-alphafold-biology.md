@@ -5,7 +5,7 @@ draft: false
 description: "The story of AlphaFold — how DeepMind solved the 50-year-old protein folding problem and unlocked a new era of biological understanding. Why this might be the most important thing AI has ever done."
 tags: ["AI", "AlphaFold", "DeepMind", "Biology", "Protein Folding", "Deep Learning"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AlphaFold", "protein folding problem", "DeepMind biology", "CASP14", "protein structure prediction", "AI drug discovery", "structural biology AI"]
 ---
 
@@ -49,7 +49,7 @@ Before AlphaFold, determining a protein's structure required **experimental meth
 
 ---
 
-![Protein structures predicted by AI models](/images/blogs/pool-good/3.jpg)
+![Protein structures predicted by AI models](https://picsum.photos/seed/deepmind-alphafold-biology-1/800/450)
 
 ### The CASP Competition and AlphaFold's Breakthrough
 
@@ -113,7 +113,7 @@ AlphaFold2 was trained on known protein structures from the Protein Data Bank (P
 
 ---
 
-![Scientific research accelerated by deep learning](/images/blogs/pool-good/5.jpg)
+![Scientific research accelerated by deep learning](https://picsum.photos/seed/deepmind-alphafold-biology-2/800/450)
 
 ### The Impact: AlphaFold Protein Structure Database
 
@@ -147,7 +147,7 @@ The broader lesson of AlphaFold extends beyond biology. It demonstrates a patter
 
 ---
 
-![AI transforming drug discovery and biological research](/images/blogs/pool-good/7.jpg)
+![AI transforming drug discovery and biological research](https://picsum.photos/seed/deepmind-alphafold-biology-3/800/450)
 
 ### What AlphaFold Did Not Solve
 

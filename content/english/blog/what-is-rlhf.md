@@ -5,7 +5,7 @@ draft: false
 description: "A complete guide to RLHF — the technique that transforms raw language models into helpful AI assistants, covering reward models, PPO, and practical implications."
 tags: ["RLHF", "Reinforcement Learning", "LLM", "AI Alignment", "Generative AI"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://picsum.photos/seed/what-is-rlhf-cover/1200/630"
 keywords: ["RLHF explained", "reinforcement learning human feedback", "reward model", "PPO", "AI alignment", "ChatGPT RLHF", "constitutional AI"]
 ---
 
@@ -29,7 +29,7 @@ RLHF solves this by learning what humans prefer, directly from human feedback.
 
 ### The Three Steps of RLHF
 
-![Three-step RLHF process from SFT to reward model to PPO](/images/blogs/pool-genai/3.jpg)
+![Three-step RLHF process from SFT to reward model to PPO](https://picsum.photos/seed/what-is-rlhf-1/800/450)
 
 
 RLHF is a three-step process:
@@ -124,7 +124,7 @@ The reward model is the heart of RLHF. Its quality determines the quality of the
 
 ### RLHF in Practice: The Numbers
 
-![Human evaluators ranking model responses for preference data](/images/blogs/pool-genai/4.jpg)
+![Human evaluators ranking model responses for preference data](https://picsum.photos/seed/what-is-rlhf-2/800/450)
 
 
 For a frontier model, RLHF typically involves:
@@ -160,7 +160,7 @@ Use a stronger AI model to provide feedback instead of humans. This is faster an
 
 ### Why RLHF Matters for Developers
 
-![Comparison of RLHF DPO and Constitutional AI approaches](/images/blogs/pool-genai/5.jpg)
+![Comparison of RLHF DPO and Constitutional AI approaches](https://picsum.photos/seed/what-is-rlhf-3/800/450)
 
 
 Even if you never train your own model with RLHF, understanding it changes how you use LLMs:

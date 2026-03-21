@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide to setting up a clean, reproducible Python environment for machine learning — covering conda, virtual environments, GPU configuration, and essential tools."
 tags: ["Python", "Environment Setup", "DevOps", "ML Tools", "Best Practices"]
 categories: ["AI Tools & Ecosystem"]
-image: "/images/blogs/pool-tools/1.jpg"
+image: "https://picsum.photos/seed/python-environment-setup-for-ai-cover/1200/630"
 keywords: ["python environment setup", "ml environment", "conda setup", "python virtual environment", "GPU setup python"]
 ---
 
@@ -98,7 +98,7 @@ dependencies:
 ## Option 2: venv + pip
 
 
-![Diagram showing software ecosystem for machine learning projects](/images/blogs/pool-tools/8.jpg)
+![Diagram showing software ecosystem for machine learning projects](https://picsum.photos/seed/python-environment-setup-for-ai-1/800/450)
 
 For simpler projects or when you want a lighter-weight solution:
 
@@ -187,7 +187,7 @@ if torch.cuda.is_available():
 ### TensorFlow GPU Verification
 
 
-![Illustration of developer workflow and toolchain integration](/images/blogs/pool-tools/7.jpg)
+![Illustration of developer workflow and toolchain integration](https://picsum.photos/seed/python-environment-setup-for-ai-2/800/450)
 
 ```python
 import tensorflow as tf
@@ -285,7 +285,7 @@ __pycache__/
 ## Essential Tools Beyond the Libraries
 
 
-![Visual overview of AI development tools and frameworks](/images/blogs/pool-tools/6.jpg)
+![Visual overview of AI development tools and frameworks](https://picsum.photos/seed/python-environment-setup-for-ai-3/800/450)
 
 ### Experiment Tracking: Weights & Biases
 

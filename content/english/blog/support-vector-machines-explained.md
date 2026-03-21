@@ -5,7 +5,7 @@ draft: false
 description: "Support Vector Machines find the optimal boundary between classes by maximizing the margin. Learn how SVMs work, when to use them, and how the kernel trick handles non-linear data."
 tags: ["Machine Learning", "SVM", "Classification", "Algorithms", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://picsum.photos/seed/support-vector-machines-explained-cover/1200/630"
 keywords: ["support vector machines", "SVM explained", "kernel trick", "classification algorithm", "margin maximization", "machine learning algorithms"]
 ---
 
@@ -59,7 +59,7 @@ $$\text{Margin} = \frac{2}{\|w\|}$$
 
 ---
 
-![Visualizing the SVM decision boundary and margin](/images/blogs/pool-ml/6.jpg)
+![Visualizing the SVM decision boundary and margin](https://picsum.photos/seed/support-vector-machines-explained-1/800/450)
 
 ### Part 3: Soft Margins — Handling Noise
 
@@ -100,7 +100,7 @@ The **RBF kernel** is the default in most implementations because it handles a w
 
 ---
 
-![The kernel trick mapping data to higher dimensions](/images/blogs/pool-ml/7.jpg)
+![The kernel trick mapping data to higher dimensions](https://picsum.photos/seed/support-vector-machines-explained-2/800/450)
 
 ### Part 5: SVMs in Practice with Scikit-Learn
 
@@ -160,7 +160,7 @@ print(classification_report(y_test, y_pred))
 
 ---
 
-![Practical SVM classification with scikit-learn](/images/blogs/pool-ml/8.jpg)
+![Practical SVM classification with scikit-learn](https://picsum.photos/seed/support-vector-machines-explained-3/800/450)
 
 ### Part 7: SVMs Beyond Binary Classification
 

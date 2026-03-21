@@ -5,7 +5,7 @@ draft: false
 description: "Learn how providing the right context transforms LLM outputs — covering context design, information hierarchy, and practical patterns for developers."
 tags: ["Prompt Engineering", "LLM", "Context Window", "AI Techniques"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://picsum.photos/seed/providing-good-context-to-llms-cover/1200/630"
 keywords: ["LLM context", "providing context to AI", "prompt context", "context window", "AI context design", "better AI responses"]
 ---
 
@@ -93,7 +93,7 @@ gracefully, returning a default "No address on file" response.
 This structured approach eliminates ambiguity and gives the model everything it needs in one shot.
 
 
-![Visual guide to effective LLM interaction techniques](/images/blogs/pool-prompt/5.jpg)
+![Visual guide to effective LLM interaction techniques](https://picsum.photos/seed/providing-good-context-to-llms-1/800/450)
 
 #### Pattern 2: The Progressive Context
 
@@ -152,7 +152,7 @@ the same patterns.
 - Information that would fill the context window without adding value
 
 
-![Diagram showing prompt design patterns and strategies](/images/blogs/pool-prompt/4.jpg)
+![Diagram showing prompt design patterns and strategies](https://picsum.photos/seed/providing-good-context-to-llms-2/800/450)
 
 ### The "Minimal Reproducible Context" Principle
 
@@ -250,7 +250,7 @@ What are the risks?
 ### Managing Context Window Limits
 
 
-![Illustration of prompt engineering workflow and optimization](/images/blogs/pool-prompt/3.jpg)
+![Illustration of prompt engineering workflow and optimization](https://picsum.photos/seed/providing-good-context-to-llms-3/800/450)
 
 Even with models supporting 200K+ tokens, context management matters:
 

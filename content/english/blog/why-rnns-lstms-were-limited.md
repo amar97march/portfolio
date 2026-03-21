@@ -5,7 +5,7 @@ draft: false
 description: "Before Transformers dominated AI, RNNs and LSTMs were the standard for sequence modeling. Learn how they work, why they were groundbreaking, and the fundamental limitations that led to their replacement."
 tags: ["Deep Learning", "RNN", "LSTM", "NLP", "Neural Networks"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://picsum.photos/seed/why-rnns-lstms-were-limited-cover/1200/630"
 keywords: ["RNN", "LSTM", "recurrent neural network", "vanishing gradient", "sequence modeling", "GRU", "limitations of RNNs"]
 ---
 
@@ -88,7 +88,7 @@ The relationship between "author" and "published/novel" spans too many words for
 
 ---
 
-![RNN sequential processing versus Transformer parallel processing](/images/blogs/pool-dl/6.jpg)
+![RNN sequential processing versus Transformer parallel processing](https://picsum.photos/seed/why-rnns-lstms-were-limited-1/800/450)
 
 
 ### Part 3: LSTMs — The Gating Solution
@@ -137,7 +137,7 @@ GRUs have fewer parameters than LSTMs and are often faster to train, with compar
 
 ---
 
-![LSTM gate mechanism controlling information flow](/images/blogs/pool-dl/7.jpg)
+![LSTM gate mechanism controlling information flow](https://picsum.photos/seed/why-rnns-lstms-were-limited-2/800/450)
 
 
 ### Part 5: Sequence-to-Sequence Models
@@ -182,7 +182,7 @@ In an RNN, the gradient must flow through $T$ time steps to connect position 1 t
 
 ---
 
-![Vanishing gradient problem across long sequences](/images/blogs/pool-dl/8.jpg)
+![Vanishing gradient problem across long sequences](https://picsum.photos/seed/why-rnns-lstms-were-limited-3/800/450)
 
 
 ### Part 7: The Legacy of RNNs

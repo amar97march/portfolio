@@ -5,7 +5,7 @@ draft: false
 description: "AI writing tools have become mainstream for content creation. This post explains the technology behind tools like Jasper, Copy.ai, and Writer — from fine-tuned LLMs to prompt engineering to content guardrails."
 tags: ["AI", "Content Generation", "LLM", "NLP", "Writing Tools", "Generative AI"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1618477388954-7852f32061d5?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI writing tools", "Jasper AI", "Copy.ai", "AI content generation", "LLM writing", "AI copywriting"]
 ---
 
@@ -53,7 +53,7 @@ The `temperature` parameter controls creativity vs. predictability. Lower temper
 ---
 
 
-![Smart factory floor with AI-driven automation and monitoring](/images/blogs/pool-industry/3.jpg)
+![Smart factory floor with AI-driven automation and monitoring](https://picsum.photos/seed/jasper-copy-ai-tools-1/800/450)
 
 ### Part 2: What Writing Tools Add Beyond Raw LLMs
 
@@ -143,7 +143,7 @@ A modern AI writing tool typically has this architecture:
 ---
 
 
-![Illustration of industrial IoT sensors and connected manufacturing](/images/blogs/pool-industry/5.jpg)
+![Illustration of industrial IoT sensors and connected manufacturing](https://picsum.photos/seed/jasper-copy-ai-tools-2/800/450)
 
 ### Part 4: The Quality Question
 
@@ -184,7 +184,7 @@ The embedded approach is the biggest threat to standalone writing tools. If ever
 ---
 
 
-![Visual representation of AI-powered quality control and optimization](/images/blogs/pool-industry/7.jpg)
+![Visual representation of AI-powered quality control and optimization](https://picsum.photos/seed/jasper-copy-ai-tools-3/800/450)
 
 ### Part 6: The Future
 

@@ -5,7 +5,7 @@ draft: false
 description: "Every NLP system follows a pipeline from raw text to useful output. Learn the key stages — preprocessing, feature extraction, modeling, and post-processing — and how they fit together."
 tags: ["NLP", "Text Processing", "Machine Learning", "Pipeline", "Python"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/nlp-pipeline-explained-cover/1200/630"
 keywords: ["NLP pipeline", "text preprocessing", "text cleaning", "stopwords", "lemmatization", "stemming", "NLP workflow"]
 ---
 
@@ -71,7 +71,7 @@ print(f"Cleaned: {cleaned}")
 The right cleaning strategy depends on your specific task.
 
 
-![Natural language processing pipeline and text analysis](/images/blogs/pool-nlp/6.jpg)
+![Natural language processing pipeline and text analysis](https://picsum.photos/seed/nlp-pipeline-explained-1/800/450)
 
 ---
 
@@ -178,7 +178,7 @@ print(f"After: {filtered}")
 - Modern deep learning models (BERT, GPT) do not use stop word removal — they learn which words to ignore.
 
 
-![Text data flowing through NLP processing stages](/images/blogs/pool-nlp/7.jpg)
+![Text data flowing through NLP processing stages](https://picsum.photos/seed/nlp-pipeline-explained-2/800/450)
 
 ---
 
@@ -230,7 +230,7 @@ Common NLP metrics:
 - **Perplexity:** For language models (how surprised the model is by the text).
 
 
-![Language understanding and computational linguistics](/images/blogs/pool-nlp/8.jpg)
+![Language understanding and computational linguistics](https://picsum.photos/seed/nlp-pipeline-explained-3/800/450)
 
 ---
 

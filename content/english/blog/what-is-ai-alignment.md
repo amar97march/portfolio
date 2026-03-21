@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive introduction to AI alignment—the challenge of building AI systems that reliably do what humans want, understand what we mean, and share our values."
 tags: ["AI Alignment", "AI Safety", "Machine Learning", "Ethics", "AGI", "Research"]
 categories: ["AI Safety"]
-image: "/images/blogs/pool-safety/1.jpg"
+image: "https://picsum.photos/seed/what-is-ai-alignment-cover/1200/630"
 keywords: ["AI alignment", "AI safety", "value alignment", "aligned AI", "human values AI", "alignment problem", "AI goals"]
 ---
 
@@ -62,7 +62,7 @@ Human values are complex, context-dependent, sometimes contradictory, and vary a
 
 ---
 
-![The three layers of AI alignment from specification to values](/images/blogs/pool-safety/3.jpg)
+![The three layers of AI alignment from specification to values](https://picsum.photos/seed/what-is-ai-alignment-1/800/450)
 
 ### Current Approaches to Alignment
 
@@ -144,7 +144,7 @@ Rather than trying to control AI behavior from the outside, interpretability res
 
 ---
 
-![RLHF and Constitutional AI approaches to alignment](/images/blogs/pool-safety/4.jpg)
+![RLHF and Constitutional AI approaches to alignment](https://picsum.photos/seed/what-is-ai-alignment-2/800/450)
 
 ### The Hard Problems
 
@@ -162,7 +162,7 @@ Despite progress, several fundamental challenges remain:
 
 ---
 
-![The unsolved challenges of scalable AI alignment](/images/blogs/pool-safety/5.jpg)
+![The unsolved challenges of scalable AI alignment](https://picsum.photos/seed/what-is-ai-alignment-3/800/450)
 
 ### Why This Matters to Every Developer
 

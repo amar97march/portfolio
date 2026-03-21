@@ -3,7 +3,7 @@ title: "CI/CD/CT: Adding Continuous Training to Your ML Pipeline"
 meta_title: ""
 description: "Learn how to extend traditional CI/CD pipelines with Continuous Training (CT) for machine learning, including automated retraining triggers, validation gates, and production deployment strategies that keep your models fresh."
 date: 2027-06-29
-image: "/images/blogs/continuous-training/cover.jpg"
+image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=1200&h=630&fit=crop&auto=format"
 categories: ["MLOps"]
 author: "Amar Singh"
 tags: ["ci-cd", "continuous-training", "mlops", "automation"]
@@ -97,7 +97,7 @@ CD means automatically packaging and deploying validated models to production. T
 CT is the ML-specific addition. It means automatically retraining models based on triggers like data changes, performance degradation, or scheduled intervals. CT is the mechanism that keeps your models fresh.
 
 
-![Diagram illustrating MLOps pipeline components and workflow](/images/blogs/pool-mlops/3.jpg)
+![Diagram illustrating MLOps pipeline components and workflow](https://picsum.photos/seed/continuous-training-pipeline-1/800/450)
 
 ## Building the Continuous Training Pipeline
 
@@ -777,7 +777,7 @@ def load_and_run_ct_pipeline(config_path: str):
 ```
 
 
-![Visual showing the infrastructure behind production machine learning](/images/blogs/pool-mlops/4.jpg)
+![Visual showing the infrastructure behind production machine learning](https://picsum.photos/seed/continuous-training-pipeline-2/800/450)
 
 ## Infrastructure Considerations
 
@@ -897,7 +897,7 @@ class CTExperimentTracker:
 ## Common Pitfalls and How to Avoid Them
 
 
-![Illustration of automated model deployment and monitoring systems](/images/blogs/pool-mlops/5.jpg)
+![Illustration of automated model deployment and monitoring systems](https://picsum.photos/seed/continuous-training-pipeline-3/800/450)
 
 ### Training-Serving Skew
 

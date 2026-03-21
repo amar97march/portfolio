@@ -5,7 +5,7 @@ draft: false
 description: "Prompting is the skill that separates amateur AI art from stunning results. This post shares practical, tested techniques for writing better prompts across DALL-E, Midjourney, and Stable Diffusion."
 tags: ["Generative AI", "Prompt Engineering", "AI Art", "Midjourney", "Stable Diffusion", "Tips"]
 categories: ["Generative AI"]
-image: "/images/blogs/pool-genai/1.jpg"
+image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=1200&h=630&fit=crop&auto=format"
 keywords: ["prompt engineering", "AI image prompts", "Midjourney prompts", "Stable Diffusion prompts", "text-to-image tips", "prompt tips", "better AI art"]
 ---
 
@@ -75,7 +75,7 @@ Specifying the medium gives the model a strong stylistic anchor and dramatically
 ---
 
 
-![Creative AI generating novel content from learned patterns](/images/blogs/pool-genai/3.jpg)
+![Creative AI generating novel content from learned patterns](https://picsum.photos/seed/image-generation-prompt-tips-1/800/450)
 
 ### Principle 3: Control the Lighting
 
@@ -140,7 +140,7 @@ These terms work because the training data associates them with higher-quality i
 ---
 
 
-![Illustration of the generative process from noise to coherent output](/images/blogs/pool-genai/5.jpg)
+![Illustration of the generative process from noise to coherent output](https://picsum.photos/seed/image-generation-prompt-tips-2/800/450)
 
 ### Principle 6: Use Negative Prompts (Stable Diffusion)
 
@@ -207,7 +207,7 @@ Different models respond differently to the same prompt. Here are some model-spe
 ---
 
 
-![Visual representation of text-to-image generation pipeline](/images/blogs/pool-genai/7.jpg)
+![Visual representation of text-to-image generation pipeline](https://picsum.photos/seed/image-generation-prompt-tips-3/800/450)
 
 ### Principle 9: The Prompt Structure Template
 

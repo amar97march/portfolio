@@ -5,7 +5,7 @@ draft: false
 description: "Natural Language Processing enables machines to understand, interpret, and generate human language. Learn what NLP is, why it matters, and the key tasks that define the field."
 tags: ["NLP", "AI", "Machine Learning", "Natural Language Processing"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/what-is-natural-language-processing-cover/1200/630"
 keywords: ["natural language processing", "NLP explained", "text analytics", "language AI", "NLP applications", "computational linguistics"]
 ---
 
@@ -57,7 +57,7 @@ Modern NLP is predominantly powered by machine learning — specifically deep le
 
 ---
 
-![NLP pipeline from raw text to model predictions](/images/blogs/pool-nlp/3.jpg)
+![NLP pipeline from raw text to model predictions](https://picsum.photos/seed/what-is-natural-language-processing-1/800/450)
 
 
 ### Part 3: The Key Tasks of NLP
@@ -123,7 +123,7 @@ The publication of the "Attention Is All You Need" paper in 2017 changed everyth
 
 ---
 
-![Evolution of NLP from rule-based to transformer era](/images/blogs/pool-nlp/4.jpg)
+![Evolution of NLP from rule-based to transformer era](https://picsum.photos/seed/what-is-natural-language-processing-2/800/450)
 
 
 ### Part 5: NLP in the Real World
@@ -161,7 +161,7 @@ For many tasks today, the workflow is simplified: take a pre-trained large langu
 
 ---
 
-![Real-world NLP applications in search and virtual assistants](/images/blogs/pool-nlp/5.jpg)
+![Real-world NLP applications in search and virtual assistants](https://picsum.photos/seed/what-is-natural-language-processing-3/800/450)
 
 
 ### Part 7: Why NLP Matters Now More Than Ever

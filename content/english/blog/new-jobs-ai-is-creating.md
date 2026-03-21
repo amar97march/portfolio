@@ -5,7 +5,7 @@ draft: false
 description: "An exploration of the new career categories emerging from the AI revolution, including what these roles involve, what skills they require, and how to prepare for them."
 tags: ["AI & Career", "New Jobs", "Prompt Engineer", "AI Ethics", "Career Development", "Future of Work"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://picsum.photos/seed/new-jobs-ai-is-creating-cover/1200/630"
 keywords: ["new AI jobs", "prompt engineer career", "AI ethicist", "AI career opportunities", "emerging AI roles", "AI job market"]
 ---
 
@@ -41,7 +41,7 @@ These roles have established job descriptions, active hiring, and relatively cle
 **Outlook**: Strong but competitive. Research roles at top labs are among the most prestigious and well-compensated positions in technology.
 
 
-![AI career development and professional growth](/images/blogs/pool-career/3.jpg)
+![AI career development and professional growth](https://picsum.photos/seed/new-jobs-ai-is-creating-1/800/450)
 
 ---
 
@@ -119,7 +119,7 @@ These roles are in their earliest stages but are likely to grow significantly:
 **Outlook**: Emerging. As AI becomes more integrated into work processes, designing effective human-AI collaboration becomes a distinct discipline.
 
 
-![Technology professionals collaborating on AI projects](/images/blogs/pool-career/4.jpg)
+![Technology professionals collaborating on AI projects](https://picsum.photos/seed/new-jobs-ai-is-creating-2/800/450)
 
 ---
 
@@ -209,7 +209,7 @@ class AICareerPlanner:
 - Do not just learn to use AI—understand how it works.
 
 
-![Building a career in artificial intelligence](/images/blogs/pool-career/5.jpg)
+![Building a career in artificial intelligence](https://picsum.photos/seed/new-jobs-ai-is-creating-3/800/450)
 
 ---
 

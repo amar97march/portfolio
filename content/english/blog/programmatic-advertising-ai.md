@@ -5,7 +5,7 @@ draft: false
 description: "Every time a webpage loads, an AI-powered auction determines which ad you see — all in under 100 milliseconds. This post demystifies real-time bidding, demand-side platforms, and the machine learning behind programmatic advertising."
 tags: ["AI", "Programmatic Advertising", "RTB", "Machine Learning", "AdTech", "Digital Marketing"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/programmatic-advertising-ai-cover/1200/630"
 keywords: ["programmatic advertising AI", "real-time bidding", "DSP machine learning", "ad auction algorithm", "digital advertising AI"]
 ---
 
@@ -51,7 +51,7 @@ A DSP must answer three questions for every bid request:
 The advertiser pays for impressions, but what they actually want is actions — clicks, sign-ups, purchases. The DSP uses ML to predict the probability of conversion:
 
 
-![Illustration of enterprise AI deployment patterns](/images/blogs/pool-industry/5.jpg)
+![Illustration of enterprise AI deployment patterns](https://picsum.photos/seed/programmatic-advertising-ai-1/800/450)
 
 ```python
 import lightgbm as lgb
@@ -116,7 +116,7 @@ def compute_bid(bid_request, campaign):
 #### Question 3: How does this impression fit the overall campaign?
 
 
-![Diagram showing business automation and optimization workflows](/images/blogs/pool-industry/4.jpg)
+![Diagram showing business automation and optimization workflows](https://picsum.photos/seed/programmatic-advertising-ai-2/800/450)
 
 Individual bids must be optimized in the context of campaign-level constraints:
 - **Budget pacing:** Spend the daily budget evenly, not all at once in the morning
@@ -155,7 +155,7 @@ def shade_bid(raw_bid, bid_request, win_price_model):
 Getting bid shading right is worth millions of dollars. Bid too high and you overpay. Bid too low and you miss valuable impressions.
 
 
-![Visual representation of AI applications in industry](/images/blogs/pool-industry/3.jpg)
+![Visual representation of AI applications in industry](https://picsum.photos/seed/programmatic-advertising-ai-3/800/450)
 
 ---
 

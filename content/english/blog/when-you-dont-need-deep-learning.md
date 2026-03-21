@@ -5,7 +5,7 @@ draft: false
 description: "Deep learning is powerful, but it is not always the right tool. Learn when simpler machine learning models outperform neural networks, and how to choose the right approach for your problem."
 tags: ["Machine Learning", "Deep Learning", "Model Selection", "Best Practices"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://picsum.photos/seed/when-you-dont-need-deep-learning-cover/1200/630"
 keywords: ["deep learning vs machine learning", "when to use deep learning", "model selection", "overfitting", "XGBoost vs neural network"]
 ---
 
@@ -68,7 +68,7 @@ For startups, small teams, and projects with limited budgets, the engineering ov
 
 ---
 
-![Decision framework for choosing between ML and deep learning](/images/blogs/pool-ml/3.jpg)
+![Decision framework for choosing between ML and deep learning](https://picsum.photos/seed/when-you-dont-need-deep-learning-1/800/450)
 
 
 ### The Decision Framework
@@ -101,7 +101,7 @@ Even when deep learning *could* work, consider the total cost:
 
 ---
 
-![Performance comparison of gradient boosting versus neural networks on tabular data](/images/blogs/pool-ml/4.jpg)
+![Performance comparison of gradient boosting versus neural networks on tabular data](https://picsum.photos/seed/when-you-dont-need-deep-learning-2/800/450)
 
 
 ### When You *Should* Use Deep Learning
@@ -137,7 +137,7 @@ Here is the workflow I recommend for any new ML project:
 
 ---
 
-![Cost and complexity tradeoffs across model types](/images/blogs/pool-ml/5.jpg)
+![Cost and complexity tradeoffs across model types](https://picsum.photos/seed/when-you-dont-need-deep-learning-3/800/450)
 
 
 ### Real-World Evidence

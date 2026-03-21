@@ -5,7 +5,7 @@ draft: false
 description: "Airlines, ride-sharing apps, and e-commerce platforms change prices millions of times per day using AI. Learn how dynamic pricing algorithms work, the math behind surge pricing, and the ethical questions they raise."
 tags: ["AI", "Dynamic Pricing", "Machine Learning", "Economics", "Revenue Management", "E-commerce"]
 categories: ["AI in Industry"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1523800378286-fae245e10426?w=1200&h=630&fit=crop&auto=format"
 keywords: ["dynamic pricing AI", "surge pricing algorithm", "revenue management machine learning", "price optimization", "airline pricing algorithm"]
 ---
 
@@ -121,7 +121,7 @@ For perishable inventory (airline seats, hotel rooms, concert tickets), the opti
 
 ---
 
-![Dynamic pricing algorithms optimizing revenue in real time](/images/blogs/pool-industry/3.jpg)
+![Dynamic pricing algorithms optimizing revenue in real time](https://picsum.photos/seed/dynamic-pricing-ai-1/800/450)
 
 ### Part 3: Case Studies
 
@@ -158,7 +158,7 @@ Amazon changes prices on millions of products multiple times per day. The algori
 
 ---
 
-![Supply and demand curves driving price optimization](/images/blogs/pool-industry/4.jpg)
+![Supply and demand curves driving price optimization](https://picsum.photos/seed/dynamic-pricing-ai-2/800/450)
 
 ### Part 4: The Ethics of Dynamic Pricing
 
@@ -176,7 +176,7 @@ Dynamic pricing raises legitimate ethical concerns:
 
 ---
 
-![Ethical considerations in algorithmic pricing decisions](/images/blogs/pool-industry/5.jpg)
+![Ethical considerations in algorithmic pricing decisions](https://picsum.photos/seed/dynamic-pricing-ai-3/800/450)
 
 ### Part 5: Building a Simple Dynamic Pricing System
 

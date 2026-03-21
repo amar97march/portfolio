@@ -5,7 +5,7 @@ draft: false
 description: "Why your GitHub profile is more important than your traditional resume for AI and ML roles. Learn how to structure your repositories, write effective READMEs, and build a GitHub presence that gets you hired."
 tags: ["AI Portfolio", "GitHub", "Career", "Open Source", "Projects"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=1200&h=630&fit=crop&auto=format"
 keywords: ["GitHub AI resume", "AI portfolio GitHub", "ML projects GitHub", "GitHub profile tips", "AI career GitHub", "machine learning portfolio"]
 ---
 
@@ -45,7 +45,7 @@ When I visit a candidate's GitHub, here is what I check, roughly in order:
 
 **6. Breadth and depth**: Do your projects cover different aspects of AI (NLP, CV, data engineering)? Or is there depth in a particular area? Both are valid, but they signal different things.
 
-![A well-organized GitHub profile showcasing AI projects](/images/blogs/pool-portfolio/3.jpg)
+![A well-organized GitHub profile showcasing AI projects](https://picsum.photos/seed/github-is-your-ai-resume-1/800/450)
 
 ### How to Structure Your GitHub for AI
 
@@ -145,7 +145,7 @@ GitHub allows you to create a special README that appears on your profile page. 
 - Links to your blog, portfolio, or social media
 - A brief list of your skills and interests
 
-![Writing excellent READMEs and documenting projects](/images/blogs/pool-portfolio/4.jpg)
+![Writing excellent READMEs and documenting projects](https://picsum.photos/seed/github-is-your-ai-resume-2/800/450)
 
 ### Common GitHub Mistakes to Avoid
 
@@ -173,7 +173,7 @@ Consistency matters more than intensity. A contribution every day (or most days)
 
 A word of caution: do not game the graph with meaningless commits. Quality matters more than frequency. But if you are genuinely working on AI every day, your graph should reflect that naturally.
 
-![Maintaining a consistent contribution graph over time](/images/blogs/pool-portfolio/5.jpg)
+![Maintaining a consistent contribution graph over time](https://picsum.photos/seed/github-is-your-ai-resume-3/800/450)
 
 ### GitHub as a Living Portfolio
 

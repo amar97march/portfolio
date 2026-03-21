@@ -5,7 +5,7 @@ draft: false
 description: "A historical analysis of how major technological revolutions have displaced and created jobs, and what these patterns tell us about AI's likely impact on employment."
 tags: ["AI & Career", "Future of Work", "Job Displacement", "Economic History", "Technology", "Employment"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1812f0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["job displacement AI", "job creation technology", "AI employment impact", "industrial revolution jobs", "automation history", "future of work"]
 ---
 
@@ -44,7 +44,7 @@ The electrification of industry transformed manufacturing, created new consumer 
 ---
 
 
-![Professional navigating career decisions in the age of AI](/images/blogs/pool-career/3.jpg)
+![Professional navigating career decisions in the age of AI](https://picsum.photos/seed/job-displacement-vs-creation-1/800/450)
 
 ### Computerization (1960-2000)
 
@@ -77,7 +77,7 @@ This is a meaningful difference. Here is why:
 ---
 
 
-![Illustration of evolving job roles and skill requirements](/images/blogs/pool-career/5.jpg)
+![Illustration of evolving job roles and skill requirements](https://picsum.photos/seed/job-displacement-vs-creation-2/800/450)
 
 ### The Optimistic Scenario
 
@@ -111,7 +111,7 @@ But the optimistic pattern is not guaranteed. Several factors could make the AI 
 ---
 
 
-![Visual representation of human-AI collaboration in the workplace](/images/blogs/pool-career/7.jpg)
+![Visual representation of human-AI collaboration in the workplace](https://picsum.photos/seed/job-displacement-vs-creation-3/800/450)
 
 ### What the Data Shows So Far
 

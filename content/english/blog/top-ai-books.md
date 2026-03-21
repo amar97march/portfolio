@@ -5,7 +5,7 @@ draft: false
 description: "A curated list of the three best books for learning AI and machine learning, from beginner-friendly introductions to advanced references. Includes honest reviews and recommended reading order."
 tags: ["AI Education", "Machine Learning", "Books", "Learning Resources", "Deep Learning"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/top-ai-books-cover/1200/630"
 keywords: ["best AI books", "machine learning books", "learn AI books", "deep learning textbook", "AI education books", "hands-on machine learning"]
 ---
 
@@ -33,7 +33,7 @@ The book assumes basic Python proficiency and some familiarity with mathematics.
 
 **My recommendation**: Buy the physical copy. Write in the margins. Work through every exercise. This is not a book to read passively — it is a book to work through.
 
-![Essential books for learning artificial intelligence](/images/blogs/pool-learning/6.jpg)
+![Essential books for learning artificial intelligence](https://picsum.photos/seed/top-ai-books-1/800/450)
 
 ### Book 2: "The Hundred-Page Machine Learning Book" by Andriy Burkov
 
@@ -73,7 +73,7 @@ It is dense and mathematically demanding. Reading a single chapter can take hour
 
 **My recommendation**: Do not try to read this cover-to-cover on your first pass. Use it as a reference. When you encounter a concept in practice that you do not fully understand, look it up in this book. Over time, you will read most of it.
 
-![Deep learning textbooks building mathematical understanding](/images/blogs/pool-learning/7.jpg)
+![Deep learning textbooks building mathematical understanding](https://picsum.photos/seed/top-ai-books-2/800/450)
 
 ### The Reading Order
 
@@ -98,7 +98,7 @@ I strongly recommend physical copies for these books, especially "Hands-On Machi
 
 That said, the "Deep Learning" textbook is freely available online, which makes it accessible to anyone with an internet connection. Start with the free version, and buy the physical copy if you find yourself returning to it frequently.
 
-![Combining books and courses for a complete AI education](/images/blogs/pool-learning/8.jpg)
+![Combining books and courses for a complete AI education](https://picsum.photos/seed/top-ai-books-3/800/450)
 
 ### Books vs. Courses
 

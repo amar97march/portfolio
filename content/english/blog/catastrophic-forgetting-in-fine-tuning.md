@@ -5,7 +5,7 @@ draft: false
 description: "Understanding catastrophic forgetting — why fine-tuned LLMs can lose their general capabilities and how to prevent it with practical strategies."
 tags: ["Fine-Tuning", "Catastrophic Forgetting", "LLM", "Deep Learning", "AI"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1200&h=630&fit=crop&auto=format"
 keywords: ["catastrophic forgetting", "fine-tuning problems", "LLM forgetting", "model degradation", "fine-tuning challenges", "preserving model capabilities"]
 ---
 
@@ -40,7 +40,7 @@ After aggressive fine-tuning on medical data:
 The model did not forget everything — but it lost significant capability in areas outside its fine-tuning domain.
 
 
-![Illustration of large language model training and fine-tuning dynamics](/images/blogs/pool-llm/3.jpg)
+![Illustration of large language model training and fine-tuning dynamics](https://picsum.photos/seed/catastrophic-forgetting-in-fine-tuning-1/800/450)
 
 ### Why It Happens
 
@@ -100,7 +100,7 @@ def comprehensive_evaluation(model_id, base_model_id):
 **Key rule:** Always evaluate on tasks outside your fine-tuning domain. If the model degrades by more than 10% on general tasks, you have a forgetting problem.
 
 
-![Visual depicting the balance between model specialization and generalization](/images/blogs/pool-llm/4.jpg)
+![Visual depicting the balance between model specialization and generalization](https://picsum.photos/seed/catastrophic-forgetting-in-fine-tuning-2/800/450)
 
 ### Strategies to Prevent Catastrophic Forgetting
 
@@ -219,7 +219,7 @@ def ewc_loss(model, new_task_loss, fisher_matrix, old_weights, lambda_ewc):
 The Fisher Information Matrix tells us which weights are most important for the original tasks. EWC allows the model to learn new tasks while protecting critical weights.
 
 
-![Conceptual image showing how neural network weights encode knowledge](/images/blogs/pool-llm/5.jpg)
+![Conceptual image showing how neural network weights encode knowledge](https://picsum.photos/seed/catastrophic-forgetting-in-fine-tuning-3/800/450)
 
 ### Measuring the Trade-Off
 

@@ -2,7 +2,7 @@
 title: "The Perfect Storm: Decoding the Sudden Explosion of Artificial Intelligence"
 date: 2025-12-13T12:00:00+05:30
 draft: false
-image: "/images/blogs/blog4/cover.png"
+image: "https://picsum.photos/seed/the-perfect-storm-decoding-the-sudden-explosion-of-artificial-intelligence-cover/1200/630"
 description: "It feels like AI appeared overnight. It didn’t. The current boom is the result of a decades-long convergence of three massive technological forces. Here is why the tipping point is happening right now."
 tags: ["AI", "history", "compute", "data", "architecture"]
 categories: ["AI Fundamentals"]
@@ -64,7 +64,7 @@ Over the last decade, this hardware has been hyper-optimized specifically for AI
 {{< image src="images/blogs/blog4/aialgorithmsAIbooming.png" caption="AI algorithms and booming" alt="AI algorithms and booming" position="center" >}}
 
 
-![The convergence of compute, data, and algorithms driving AI](/images/blogs/pool-learning/3.jpg)
+![The convergence of compute, data, and algorithms driving AI](https://picsum.photos/seed/the-perfect-storm-decoding-the-sudden-explosion-of-artificial-intelligence-1/800/450)
 
 ### Driver 2: The Fuel (Big Data & The Internet)
 
@@ -84,7 +84,7 @@ This explosion of un structured data provided the necessary "textbooks" for thes
 
 ---
 
-![Massive data from the internet fueling modern AI systems](/images/blogs/pool-learning/4.jpg)
+![Massive data from the internet fueling modern AI systems](https://picsum.photos/seed/the-perfect-storm-decoding-the-sudden-explosion-of-artificial-intelligence-2/800/450)
 
 ### Driver 3: The Spark (Algorithmic Breakthroughs)
 
@@ -110,7 +110,7 @@ The "T" in ChatGPT stands for Transformer. Almost every major generative AI brea
 {{< image src="images/blogs/blog4/AlgorithmicBreakthroughs.png" caption="Algorithmic breakthroughs" alt="Algorithmic breakthroughs" position="center" >}}
 
 
-![The Transformer architecture as the key algorithmic breakthrough](/images/blogs/pool-learning/5.jpg)
+![The Transformer architecture as the key algorithmic breakthrough](https://picsum.photos/seed/the-perfect-storm-decoding-the-sudden-explosion-of-artificial-intelligence-3/800/450)
 
 ### The Catalyst: Accessibility (The ChatGPT Effect)
 

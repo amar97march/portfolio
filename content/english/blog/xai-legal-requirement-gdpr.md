@@ -3,7 +3,7 @@ title: "XAI as a Legal Requirement: GDPR's Right to Explanation and Beyond"
 meta_title: ""
 description: "Exploring the legal landscape around explainable AI, from GDPR's right to explanation to the EU AI Act and global regulatory trends. Understand why XAI is no longer optional for organizations deploying automated decision-making systems."
 date: 2028-04-15
-image: "/images/blogs/xai-legal/cover.jpg"
+image: "https://picsum.photos/seed/xai-legal-requirement-gdpr-cover/1200/630"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["xai", "gdpr", "regulation", "right-to-explanation"]
@@ -56,7 +56,7 @@ At the maximum end, controllers would provide a full explanation of the decision
 
 ### The Practical Standard
 
-![GDPR explainability requirements for automated decisions](/images/blogs/pool-ethics/6.jpg)
+![GDPR explainability requirements for automated decisions](https://picsum.photos/seed/xai-legal-requirement-gdpr-1/800/450)
 
 
 In practice, the standard that most organizations aim for, and that most data protection authorities seem to expect, falls in the intermediate range. For each automated decision, the organization should be able to identify the most important factors, explain their direction of influence, and provide a general understanding of why the decision was reached.
@@ -107,7 +107,7 @@ In the EU, the European Banking Authority has issued guidelines on machine learn
 
 ### Healthcare
 
-![EU AI Act risk classification tiers and transparency obligations](/images/blogs/pool-ethics/7.jpg)
+![EU AI Act risk classification tiers and transparency obligations](https://picsum.photos/seed/xai-legal-requirement-gdpr-2/800/450)
 
 
 Healthcare AI systems face explainability requirements from multiple sources. In the United States, the FDA's approach to AI and ML-based software as a medical device includes expectations around transparency and explainability. Physicians need to understand AI recommendations to fulfill their duty of care, and patients have a right to understand the basis for medical decisions.
@@ -146,7 +146,7 @@ Not all AI systems need the same level of explainability. A recommendation engin
 
 ### Step 3: Choose Appropriate XAI Techniques
 
-![Practical XAI compliance framework from audit to documentation](/images/blogs/pool-ethics/8.jpg)
+![Practical XAI compliance framework from audit to documentation](https://picsum.photos/seed/xai-legal-requirement-gdpr-3/800/450)
 
 
 Select XAI techniques that match both the model type and the regulatory requirements.

@@ -5,7 +5,7 @@ draft: false
 description: "A comprehensive overview of how different countries and regions are approaching AI regulation, from the EU's prescriptive rules to China's targeted approach and everything in between."
 tags: ["AI Regulation", "Policy", "EU AI Act", "Governance", "Global Policy", "Technology Law"]
 categories: ["AI Regulation"]
-image: "/images/blogs/pool-regulation/1.jpg"
+image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI regulation", "global AI policy", "EU AI Act", "AI governance", "technology regulation", "AI law", "government AI policy"]
 ---
 
@@ -63,7 +63,7 @@ State-level regulation has filled some gaps. California, Colorado, and Illinois 
 
 ---
 
-![Different nations approaching AI governance and policy](/images/blogs/pool-regulation/6.jpg)
+![Different nations approaching AI governance and policy](https://picsum.photos/seed/global-ai-regulation-landscape-1/800/450)
 
 ### China: Strategic Promotion and Targeted Control
 
@@ -108,7 +108,7 @@ The UK established the **AI Safety Institute** (originally the Frontier AI Taskf
 
 ---
 
-![Regulatory frameworks balancing innovation with oversight](/images/blogs/pool-regulation/7.jpg)
+![Regulatory frameworks balancing innovation with oversight](https://picsum.photos/seed/global-ai-regulation-landscape-2/800/450)
 
 ### The Challenges of a Fragmented Landscape
 
@@ -141,7 +141,7 @@ Whether these efforts will lead to meaningful harmonization remains to be seen. 
 
 ---
 
-![International coordination efforts for AI safety standards](/images/blogs/pool-regulation/8.jpg)
+![International coordination efforts for AI safety standards](https://picsum.photos/seed/global-ai-regulation-landscape-3/800/450)
 
 ### What This Means for You
 

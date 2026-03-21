@@ -3,7 +3,7 @@ title: "Is AI's Environmental Impact a Necessary Cost? The Carbon Footprint Deba
 meta_title: ""
 description: "A thorough examination of AI's growing environmental footprint, from the energy consumed in training large models to the water used for cooling data centers. Explores both sides of the debate and the emerging Green AI movement."
 date: 2028-07-14
-image: "/images/blogs/ai-environment/cover.jpg"
+image: "https://images.unsplash.com/photo-1607706009771-de8808640030?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI & Society"]
 author: "Amar Singh"
 tags: ["environment", "carbon-footprint", "sustainability", "green-ai"]
@@ -52,7 +52,7 @@ The environmental impact of AI extends beyond operations to the manufacturing of
 
 Furthermore, AI hardware has relatively short useful lifetimes. As new chip generations offer significant performance improvements, older chips become economically obsolete, generating electronic waste. The rare earth elements used in some components are mined through processes that cause significant environmental degradation.
 
-![Data centers consuming vast amounts of energy for AI training and inference](/images/blogs/pool-ethics/3.jpg)
+![Data centers consuming vast amounts of energy for AI training and inference](https://picsum.photos/seed/ai-environmental-impact-carbon-1/800/450)
 
 ## The Carbon Footprint in Context
 
@@ -122,7 +122,7 @@ This diminishing returns problem is compounded by the observation that for many 
 
 Some critics argue that the tech industry's claims about using AI to solve environmental problems amount to greenwashing, using the promise of future environmental benefits to justify current environmental harm. The environmental benefits of AI are often speculative, difficult to quantify, and contingent on organizational willingness to actually deploy the technology for environmental purposes rather than more profitable applications.
 
-![Balancing AI innovation benefits against environmental sustainability costs](/images/blogs/pool-ethics/5.jpg)
+![Balancing AI innovation benefits against environmental sustainability costs](https://picsum.photos/seed/ai-environmental-impact-carbon-2/800/450)
 
 ## The Green AI Movement
 
@@ -150,7 +150,7 @@ Several cloud providers now offer carbon-aware scheduling options, and research 
 
 The Green AI movement advocates for mandatory reporting of energy consumption and carbon emissions in AI research papers and product disclosures. Some conferences have begun requiring or encouraging energy consumption reporting, and some organizations have committed to disclosing the environmental impact of their AI systems.
 
-![Efficient model architectures and green computing reducing AI carbon footprint](/images/blogs/pool-ethics/7.jpg)
+![Efficient model architectures and green computing reducing AI carbon footprint](https://picsum.photos/seed/ai-environmental-impact-carbon-3/800/450)
 
 ## What Organizations Should Do
 

@@ -5,7 +5,7 @@ draft: false
 description: "Real-time inference serves predictions on demand with low latency. Learn when you need real-time serving, how to architect inference services, and the key challenges of latency, throughput, and reliability."
 tags: ["ML Deployment", "Real-Time Inference", "Machine Learning", "API", "Model Serving", "Latency"]
 categories: ["ML Deployment"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/real-time-inference-pattern-cover/1200/630"
 keywords: ["real time inference ml", "online prediction serving", "ml model api", "low latency inference", "real time ml deployment"]
 ---
 
@@ -91,7 +91,7 @@ Often the most time-consuming step. It includes:
 - **Transformation**: Apply the same scaling, encoding, and normalization used during training.
 
 
-![Illustration of scalable AI serving patterns](/images/blogs/pool-deploy/5.jpg)
+![Illustration of scalable AI serving patterns](https://picsum.photos/seed/real-time-inference-pattern-1/800/450)
 
 ```python
 async def preprocess_request(request_data):
@@ -178,7 +178,7 @@ result = session.run(None, {"input": feature_array})
 ### 2. Caching
 
 
-![Visual representation of MLOps pipeline and monitoring](/images/blogs/pool-deploy/4.jpg)
+![Visual representation of MLOps pipeline and monitoring](https://picsum.photos/seed/real-time-inference-pattern-2/800/450)
 
 ```python
 from functools import lru_cache
@@ -275,7 +275,7 @@ async def health_check():
 ### Graceful Degradation
 
 
-![Diagram of model deployment architecture and infrastructure](/images/blogs/pool-deploy/3.jpg)
+![Diagram of model deployment architecture and infrastructure](https://picsum.photos/seed/real-time-inference-pattern-3/800/450)
 
 ```python
 @app.post("/predict")

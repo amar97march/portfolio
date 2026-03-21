@@ -3,7 +3,7 @@ title: "The Challenge of Grounding AI Agents in Reality"
 meta_title: ""
 description: "An exploration of the grounding problem in AI agents --- why autonomous systems struggle to maintain accurate models of the real world, how hallucination manifests differently in agentic contexts, and engineering strategies for building agents that stay connected to reality."
 date: 2027-04-13
-image: "/images/blogs/grounding-agents/cover.jpg"
+image: "https://images.unsplash.com/photo-1471897488648-5eaf27d6c5e5?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Agents"]
 author: "Amar Singh"
 tags: ["agents", "grounding", "hallucination", "real-world"]
@@ -134,7 +134,7 @@ LLMs have a tendency to fill in gaps in their knowledge with plausible-sounding 
 This is particularly insidious because the confabulated information is internally consistent with the agent's other beliefs. It looks correct. The agent expresses it with confidence. Only an external check against reality reveals the fabrication.
 
 
-![AI agent interacting with real-world data sources and environments](/images/blogs/pool-agents/3.jpg)
+![AI agent interacting with real-world data sources and environments](https://picsum.photos/seed/grounding-ai-agents-reality-1/800/450)
 
 ### Accumulated Drift
 
@@ -214,7 +214,7 @@ Research agents become ungrounded when they cite non-existent papers, attribute 
 Grounding strategies for research agents include always providing source URLs alongside claims, implementing fact-checking loops that verify claims against source documents, maintaining explicit provenance chains for every piece of information, and flagging confidence levels for each claim.
 
 
-![Illustration of autonomous agent decision-making architecture](/images/blogs/pool-agents/5.jpg)
+![Illustration of autonomous agent decision-making architecture](https://picsum.photos/seed/grounding-ai-agents-reality-2/800/450)
 
 ### Customer Service Agents
 
@@ -347,7 +347,7 @@ class GroundTruthAnchors:
 ```
 
 
-![Visual representation of agent grounding and reality verification](/images/blogs/pool-agents/7.jpg)
+![Visual representation of agent grounding and reality verification](https://picsum.photos/seed/grounding-ai-agents-reality-3/800/450)
 
 ### Strategy 4: Multi-Source Corroboration
 

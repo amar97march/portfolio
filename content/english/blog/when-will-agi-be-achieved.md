@@ -3,7 +3,7 @@ title: "When Will AGI Be Achieved? Examining the Expert Predictions"
 meta_title: ""
 description: "A comprehensive survey and analysis of expert predictions about when artificial general intelligence will be achieved, exploring the methodologies behind the forecasts, the historical track record of AI predictions, and the key factors that will determine AGI timelines."
 date: 2028-09-15
-image: "/images/blogs/when-agi/cover.jpg"
+image: "https://picsum.photos/seed/when-will-agi-be-achieved-cover/1200/630"
 categories: ["AI Frontier"]
 author: "Amar Singh"
 tags: ["agi", "predictions", "timeline", "future"]
@@ -60,7 +60,7 @@ Metaculus forecasts for AGI-related questions have shifted significantly over ti
 
 ### Limitations of Expert Surveys
 
-![Timeline of expert AGI predictions spanning decades](/images/blogs/pool-frontier/6.jpg)
+![Timeline of expert AGI predictions spanning decades](https://picsum.photos/seed/when-will-agi-be-achieved-1/800/450)
 
 
 Several systematic biases affect AGI predictions:
@@ -111,7 +111,7 @@ However, if scaling hits diminishing returns before AGI is achieved, the timelin
 
 ### Architectural Innovation
 
-![Key factors influencing AGI development timelines](/images/blogs/pool-frontier/7.jpg)
+![Key factors influencing AGI development timelines](https://picsum.photos/seed/when-will-agi-be-achieved-2/800/450)
 
 
 The transformer architecture has driven most recent AI progress, but it may not be the final architecture needed for AGI. If new architectures that are better suited to general intelligence are discovered, they could accelerate the timeline significantly. Conversely, if current architectures have fundamental limitations that prevent them from achieving AGI, the timeline depends on how long it takes to develop alternatives.
@@ -150,7 +150,7 @@ Historical analysis shows that transformative technologies typically take longer
 
 ### The Bottleneck Analysis Approach
 
-![Historical AI prediction track record and hype cycles](/images/blogs/pool-frontier/8.jpg)
+![Historical AI prediction track record and hype cycles](https://picsum.photos/seed/when-will-agi-be-achieved-3/800/450)
 
 
 Instead of trying to predict the overall timeline for AGI, this approach identifies the specific bottlenecks that must be overcome and estimates the timeline for each. Bottlenecks might include: achieving robust common-sense reasoning, developing efficient learning from sparse data, solving the alignment problem, building systems that can integrate multiple modalities and memory systems, and scaling to the required computational resources.

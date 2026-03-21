@@ -5,7 +5,7 @@ draft: false
 description: "An exploration of how data governance, privacy regulations, and data sovereignty laws shape the development and deployment of AI systems globally."
 tags: ["Data Governance", "Privacy", "GDPR", "Data Sovereignty", "AI Regulation", "Compliance"]
 categories: ["AI Regulation"]
-image: "/images/blogs/pool-regulation/1.jpg"
+image: "https://images.unsplash.com/photo-1585079542156-2e75d5e0e8c0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["data governance", "data privacy AI", "data sovereignty", "GDPR AI", "data protection", "AI compliance", "cross-border data"]
 ---
 
@@ -32,7 +32,7 @@ This loop creates immense value—but also immense responsibility. Every step in
 ---
 
 
-![Illustration of global data governance frameworks and compliance requirements](/images/blogs/pool-regulation/3.jpg)
+![Illustration of global data governance frameworks and compliance requirements](https://picsum.photos/seed/data-governance-privacy-sovereignty-1/800/450)
 
 ### Privacy: The Individual Dimension
 
@@ -133,7 +133,7 @@ def compute_privacy_budget(num_iterations, noise_multiplier,
 ---
 
 
-![Visual depicting the intersection of privacy regulations and AI development](/images/blogs/pool-regulation/4.jpg)
+![Visual depicting the intersection of privacy regulations and AI development](https://picsum.photos/seed/data-governance-privacy-sovereignty-2/800/450)
 
 ### Sovereignty: The National Dimension
 
@@ -176,7 +176,7 @@ Data does not live forever (or should not). Governance frameworks must define re
 ---
 
 
-![Conceptual image showing cross-border data flows and sovereignty boundaries](/images/blogs/pool-regulation/5.jpg)
+![Conceptual image showing cross-border data flows and sovereignty boundaries](https://picsum.photos/seed/data-governance-privacy-sovereignty-3/800/450)
 
 ### The Emerging Challenges
 

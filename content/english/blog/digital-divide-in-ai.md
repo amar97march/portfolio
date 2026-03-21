@@ -5,7 +5,7 @@ draft: false
 description: "AI promises to benefit everyone, but the reality is different. This post examines who is being left behind by the AI revolution — and why addressing this divide is both a moral imperative and a practical necessity."
 tags: ["AI", "Ethics", "Digital Divide", "Inequality", "Access", "Global South"]
 categories: ["AI Ethics"]
-image: "/images/blogs/pool-ethics/1.jpg"
+image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI digital divide", "AI inequality", "AI access gap", "AI Global South", "technology divide", "AI equity", "language diversity AI"]
 ---
 
@@ -48,7 +48,7 @@ Efforts like **Masakhane** (a grassroots NLP community for African languages) an
 
 ---
 
-![Global inequality in access to AI technology](/images/blogs/pool-ethics/6.jpg)
+![Global inequality in access to AI technology](https://picsum.photos/seed/digital-divide-in-ai-1/800/450)
 
 ### The Talent Gap
 
@@ -88,7 +88,7 @@ Healthcare illustrates the AI divide starkly:
 
 ---
 
-![Bridging the digital divide with inclusive AI design](/images/blogs/pool-ethics/7.jpg)
+![Bridging the digital divide with inclusive AI design](https://picsum.photos/seed/digital-divide-in-ai-2/800/450)
 
 ### What Can Be Done?
 
@@ -124,7 +124,7 @@ Governments can play a role through:
 
 ---
 
-![Building equitable AI systems for underserved communities](/images/blogs/pool-ethics/8.jpg)
+![Building equitable AI systems for underserved communities](https://picsum.photos/seed/digital-divide-in-ai-3/800/450)
 
 ### The Moral and Practical Case
 

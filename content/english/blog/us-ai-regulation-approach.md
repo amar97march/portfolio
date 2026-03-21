@@ -5,7 +5,7 @@ draft: false
 description: "An analysis of the United States' approach to AI regulation, including executive orders, the NIST AI Risk Management Framework, state-level legislation, and the ongoing debate between innovation and oversight."
 tags: ["AI Regulation", "US Policy", "NIST", "Executive Orders", "AI Governance", "Technology Law"]
 categories: ["AI Regulation"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/us-ai-regulation-approach-cover/1200/630"
 keywords: ["US AI regulation", "NIST AI framework", "executive order AI", "American AI policy", "AI governance USA", "state AI laws"]
 ---
 
@@ -27,7 +27,7 @@ The result is a regulatory landscape that is both more flexible and more chaotic
 
 ---
 
-![The US approach to AI regulation and governance](/images/blogs/pool-regulation/3.jpg)
+![The US approach to AI regulation and governance](https://picsum.photos/seed/us-ai-regulation-approach-1/800/450)
 
 ### The NIST AI Risk Management Framework
 
@@ -158,7 +158,7 @@ Several federal agencies have taken independent action on AI within their domain
 
 ---
 
-![Federal agencies and executive orders shaping AI policy](/images/blogs/pool-regulation/4.jpg)
+![Federal agencies and executive orders shaping AI policy](https://picsum.photos/seed/us-ai-regulation-approach-2/800/450)
 
 ### State-Level Legislation: The Patchwork
 
@@ -219,7 +219,7 @@ The challenge in Congress is the same tension that pervades the entire US approa
 
 ---
 
-![Navigating the patchwork of state and federal AI laws](/images/blogs/pool-regulation/5.jpg)
+![Navigating the patchwork of state and federal AI laws](https://picsum.photos/seed/us-ai-regulation-approach-3/800/450)
 
 ### What This Means for Developers
 

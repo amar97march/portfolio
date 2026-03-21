@@ -5,7 +5,7 @@ draft: false
 description: "DevOps transformed software delivery, but MLOps faces challenges that traditional DevOps never had to solve. From data dependencies to non-deterministic behavior, learn why operationalizing machine learning is fundamentally harder."
 tags: ["MLOps", "DevOps", "Machine Learning", "CI/CD", "Production ML", "Data Science"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://picsum.photos/seed/why-mlops-is-harder-than-devops-cover/1200/630"
 keywords: ["mlops vs devops", "why mlops is hard", "machine learning operations challenges", "ml production challenges"]
 ---
 
@@ -69,7 +69,7 @@ ML testing requires a multi-dimensional evaluation framework, and the thresholds
 
 ---
 
-![Key differences between traditional DevOps and MLOps](/images/blogs/pool-mlops/6.jpg)
+![Key differences between traditional DevOps and MLOps](https://picsum.photos/seed/why-mlops-is-harder-than-devops-1/800/450)
 
 
 ## Difference 3: Data is a First-Class Dependency
@@ -129,7 +129,7 @@ This delayed feedback makes it extremely difficult to detect problems quickly. B
 
 ---
 
-![Silent failure modes in ML systems versus loud software errors](/images/blogs/pool-mlops/7.jpg)
+![Silent failure modes in ML systems versus loud software errors](https://picsum.photos/seed/why-mlops-is-harder-than-devops-2/800/450)
 
 
 ## Difference 6: The Team Structure is More Complex
@@ -163,7 +163,7 @@ This variability makes capacity planning, cost management, and infrastructure pr
 
 ---
 
-![Model decay over time without any code changes](/images/blogs/pool-mlops/8.jpg)
+![Model decay over time without any code changes](https://picsum.photos/seed/why-mlops-is-harder-than-devops-3/800/450)
 
 
 ## Difference 8: Rollbacks are Not Straightforward

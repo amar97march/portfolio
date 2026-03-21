@@ -5,7 +5,7 @@ draft: false
 description: "OpenAI's Whisper is a groundbreaking speech recognition model that can transcribe and translate audio in nearly 100 languages. This post explores how Whisper works, why it is so effective, and how to use it."
 tags: ["Audio AI", "Speech Recognition", "Whisper", "OpenAI", "NLP", "Tutorial"]
 categories: ["Audio AI"]
-image: "/images/blogs/pool-audio/1.jpg"
+image: "https://picsum.photos/seed/speech-to-text-whisper-ai-cover/1200/630"
 keywords: ["Whisper AI", "speech to text", "transcription", "OpenAI Whisper", "automatic speech recognition", "ASR", "audio transcription"]
 ---
 
@@ -41,7 +41,7 @@ What makes Whisper different from previous ASR systems is its approach to traini
 
 ---
 
-![Whisper processing audio through its transformer architecture](/images/blogs/pool-audio/3.jpg)
+![Whisper processing audio through its transformer architecture](https://picsum.photos/seed/speech-to-text-whisper-ai-1/800/450)
 
 ### Using Whisper
 
@@ -107,7 +107,7 @@ Faster Whisper also supports **word-level timestamps**, which are invaluable for
 
 ---
 
-![Comparing Whisper model sizes and performance tradeoffs](/images/blogs/pool-audio/4.jpg)
+![Comparing Whisper model sizes and performance tradeoffs](https://picsum.photos/seed/speech-to-text-whisper-ai-2/800/450)
 
 ### Practical Applications
 
@@ -171,7 +171,7 @@ This combination gives you a complete transcript with speaker labels — the hol
 
 ---
 
-![Real-world applications of speech-to-text AI](/images/blogs/pool-audio/5.jpg)
+![Real-world applications of speech-to-text AI](https://picsum.photos/seed/speech-to-text-whisper-ai-3/800/450)
 
 ### The Bigger Picture
 

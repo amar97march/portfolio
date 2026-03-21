@@ -5,7 +5,7 @@ draft: false
 description: "Principal Component Analysis (PCA) reduces the dimensionality of your data while preserving the most important patterns. Learn how PCA works, when to use it, and how to implement it in Python."
 tags: ["Machine Learning", "PCA", "Dimensionality Reduction", "Unsupervised Learning", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/principal-component-analysis-pca-cover/1200/630"
 keywords: ["PCA", "principal component analysis", "dimensionality reduction", "feature extraction", "eigenvalues", "explained variance"]
 ---
 
@@ -66,7 +66,7 @@ Each eigenvector $v$ is a principal component direction. The corresponding eigen
 **Step 4: Sort by eigenvalue** (descending) and select the top $k$ components.
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/8.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/principal-component-analysis-pca-1/800/450)
 
 **Step 5: Project the data** onto the selected components.
 
@@ -130,7 +130,7 @@ print(f"Components needed for 95% variance: {n_95} (out of {X.shape[1]})")
 ---
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/7.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/principal-component-analysis-pca-2/800/450)
 
 ### Part 5: Visualizing High-Dimensional Data
 
@@ -189,7 +189,7 @@ print(f"With PCA:    {scores_pca.mean():.4f} (+/- {scores_pca.std():.4f})")
 ---
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/6.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/principal-component-analysis-pca-3/800/450)
 
 ### Part 7: Interpreting Principal Components
 

@@ -5,7 +5,7 @@ draft: false
 description: "A detailed case study examining real-world AI failures caused by biased datasets — from hiring algorithms to healthcare models — and the lessons they teach us."
 tags: ["AI Ethics", "Case Study", "Bias", "Fairness", "AI Failures"]
 categories: ["AI Ethics"]
-image: "/images/blogs/pool-ethics/1.jpg"
+image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=1200&h=630&fit=crop&auto=format"
 keywords: ["biased AI case study", "AI failure", "biased dataset", "Amazon hiring AI", "AI ethics case study"]
 ---
 
@@ -55,7 +55,7 @@ The algorithm used **healthcare spending** as a proxy for health needs. The assu
 Black patients, on average, had less access to healthcare and therefore spent less, even when they were equally or more sick. By using spending as a proxy for need, the algorithm learned that Black patients were "less sick" than they actually were.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/biased-dataset-failed-ai-product-1/800/450)
 
 ### The Technical Details
 
@@ -112,7 +112,7 @@ Research showed that leading facial recognition systems had dramatically differe
 Large language models trained on internet text absorb the biases present in that text.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/biased-dataset-failed-ai-product-2/800/450)
 
 ### What Happened
 
@@ -145,7 +145,7 @@ Past data reflects past decisions, which reflect past biases. Any model trained 
 A model with 95% overall accuracy might have 98% accuracy for one group and 85% for another. If you only look at the aggregate, you miss the problem.
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/biased-dataset-failed-ai-product-3/800/450)
 
 ### 4. The Feedback Loop Problem
 

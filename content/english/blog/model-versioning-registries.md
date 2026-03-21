@@ -5,7 +5,7 @@ draft: false
 description: "A model registry is the single source of truth for your trained models. Learn why model versioning matters, how model registries work, and how to implement one using MLflow's Model Registry."
 tags: ["MLOps", "Model Registry", "Model Versioning", "MLflow", "Machine Learning", "Production ML"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://picsum.photos/seed/model-versioning-registries-cover/1200/630"
 keywords: ["model versioning", "model registry", "mlflow model registry", "ml model management", "model lifecycle"]
 ---
 
@@ -31,7 +31,7 @@ These patterns are not just inconvenient. They are dangerous. When a model start
 ---
 
 
-![Machine learning operations and infrastructure](/images/blogs/pool-mlops/6.jpg)
+![Machine learning operations and infrastructure](https://picsum.photos/seed/model-versioning-registries-1/800/450)
 
 ## What is a Model Registry?
 
@@ -84,7 +84,7 @@ Transitioning between stages can be manual (a human approves the promotion) or a
 ---
 
 
-![Production ML pipeline and deployment workflow](/images/blogs/pool-mlops/7.jpg)
+![Production ML pipeline and deployment workflow](https://picsum.photos/seed/model-versioning-registries-2/800/450)
 
 ## Implementing a Model Registry with MLflow
 
@@ -240,7 +240,7 @@ def validate_model_for_production(model_name, new_version):
 ---
 
 
-![MLOps tooling and automation systems](/images/blogs/pool-mlops/8.jpg)
+![MLOps tooling and automation systems](https://picsum.photos/seed/model-versioning-registries-3/800/450)
 
 ## Model Registry Best Practices
 

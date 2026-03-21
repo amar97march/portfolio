@@ -5,7 +5,7 @@ draft: false
 description: "Object detection goes beyond classification — it finds every object in an image and draws a bounding box around it. This post explains the architectures, metrics, and practical applications of modern object detection."
 tags: ["Computer Vision", "Object Detection", "YOLO", "Deep Learning", "Neural Networks"]
 categories: ["Computer Vision"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/object-detection-explained-cover/1200/630"
 keywords: ["object detection", "YOLO", "SSD", "Faster R-CNN", "bounding box", "anchor boxes", "mAP", "real-time detection"]
 ---
 
@@ -49,7 +49,7 @@ The first successful deep learning approach to object detection was the **R-CNN*
 The two-stage approach (propose regions, then classify them) is accurate but inherently limited in speed because of the sequential nature of the process.
 
 
-![Computer vision analyzing visual data](/images/blogs/pool-cv/3.jpg)
+![Computer vision analyzing visual data](https://picsum.photos/seed/object-detection-explained-1/800/450)
 
 ---
 
@@ -108,7 +108,7 @@ In just a few lines, you have a working object detection system that can find an
 **Mean Average Precision (mAP).** The standard evaluation metric for object detection. It computes the average precision for each class across different IoU thresholds and averages them. mAP@0.5 uses a 0.5 IoU threshold. mAP@0.5:0.95 averages across thresholds from 0.5 to 0.95 in steps of 0.05 — this is the tougher benchmark.
 
 
-![Image processing and object recognition](/images/blogs/pool-cv/4.jpg)
+![Image processing and object recognition](https://picsum.photos/seed/object-detection-explained-2/800/450)
 
 ---
 
@@ -136,7 +136,7 @@ Object detection is everywhere:
 - **Wildlife monitoring.** Detecting and counting animals in drone or camera trap footage.
 
 
-![Visual AI technology detecting patterns in images](/images/blogs/pool-cv/5.jpg)
+![Visual AI technology detecting patterns in images](https://picsum.photos/seed/object-detection-explained-3/800/450)
 
 ---
 

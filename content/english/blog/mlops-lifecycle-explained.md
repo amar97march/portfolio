@@ -5,7 +5,7 @@ draft: false
 description: "The MLOps lifecycle spans far beyond model training. Walk through every stage from data collection and validation to deployment, monitoring, and retraining, and understand how they connect into a continuous loop."
 tags: ["MLOps", "Machine Learning", "ML Pipeline", "Data Engineering", "Model Deployment", "ML Monitoring"]
 categories: ["MLOps"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=1200&h=630&fit=crop&auto=format"
 keywords: ["mlops lifecycle", "ml pipeline stages", "machine learning workflow", "mlops stages explained", "end to end ml pipeline"]
 ---
 
@@ -115,7 +115,7 @@ if not results.success:
 If validation fails, the pipeline should stop and alert the team. Never let bad data flow silently into your training pipeline.
 
 
-![Machine learning operations and infrastructure](/images/blogs/pool-mlops/6.jpg)
+![Machine learning operations and infrastructure](https://picsum.photos/seed/mlops-lifecycle-explained-1/800/450)
 
 ---
 
@@ -202,7 +202,7 @@ Before a model can be promoted to production, it must pass a series of validatio
 This is often implemented as an automated validation step in the pipeline that produces a go/no-go decision.
 
 
-![Production ML pipeline and deployment workflow](/images/blogs/pool-mlops/7.jpg)
+![Production ML pipeline and deployment workflow](https://picsum.photos/seed/mlops-lifecycle-explained-2/800/450)
 
 ---
 
@@ -242,7 +242,7 @@ Once deployed, the model needs to handle incoming prediction requests. This invo
 Each pattern has different requirements for latency, throughput, and infrastructure.
 
 
-![MLOps tooling and automation systems](/images/blogs/pool-mlops/8.jpg)
+![MLOps tooling and automation systems](https://picsum.photos/seed/mlops-lifecycle-explained-3/800/450)
 
 ---
 

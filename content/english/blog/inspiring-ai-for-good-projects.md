@@ -5,7 +5,7 @@ draft: false
 description: "A personal collection of AI for Good projects that demonstrate what this technology looks like when it is pointed at the right problems — from ocean cleanup to mental health to language preservation."
 tags: ["AI", "AI for Good", "Social Impact", "Inspiration", "Technology", "Ethics"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1566837945700-30057527d7f0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI for good projects", "social impact AI", "AI inspiration", "AI ocean cleanup", "AI mental health", "AI language preservation", "positive AI"]
 ---
 
@@ -38,7 +38,7 @@ What inspires me: AI as a force multiplier for human compassion. The counselors 
 ---
 
 
-![AI technology being applied to environmental and social challenges](/images/blogs/pool-good/3.jpg)
+![AI technology being applied to environmental and social challenges](https://picsum.photos/seed/inspiring-ai-for-good-projects-1/800/450)
 
 ### 3. Wadhwani AI: AI for Low-Resource Healthcare
 
@@ -79,7 +79,7 @@ What inspires me: the democratization aspect. Small conservation organizations i
 ---
 
 
-![Illustration of technology serving humanitarian and conservation goals](/images/blogs/pool-good/5.jpg)
+![Illustration of technology serving humanitarian and conservation goals](https://picsum.photos/seed/inspiring-ai-for-good-projects-2/800/450)
 
 ### 6. Project CETI: Decoding Whale Communication
 
@@ -112,7 +112,7 @@ What inspires me: the long-term vision. AI2 was founded with the explicit missio
 ---
 
 
-![Visual representation of positive AI impact across communities worldwide](/images/blogs/pool-good/7.jpg)
+![Visual representation of positive AI impact across communities worldwide](https://picsum.photos/seed/inspiring-ai-for-good-projects-3/800/450)
 
 ### What These Projects Have in Common
 

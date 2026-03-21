@@ -5,7 +5,7 @@ draft: false
 description: "AI can now generate scientific papers that look real but are entirely fabricated. This post examines the threat, how fake research is detected, and what the scientific community must do to protect the integrity of knowledge."
 tags: ["AI", "Ethics", "Research Integrity", "LLMs", "Fake Research", "Peer Review"]
 categories: ["AI Ethics"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI fake research", "generated papers", "paper mills", "research integrity AI", "detecting AI papers", "scientific fraud", "LLM research ethics"]
 ---
 
@@ -57,7 +57,7 @@ Major publishers like Wiley, Springer Nature, and Elsevier have reported retract
 
 ---
 
-![AI-generated fake scientific papers threatening research integrity](/images/blogs/pool-ethics/3.jpg)
+![AI-generated fake scientific papers threatening research integrity](https://picsum.photos/seed/ai-generating-fake-research-1/800/450)
 
 ### Detecting AI-Generated Research
 
@@ -112,7 +112,7 @@ Some proposals focus on tracking the provenance of research artifacts:
 
 ---
 
-![Statistical detection methods identifying machine-generated academic text](/images/blogs/pool-ethics/5.jpg)
+![Statistical detection methods identifying machine-generated academic text](https://picsum.photos/seed/ai-generating-fake-research-2/800/450)
 
 ### The Deeper Problem: Incentive Structures
 
@@ -148,7 +148,7 @@ If you are a researcher or a consumer of research, here are practical steps:
 
 ---
 
-![Institutional reforms needed to protect the integrity of scientific knowledge](/images/blogs/pool-ethics/7.jpg)
+![Institutional reforms needed to protect the integrity of scientific knowledge](https://picsum.photos/seed/ai-generating-fake-research-3/800/450)
 
 ### The Philosophical Dimension
 

@@ -5,7 +5,7 @@ draft: false
 description: "Word embeddings are the foundation of modern NLP. Learn how Word2Vec and GloVe turn words into dense vectors that capture meaning, and why this was a breakthrough for language AI."
 tags: ["NLP", "Embeddings", "Word2Vec", "GloVe", "Deep Learning", "Python"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/word-embeddings-explained-cover/1200/630"
 keywords: ["word embeddings", "Word2Vec", "GloVe", "word vectors", "semantic similarity", "NLP representations"]
 ---
 
@@ -48,7 +48,7 @@ The difference between "king" and "man" captures the concept of "royalty." Addin
 
 ---
 
-![Word vectors plotted in semantic space showing relationships](/images/blogs/pool-nlp/3.jpg)
+![Word vectors plotted in semantic space showing relationships](https://picsum.photos/seed/word-embeddings-explained-1/800/450)
 
 
 ### Part 3: Word2Vec — Learning Words from Context
@@ -142,7 +142,7 @@ GloVe combines the best of two worlds:
 
 ---
 
-![Word2Vec skip-gram architecture learning from context](/images/blogs/pool-nlp/4.jpg)
+![Word2Vec skip-gram architecture learning from context](https://picsum.photos/seed/word-embeddings-explained-2/800/450)
 
 
 ### Part 6: Using Pre-trained Embeddings
@@ -213,7 +213,7 @@ You will see that semantically related words cluster together — royalty words 
 
 ---
 
-![t-SNE visualization of word embeddings clustering by meaning](/images/blogs/pool-nlp/5.jpg)
+![t-SNE visualization of word embeddings clustering by meaning](https://picsum.photos/seed/word-embeddings-explained-3/800/450)
 
 
 ### Part 8: Limitations of Static Embeddings

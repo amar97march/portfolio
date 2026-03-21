@@ -4,31 +4,9 @@
 
     <!-- Logo -->
     <div class="order-0 shrink-0">
-      <a class="flex items-center" href="{{ site.Home.RelPermalink }}">
-        {{ $logo := site.Params.logo }}
-        {{ $logo_darkmode := site.Params.logo_darkmode | default $logo }}
-        {{ $logo_width := site.Params.logo_width | default "160px" }}
-        {{ $logo_height := site.Params.logo_height | default "32px" }}
-        {{ if $logo }}
-          <img
-            src="{{ $logo | relURL }}"
-            alt="{{ site.Title }}"
-            style="max-width: {{ $logo_width }}; height: {{ $logo_height }};"
-            class="dark:hidden"
-            width="160"
-            height="32"
-          />
-          <img
-            src="{{ $logo_darkmode | relURL }}"
-            alt="{{ site.Title }}"
-            style="max-width: {{ $logo_width }}; height: {{ $logo_height }};"
-            class="hidden dark:block"
-            width="160"
-            height="32"
-          />
-        {{ else }}
-          <span class="text-xl font-bold">{{ site.Params.logo_text | default site.Title }}</span>
-        {{ end }}
+      <a class="flex items-center gap-2" href="{{ site.Home.RelPermalink }}">
+        <span class="logo-mark">AS</span>
+        <span class="logo-text-custom">Amar Singh</span>
       </a>
     </div>
 

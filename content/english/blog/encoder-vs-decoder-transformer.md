@@ -5,7 +5,7 @@ draft: false
 description: "The Transformer architecture has two halves: the encoder and the decoder. Learn how each works, why they differ, and how modern AI models choose one, the other, or both."
 tags: ["Deep Learning", "Transformers", "BERT", "GPT", "Architecture"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["transformer encoder", "transformer decoder", "BERT vs GPT", "encoder decoder model", "masked self-attention", "cross-attention"]
 ---
 
@@ -110,7 +110,7 @@ Linear → Softmax → Output Probabilities
 
 ---
 
-![Transformer architecture with encoder and decoder blocks](/images/blogs/pool-dl/6.jpg)
+![Transformer architecture with encoder and decoder blocks](https://picsum.photos/seed/encoder-vs-decoder-transformer-1/800/450)
 
 ### Part 3: Encoder-Only Models (BERT)
 
@@ -173,7 +173,7 @@ The encoder processes the full input bidirectionally, and the decoder generates 
 
 ---
 
-![Comparing encoder-only, decoder-only, and full transformer models](/images/blogs/pool-dl/7.jpg)
+![Comparing encoder-only, decoder-only, and full transformer models](https://picsum.photos/seed/encoder-vs-decoder-transformer-2/800/450)
 
 ### Part 6: Comparison
 
@@ -201,7 +201,7 @@ This scaling advantage is why the largest and most capable models today (GPT-4, 
 
 ---
 
-![Scaling laws and model architecture selection](/images/blogs/pool-dl/8.jpg)
+![Scaling laws and model architecture selection](https://picsum.photos/seed/encoder-vs-decoder-transformer-3/800/450)
 
 ### Part 8: Practical Guidance
 

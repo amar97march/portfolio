@@ -5,7 +5,7 @@ draft: false
 description: "Serverless computing offers a compelling alternative for ML inference: zero infrastructure management, automatic scaling, and pay-per-invocation pricing. Learn when serverless works for ML, its limitations, and how to deploy models on Lambda and Cloud Functions."
 tags: ["ML Deployment", "Serverless", "AWS Lambda", "Cloud Functions", "Machine Learning", "Infrastructure"]
 categories: ["ML Deployment"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://picsum.photos/seed/serverless-ai-lambda-cloud-functions-cover/1200/630"
 keywords: ["serverless ml inference", "aws lambda machine learning", "cloud functions ml model", "serverless ai deployment", "lambda model serving"]
 ---
 
@@ -75,7 +75,7 @@ lambda-ml-project/
 ### The Lambda Handler
 
 
-![Illustration of data processing pipeline and feature analysis](/images/blogs/pool-ml/5.jpg)
+![Illustration of data processing pipeline and feature analysis](https://picsum.photos/seed/serverless-ai-lambda-cloud-functions-1/800/450)
 
 ```python
 # handler.py
@@ -193,7 +193,7 @@ docker push 123456789.dkr.ecr.us-east-1.amazonaws.com/churn-predictor-lambda:lat
 Container image-based Lambda functions support up to 10 GB images, accommodating larger models.
 
 
-![Diagram showing algorithm comparison and performance metrics](/images/blogs/pool-ml/4.jpg)
+![Diagram showing algorithm comparison and performance metrics](https://picsum.photos/seed/serverless-ai-lambda-cloud-functions-2/800/450)
 
 ---
 
@@ -280,7 +280,7 @@ aws lambda publish-layer-version \
 **3. Load Model Lazily**
 
 
-![Visual representation of machine learning model architecture and data flow](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model architecture and data flow](https://picsum.photos/seed/serverless-ai-lambda-cloud-functions-3/800/450)
 
 ```python
 model = None

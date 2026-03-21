@@ -5,7 +5,7 @@ draft: false
 description: "Why the real career threat is not AI itself but professionals who learn to leverage AI effectively. A practical guide to becoming an AI-augmented professional."
 tags: ["AI & Career", "Future of Work", "AI Tools", "Productivity", "Professional Development", "Technology"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1580894742597-87bc8789db3d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI replace jobs", "AI augmented worker", "AI career advice", "AI productivity", "future of work AI", "AI skills"]
 ---
 
@@ -35,7 +35,7 @@ Consider what AI augmentation looks like across professions today:
 
 In each case, the professional is not replaced. But the professional who uses AI effectively outperforms the one who does not—often by a significant margin.
 
-![Professional leveraging AI tools to dramatically increase productivity](/images/blogs/pool-career/4.jpg)
+![Professional leveraging AI tools to dramatically increase productivity](https://picsum.photos/seed/ai-wont-replace-you-1/800/450)
 
 ---
 
@@ -67,7 +67,7 @@ Understanding what AI cannot do well is just as important as understanding what 
 
 **6. Ethical reasoning.** AI can apply rules and optimize objectives, but genuine ethical reasoning—weighing competing values, considering context, making principled decisions in novel situations—requires human judgment.
 
-![Skills that AI cannot replace including judgment, creativity, and empathy](/images/blogs/pool-career/6.jpg)
+![Skills that AI cannot replace including judgment, creativity, and empathy](https://picsum.photos/seed/ai-wont-replace-you-2/800/450)
 
 ---
 
@@ -174,7 +174,7 @@ The AI augmentation trend is not just individual—it is organizational. Compani
 
 The companies that will struggle most are those with cultures resistant to change—organizations where "we have always done it this way" prevails over experimentation and adaptation.
 
-![Organizations restructuring workflows to integrate AI augmentation](/images/blogs/pool-career/8.jpg)
+![Organizations restructuring workflows to integrate AI augmentation](https://picsum.photos/seed/ai-wont-replace-you-3/800/450)
 
 ---
 

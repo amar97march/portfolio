@@ -5,7 +5,7 @@ draft: false
 description: "A deep dive into activation functions — the mathematical gatekeepers that give neural networks the power to learn complex, nonlinear patterns."
 tags: ["Activation Functions", "ReLU", "Sigmoid", "Deep Learning", "Neural Networks"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://images.unsplash.com/photo-1516116216624-8e28dde01ece?w=1200&h=630&fit=crop&auto=format"
 keywords: ["activation function", "ReLU", "sigmoid", "tanh", "neural network activation", "deep learning"]
 ---
 
@@ -36,7 +36,7 @@ This is the fundamental problem. Real-world data is **nonlinear**. The relations
 
 Activation functions introduce **nonlinearity** into the network, breaking the linear chain and allowing each layer to learn something genuinely new.
 
-![Neural network layers processing data through nonlinear activation functions](/images/blogs/pool-dl/3.jpg)
+![Neural network layers processing data through nonlinear activation functions](https://picsum.photos/seed/activation-functions-explained-1/800/450)
 
 ## The Classic: Sigmoid
 
@@ -151,7 +151,7 @@ model = nn.Sequential(
 - If a neuron's input is always negative, its output is always zero, and its gradient is always zero. The neuron is effectively "dead" and will never learn again.
 - This can happen when learning rates are too high, causing weights to update so aggressively that a neuron gets pushed into the permanently negative zone.
 
-![Comparing activation function curves and their gradient behavior](/images/blogs/pool-dl/5.jpg)
+![Comparing activation function curves and their gradient behavior](https://picsum.photos/seed/activation-functions-explained-2/800/450)
 
 ## Leaky ReLU: Fixing the Dying Neuron Problem
 
@@ -247,7 +247,7 @@ model = nn.Sequential(
 )
 ```
 
-![Modern deep learning architectures using advanced activation functions](/images/blogs/pool-dl/7.jpg)
+![Modern deep learning architectures using advanced activation functions](https://picsum.photos/seed/activation-functions-explained-3/800/450)
 
 ## Choosing the Right Activation Function
 

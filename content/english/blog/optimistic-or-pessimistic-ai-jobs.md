@@ -5,7 +5,7 @@ draft: false
 description: "After examining the risks AI poses to careers, here are the genuine reasons to be optimistic about the future of work in an AI-augmented world."
 tags: ["AI & Career", "Optimism", "Future of Work", "AI Augmentation", "Opportunity", "Career Growth"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://picsum.photos/seed/optimistic-or-pessimistic-ai-jobs-cover/1200/630"
 keywords: ["AI jobs optimistic", "AI career opportunities", "positive AI future", "AI augmentation benefits", "AI career growth", "future work optimism"]
 ---
 
@@ -37,7 +37,7 @@ One of AI's most powerful effects is lowering barriers to expertise. Tools that 
 This democratization does not eliminate the value of deep expertise—it creates more demand for it by enabling more people to participate in knowledge work. The pie gets bigger.
 
 
-![AI career development and professional growth](/images/blogs/pool-career/6.jpg)
+![AI career development and professional growth](https://picsum.photos/seed/optimistic-or-pessimistic-ai-jobs-1/800/450)
 
 ---
 
@@ -78,7 +78,7 @@ If AI makes it possible to produce more goods and services with fewer inputs, th
 Countries and organizations that invest in education, retraining, and social support systems can ensure that AI's productivity gains are broadly shared. The technology enables abundance; whether we achieve it depends on our choices.
 
 
-![Technology professionals collaborating on AI projects](/images/blogs/pool-career/7.jpg)
+![Technology professionals collaborating on AI projects](https://picsum.photos/seed/optimistic-or-pessimistic-ai-jobs-2/800/450)
 
 ---
 
@@ -117,7 +117,7 @@ A marketing manager does not just "write copy" (automatable). They also build cl
 Research suggests that very few occupations can be fully automated with current or foreseeable AI technology. Most occupations have a mix of automatable and non-automatable tasks, which means they will be transformed rather than eliminated.
 
 
-![Building a career in artificial intelligence](/images/blogs/pool-career/8.jpg)
+![Building a career in artificial intelligence](https://picsum.photos/seed/optimistic-or-pessimistic-ai-jobs-3/800/450)
 
 ---
 

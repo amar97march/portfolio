@@ -5,7 +5,7 @@ draft: false
 description: "A real-world case study of how fine-tuning transformed a struggling AI project — from the initial failure to the successful deployment."
 tags: ["Fine-Tuning", "Case Study", "LLM", "Production AI", "Generative AI"]
 categories: ["Fine-Tuning"]
-image: "/images/blogs/pool-llm/1.jpg"
+image: "https://picsum.photos/seed/when-fine-tuning-saved-a-project-cover/1200/630"
 keywords: ["fine-tuning case study", "LLM production", "AI project", "fine-tuning success", "real world fine-tuning", "LLM deployment"]
 ---
 
@@ -46,7 +46,7 @@ Respond with ONLY the category name. Nothing else."""
 
 ### Attempt 2: Few-Shot Prompting (Weeks 3-4)
 
-![Accuracy improvement chart across prompt RAG and fine-tuning attempts](/images/blogs/pool-llm/3.jpg)
+![Accuracy improvement chart across prompt RAG and fine-tuning attempts](https://picsum.photos/seed/when-fine-tuning-saved-a-project-1/800/450)
 
 
 We added 10 carefully selected examples to the prompt, covering edge cases and ambiguous tickets:
@@ -113,7 +113,7 @@ def classify_with_rag(new_ticket):
 
 ### The Pivot: Fine-Tuning (Weeks 7-9)
 
-![Error analysis showing confusion between ticket categories](/images/blogs/pool-llm/4.jpg)
+![Error analysis showing confusion between ticket categories](https://picsum.photos/seed/when-fine-tuning-saved-a-project-2/800/450)
 
 
 After three approaches fell short, we decided to fine-tune.
@@ -266,7 +266,7 @@ class TicketClassifier:
 
 ### The Business Impact
 
-![Production deployment architecture with confidence thresholds](/images/blogs/pool-llm/5.jpg)
+![Production deployment architecture with confidence thresholds](https://picsum.photos/seed/when-fine-tuning-saved-a-project-3/800/450)
 
 
 After 3 months in production:

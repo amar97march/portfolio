@@ -5,7 +5,7 @@ draft: false
 description: "How artificial intelligence is revolutionizing climate science — from weather prediction to carbon tracking — and why it might be humanity's most important tool in the fight against climate change."
 tags: ["AI", "Climate Change", "Weather Modeling", "Deep Learning", "Environmental Science"]
 categories: ["AI for Good"]
-image: "/images/blogs/pool-good/1.jpg"
+image: "https://images.unsplash.com/photo-1484417894036-cf8a7e11f3dd?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI climate change", "weather prediction AI", "climate modeling machine learning", "GraphCast", "FourCastNet", "carbon tracking AI", "environmental AI"]
 ---
 
@@ -29,7 +29,7 @@ This creates a bottleneck. Scientists cannot iterate fast enough. Policymakers c
 
 ---
 
-![AI-powered climate models simulating Earth's atmospheric systems](/images/blogs/pool-good/3.jpg)
+![AI-powered climate models simulating Earth's atmospheric systems](https://picsum.photos/seed/ai-climate-change-modeling-1/800/450)
 
 ### How AI is Changing Weather Prediction
 
@@ -102,7 +102,7 @@ The goal is not to replace physics-based models, but to augment them — making 
 
 ---
 
-![Deep learning weather models outperforming traditional forecasting systems](/images/blogs/pool-good/5.jpg)
+![Deep learning weather models outperforming traditional forecasting systems](https://picsum.photos/seed/ai-climate-change-modeling-2/800/450)
 
 ### AI for Carbon Tracking and Monitoring
 
@@ -128,7 +128,7 @@ Google's DeepMind famously used AI to reduce the energy used for cooling Google'
 
 ---
 
-![Satellite imagery tracking greenhouse gas emissions and deforestation](/images/blogs/pool-good/7.jpg)
+![Satellite imagery tracking greenhouse gas emissions and deforestation](https://picsum.photos/seed/ai-climate-change-modeling-3/800/450)
 
 ### The Irony: AI's Own Carbon Footprint
 

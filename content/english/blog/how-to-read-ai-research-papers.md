@@ -5,7 +5,7 @@ draft: false
 description: "A practical guide to reading AI and machine learning research papers effectively. Learn the three-pass method, how to extract key insights quickly, and how to build the paper-reading habit that separates casual learners from serious practitioners."
 tags: ["AI Research", "Machine Learning", "Research Papers", "Learning Resources", "Academic Papers"]
 categories: ["Learning AI"]
-image: "/images/blogs/default-ai-cover.png"
+image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop&auto=format"
 keywords: ["how to read AI papers", "reading research papers", "AI research papers", "machine learning papers", "arxiv papers", "paper reading strategy"]
 ---
 
@@ -25,7 +25,7 @@ Before we discuss how, let us address why:
 4. **Critical thinking**: Reading papers trains you to evaluate claims critically — a skill that is valuable far beyond AI.
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/how-to-read-ai-research-papers-1/800/450)
 
 ### The Three-Pass Method
 
@@ -124,7 +124,7 @@ This "citation chain" approach helps you build a mental map of how ideas in a su
 If possible, join or start a paper reading group. Taking turns presenting papers forces you to read carefully and tests your understanding. Many AI research labs and online communities run weekly paper reading groups.
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/how-to-read-ai-research-papers-2/800/450)
 
 ### Where to Find Papers
 
@@ -161,7 +161,7 @@ These papers are well-written, foundational, and will introduce you to the conve
 Speed comes with practice. Your first paper might take 3 hours. After reading 50 papers, your first pass will take 5 minutes and your second pass 20. The vocabulary becomes familiar, the common structures become predictable, and your ability to extract key information improves dramatically.
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/how-to-read-ai-research-papers-3/800/450)
 
 ### Building the Habit
 

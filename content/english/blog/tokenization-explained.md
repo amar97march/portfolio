@@ -5,7 +5,7 @@ draft: false
 description: "Tokenization is the first step in any NLP pipeline. Learn about word-level, character-level, and subword tokenization, and why modern LLMs use Byte Pair Encoding."
 tags: ["NLP", "Tokenization", "Text Processing", "BPE", "Python"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/tokenization-explained-cover/1200/630"
 keywords: ["tokenization NLP", "byte pair encoding", "BPE tokenizer", "wordpiece", "sentencepiece", "subword tokenization"]
 ---
 
@@ -75,7 +75,7 @@ print(tokens)
 
 ---
 
-![Comparing word-level and character-level tokenization approaches](/images/blogs/pool-nlp/3.jpg)
+![Comparing word-level and character-level tokenization approaches](https://picsum.photos/seed/tokenization-explained-1/800/450)
 
 ### Part 4: Subword Tokenization — The Sweet Spot
 
@@ -164,7 +164,7 @@ The "##" prefix indicates that this token is a continuation of the previous one,
 
 ---
 
-![Byte Pair Encoding merging tokens iteratively](/images/blogs/pool-nlp/4.jpg)
+![Byte Pair Encoding merging tokens iteratively](https://picsum.photos/seed/tokenization-explained-2/800/450)
 
 ### Part 7: SentencePiece
 
@@ -220,7 +220,7 @@ print(f"Decoded: {decoded}")
 
 ---
 
-![Tokenization in practice with modern language models](/images/blogs/pool-nlp/5.jpg)
+![Tokenization in practice with modern language models](https://picsum.photos/seed/tokenization-explained-3/800/450)
 
 ### Part 9: The Token Economy
 

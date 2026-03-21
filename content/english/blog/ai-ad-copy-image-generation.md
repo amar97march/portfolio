@@ -5,7 +5,7 @@ draft: false
 description: "AI can now generate ad headlines, body copy, and marketing images in seconds. This post explores how generative AI is being used in advertising, the quality of its output, and where human creativity still wins."
 tags: ["AI", "Generative AI", "Advertising", "Marketing", "Content Generation", "LLM"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1515879218367-8c60e2c4590b?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI ad copy generation", "generative AI marketing", "AI marketing images", "automated advertising", "AI creative tools"]
 ---
 
@@ -71,7 +71,7 @@ variations = generate_ad_variations(
 
 ---
 
-![AI generating multiple ad copy variations for marketing campaigns](/images/blogs/pool-industry/3.jpg)
+![AI generating multiple ad copy variations for marketing campaigns](https://picsum.photos/seed/ai-ad-copy-image-generation-1/800/450)
 
 ### Part 2: AI-Generated Marketing Images
 
@@ -165,7 +165,7 @@ This approach discovers not just which complete ad works best, but which **indiv
 
 ---
 
-![Multivariate testing of AI-generated ad combinations at scale](/images/blogs/pool-industry/5.jpg)
+![Multivariate testing of AI-generated ad combinations at scale](https://picsum.photos/seed/ai-ad-copy-image-generation-2/800/450)
 
 ### Part 4: The Human-AI Creative Workflow
 
@@ -183,7 +183,7 @@ The most effective approach is not "AI replaces human creativity" but "AI augmen
 
 ---
 
-![Human-AI collaboration in creative marketing workflows](/images/blogs/pool-industry/7.jpg)
+![Human-AI collaboration in creative marketing workflows](https://picsum.photos/seed/ai-ad-copy-image-generation-3/800/450)
 
 ### Part 5: Ethical Considerations
 

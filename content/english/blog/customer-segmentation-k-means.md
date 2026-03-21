@@ -5,7 +5,7 @@ draft: false
 description: "Learn how to use K-Means clustering for customer segmentation, from data preparation to actionable marketing strategies. A complete hands-on tutorial with Python code."
 tags: ["Machine Learning", "K-Means", "Customer Segmentation", "Marketing", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1200&h=630&fit=crop&auto=format"
 keywords: ["customer segmentation", "k-means marketing", "RFM analysis", "clustering customers", "targeted marketing", "data-driven marketing"]
 ---
 
@@ -74,7 +74,7 @@ print(f"\nDataset shape: {df.shape}")
 ---
 
 
-![Illustration of machine learning algorithms processing and classifying data](/images/blogs/pool-ml/3.jpg)
+![Illustration of machine learning algorithms processing and classifying data](https://picsum.photos/seed/customer-segmentation-k-means-1/800/450)
 
 ### Part 3: Data Exploration
 
@@ -179,7 +179,7 @@ For customer segmentation, 3-5 clusters typically work well in practice. More th
 ---
 
 
-![Visual depicting pattern recognition and feature analysis in ML models](/images/blogs/pool-ml/4.jpg)
+![Visual depicting pattern recognition and feature analysis in ML models](https://picsum.photos/seed/customer-segmentation-k-means-2/800/450)
 
 ### Part 6: Clustering and Profiling
 
@@ -259,7 +259,7 @@ plt.show()
 ---
 
 
-![Conceptual image showing the mathematical foundations of predictive modeling](/images/blogs/pool-ml/5.jpg)
+![Conceptual image showing the mathematical foundations of predictive modeling](https://picsum.photos/seed/customer-segmentation-k-means-3/800/450)
 
 ### Part 8: Turning Clusters into Marketing Strategy
 

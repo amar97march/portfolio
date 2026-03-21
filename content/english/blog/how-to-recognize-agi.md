@@ -3,7 +3,7 @@ title: "How Will We Know We've Achieved AGI? Rethinking the Turing Test"
 meta_title: ""
 description: "A thorough examination of what Artificial General Intelligence actually means, why the Turing Test is insufficient as a benchmark, and what alternative frameworks and tests have been proposed to recognize the arrival of truly general machine intelligence."
 date: 2028-08-31
-image: "/images/blogs/recognizing-agi/cover.jpg"
+image: "https://images.unsplash.com/photo-1462556791646-c64b55f2b3e0?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Frontier"]
 author: "Amar Singh"
 tags: ["agi", "turing-test", "benchmarks", "artificial-general-intelligence"]
@@ -53,7 +53,7 @@ The Turing Test measures imitation, not intelligence. A system that passes the T
 Natural language conversation, while rich and complex, is only one channel through which intelligence can be expressed. A system that excels at conversation might fail completely at tasks that require visual reasoning, physical manipulation, mathematical proof, artistic creation, or social interaction in the real world. The Turing Test's exclusive focus on text-based conversation makes it a test of linguistic competence rather than general intelligence.
 
 
-![Abstract visualization of advanced AI capabilities and benchmarks](/images/blogs/pool-frontier/3.jpg)
+![Abstract visualization of advanced AI capabilities and benchmarks](https://picsum.photos/seed/how-to-recognize-agi-1/800/450)
 
 ### The Low Bar Problem
 
@@ -90,7 +90,7 @@ A pragmatic variant of the Student Test focuses on employment: an AGI system sho
 The Employment Test faces definitional challenges, particularly around jobs that require physical capabilities or social relationships. But as a conceptual framework, it usefully grounds the AGI question in practical terms.
 
 
-![Illustration of the frontier between current AI and future intelligence](/images/blogs/pool-frontier/5.jpg)
+![Illustration of the frontier between current AI and future intelligence](https://picsum.photos/seed/how-to-recognize-agi-2/800/450)
 
 ### Modern Benchmark Suites
 
@@ -133,7 +133,7 @@ General intelligence includes a kind of common-sense understanding of the world 
 An often-overlooked aspect of human intelligence is metacognition: the ability to reflect on one's own thinking, recognize the limits of one's knowledge, and adjust one's approach accordingly. A genuinely intelligent system should know what it does not know, be able to express uncertainty calibrated to its actual accuracy, and seek additional information when its current knowledge is insufficient.
 
 
-![Conceptual depiction of intelligence evaluation and measurement](/images/blogs/pool-frontier/7.jpg)
+![Conceptual depiction of intelligence evaluation and measurement](https://picsum.photos/seed/how-to-recognize-agi-3/800/450)
 
 ### Sustained Performance
 

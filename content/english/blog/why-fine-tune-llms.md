@@ -3,7 +3,7 @@ title: "Why Fine-Tune LLMs? Domain Knowledge, Style Control, and Safety Alignmen
 meta_title: ""
 description: "An in-depth exploration of why organizations fine-tune large language models, covering domain adaptation, style consistency, safety alignment, cost optimization, and practical decision frameworks for when fine-tuning is the right approach."
 date: 2026-12-21
-image: "/images/blogs/why-fine-tune/cover.jpg"
+image: "https://picsum.photos/seed/why-fine-tune-llms-cover/1200/630"
 categories: ["LLMs"]
 author: "Amar Singh"
 tags: ["fine-tuning", "llm", "domain-adaptation", "safety"]
@@ -75,7 +75,7 @@ Financial analysts use specialized terminology, specific ratio calculations, and
 
 ### Pillar 2: Style Control
 
-![Three pillars of fine-tuning domain knowledge style and safety](/images/blogs/pool-llm/6.jpg)
+![Three pillars of fine-tuning domain knowledge style and safety](https://picsum.photos/seed/why-fine-tune-llms-1/800/450)
 
 
 Perhaps the most common and practical reason for fine-tuning is controlling the style, tone, and format of the model's output. While prompting can nudge a model toward a particular style, it is unreliable for enforcing strict formatting requirements consistently across thousands of outputs.
@@ -188,7 +188,7 @@ preference_examples = [
 
 ### Data Preparation
 
-![Fine-tuning data preparation and quality workflow](/images/blogs/pool-llm/7.jpg)
+![Fine-tuning data preparation and quality workflow](https://picsum.photos/seed/why-fine-tune-llms-2/800/450)
 
 
 The quality of your fine-tuning data matters far more than the quantity. A few hundred high-quality examples often outperform thousands of mediocre ones.
@@ -220,7 +220,7 @@ def prepare_training_data(examples, output_file):
 
 ### Common Fine-Tuning Approaches
 
-![Decision framework for when to fine-tune versus prompt or RAG](/images/blogs/pool-llm/8.jpg)
+![Decision framework for when to fine-tune versus prompt or RAG](https://picsum.photos/seed/why-fine-tune-llms-3/800/450)
 
 
 **Full Fine-Tuning** updates all model parameters. This is the most expressive approach but requires the most compute and risks catastrophic forgetting --- the model loses general capabilities while specializing.

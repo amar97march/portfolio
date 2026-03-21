@@ -5,7 +5,7 @@ draft: false
 description: "Most AI startups fail not because the technology does not work, but because they solve the wrong problem. This guide explains how to identify genuine business problems where AI adds real value."
 tags: ["AI", "Business", "Startups", "Product Strategy", "Problem Solving", "Entrepreneurship"]
 categories: ["AI Business"]
-image: "/images/blogs/pool-business/1.jpg"
+image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI business problems", "AI startup ideas", "AI product strategy", "finding problems for AI", "AI value proposition", "AI use cases business"]
 ---
 
@@ -111,7 +111,7 @@ If yes, you have a potential **data flywheel** — one of the strongest moats in
 
 ---
 
-![Evaluating business problems for AI solution viability](/images/blogs/pool-business/6.jpg)
+![Evaluating business problems for AI solution viability](https://picsum.photos/seed/finding-business-problems-ai-can-solve-1/800/450)
 
 ### Where to Look for Problems
 
@@ -142,7 +142,7 @@ Where does the workflow slow down? Where do things queue up waiting for human re
 
 ---
 
-![Identifying high-value automation opportunities](/images/blogs/pool-business/7.jpg)
+![Identifying high-value automation opportunities](https://picsum.photos/seed/finding-business-problems-ai-can-solve-2/800/450)
 
 ### Red Flags: When AI is Not the Answer
 
@@ -160,7 +160,7 @@ Not every problem needs AI. Watch out for these red flags:
 
 ---
 
-![Validating AI product ideas with customer research](/images/blogs/pool-business/8.jpg)
+![Validating AI product ideas with customer research](https://picsum.photos/seed/finding-business-problems-ai-can-solve-3/800/450)
 
 ### The Validation Process
 

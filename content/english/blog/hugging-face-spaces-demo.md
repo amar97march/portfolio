@@ -5,7 +5,7 @@ draft: false
 description: "Learn how to create interactive demos for your AI models using Hugging Face Spaces. A live demo transforms a static project into an experience that hiring managers and collaborators can interact with directly."
 tags: ["Hugging Face", "AI Portfolio", "Gradio", "Model Deployment", "Demo"]
 categories: ["AI Portfolio"]
-image: "/images/blogs/pool-portfolio/1.jpg"
+image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1200&h=630&fit=crop&auto=format"
 keywords: ["Hugging Face Spaces", "AI model demo", "Gradio demo", "deploy ML model", "interactive AI demo", "portfolio demo"]
 ---
 
@@ -34,7 +34,7 @@ Hugging Face Spaces is a free hosting platform for machine learning demos. It su
 For most AI demos, Gradio is the best choice. It is specifically designed for ML interfaces and handles common patterns (text input/output, image upload, audio recording) with minimal code.
 
 
-![Developer showcasing an interactive AI project demonstration](/images/blogs/pool-portfolio/3.jpg)
+![Developer showcasing an interactive AI project demonstration](https://picsum.photos/seed/hugging-face-spaces-demo-1/800/450)
 
 ### Building Your First Gradio Demo
 
@@ -130,7 +130,7 @@ git push
 Within minutes, your demo is live at `https://huggingface.co/spaces/yourusername/sentiment-analyzer`.
 
 
-![Illustration of a live model deployment accessible via web interface](/images/blogs/pool-portfolio/5.jpg)
+![Illustration of a live model deployment accessible via web interface](https://picsum.photos/seed/hugging-face-spaces-demo-2/800/450)
 
 ### Demo Patterns for Different Model Types
 
@@ -218,7 +218,7 @@ demo = gr.Interface(
 **6. Include a link to the code.** Add a link to your GitHub repository in the description so interested visitors can explore the implementation.
 
 
-![Visual representation of a portfolio project with real-time predictions](/images/blogs/pool-portfolio/7.jpg)
+![Visual representation of a portfolio project with real-time predictions](https://picsum.photos/seed/hugging-face-spaces-demo-3/800/450)
 
 ### Beyond Simple Demos
 

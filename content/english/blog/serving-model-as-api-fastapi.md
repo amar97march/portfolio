@@ -5,7 +5,7 @@ draft: false
 description: "FastAPI is the go-to framework for building ML model serving APIs in Python. Learn how to build a production-ready model serving endpoint with input validation, error handling, health checks, and async support."
 tags: ["ML Deployment", "FastAPI", "Python", "API", "Model Serving", "REST API"]
 categories: ["ML Deployment"]
-image: "/images/blogs/pool-deploy/1.jpg"
+image: "https://picsum.photos/seed/serving-model-as-api-fastapi-cover/1200/630"
 keywords: ["fastapi model serving", "serve ml model api", "python model api", "fastapi ml deployment", "model serving endpoint"]
 ---
 
@@ -25,7 +25,7 @@ FastAPI is the Python framework that makes this easiest. It is fast, modern, and
 
 ---
 
-![Setting up a FastAPI project for model serving](/images/blogs/pool-deploy/3.jpg)
+![Setting up a FastAPI project for model serving](https://picsum.photos/seed/serving-model-as-api-fastapi-1/800/450)
 
 ## A Minimal Model Serving API
 
@@ -262,7 +262,7 @@ async def log_requests(request: Request, call_next):
 
 ---
 
-![Production-ready model API with validation and error handling](/images/blogs/pool-deploy/4.jpg)
+![Production-ready model API with validation and error handling](https://picsum.photos/seed/serving-model-as-api-fastapi-2/800/450)
 
 ## Running in Production
 
@@ -349,7 +349,7 @@ def test_batch_prediction():
 
 ---
 
-![Testing and deploying the model API endpoint](/images/blogs/pool-deploy/5.jpg)
+![Testing and deploying the model API endpoint](https://picsum.photos/seed/serving-model-as-api-fastapi-3/800/450)
 
 ## Automatic API Documentation
 

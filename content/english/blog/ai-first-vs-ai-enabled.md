@@ -3,7 +3,7 @@ title: "AI-First vs AI-Enabled Companies: What's the Difference and Why It Matte
 meta_title: ""
 description: "Understanding the critical distinction between AI-first companies that build their core value proposition around artificial intelligence and AI-enabled companies that layer AI onto existing products and processes."
 date: 2028-03-04
-image: "/images/blogs/ai-first-enabled/cover.jpg"
+image: "https://images.unsplash.com/photo-1537884944318-390069bb8665?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Business"]
 author: "Amar Singh"
 tags: ["strategy", "business", "ai-native", "digital-transformation"]
@@ -32,7 +32,7 @@ A traditional bank that uses AI for fraud detection is AI-enabled. The bank's co
 
 AI-enabled companies integrate AI into existing workflows and processes. Their product teams include AI capabilities alongside many other features. Their competitive advantage may include AI but also rests on brand, distribution, customer relationships, regulatory positioning, and other non-AI factors.
 
-![Comparing AI-first and AI-enabled company organizational structures](/images/blogs/pool-business/3.jpg)
+![Comparing AI-first and AI-enabled company organizational structures](https://picsum.photos/seed/ai-first-vs-ai-enabled-1/800/450)
 
 ## The Spectrum Between AI-First and AI-Enabled
 
@@ -102,7 +102,7 @@ Customers of AI-enabled companies are buying a product or service that happens t
 
 This difference in customer perception has important implications for product marketing, sales processes, and customer success strategies.
 
-![Strategic decisions around data, talent, and competitive moats in AI companies](/images/blogs/pool-business/5.jpg)
+![Strategic decisions around data, talent, and competitive moats in AI companies](https://picsum.photos/seed/ai-first-vs-ai-enabled-2/800/450)
 
 ## Common Strategic Mistakes
 
@@ -150,7 +150,7 @@ For leaders trying to determine the right AI positioning for their organization,
 
 **Where should you invest?** If your most valuable investments are in model research, training data, and compute infrastructure, you are AI-first. If your most valuable investments are in data infrastructure, integration, and organizational capability, you are AI-enabled.
 
-![Framework for determining the right AI positioning for organizations](/images/blogs/pool-business/7.jpg)
+![Framework for determining the right AI positioning for organizations](https://picsum.photos/seed/ai-first-vs-ai-enabled-3/800/450)
 
 ## Practical Implications for Organizational Design
 

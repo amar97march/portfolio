@@ -5,7 +5,7 @@ draft: false
 description: "The most common mistakes developers make when prompting LLMs — and how to fix each one for dramatically better results."
 tags: ["Prompt Engineering", "ChatGPT", "Claude", "LLM", "Best Practices"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["prompting mistakes", "bad prompts", "ChatGPT mistakes", "prompt engineering errors", "how to prompt better", "LLM prompting tips"]
 ---
 
@@ -66,7 +66,7 @@ under its own heading:
 Even better: use separate prompts for unrelated topics.
 
 
-![Illustration of effective prompt engineering techniques and patterns](/images/blogs/pool-prompt/3.jpg)
+![Illustration of effective prompt engineering techniques and patterns](https://picsum.photos/seed/common-prompting-mistakes-1/800/450)
 
 ### Mistake 3: Not Providing the Actual Code
 
@@ -143,7 +143,7 @@ After the table, give a 3-sentence recommendation.
 ```
 
 
-![Visual showing how structured prompts guide AI reasoning](/images/blogs/pool-prompt/4.jpg)
+![Visual showing how structured prompts guide AI reasoning](https://picsum.photos/seed/common-prompting-mistakes-2/800/450)
 
 ### Mistake 6: Giving Too Much Irrelevant Context
 
@@ -222,7 +222,7 @@ Keep it under 500 words.
 Negative constraints are as important as positive ones.
 
 
-![Conceptual image depicting the interaction between human intent and AI output](/images/blogs/pool-prompt/5.jpg)
+![Conceptual image depicting the interaction between human intent and AI output](https://picsum.photos/seed/common-prompting-mistakes-3/800/450)
 
 ### Mistake 9: Not Leveraging Conversation History
 

@@ -5,7 +5,7 @@ draft: false
 description: "Sentiment analysis determines the emotional tone behind text. Learn how it works, the different approaches (rule-based, ML, deep learning), and why it matters for businesses."
 tags: ["NLP", "Sentiment Analysis", "Text Classification", "Machine Learning"]
 categories: ["NLP"]
-image: "/images/blogs/pool-nlp/1.jpg"
+image: "https://picsum.photos/seed/sentiment-analysis-explained-cover/1200/630"
 keywords: ["sentiment analysis", "opinion mining", "text classification", "NLP applications", "VADER", "customer feedback analysis"]
 ---
 
@@ -71,7 +71,7 @@ The simplest sentiment analysis systems use hand-crafted rules and lexicons.
 **Lexicon-based approach:** Maintain a dictionary of words with pre-assigned sentiment scores. Sum up the scores for all words in the text.
 
 
-![Diagram showing NLP model architecture and data flow](/images/blogs/pool-nlp/5.jpg)
+![Diagram showing NLP model architecture and data flow](https://picsum.photos/seed/sentiment-analysis-explained-1/800/450)
 
 ```python
 # Simple lexicon-based approach
@@ -141,7 +141,7 @@ VADER handles:
 For higher accuracy, we train classifiers on labeled sentiment data:
 
 
-![Illustration of text analysis and language understanding techniques](/images/blogs/pool-nlp/4.jpg)
+![Illustration of text analysis and language understanding techniques](https://picsum.photos/seed/sentiment-analysis-explained-2/800/450)
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -217,7 +217,7 @@ for text, result in zip(texts, results):
 Pre-trained models like DistilBERT fine-tuned on sentiment data achieve state-of-the-art results with minimal effort. For most applications today, this is the recommended approach.
 
 
-![Visual representation of natural language processing pipeline](/images/blogs/pool-nlp/3.jpg)
+![Visual representation of natural language processing pipeline](https://picsum.photos/seed/sentiment-analysis-explained-3/800/450)
 
 ---
 

@@ -5,7 +5,7 @@ draft: false
 description: "A data-driven analysis of which job categories are most vulnerable to AI automation and which are most resilient, with practical advice for workers in every category."
 tags: ["AI & Career", "Job Risk", "Automation", "Future of Work", "Career Planning", "AI Impact"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1487058792275-0055f56200b5?w=1200&h=630&fit=crop&auto=format"
 keywords: ["jobs at risk AI", "AI automation jobs", "safe jobs AI", "AI job displacement", "career risk AI", "which jobs will AI replace"]
 ---
 
@@ -104,7 +104,7 @@ def _get_recommendation(risk_level: str) -> str:
 ---
 
 
-![Professional navigating career decisions in the age of AI](/images/blogs/pool-career/3.jpg)
+![Professional navigating career decisions in the age of AI](https://picsum.photos/seed/jobs-most-at-risk-from-ai-1/800/450)
 
 ### Jobs at Highest Risk
 
@@ -151,7 +151,7 @@ Vulnerability: Medium. AI image generation is powerful but currently best for sp
 ---
 
 
-![Illustration of evolving job roles and skill requirements](/images/blogs/pool-career/5.jpg)
+![Illustration of evolving job roles and skill requirements](https://picsum.photos/seed/jobs-most-at-risk-from-ai-2/800/450)
 
 ### Jobs at Lowest Risk
 
@@ -193,7 +193,7 @@ For most professions, the pattern is not replacement but transformation:
 ---
 
 
-![Visual representation of human-AI collaboration in the workplace](/images/blogs/pool-career/7.jpg)
+![Visual representation of human-AI collaboration in the workplace](https://picsum.photos/seed/jobs-most-at-risk-from-ai-3/800/450)
 
 ### What to Do Regardless of Your Risk Level
 

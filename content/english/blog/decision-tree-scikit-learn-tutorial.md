@@ -5,7 +5,7 @@ draft: false
 description: "A hands-on tutorial for building, visualizing, and evaluating a Decision Tree classifier using Scikit-Learn. Includes code for training, pruning, cross-validation, and feature importance analysis."
 tags: ["Machine Learning", "Decision Trees", "Scikit-Learn", "Tutorial", "Python"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&h=630&fit=crop&auto=format"
 keywords: ["decision tree tutorial", "scikit-learn decision tree", "python machine learning tutorial", "decision tree visualization", "cross validation"]
 ---
 
@@ -111,7 +111,7 @@ print(tree_rules[:1000])  # Print first 1000 characters
 
 ---
 
-![Visualizing decision tree structure and splits](/images/blogs/pool-ml/6.jpg)
+![Visualizing decision tree structure and splits](https://picsum.photos/seed/decision-tree-scikit-learn-tutorial-1/800/450)
 
 ### Step 4: Pruning — Finding the Right Complexity
 
@@ -221,7 +221,7 @@ for metric in ['accuracy', 'f1_weighted']:
 
 ---
 
-![Cross-validation and model evaluation workflow](/images/blogs/pool-ml/7.jpg)
+![Cross-validation and model evaluation workflow](https://picsum.photos/seed/decision-tree-scikit-learn-tutorial-2/800/450)
 
 ### Step 6: Hyperparameter Tuning with GridSearchCV
 
@@ -297,7 +297,7 @@ plt.show()
 
 ---
 
-![Feature importance analysis and model interpretation](/images/blogs/pool-ml/8.jpg)
+![Feature importance analysis and model interpretation](https://picsum.photos/seed/decision-tree-scikit-learn-tutorial-3/800/450)
 
 ### Step 8: Final Model and Predictions
 

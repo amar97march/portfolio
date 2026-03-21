@@ -19,7 +19,7 @@
       <a href="{{ .RelPermalink }}" class="blog-card blog-card-featured block reveal-up">
         <div class="blog-card-image">
           {{ with .Params.image }}
-            <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $featured.Title }}" loading="lazy">
+            {{ partial "image" (dict "Src" . "Context" $featured.Page "Alt" $featured.Title "Class" "w-full" "Loading" "lazy") }}
           {{ end }}
         </div>
         <div class="blog-card-body">
@@ -50,7 +50,7 @@
         <div class="blog-card reveal-up">
           {{ with .Params.image }}
             <div class="blog-card-image">
-              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+              {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "w-full" "Loading" "lazy") }}
             </div>
           {{ end }}
           <div class="blog-card-body">

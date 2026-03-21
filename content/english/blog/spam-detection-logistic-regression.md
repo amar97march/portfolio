@@ -5,7 +5,7 @@ draft: false
 description: "Build a complete spam detection system using logistic regression and TF-IDF — from text preprocessing to model evaluation, with production-ready code."
 tags: ["Logistic Regression", "NLP", "Spam Detection", "Text Classification", "Scikit-Learn"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://picsum.photos/seed/spam-detection-logistic-regression-cover/1200/630"
 keywords: ["spam detector", "logistic regression NLP", "text classification", "TF-IDF", "email spam filter"]
 ---
 
@@ -153,7 +153,7 @@ print("\nHam characteristics:")
 print(df[df['label']==0][['text_length', 'uppercase_ratio', 'exclamation_count']].mean())
 ```
 
-![Preprocessing text data for spam classification](/images/blogs/pool-ml/3.jpg)
+![Preprocessing text data for spam classification](https://picsum.photos/seed/spam-detection-logistic-regression-1/800/450)
 
 ## Step 2: TF-IDF Vectorization
 
@@ -228,7 +228,7 @@ print(f"\nAUC-ROC: {auc:.4f}")
 # We should optimize for HIGH PRECISION.
 ```
 
-![Evaluating model performance with classification metrics](/images/blogs/pool-ml/4.jpg)
+![Evaluating model performance with classification metrics](https://picsum.photos/seed/spam-detection-logistic-regression-2/800/450)
 
 ## Step 5: Analyze What the Model Learned
 
@@ -336,7 +336,7 @@ print(f"\nWith high-precision threshold:")
 print(classification_report(y_test, high_precision_preds, target_names=['Ham', 'Spam']))
 ```
 
-![Building a complete spam detection pipeline](/images/blogs/pool-ml/5.jpg)
+![Building a complete spam detection pipeline](https://picsum.photos/seed/spam-detection-logistic-regression-3/800/450)
 
 ## Production Considerations
 

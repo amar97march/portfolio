@@ -5,7 +5,7 @@ draft: false
 description: "AI has transformed email marketing from mass blasts to individually tailored messages. Learn how machine learning optimizes subject lines, send times, content, and offers for each subscriber."
 tags: ["AI", "Email Marketing", "Personalization", "Machine Learning", "Marketing Automation", "NLP"]
 categories: ["AI in Industry"]
-image: "/images/blogs/pool-industry/1.jpg"
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI email marketing", "hyper-personalization", "email campaign optimization", "send time optimization", "personalized email AI"]
 ---
 
@@ -73,7 +73,7 @@ More sophisticated approaches use **propensity models** — predicting the proba
 
 ---
 
-![AI-powered audience segmentation creating micro-segments of subscribers](/images/blogs/pool-industry/3.jpg)
+![AI-powered audience segmentation creating micro-segments of subscribers](https://picsum.photos/seed/ai-hyper-personalized-email-1/800/450)
 
 ### Part 3: Send Time Optimization
 
@@ -162,7 +162,7 @@ for subscriber in email_list:
 
 ---
 
-![Thompson sampling bandit optimizing email subject line variants in real time](/images/blogs/pool-industry/5.jpg)
+![Thompson sampling bandit optimizing email subject line variants in real time](https://picsum.photos/seed/ai-hyper-personalized-email-2/800/450)
 
 ### Part 5: Content Personalization
 
@@ -191,7 +191,7 @@ AI models predict the optimal email frequency for each subscriber:
 
 ---
 
-![Frequency management and fatigue optimization for email campaigns](/images/blogs/pool-industry/7.jpg)
+![Frequency management and fatigue optimization for email campaigns](https://picsum.photos/seed/ai-hyper-personalized-email-3/800/450)
 
 ### Part 7: Measuring Impact
 

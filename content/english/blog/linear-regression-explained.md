@@ -5,7 +5,7 @@ draft: false
 description: "A thorough explanation of linear regression — the foundational ML algorithm that fits a line to data, covering the math, implementation, assumptions, and practical considerations."
 tags: ["Linear Regression", "Machine Learning", "Algorithms", "Statistics", "Regression"]
 categories: ["Machine Learning"]
-image: "/images/blogs/pool-ml/1.jpg"
+image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&h=630&fit=crop&auto=format"
 keywords: ["linear regression", "best fit line", "ordinary least squares", "regression algorithm", "ML algorithms"]
 ---
 
@@ -110,7 +110,7 @@ print(f"\nFinal: intercept={theta[0][0]:.4f}, slope={theta[1][0]:.4f}")
 ```
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/linear-regression-explained-1/800/450)
 
 ## Using Scikit-Learn
 
@@ -217,7 +217,7 @@ print(f"R²: {r2:.4f}")
 Linear regression makes several assumptions. Violating them can lead to unreliable results:
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/linear-regression-explained-2/800/450)
 
 ### 1. Linearity
 The relationship between features and target must be approximately linear. Check with scatter plots.
@@ -232,7 +232,7 @@ The variance of errors should be constant across all levels of the features.
 The errors should be approximately normally distributed. Check with a Q-Q plot.
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/linear-regression-explained-3/800/450)
 
 ### 5. No Multicollinearity
 Features should not be highly correlated with each other.

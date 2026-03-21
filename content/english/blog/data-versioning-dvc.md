@@ -5,7 +5,7 @@ draft: false
 description: "DVC (Data Version Control) brings git-like versioning to datasets and ML artifacts. Learn why data versioning matters, how DVC works under the hood, and how to set it up for your ML projects."
 tags: ["MLOps", "DVC", "Data Versioning", "Machine Learning", "Git", "Data Engineering"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?w=1200&h=630&fit=crop&auto=format"
 keywords: ["dvc data version control", "data versioning ml", "track datasets git", "dvc tutorial", "ml data management"]
 ---
 
@@ -72,7 +72,7 @@ When you checkout a different git branch or a historical commit, the `.dvc` file
 
 ---
 
-![Version control workflow for datasets and models](/images/blogs/pool-mlops/3.jpg)
+![Version control workflow for datasets and models](https://picsum.photos/seed/data-versioning-dvc-1/800/450)
 
 ## Setting Up DVC: A Practical Walkthrough
 
@@ -182,7 +182,7 @@ dvc checkout
 
 ---
 
-![Tracking data versions across experiment branches](/images/blogs/pool-mlops/4.jpg)
+![Tracking data versions across experiment branches](https://picsum.photos/seed/data-versioning-dvc-2/800/450)
 
 ## DVC Pipelines: Versioning the Entire Workflow
 
@@ -268,7 +268,7 @@ dvc exp apply exp-abc123
 
 ---
 
-![MLOps pipeline with automated data management](/images/blogs/pool-mlops/5.jpg)
+![MLOps pipeline with automated data management](https://picsum.photos/seed/data-versioning-dvc-3/800/450)
 
 ## Best Practices for Data Versioning with DVC
 

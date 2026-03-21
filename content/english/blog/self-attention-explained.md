@@ -5,7 +5,7 @@ draft: false
 description: "Self-attention is the mechanism that allows Transformers to understand context. This deep dive covers the complete mechanics of self-attention with worked examples, code, and intuition."
 tags: ["Deep Learning", "Transformers", "Self-Attention", "NLP", "Python"]
 categories: ["Deep Learning"]
-image: "/images/blogs/pool-dl/1.jpg"
+image: "https://picsum.photos/seed/self-attention-explained-cover/1200/630"
 keywords: ["self-attention", "transformer self-attention", "attention mechanism", "query key value", "positional encoding", "context modeling"]
 ---
 
@@ -101,7 +101,7 @@ print(V.round(3))
 Each row of Q represents what that word is "looking for." Each row of K represents what that word "offers." Each row of V represents the information that word carries.
 
 
-![Illustration of gradient flow and model training dynamics](/images/blogs/pool-dl/5.jpg)
+![Illustration of gradient flow and model training dynamics](https://picsum.photos/seed/self-attention-explained-1/800/450)
 
 #### Step 3: Compute Attention Scores
 
@@ -169,7 +169,7 @@ The separate projections allow the model to learn **different notions of relevan
 By having separate learned projections, the model can learn that "cat" should query for nearby verbs (using Q), while "sat" should advertise itself as a verb (using K), and the actual information passed is the semantic content (using V).
 
 
-![Diagram showing neural network layers and data transformation](/images/blogs/pool-dl/4.jpg)
+![Diagram showing neural network layers and data transformation](https://picsum.photos/seed/self-attention-explained-2/800/450)
 
 If we used the same vectors for both matching and content, these roles would be conflated.
 
@@ -247,7 +247,7 @@ Notice that the upper triangle of the weight matrix is zero — each position ca
 ### Part 6: Multi-Head Self-Attention — Full Implementation
 
 
-![Visual representation of deep learning network architecture](/images/blogs/pool-dl/3.jpg)
+![Visual representation of deep learning network architecture](https://picsum.photos/seed/self-attention-explained-3/800/450)
 
 ```python
 def multi_head_self_attention(X, n_heads, d_model, causal=False):

@@ -40,7 +40,7 @@
            data-category="{{ .Params.category | default `web-apps` }}">
           {{ with .Params.image }}
             <div class="project-card-image">
-              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $project.Title }}" loading="lazy">
+              <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $project.Title }}" loading="lazy">
               <div class="project-card-overlay">
                 <span class="text-white font-semibold">View Details <i class="fa-solid fa-arrow-right ml-2"></i></span>
               </div>

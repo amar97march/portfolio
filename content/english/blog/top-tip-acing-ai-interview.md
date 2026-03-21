@@ -5,7 +5,7 @@ draft: false
 description: "After years of conducting and coaching for AI interviews, here is the single most impactful piece of advice I can offer: explain your reasoning, not just your answers."
 tags: ["AI Interview", "Career", "Machine Learning", "Interview Tips", "Career Advice"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://picsum.photos/seed/top-tip-acing-ai-interview-cover/1200/630"
 keywords: ["AI interview tips", "ML interview advice", "data science interview tips", "ace AI interview", "best interview advice", "machine learning career"]
 ---
 
@@ -46,7 +46,7 @@ This framework works for every type of interview question:
 
 **System design question**: "I chose a two-stage retrieval-ranking architecture because we need sub-200ms latency for 10M products. The alternative — ranking all products with a single model — would require approximately 10M inference calls per request, which is infeasible at that latency. The tradeoff is that the retrieval stage might miss some relevant items, but we can mitigate this with multiple retrieval strategies."
 
-![Demonstrating reasoning in AI interview responses](/images/blogs/pool-career/3.jpg)
+![Demonstrating reasoning in AI interview responses](https://picsum.photos/seed/top-tip-acing-ai-interview-1/800/450)
 
 ### How to Build This Habit
 
@@ -84,7 +84,7 @@ It is perfectly fine to say "I am not sure about this specific detail, but here 
 
 Some candidates try to impress by suggesting the most complex possible solution. This backfires. Start simple, explain your reasoning, and add complexity only when justified. "I would start with logistic regression because it is fast, interpretable, and establishes a baseline. If performance is insufficient, I would escalate to gradient boosting."
 
-![Avoiding common interview pitfalls with structured thinking](/images/blogs/pool-career/4.jpg)
+![Avoiding common interview pitfalls with structured thinking](https://picsum.photos/seed/top-tip-acing-ai-interview-2/800/450)
 
 ### Applying This Across Interview Stages
 
@@ -98,7 +98,7 @@ Some candidates try to impress by suggesting the most complex possible solution.
 
 **Take-home**: Include written reasoning in your notebooks and README.
 
-![Explaining reasoning as a professional skill in AI](/images/blogs/pool-career/5.jpg)
+![Explaining reasoning as a professional skill in AI](https://picsum.photos/seed/top-tip-acing-ai-interview-3/800/450)
 
 ### The Meta-Lesson
 

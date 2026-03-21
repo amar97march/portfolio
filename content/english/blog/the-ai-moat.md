@@ -5,7 +5,7 @@ draft: false
 description: "In a world where anyone can call the same AI API, what makes one company defensible and another a commodity? A deep dive into what constitutes a real AI moat and why most 'AI startups' don't have one."
 tags: ["AI", "Business", "Startups", "Moats", "Strategy", "Competition"]
 categories: ["AI Business"]
-image: "/images/blogs/pool-business/1.jpg"
+image: "https://picsum.photos/seed/the-ai-moat-cover/1200/630"
 keywords: ["AI moat", "AI wrapper startup", "AI competitive advantage", "AI defensibility", "AI business strategy", "data moat", "AI startup strategy"]
 ---
 
@@ -41,7 +41,7 @@ The same dynamic applies to AI wrappers. When OpenAI adds a feature that replica
 
 ---
 
-![The challenge of building defensible AI businesses](/images/blogs/pool-business/3.jpg)
+![The challenge of building defensible AI businesses](https://picsum.photos/seed/the-ai-moat-1/800/450)
 
 ### Real AI Moats
 
@@ -97,7 +97,7 @@ The company that can iterate fastest — running the loop of "deploy model, coll
 
 ---
 
-![Proprietary data and domain expertise as competitive advantages](/images/blogs/pool-business/4.jpg)
+![Proprietary data and domain expertise as competitive advantages](https://picsum.photos/seed/the-ai-moat-2/800/450)
 
 ### What is NOT a Moat
 
@@ -126,7 +126,7 @@ If you are building an AI company, here is how to think about defensibility from
 
 ---
 
-![Strategic thinking for building lasting AI companies](/images/blogs/pool-business/5.jpg)
+![Strategic thinking for building lasting AI companies](https://picsum.photos/seed/the-ai-moat-3/800/450)
 
 ### The Platform Risk Calculation
 

@@ -3,7 +3,7 @@ title: "The COMPAS Algorithm: A Case Study in AI Bias and Criminal Justice"
 meta_title: ""
 description: "A detailed examination of the COMPAS recidivism prediction algorithm, the ProPublica investigation that exposed racial bias in its predictions, and the broader lessons for AI fairness in high-stakes decision-making."
 date: 2028-03-19
-image: "/images/blogs/compas-bias/cover.jpg"
+image: "https://images.unsplash.com/photo-1625315714730-0f3c2c1c2b6d?w=1200&h=630&fit=crop&auto=format"
 categories: ["AI Ethics"]
 author: "Amar Singh"
 tags: ["bias", "criminal-justice", "fairness", "case-study"]
@@ -45,7 +45,7 @@ In 2016, ProPublica obtained COMPAS scores for over 7,000 defendants arrested in
 ProPublica's analysis focused on the accuracy and error patterns of COMPAS predictions, specifically examining whether the tool's errors were distributed equally across racial groups. Their methodology was straightforward: compare what COMPAS predicted (high risk or low risk) with what actually happened (did the person reoffend or not), and check whether the patterns of correct and incorrect predictions differed between Black and White defendants.
 
 
-![Illustration representing fairness and bias in AI systems](/images/blogs/pool-ethics/3.jpg)
+![Illustration representing fairness and bias in AI systems](https://picsum.photos/seed/compas-algorithm-bias-case-study-1/800/450)
 
 ### Key Findings
 
@@ -106,7 +106,7 @@ Research suggests that policing patterns do vary significantly by race and geogr
 This creates a feedback loop. Biased policing produces biased arrest data. Algorithms trained on biased data produce biased predictions. Biased predictions lead to biased decisions (harsher bail terms, longer sentences). Biased decisions contribute to higher future arrest rates for the affected group. The cycle repeats.
 
 
-![Visual depicting the ethical considerations of algorithmic decision-making](/images/blogs/pool-ethics/4.jpg)
+![Visual depicting the ethical considerations of algorithmic decision-making](https://picsum.photos/seed/compas-algorithm-bias-case-study-2/800/450)
 
 ### Proxy Variables
 
@@ -141,7 +141,7 @@ This public awareness has created pressure on technology companies and governmen
 The COMPAS case demonstrates that algorithmic fairness involves fundamental value judgments that cannot be resolved through better mathematics or more sophisticated algorithms. Which fairness criteria should take priority is a normative question that depends on ethical principles, legal requirements, and the specific context in which the algorithm is deployed. AI practitioners must engage with these normative questions rather than treating fairness as a purely technical optimization problem.
 
 
-![Conceptual image showing the balance between AI power and responsibility](/images/blogs/pool-ethics/5.jpg)
+![Conceptual image showing the balance between AI power and responsibility](https://picsum.photos/seed/compas-algorithm-bias-case-study-3/800/450)
 
 ### Lesson 2: Historical Data Encodes Historical Injustice
 

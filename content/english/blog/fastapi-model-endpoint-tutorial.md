@@ -5,7 +5,7 @@ draft: false
 description: "A complete, hands-on tutorial for building a minimal but production-ready FastAPI model serving endpoint. From training a model to serving it as an API, containerizing it, and testing it end to end."
 tags: ["ML Deployment", "FastAPI", "Python", "Tutorial", "Docker", "Model Serving"]
 categories: ["ML Deployment"]
-image: "/images/blogs/pool-deploy/1.jpg"
+image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&h=630&fit=crop&auto=format"
 keywords: ["fastapi model serving tutorial", "ml api tutorial", "python model endpoint", "deploy ml model api", "fastapi ml tutorial step by step"]
 ---
 
@@ -130,7 +130,7 @@ python src/train.py
 
 ---
 
-![Building a model serving API with FastAPI](/images/blogs/pool-deploy/6.jpg)
+![Building a model serving API with FastAPI](https://picsum.photos/seed/fastapi-model-endpoint-tutorial-1/800/450)
 
 ## Step 3: Build the FastAPI Application
 
@@ -403,7 +403,7 @@ pytest tests/ -v
 
 ---
 
-![Testing and validating ML prediction endpoints](/images/blogs/pool-deploy/7.jpg)
+![Testing and validating ML prediction endpoints](https://picsum.photos/seed/fastapi-model-endpoint-tutorial-2/800/450)
 
 ## Step 5: Containerize with Docker
 
@@ -508,7 +508,7 @@ churn-api/
 
 ---
 
-![Containerized ML application ready for deployment](/images/blogs/pool-deploy/8.jpg)
+![Containerized ML application ready for deployment](https://picsum.photos/seed/fastapi-model-endpoint-tutorial-3/800/450)
 
 ## What We Built
 

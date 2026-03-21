@@ -5,7 +5,7 @@ draft: false
 description: "Explore the role of the AI Product Manager, the translator who bridges technical AI teams and business stakeholders. Learn what AI PMs do, the unique challenges they face, and why this role is critical for shipping successful AI products."
 tags: ["Product Management", "AI Careers", "AI Strategy", "Leadership"]
 categories: ["AI & Career"]
-image: "/images/blogs/pool-career/1.jpg"
+image: "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI product manager", "AI PM role", "AI product management", "AI careers", "product manager skills", "AI strategy"]
 ---
 
@@ -33,7 +33,7 @@ Research and experimentation are inherently unpredictable. An ML team might need
 
 AI products can discriminate, surveil, and manipulate at scale. The AI PM is often the first line of defense against these outcomes, responsible for asking: "Should we build this?" before "Can we build this?"
 
-![AI product manager bridging technical and business stakeholder discussions](/images/blogs/pool-career/4.jpg)
+![AI product manager bridging technical and business stakeholder discussions](https://picsum.photos/seed/ai-role-product-manager-1/800/450)
 
 ### What Does an AI Product Manager Do?
 
@@ -80,7 +80,7 @@ You must be able to identify potential biases, fairness issues, and privacy conc
 
 AI products that are technically impressive but confusing to users fail. The AI PM must ensure that the product experience is intuitive, that AI outputs are presented with appropriate confidence levels, and that users can override or provide feedback on AI decisions.
 
-![Translating model metrics into business impact for executive stakeholders](/images/blogs/pool-career/6.jpg)
+![Translating model metrics into business impact for executive stakeholders](https://picsum.photos/seed/ai-role-product-manager-2/800/450)
 
 ### Common Frameworks for AI Product Decisions
 
@@ -121,7 +121,7 @@ AI products that are technically impressive but confusing to users fail. The AI 
 - **Senior AI PM (5-8 years)**: $180,000 - $250,000
 - **Director**: $250,000 - $350,000+
 
-![AI product manager career path from associate to VP level](/images/blogs/pool-career/8.jpg)
+![AI product manager career path from associate to VP level](https://picsum.photos/seed/ai-role-product-manager-3/800/450)
 
 ### Common Misconceptions
 

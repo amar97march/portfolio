@@ -7,7 +7,7 @@
 <section class="blog-hero">
   {{ with .Params.image }}
     <div class="blog-hero-image parallax-bg" data-speed="0.15">
-      <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}">
+      <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}">
     </div>
   {{ end }}
   <div class="blog-hero-content">

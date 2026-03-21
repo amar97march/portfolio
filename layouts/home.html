@@ -7,7 +7,7 @@
 
   <!-- Hero content -->
   <div class="hero-content">
-    <p class="text-sm font-semibold uppercase tracking-widest mb-4 opacity-60 reveal-up">Full Stack Developer &amp; ML/AI Specialist</p>
+    <p class="text-sm font-semibold uppercase tracking-widest mb-4 opacity-60 reveal-up">Senior Full-Stack (AI/ML) Developer</p>
     <h1 class="hero-title split-text">Amar Singh</h1>
     <p class="hero-subtitle">
       I build <span class="typewriter-text" id="typewriter"></span>
@@ -31,7 +31,7 @@
 <!-- Typewriter script -->
 <script>
 (function() {
-  var words = ['Scalable Web Apps', 'Intelligent APIs', 'ML-Powered Features', 'Beautiful Interfaces'];
+  var words = ['Scalable Web Applications', 'AI-Powered Solutions', 'Enterprise Platforms', 'Beautiful Interfaces', 'RAG Systems'];
   var el = document.getElementById('typewriter');
   if (!el) return;
   var wordIndex = 0, charIndex = 0, isDeleting = false;
@@ -64,7 +64,210 @@
 })();
 </script>
 
-<!-- ===== SECTION 2: FEATURED PROJECTS ===== -->
+<!-- ===== SECTION 2: STATS / NUMBERS COUNTER ===== -->
+<section class="counter-section py-20">
+  <div class="container">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center stagger-children">
+      <div class="reveal-up">
+        <div class="counter-number" data-target="8">0</div>
+        <div class="counter-label">Years Experience</div>
+      </div>
+      <div class="reveal-up">
+        <div class="counter-number" data-target="30000">0</div>
+        <div class="counter-label">Users Served</div>
+      </div>
+      <div class="reveal-up">
+        <div class="counter-number" data-target="5000">0</div>
+        <div class="counter-label">Documents Processed</div>
+      </div>
+      <div class="reveal-up">
+        <div class="counter-number" data-target="3">0</div>
+        <div class="counter-label">Best Performer Awards</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .counter-section {
+    background: linear-gradient(135deg, #0f0f1a 0%, #1a1035 50%, #0f0f1a 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .counter-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at 50% 50%, rgba(108,43,217,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .counter-number {
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #A78BFA, #00D4AA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+  }
+  .counter-number::after {
+    content: '+';
+    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+  }
+  .counter-label {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.6;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+  @media (min-width: 768px) {
+    .counter-number {
+      font-size: 4.5rem;
+    }
+  }
+
+  /* Awards section */
+  .awards-section {
+    background: linear-gradient(135deg, #1a1035 0%, #0f0f1a 50%, #1a1035 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .awards-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(0,212,170,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(108,43,217,0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .award-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  .award-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(167,139,250,0.3);
+  }
+  .award-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .award-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .award-date {
+    font-size: 0.85rem;
+    opacity: 0.5;
+    color: #fff;
+  }
+
+  /* Clients section */
+  .clients-section .client-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 0.75rem;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  .clients-section .client-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(167,139,250,0.25);
+  }
+  .client-card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .client-card-name {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+  .client-card-period {
+    font-size: 0.8rem;
+    opacity: 0.5;
+  }
+  .notable-tag {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, rgba(108,43,217,0.2), rgba(0,212,170,0.2));
+    border: 1px solid rgba(167,139,250,0.25);
+    color: #A78BFA;
+  }
+</style>
+
+<!-- Counter animation script -->
+<script>
+(function() {
+  function animateCounters() {
+    var counters = document.querySelectorAll('.counter-number');
+    counters.forEach(function(counter) {
+      var target = parseInt(counter.getAttribute('data-target'));
+      var duration = 2000;
+      var start = 0;
+      var startTime = null;
+
+      function formatNumber(n) {
+        if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 0) + ',' + String(n % 1000).padStart(3, '0');
+        return n.toString();
+      }
+
+      function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        var progress = Math.min((timestamp - startTime) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 3);
+        var current = Math.floor(eased * target);
+        counter.textContent = target >= 1000 ? current.toLocaleString() : current;
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        } else {
+          counter.textContent = target >= 1000 ? target.toLocaleString() : target;
+        }
+      }
+
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            requestAnimationFrame(step);
+            observer.unobserve(counter);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      observer.observe(counter);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', animateCounters);
+  } else {
+    animateCounters();
+  }
+})();
+</script>
+
+<!-- ===== SECTION 3: FEATURED PROJECTS ===== -->
 <section class="py-24">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
@@ -85,7 +288,7 @@
             {{ with .Params.image }}
               <div class="rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}"
+                  src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}"
                   alt="{{ $project.Title }}"
                   loading="lazy"
                   class="w-full h-auto parallax-bg"
@@ -116,30 +319,95 @@
   </div>
 </section>
 
-<!-- ===== SECTION 3: TECH STACK ===== -->
-<section class="py-24 bg-gradient-subtle">
+<!-- ===== SECTION 4: ABOUT PREVIEW ===== -->
+<section class="py-24">
+  <div class="container">
+    <div class="row items-center">
+      <div class="lg:col-5 mb-10 lg:mb-0 reveal-left">
+        <div class="photo-creative max-w-sm mx-auto lg:mx-0">
+          <img src="{{ `images/amarimage.jpg` | absURL }}" alt="Amar Singh" loading="lazy" class="w-full">
+        </div>
+      </div>
+      <div class="lg:col-7 lg:pl-12 reveal-right">
+        <div class="accent-line"></div>
+        <h2 class="section-heading mb-4">About Me</h2>
+        <p class="text-lg leading-relaxed mb-4 opacity-80">
+          Senior Full-Stack Developer with 8 years of experience designing, building, and deploying high-performance web applications and integrated AI solutions.
+        </p>
+        <p class="text-lg leading-relaxed mb-6 opacity-80">
+          From pixel-perfect front-ends to robust back-ends, with an M.Tech in AI from BITS Pilani and hands-on experience in RAG, Agentic AI, NLP, Computer Vision, and Generative AI. I've delivered impactful products at Mindfire Solutions, Pole to Win, and Norm Software.
+        </p>
+        <a href="{{ `about` | relURL }}" class="btn-outline-custom magnetic-btn">
+          Learn More <i class="fa-solid fa-arrow-right ml-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: CLIENTS & EXPERIENCE ===== -->
+<section class="py-24 bg-gradient-subtle clients-section">
+  <div class="container">
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading">Experience & Clients</h2>
+      <p class="section-subtitle mx-auto">Companies and teams I've contributed to over the years</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 stagger-children">
+      <div class="client-card reveal-up">
+        <span class="client-card-icon">&#128640;</span>
+        <div class="client-card-name">Mindfire Solutions</div>
+        <div class="client-card-period">Aug 2021 &ndash; Present</div>
+      </div>
+      <div class="client-card reveal-up">
+        <span class="client-card-icon">&#127918;</span>
+        <div class="client-card-name">Pole to Win / Side</div>
+        <div class="client-card-period">Jan 2020 &ndash; Jul 2021</div>
+      </div>
+      <div class="client-card reveal-up">
+        <span class="client-card-icon">&#128187;</span>
+        <div class="client-card-name">Norm Software</div>
+        <div class="client-card-period">Feb 2019 &ndash; Jan 2020</div>
+      </div>
+      <div class="client-card reveal-up">
+        <span class="client-card-icon">&#128085;</span>
+        <div class="client-card-name">Bull8 Clothing</div>
+        <div class="client-card-period">Sep 2016 &ndash; Jan 2019</div>
+      </div>
+    </div>
+
+    <div class="text-center mt-10 reveal-up">
+      <span class="notable-tag">Notable Project: Cyberpunk 2077 Audio Tool</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: TECH STACK ===== -->
+<section class="py-24">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
       <div class="accent-line mx-auto"></div>
       <h2 class="section-heading">Technologies I Work With</h2>
-      <p class="section-subtitle mx-auto">Core stack across full-stack development and machine learning</p>
+      <p class="section-subtitle mx-auto">Core stack across full-stack development, AI/ML, and cloud infrastructure</p>
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 stagger-children">
       {{ $skills := slice
-        (dict "name" "React" "emoji" "&#9883;" "cat" "Frontend")
+        (dict "name" "React.js" "emoji" "&#9883;" "cat" "Frontend")
         (dict "name" "Vue.js" "emoji" "&#9881;" "cat" "Frontend")
+        (dict "name" "Nuxt.js" "emoji" "&#128296;" "cat" "Frontend")
         (dict "name" "Python" "emoji" "&#128013;" "cat" "Backend")
         (dict "name" "Django" "emoji" "&#127760;" "cat" "Backend")
         (dict "name" "FastAPI" "emoji" "&#9889;" "cat" "Backend")
+        (dict "name" "Celery" "emoji" "&#128736;" "cat" "Backend")
+        (dict "name" "TensorFlow" "emoji" "&#129504;" "cat" "AI/ML")
+        (dict "name" "RAG / LLMs" "emoji" "&#129302;" "cat" "AI/ML")
         (dict "name" "Docker" "emoji" "&#128230;" "cat" "DevOps")
         (dict "name" "AWS" "emoji" "&#9729;" "cat" "Cloud")
-        (dict "name" "TensorFlow" "emoji" "&#129504;" "cat" "AI/ML")
-        (dict "name" "Tailwind CSS" "emoji" "&#127912;" "cat" "Frontend")
-        (dict "name" "PostgreSQL" "emoji" "&#128451;" "cat" "Database")
-        (dict "name" "Redis" "emoji" "&#9889;" "cat" "Database")
-        (dict "name" "Celery" "emoji" "&#128736;" "cat" "Backend")
-        (dict "name" "Node.js" "emoji" "&#128154;" "cat" "Backend")
+        (dict "name" "GCP" "emoji" "&#9729;" "cat" "Cloud")
+        (dict "name" "MongoDB" "emoji" "&#127811;" "cat" "Database")
+        (dict "name" "SQL" "emoji" "&#128451;" "cat" "Database")
         (dict "name" "Git" "emoji" "&#128736;" "cat" "Tools")
       }}
 
@@ -154,33 +422,41 @@
   </div>
 </section>
 
-<!-- ===== SECTION 4: ABOUT PREVIEW ===== -->
-<section class="py-24">
+<!-- ===== SECTION 7: AWARDS & RECOGNITION ===== -->
+<section class="awards-section py-24">
   <div class="container">
-    <div class="row items-center">
-      <div class="lg:col-5 mb-10 lg:mb-0 reveal-left">
-        <div class="photo-creative max-w-sm mx-auto lg:mx-0">
-          <img src="{{ `images/amarimage.jpg` | relURL }}" alt="Amar Singh" loading="lazy" class="w-full">
-        </div>
+    <div class="text-center mb-16 reveal-up">
+      <div class="accent-line mx-auto"></div>
+      <h2 class="section-heading" style="color:#fff;">Awards &amp; Recognition</h2>
+      <p class="section-subtitle mx-auto" style="color:rgba(255,255,255,0.55);">Recognized for consistent delivery and technical excellence</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-children">
+      <div class="award-card reveal-up">
+        <span class="award-icon">&#127942;</span>
+        <div class="award-title">Best Troubleshooter</div>
+        <div class="award-date">October 2023</div>
       </div>
-      <div class="lg:col-7 lg:pl-12 reveal-right">
-        <div class="accent-line"></div>
-        <h2 class="section-heading mb-4">About Me</h2>
-        <p class="text-lg leading-relaxed mb-4 opacity-80">
-          Full Stack Developer with expertise in ReactJS, Vue.js, Django, and FastAPI. I specialize in building scalable web applications, reliable APIs, and ML-powered features.
-        </p>
-        <p class="text-lg leading-relaxed mb-6 opacity-80">
-          With an M.Tech in Machine Learning from BITS Pilani and experience across companies like PTW, Antro-PAI, Fractal, and Mindfire Solutions, I bring a unique blend of engineering depth and ML knowledge.
-        </p>
-        <a href="{{ `about` | relURL }}" class="btn-outline-custom magnetic-btn">
-          Learn More <i class="fa-solid fa-arrow-right ml-1"></i>
-        </a>
+      <div class="award-card reveal-up">
+        <span class="award-icon">&#11088;</span>
+        <div class="award-title">Best Performer</div>
+        <div class="award-date">August 2024</div>
+      </div>
+      <div class="award-card reveal-up">
+        <span class="award-icon">&#11088;</span>
+        <div class="award-title">Best Performer</div>
+        <div class="award-date">December 2024</div>
+      </div>
+      <div class="award-card reveal-up">
+        <span class="award-icon">&#128200;</span>
+        <div class="award-title">Top Performer Q2</div>
+        <div class="award-date">2020</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SECTION 5: LATEST BLOG POSTS ===== -->
+<!-- ===== SECTION 8: LATEST BLOG POSTS ===== -->
 <section class="py-24 bg-gradient-subtle">
   <div class="container">
     <div class="text-center mb-16 reveal-up">
@@ -200,7 +476,7 @@
           <a href="{{ .RelPermalink }}" class="blog-card blog-card-featured block">
             <div class="blog-card-image">
               {{ with .Params.image }}
-                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $featured.Title }}" loading="lazy">
+                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $featured.Title }}" loading="lazy">
               {{ end }}
             </div>
             <div class="blog-card-body">
@@ -228,7 +504,7 @@
           <a href="{{ .RelPermalink }}" class="blog-card block flex-1">
             {{ with .Params.image }}
               <div class="blog-card-image">
-                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+                <img src="{{ if strings.HasPrefix . `http` }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
               </div>
             {{ end }}
             <div class="blog-card-body">
@@ -258,7 +534,7 @@
   </div>
 </section>
 
-<!-- ===== SECTION 6: CTA STRIP ===== -->
+<!-- ===== SECTION 9: CTA STRIP ===== -->
 <section class="py-24 section-dark relative overflow-hidden">
   <!-- Decorative shapes -->
   <div class="absolute top-10 left-10 w-32 h-32 rounded-full bg-white/5 parallax-bg" data-speed="0.2"></div>
@@ -273,7 +549,7 @@
       Open to freelance projects, collaborations, and full-time opportunities.
     </p>
     <div class="flex flex-wrap gap-4 justify-center reveal-up">
-      <a href="{{ `contact` | relURL }}" class="btn-primary-custom magnetic-btn">
+      <a href="mailto:amar97march@gmail.com" class="btn-primary-custom magnetic-btn">
         Get in Touch <i class="fa-solid fa-envelope ml-1"></i>
       </a>
       <a href="https://www.linkedin.com/in/amardevs/" target="_blank" rel="noopener" class="btn-outline-custom magnetic-btn" style="border-color: rgba(255,255,255,0.3); color: #fff;">

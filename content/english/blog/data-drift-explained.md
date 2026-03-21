@@ -3,7 +3,7 @@ title: "Data Drift Explained: When Your Input Data Silently Changes"
 meta_title: ""
 description: "Understand data drift in machine learning production systems, how input data distributions shift over time, and practical strategies for detecting and mitigating drift before it degrades model performance."
 date: 2027-06-17
-image: "/images/blogs/data-drift/cover.jpg"
+image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&h=630&fit=crop&auto=format"
 categories: ["MLOps"]
 author: "Amar Singh"
 tags: ["data-drift", "monitoring", "production-ml", "distribution-shift"]
@@ -59,7 +59,7 @@ Unprecedented external events can cause sudden, dramatic shifts. The COVID-19 pa
 When feature engineering pipelines are updated, even well-intentioned improvements can cause drift. Changing a categorical encoding scheme, updating a normalization method, or modifying how missing values are imputed can all change the distribution of features flowing into your model.
 
 
-![Diagram illustrating MLOps pipeline components and workflow](/images/blogs/pool-mlops/3.jpg)
+![Diagram illustrating MLOps pipeline components and workflow](https://picsum.photos/seed/data-drift-explained-1/800/450)
 
 ## Types of Data Drift
 
@@ -244,7 +244,7 @@ def detect_multivariate_drift(reference_data, production_data, n_components=5):
 ```
 
 
-![Visual showing the infrastructure behind production machine learning](/images/blogs/pool-mlops/4.jpg)
+![Visual showing the infrastructure behind production machine learning](https://picsum.photos/seed/data-drift-explained-2/800/450)
 
 ### Window-Based Monitoring
 
@@ -439,7 +439,7 @@ Instead of full retraining, domain adaptation techniques adjust the model to acc
 Invest in visibility. Build dashboards that visualize feature distributions over time, track drift metrics, and provide at-a-glance health checks for all your production models. Tools like Evidently AI, WhyLabs, and NannyML provide excellent out-of-the-box dashboards for drift monitoring.
 
 
-![Illustration of automated model deployment and monitoring systems](/images/blogs/pool-mlops/5.jpg)
+![Illustration of automated model deployment and monitoring systems](https://picsum.photos/seed/data-drift-explained-3/800/450)
 
 ### Data Validation Gates
 

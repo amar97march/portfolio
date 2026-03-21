@@ -3,7 +3,7 @@ title: "The Neuroscience Hypothesis: Do We Need to Copy the Brain for AGI?"
 meta_title: ""
 description: "An exploration of the neuroscience-inspired approach to artificial general intelligence, examining whether understanding and replicating the brain's architecture and mechanisms is necessary or sufficient for achieving AGI, and how brain science is influencing modern AI research."
 date: 2028-09-06
-image: "/images/blogs/neuroscience-agi/cover.jpg"
+image: "https://picsum.photos/seed/neuroscience-hypothesis-brain-agi-cover/1200/630"
 categories: ["AI Frontier"]
 author: "Amar Singh"
 tags: ["neuroscience", "agi", "brain-inspired", "cognitive-architecture"]
@@ -37,7 +37,7 @@ The deep learning revolution of the 2010s was enabled by techniques and architec
 The transformer architecture, which dominates modern AI, has even less connection to neuroscience. Self-attention, the key mechanism in transformers, does not correspond to any known brain mechanism. The transformer's success demonstrates that brain-like architecture is not strictly necessary for impressive AI capabilities, at least for the tasks where transformers excel.
 
 
-![Cutting-edge AI research and future technology](/images/blogs/pool-frontier/6.jpg)
+![Cutting-edge AI research and future technology](https://picsum.photos/seed/neuroscience-hypothesis-brain-agi-1/800/450)
 
 ## What Neuroscience Tells Us About General Intelligence
 
@@ -118,7 +118,7 @@ Inspired by the brain's distinct memory systems, several research groups have de
 These architectures add a separate memory module that the network can read from and write to, analogous to how the brain uses the hippocampus as a rapid learning system that is separate from but interacts with the slower-learning cortical system. Memory-augmented networks have shown improved performance on tasks requiring long-term reasoning and few-shot learning.
 
 
-![Next-generation artificial intelligence concepts](/images/blogs/pool-frontier/7.jpg)
+![Next-generation artificial intelligence concepts](https://picsum.photos/seed/neuroscience-hypothesis-brain-agi-2/800/450)
 
 ## The Arguments For Copying the Brain
 
@@ -137,7 +137,7 @@ The brain achieves general intelligence with roughly 20 watts of power and a vol
 The brain seamlessly integrates perception, reasoning, memory, emotion, motor control, and social cognition into a unified system. Current AI systems typically handle these capabilities separately, with different architectures and training procedures for each. Understanding how the brain integrates these capabilities could inform the design of more unified AI architectures.
 
 
-![Frontier AI capabilities and emerging possibilities](/images/blogs/pool-frontier/8.jpg)
+![Frontier AI capabilities and emerging possibilities](https://picsum.photos/seed/neuroscience-hypothesis-brain-agi-3/800/450)
 
 ## The Arguments Against Copying the Brain
 

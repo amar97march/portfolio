@@ -3,7 +3,7 @@ title: "The Scaling Hypothesis: Will Bigger Models Get Us to AGI?"
 meta_title: ""
 description: "A deep exploration of the scaling hypothesis in AI, examining the evidence that larger models with more data and compute lead to emergent capabilities, the scaling laws that govern this relationship, and whether scaling alone can achieve artificial general intelligence."
 date: 2028-09-03
-image: "/images/blogs/scaling-hypothesis/cover.jpg"
+image: "https://picsum.photos/seed/scaling-hypothesis-bigger-models-agi-cover/1200/630"
 categories: ["AI Frontier"]
 author: "Amar Singh"
 tags: ["scaling", "agi", "compute", "scaling-laws"]
@@ -49,7 +49,7 @@ Examples of emergent capabilities include:
 **In-context learning:** The ability to learn new tasks from a few examples provided in the prompt, without any parameter updates. While small models show limited in-context learning, large models can learn to perform entirely new tasks from just a handful of demonstrations.
 
 
-![Diagram showing the trajectory of AI advancement](/images/blogs/pool-frontier/8.jpg)
+![Diagram showing the trajectory of AI advancement](https://picsum.photos/seed/scaling-hypothesis-bigger-models-agi-1/800/450)
 
 **Code generation:** The ability to write functional computer code from natural language descriptions. This capability improved dramatically with scale, with the largest models producing code that would be competitive in programming competitions.
 
@@ -94,7 +94,7 @@ This argument is bolstered by the observation that emergent capabilities tend to
 Large language models are trained on text that spans virtually every domain of human knowledge: science, mathematics, literature, philosophy, history, programming, and more. If a model can learn to predict text across all these domains with near-human accuracy, it must develop internal representations that capture the essential structure of each domain. In this view, a sufficiently powerful language model is not just a text predictor but a general-purpose reasoning system that happens to use text as its interface.
 
 
-![Illustration of scaling laws and emergent model behaviors](/images/blogs/pool-frontier/7.jpg)
+![Illustration of scaling laws and emergent model behaviors](https://picsum.photos/seed/scaling-hypothesis-bigger-models-agi-2/800/450)
 
 ### The Few-Shot Learning Argument
 
@@ -137,7 +137,7 @@ Recent research has cast doubt on the sharpness of emergent capabilities. Some s
 If emergence is less dramatic than initially believed, the case for scaling to AGI is weakened. Gradual improvement is still progress, but it suggests that achieving human-level capability in each domain will require enormous scale rather than being a natural byproduct of crossing a critical threshold.
 
 
-![Visual representation of frontier AI research and capabilities](/images/blogs/pool-frontier/6.jpg)
+![Visual representation of frontier AI research and capabilities](https://picsum.photos/seed/scaling-hypothesis-bigger-models-agi-3/800/450)
 
 ## The Middle Ground: Scaling Plus Innovation
 

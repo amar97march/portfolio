@@ -5,7 +5,7 @@ draft: false
 description: "Azure Machine Learning provides a comprehensive ML platform deeply integrated with the Microsoft ecosystem. Explore its capabilities, enterprise features, and how it fits into your MLOps workflow."
 tags: ["MLOps", "Azure", "Machine Learning", "Cloud ML", "Microsoft", "Enterprise AI"]
 categories: ["MLOps"]
-image: "/images/blogs/pool-mlops/1.jpg"
+image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&auto=format"
 keywords: ["azure machine learning", "azure ml platform", "microsoft ml service", "azure ml tutorial", "enterprise machine learning"]
 ---
 
@@ -42,7 +42,7 @@ Azure ML Workspace
     └── Reusable pipeline steps
 ```
 
-![Azure Machine Learning workspace architecture with compute and data assets](/images/blogs/pool-mlops/4.jpg)
+![Azure Machine Learning workspace architecture with compute and data assets](https://picsum.photos/seed/azure-machine-learning-spotlight-1/800/450)
 
 ---
 
@@ -202,7 +202,7 @@ environment:
   conda_file: ./conda.yml
 ```
 
-![Azure ML pipeline components for training, evaluation, and deployment](/images/blogs/pool-mlops/6.jpg)
+![Azure ML pipeline components for training, evaluation, and deployment](https://picsum.photos/seed/azure-machine-learning-spotlight-2/800/450)
 
 ---
 
@@ -329,7 +329,7 @@ Azure ML provides built-in tools for responsible AI:
 - **Model Interpretability**: Understand which features drive predictions.
 - **Counterfactual Analysis**: Show what would need to change for a different prediction.
 
-![Azure ML responsible AI dashboard with fairness and explainability tools](/images/blogs/pool-mlops/8.jpg)
+![Azure ML responsible AI dashboard with fairness and explainability tools](https://picsum.photos/seed/azure-machine-learning-spotlight-3/800/450)
 
 ---
 

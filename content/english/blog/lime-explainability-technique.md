@@ -3,7 +3,7 @@ title: "LIME Explained: How Local Interpretable Model-Agnostic Explanations Work
 meta_title: ""
 description: "A deep dive into LIME, one of the most widely used explainability techniques in machine learning. Learn how LIME generates local explanations for any black-box model and why it matters for trust and transparency."
 date: 2028-04-09
-image: "/images/blogs/lime-xai/cover.jpg"
+image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&h=630&fit=crop&auto=format"
 categories: ["Machine Learning"]
 author: "Amar Singh"
 tags: ["xai", "lime", "interpretability", "explainability"]
@@ -65,7 +65,7 @@ For example, if the original applicant has an income of 45,000 dollars, a credit
 Feed each of these perturbed samples through the original black-box model f to get predictions. This step is purely inference; you do not need access to the model's internals, only its prediction interface. This is why LIME is model-agnostic.
 
 
-![Visual representation of machine learning model training and optimization](/images/blogs/pool-ml/3.jpg)
+![Visual representation of machine learning model training and optimization](https://picsum.photos/seed/lime-explainability-technique-1/800/450)
 
 ### Step 4: Weight Samples by Proximity
 
@@ -104,7 +104,7 @@ For images, LIME first segments the image into superpixels, which are contiguous
 The explanation highlights which regions of the image were most important for the classification. If a model classifies an image as a golden retriever, the LIME explanation might show that the superpixels covering the dog's face and fur were the most influential, while the background contributed little.
 
 
-![Data flowing through a machine learning pipeline illustration](/images/blogs/pool-ml/5.jpg)
+![Data flowing through a machine learning pipeline illustration](https://picsum.photos/seed/lime-explainability-technique-2/800/450)
 
 ## A Practical Example with Python
 
@@ -185,7 +185,7 @@ The choice of kernel width and distance metric fundamentally shapes the explanat
 LIME constrains the explanation model to be simple (linear, few features), but this means the local approximation may not be very accurate if the true decision boundary is highly nonlinear even in a small region. There is an inherent tension between keeping the explanation simple enough to understand and making it accurate enough to trust.
 
 
-![Visualization of algorithm performance and evaluation metrics](/images/blogs/pool-ml/7.jpg)
+![Visualization of algorithm performance and evaluation metrics](https://picsum.photos/seed/lime-explainability-technique-3/800/450)
 
 ### Perturbation Distribution Issues
 

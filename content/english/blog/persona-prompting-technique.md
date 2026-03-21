@@ -5,7 +5,7 @@ draft: false
 description: "Understand why persona prompting improves LLM outputs and learn how to design effective personas for coding, writing, and analysis tasks."
 tags: ["Prompt Engineering", "Persona Prompting", "LLM", "AI Techniques"]
 categories: ["Prompt Engineering"]
-image: "/images/blogs/pool-prompt/1.jpg"
+image: "https://picsum.photos/seed/persona-prompting-technique-cover/1200/630"
 keywords: ["persona prompting", "act as prompt", "role prompting LLM", "system prompt persona", "AI role playing", "prompt engineering personas"]
 ---
 
@@ -77,7 +77,7 @@ ones, but you never sacrifice performance for convenience.
 This tells the model not just what to know, but how to think about trade-offs.
 
 
-![Visual guide to effective LLM interaction techniques](/images/blogs/pool-prompt/8.jpg)
+![Visual guide to effective LLM interaction techniques](https://picsum.photos/seed/persona-prompting-technique-1/800/450)
 
 #### 3. Specify Communication Style
 
@@ -148,7 +148,7 @@ your reasoning so the developer learns from the process.
 For complex tasks, you can use multiple personas in sequence:
 
 
-![Diagram showing prompt design patterns and strategies](/images/blogs/pool-prompt/7.jpg)
+![Diagram showing prompt design patterns and strategies](https://picsum.photos/seed/persona-prompting-technique-2/800/450)
 
 ```python
 # Step 1: Generate code with a developer persona
@@ -217,7 +217,7 @@ response = client.chat.completions.create(
 ### Common Mistakes with Persona Prompting
 
 
-![Illustration of prompt engineering workflow and optimization](/images/blogs/pool-prompt/6.jpg)
+![Illustration of prompt engineering workflow and optimization](https://picsum.photos/seed/persona-prompting-technique-3/800/450)
 
 **1. The "expert in everything" trap:**
 ```

@@ -5,7 +5,7 @@ draft: false
 description: "A curated list of the three best YouTube channels for learning artificial intelligence and machine learning, with honest assessments of what each channel does best and who it is for."
 tags: ["AI Education", "YouTube", "Machine Learning", "Learning Resources", "Deep Learning"]
 categories: ["Learning AI"]
-image: "/images/blogs/pool-learning/1.jpg"
+image: "https://picsum.photos/seed/top-ai-youtube-channels-cover/1200/630"
 keywords: ["AI YouTube channels", "best ML YouTube", "learn AI YouTube", "machine learning videos", "AI education videos"]
 ---
 
@@ -38,7 +38,7 @@ The channel covers foundational concepts, not practical implementation. You will
 - "Essence of Linear Algebra" (the complete series)
 - "Convolutions in image processing"
 
-![Top YouTube channels for learning AI and machine learning](/images/blogs/pool-learning/3.jpg)
+![Top YouTube channels for learning AI and machine learning](https://picsum.photos/seed/top-ai-youtube-channels-1/800/450)
 
 ### Channel 2: Andrej Karpathy
 
@@ -86,7 +86,7 @@ The videos sometimes feel slow for experienced practitioners. If you already und
 - "XGBoost" (the complete series)
 - "Neural Networks / Deep Learning" playlist
 
-![Learning neural networks and statistics through video content](/images/blogs/pool-learning/4.jpg)
+![Learning neural networks and statistics through video content](https://picsum.photos/seed/top-ai-youtube-channels-2/800/450)
 
 ### How to Use YouTube Effectively for Learning
 
@@ -117,7 +117,7 @@ Several other channels deserve recognition:
 - **Machine Learning Street Talk** — Long-form discussions with AI researchers. Great for deeper understanding of the field's debates.
 - **AI Explained** — Thoughtful analysis of AI developments. Good for the big picture.
 
-![Building a structured learning path with YouTube resources](/images/blogs/pool-learning/5.jpg)
+![Building a structured learning path with YouTube resources](https://picsum.photos/seed/top-ai-youtube-channels-3/800/450)
 
 ### The Complete YouTube Learning Path
 

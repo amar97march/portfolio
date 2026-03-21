@@ -5,7 +5,7 @@ draft: false
 description: "AI image generation raises profound ethical questions about training data consent, artist compensation, style theft, and the future of creative work. This post examines the key arguments on all sides."
 tags: ["AI Ethics", "Generative AI", "AI Art", "Copyright", "Fairness"]
 categories: ["AI Ethics"]
-image: "/images/blogs/pool-ethics/1.jpg"
+image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1200&h=630&fit=crop&auto=format"
 keywords: ["AI art ethics", "style theft", "training data consent", "artist copyright", "AI copyright", "fair use AI", "generative AI ethics"]
 ---
 
@@ -47,7 +47,7 @@ Many professional artists have spoken out against AI image generation, and their
 
 ---
 
-![Artists and creators impacted by AI image generation](/images/blogs/pool-ethics/3.jpg)
+![Artists and creators impacted by AI image generation](https://picsum.photos/seed/ethics-of-ai-generated-art-1/800/450)
 
 ### The Technology Advocates' Perspective
 
@@ -79,7 +79,7 @@ The legal questions around AI art are being actively litigated:
 
 ---
 
-![Navigating copyright and consent in AI training data](/images/blogs/pool-ethics/4.jpg)
+![Navigating copyright and consent in AI training data](https://picsum.photos/seed/ethics-of-ai-generated-art-2/800/450)
 
 ### The Middle Ground
 
@@ -110,7 +110,7 @@ If you use AI image generation tools, here are some principles I try to follow:
 
 ---
 
-![Balancing innovation with ethical AI practices](/images/blogs/pool-ethics/5.jpg)
+![Balancing innovation with ethical AI practices](https://picsum.photos/seed/ethics-of-ai-generated-art-3/800/450)
 
 ### The Path Forward
 
