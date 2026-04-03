@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "hugo-dev",
-      "runtimeExecutable": "hugo",
-      "runtimeArgs": ["server", "--disableFastRender", "--bind", "0.0.0.0"],
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "export PATH=/opt/homebrew/bin:$PATH && hugo server --disableFastRender --bind 0.0.0.0"],
       "port": 1313
     }
   ]
